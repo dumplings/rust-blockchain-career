@@ -14,6 +14,25 @@ The objective is not merely to learn concepts, but to develop practical engineer
 
 ---
 
+## Long-Term Direction
+
+The learner is transitioning from general software development into Rust + Blockchain development.
+
+Long-term goals:
+
+- build practical Rust engineering capability;
+- become employable in entry-level Rust + Blockchain roles;
+- prioritize Solana development first;
+- gradually build general blockchain fundamentals;
+- develop technical English reading and writing ability over time;
+- maintain a reusable learning system that can support long-term growth beyond the initial 60-day sprint.
+
+The initial 60-day goal is only the first phase.
+
+The broader objective is long-term professional transition and continuous skill improvement.
+
+---
+
 ## Teaching Principles
 
 1. Prefer guided learning over direct answers.
