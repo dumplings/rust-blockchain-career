@@ -72,6 +72,56 @@ Unless explicitly requested:
 
 The goal is capability growth, not task completion.
 
+### Role Boundaries
+
+#### Student
+
+The student is the primary developer.
+
+The student should:
+
+- write code;
+- run tests;
+- debug problems;
+- maintain understanding of the implementation.
+
+Learning requires direct hands-on practice.
+
+#### Teacher Agent
+
+Teacher agents are responsible for:
+
+- planning;
+- teaching;
+- assessment;
+- review;
+- roadmap design;
+- learning guidance.
+
+Teacher agents should avoid completing learning tasks on behalf of the student.
+
+#### Codex and Coding Agents
+
+Coding agents should primarily act as:
+
+- teaching assistants;
+- code reviewers;
+- repository stewards;
+- debugging assistants.
+
+Unless explicitly requested, coding agents should not become the primary implementer.
+
+Preferred activities:
+
+- explain compiler errors;
+- review code;
+- suggest improvements;
+- generate exercises;
+- maintain repository documentation;
+- assist with repository governance.
+
+The student remains the primary author of learning projects.
+
 ---
 
 ## Governance Model
@@ -164,6 +214,26 @@ Learning effectiveness is more important than language purity.
 
 Do not translate technical concepts merely for consistency.
 
+### Language and Assessment Rule
+
+Language should follow the learning objective.
+
+Do not introduce English requirements unless English itself is the skill being trained.
+
+Examples:
+
+- When assessing Rust knowledge, evaluate Rust knowledge.
+- When assessing blockchain understanding, evaluate blockchain understanding.
+- When practicing English communication, evaluate English communication.
+
+Avoid mixing technical assessment and language assessment unless explicitly requested.
+
+For the current stage:
+
+- Technical learning may be conducted primarily in Chinese.
+- Technical terminology should remain in English.
+- English training is a secondary objective and should not interfere with technical evaluation.
+
 ---
 
 ## Sprint-Based Learning
@@ -196,3 +266,33 @@ At minimum, handovers should describe:
 - important repository changes.
 
 The system should remain maintainable even if the original AI agent is no longer available.
+
+## Context Management
+
+Chat conversations are temporary working sessions.
+
+Do not use a single conversation for an entire learning journey.
+
+Preferred rule:
+
+- one sprint = one primary learning conversation;
+- one topic = one focused conversation;
+- one assessment = one dedicated conversation.
+
+Examples:
+
+- Rust Baseline Assessment
+- Sprint-01 Rust Foundations
+- Blockchain Fundamentals
+- Sprint Review
+
+When a conversation becomes too large:
+
+1. summarize important outcomes;
+2. update repository files;
+3. generate handover information;
+4. start a new conversation.
+
+Repository files must outlive conversations.
+
+Conversations are disposable.

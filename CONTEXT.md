@@ -47,14 +47,23 @@ templates/
 
 ## In Progress
 
-Preparing the 60-day Rust + Blockchain roadmap.
+Sprint-01 planning.
+
+Current focus:
+
+- Rust project engineering fundamentals;
+- tx_parser v0.1;
+- module organization;
+- error handling;
+- testing.
 
 ## Next Focus
 
-- Create `roadmaps/60-day-roadmap.md`;
-- Define Sprint-based learning stages;
-- Start Sprint 01: Rust Foundations;
-- Use project-based learning instead of passive reading.
+- Create roadmaps/sprint-01.md;
+- Define Sprint-01 acceptance criteria;
+- Start tx_parser v0.1;
+- Strengthen Rust project structure knowledge;
+- Strengthen Error Handling and Traits.
 
 ## Known Risk
 
@@ -92,3 +101,53 @@ Upgrade principle:
 
 Do not restructure for structure's sake.
 Only split files or directories when the current structure starts to hurt maintenance, search, or handover.
+
+## Latest Assessment
+
+Assessment:
+
+Rust Baseline Assessment
+
+Result:
+
+Rust level: B- (approaching B)
+
+Summary:
+
+Strengths:
+
+- Ownership
+- Borrowing
+- Lifetimes
+
+Improvement Areas:
+
+- Rust project organization
+- Error handling
+- Trait engineering usage
+- Project architecture confidence
+
+Recommendation:
+
+Begin with Sprint-01: Rust Project Foundations using tx_parser v0.1 as the primary learning project.
+
+## Active Learning Strategy
+
+Primary Teacher:
+
+- ChatGPT Project
+
+Primary Coding Environment:
+
+- Local repository
+- Codex
+
+Learning Model:
+
+- student writes code;
+- coding agents assist;
+- teacher agents guide and review.
+
+Learning should remain project-driven.
+
+Avoid passive content consumption when a practical project can be used instead.
