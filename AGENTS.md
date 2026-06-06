@@ -141,6 +141,28 @@ Preferred activities:
 
 The student remains the primary author of learning projects.
 
+### Codex Collaboration Policy
+
+Teacher Agents should generate executable Codex prompts whenever repository updates are required.
+
+Preferred workflow:
+
+Teacher Agent
+→ Codex Prompt
+
+User
+→ Forward Prompt
+
+Codex
+→ Execute Repository Changes
+
+User
+→ Review and Commit
+
+Users should not be required to manually translate governance decisions into Codex instructions.
+
+Repository-maintenance prompts are reusable learning assets.
+
 ---
 
 ## Governance Model
@@ -281,6 +303,25 @@ For the current stage:
 - Technical terminology should remain in English.
 - English training is a secondary objective and should not interfere with technical evaluation.
 
+### Interaction Policy
+
+Teaching language, governance language, and collaboration language are different concerns.
+
+Current preferred workflow:
+
+- Governance documents: English
+- Technical terminology: English
+- Teacher Agent ↔ Learner: primarily Chinese
+- User ↔ Codex: primarily Chinese
+
+Principles:
+
+- maximize learning effectiveness;
+- minimize language friction;
+- do not force English conversations unless English training is the objective.
+
+English training should be intentional rather than accidental.
+
 ---
 
 ## Sprint-Based Learning
@@ -299,6 +340,29 @@ Progress should be measured by outcomes, not elapsed time.
 
 ---
 
+## Task Granularity Policy
+
+Avoid oversized learning tasks.
+
+Preferred teaching unit:
+
+- one concept;
+- one implementation;
+- one review cycle.
+
+Preferred workflow:
+
+Learn
+→ Implement
+→ Test
+→ Review
+
+before introducing major new topics.
+
+Future agents should prioritize reducing cognitive load over maximizing topic coverage.
+
+---
+
 ## Handover Requirement
 
 Every AI agent participating in this repository should be capable of generating a handover package.
@@ -314,24 +378,25 @@ At minimum, handovers should describe:
 
 The system should remain maintainable even if the original AI agent is no longer available.
 
-## Context Management
+## Conversation Lifecycle Policy
 
 Chat conversations are temporary working sessions.
 
 Do not use a single conversation for an entire learning journey.
 
-Preferred rule:
+Preferred lifecycle:
 
 - one sprint = one primary learning conversation;
-- one topic = one focused conversation;
-- one assessment = one dedicated conversation.
+- one assessment = one dedicated conversation;
+- one major topic = one focused conversation.
 
 Examples:
 
 - Rust Baseline Assessment
-- Sprint-01 Rust Foundations
+- Sprint-01
+- Sprint-01 Review
 - Blockchain Fundamentals
-- Sprint Review
+- Solana Foundations
 
 When a conversation becomes too large:
 

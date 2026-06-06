@@ -47,23 +47,35 @@ templates/
 
 ## In Progress
 
-Sprint-01 planning.
+Sprint-01 Execution.
 
 Current focus:
 
-- Rust project engineering fundamentals;
-- tx_parser v0.1;
-- module organization;
-- error handling;
-- testing.
+- Sprint-01 review;
+- crate boundary understanding;
+- public API design.
+
+## Sprint-01 Milestone Summary
+
+Completed:
+
+- Transaction model;
+- ParseError;
+- JSON parsing via serde_json;
+- map_err usage;
+- Display implementation;
+- success-path testing;
+- error-path testing;
+- main.rs vs lib.rs reasoning;
+- library crate vs binary crate reasoning;
+- public API reasoning.
 
 ## Next Focus
 
-- Create roadmaps/sprint-01.md;
-- Define Sprint-01 acceptance criteria;
-- Start tx_parser v0.1;
-- Strengthen Rust project structure knowledge;
-- Strengthen Error Handling and Traits.
+- Complete Sprint-01 review;
+- Review crate boundaries;
+- Review public API design;
+- Prepare Sprint-01 handover.
 
 ## Known Risk
 

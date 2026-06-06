@@ -112,17 +112,19 @@ The sprint is complete only if the learner can:
 
 Completed:
 
-- Created project module structure;
-- Implemented Transaction model;
-- Implemented ParseError;
-- Implemented JSON parsing using serde_json;
-- Implemented error conversion using map_err;
-- Implemented main.rs integration;
-- Added first successful unit test;
-- Verified cargo check, cargo run, and cargo test workflows.
+- models.rs;
+- errors.rs;
+- parser.rs;
+- JSON parsing;
+- ParseError;
+- Display;
+- unit tests;
+- cargo check;
+- cargo run;
+- cargo test.
 
 Current Focus:
 
-- Error-path testing;
-- Project organization reasoning;
-- Module boundary understanding.
+- Sprint review;
+- architecture reasoning;
+- crate boundaries.
