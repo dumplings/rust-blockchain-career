@@ -105,3 +105,24 @@ The sprint is complete only if the learner can:
 4. Explain why Result is used.
 5. Navigate the codebase without confusion.
 6. Pass all tests.
+
+---
+
+## Progress
+
+Completed:
+
+- Created project module structure;
+- Implemented Transaction model;
+- Implemented ParseError;
+- Implemented JSON parsing using serde_json;
+- Implemented error conversion using map_err;
+- Implemented main.rs integration;
+- Added first successful unit test;
+- Verified cargo check, cargo run, and cargo test workflows.
+
+Current Focus:
+
+- Error-path testing;
+- Project organization reasoning;
+- Module boundary understanding.

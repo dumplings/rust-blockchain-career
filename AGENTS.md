@@ -158,6 +158,34 @@ Any future AI agent should be able to continue the learning process by reading t
 
 ---
 
+## Governance Update Policy
+
+Governance files should be updated only at meaningful milestones.
+
+Examples:
+
+- assessment completed;
+- sprint completed;
+- major project milestone completed;
+- significant repository change.
+
+Avoid updating governance files for every study session.
+
+Preferred workflow:
+
+Teacher Agent
+→ Governance Update Request
+
+Coding Agent (Codex)
+→ Repository Update
+
+Human
+→ Review and Commit
+
+Governance updates should be incremental rather than continuous.
+
+---
+
 ## Source of Truth
 
 Priority order:
