@@ -1,6 +1,6 @@
 # Current Tasks
 
-- [ ] Complete Sprint-01 review
-- [ ] Review crate boundaries
-- [ ] Review public API design
-- [ ] Prepare Sprint-01 handover
+- [ ] Plan Sprint-02
+- [ ] Define Sprint-02 milestone
+- [ ] Define Sprint-02 deliverables
+- [ ] Prepare Sprint-02 execution plan

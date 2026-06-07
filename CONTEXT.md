@@ -8,10 +8,18 @@ Become job-ready for entry-level Rust + Blockchain development within 60 days.
 
 Stage 1: Rust Foundations
 
+## Current Sprint
+
+Sprint-01 completed.
+
+## Current Milestone
+
+Sprint-01 completed and reviewed.
+
 ## Current Learning Profile
 
 - Existing programming background: experienced software developer;
-- Rust level: around B-;
+- Rust level: around B;
 - Blockchain level: beginner;
 - Preferred blockchain direction: Solana first, then general blockchain fundamentals;
 - English level: can read technical English slowly, but English training is not the current main priority.
@@ -47,13 +55,13 @@ templates/
 
 ## In Progress
 
-Sprint-01 Execution.
+Sprint-02 planning preparation.
 
 Current focus:
 
-- Sprint-01 review;
-- crate boundary understanding;
-- public API design.
+- Sprint-02 planning;
+- define Sprint-02 scope;
+- prepare next project milestone.
 
 ## Sprint-01 Milestone Summary
 
@@ -70,12 +78,29 @@ Completed:
 - library crate vs binary crate reasoning;
 - public API reasoning.
 
+## Sprint-01 Completion
+
+Status:
+
+Completed
+
+Validation:
+
+- Review passed
+- cargo test passed
+
+Key outcomes:
+
+- crate boundary understanding
+- public API reasoning
+- Result-based error handling reasoning
+- architecture confidence improvement
+
 ## Next Focus
 
-- Complete Sprint-01 review;
-- Review crate boundaries;
-- Review public API design;
-- Prepare Sprint-01 handover.
+- Sprint-02 planning;
+- define Sprint-02 scope;
+- prepare next project milestone.
 
 ## Known Risk
 
@@ -122,7 +147,9 @@ Rust Baseline Assessment
 
 Result:
 
-Rust level: B- (approaching B)
+Previous Rust level: B- (approaching B)
+
+Current Rust level: B
 
 Summary:
 
