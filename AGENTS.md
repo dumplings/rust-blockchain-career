@@ -141,6 +141,31 @@ Preferred activities:
 
 The student remains the primary author of learning projects.
 
+### Learning Project Ownership
+
+The learner remains the primary implementer.
+
+For learning projects:
+
+- the learner writes code;
+- the learner runs tests;
+- the learner performs debugging first.
+
+Unless explicitly requested:
+
+Codex should not become the primary author of learning project implementations.
+
+Preferred Codex activities:
+
+- repository inspection;
+- code review;
+- architecture review;
+- test review;
+- compiler error analysis;
+- implementation guidance.
+
+The goal is capability growth rather than implementation speed.
+
 ### Codex Collaboration Policy
 
 Teacher Agents should generate executable Codex prompts whenever repository updates are required.
@@ -162,6 +187,79 @@ User
 Users should not be required to manually translate governance decisions into Codex instructions.
 
 Repository-maintenance prompts are reusable learning assets.
+
+---
+
+## Workflow Separation
+
+The repository uses two different workflows.
+
+### Governance Workflow
+
+Purpose:
+
+Maintain repository governance and learning assets.
+
+Workflow:
+
+Teacher Agent
+→ Governance Decision
+
+Teacher Agent
+→ Codex Prompt
+
+Codex
+→ Repository Update
+
+Human
+→ Review and Commit
+
+Examples:
+
+- AGENTS.md
+- CONTEXT.md
+- TODO.md
+- learning-log.md
+- roadmaps/*
+- reviews/*
+- templates/*
+
+### Learning Workflow
+
+Purpose:
+
+Develop learner capability through hands-on implementation.
+
+Workflow:
+
+Teacher Agent
+→ Learning Task
+
+Student
+→ Implementation
+
+Student
+→ Self Check
+
+Teacher Agent
+→ Codex Review Prompt
+
+Codex
+→ Repository Review
+
+Teacher Agent
+→ Learning Review
+
+Next Learning Step
+
+Examples:
+
+- tx_parser
+- wallet_cli
+- mini_blockchain
+- future learning projects
+
+These workflows should not be mixed.
 
 ---
 
@@ -340,6 +438,29 @@ Progress should be measured by outcomes, not elapsed time.
 
 ---
 
+## Sprint Lifecycle
+
+Preferred sprint lifecycle:
+
+Sprint Review
+→ Specification Review
+→ Sprint Roadmap
+→ Sprint Execution
+→ Sprint Review
+
+Specification Review should occur before Sprint execution begins.
+
+Purpose:
+
+- verify scope;
+- verify deliverables;
+- verify sprint size;
+- avoid oversized sprints.
+
+Sprint scope should remain intentionally small.
+
+---
+
 ## Task Granularity Policy
 
 Avoid oversized learning tasks.
@@ -360,6 +481,92 @@ Learn
 before introducing major new topics.
 
 Future agents should prioritize reducing cognitive load over maximizing topic coverage.
+
+---
+
+## Validation Workflow
+
+Implementation completion should not be validated solely through learner reports.
+
+Preferred workflow:
+
+Student
+→ Completion Claim
+
+Student
+→ Local Validation
+(cargo check / cargo test)
+
+Teacher Agent
+→ Codex Review Prompt
+
+Codex
+→ Repository Validation Report
+
+Teacher Agent
+→ Learning Validation
+
+Validation should consider:
+
+### Repository Validation
+
+Examples:
+
+- code compiles;
+- tests pass;
+- files exist;
+- architecture follows sprint requirements.
+
+### Learning Validation
+
+Examples:
+
+- learner can explain design choices;
+- learner understands module boundaries;
+- learner understands Result propagation;
+- learner understands tradeoffs.
+
+Implementation success alone does not imply learning success.
+
+---
+
+## Acceptance Criteria
+
+Sprint exercises have three independent validation layers.
+
+### Student Validation
+
+Examples:
+
+- implementation completed;
+- cargo check passes;
+- cargo test passes.
+
+### Codex Validation
+
+Examples:
+
+- repository inspection;
+- file verification;
+- architecture verification;
+- requirement verification.
+
+### Teacher Validation
+
+Examples:
+
+- concept understanding;
+- design reasoning;
+- explanation quality;
+- project navigation ability.
+
+A sprint exercise is considered complete only when the required validation layers pass.
+
+### Future Consideration
+
+Future versions of the learning system may introduce teaching retrospectives if multiple sprints reveal recurring governance or teaching issues.
+
+Current governance follows YAGNI and does not require a dedicated retrospective system.
 
 ---
 
