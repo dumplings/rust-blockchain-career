@@ -446,7 +446,7 @@ Avoid mixing technical assessment and language assessment unless explicitly requ
 
 For the current stage:
 
-- Technical learning may be conducted primarily in Chinese.
+- Technical learning must be conducted primarily in Chinese.
 - Technical terminology should remain in English.
 - English training is a secondary objective and should not interfere with technical evaluation.
 
@@ -454,10 +454,11 @@ For the current stage:
 
 Teaching language, governance language, and collaboration language are different concerns.
 
-Current preferred workflow:
+Current requirements:
 
+- Teaching Language: Required: Chinese
 - Governance documents: English
-- Technical terminology: English
+- Technical terminology: English allowed
 - Teacher Agent ↔ Learner: primarily Chinese
 - User ↔ Codex: primarily Chinese
 
@@ -467,37 +468,49 @@ Principles:
 - minimize language friction;
 - do not force English conversations unless English training is the objective.
 
+Teachers must conduct instruction primarily in Chinese.
+
+Technical terms may remain in English.
+
+English may become the primary teaching language only when English communication is an explicit learning objective of the current sprint.
+
+Teaching language is not a matter of teacher preference.
+
 English training should be intentional rather than accidental.
 
 ### Teacher Startup Checklist
 
 Before teaching begins, the Teacher must explicitly verify:
 
-1. Current Sprint
-2. Current Milestone
-3. Teaching Language
-4. Governance Language
-5. Sprint Scope Constraints
+1. Current Sprint: Required
+2. Current Milestone: Required
+3. Teaching Language: Required = Chinese
+4. Governance Language: Required = English
+5. Sprint Scope Constraints: Required
 
 Default expectations:
 
 Teaching Language:
-Chinese
+Required = Chinese
 
 Technical Terms:
 English allowed
 
-Governance Documents:
-English
+Governance Language:
+Required = English
 
 Sprint Scope:
 Must follow the approved specification and roadmap.
 
+A Teacher must verify Teaching Language before teaching begins.
+
 Teaching must automatically switch to Chinese after takeover is completed.
+
+If instruction starts in English without an explicit English-training objective, the startup process should be considered failed.
 
 The learner should not be required to remind the Teacher.
 
-Failure to do so should be considered a startup process failure rather than a learner responsibility.
+The learner should not be responsible for correcting this mistake.
 
 ---
 
