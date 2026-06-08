@@ -188,6 +188,55 @@ Users should not be required to manually translate governance decisions into Cod
 
 Repository-maintenance prompts are reusable learning assets.
 
+### Prompt Responsibility Policy
+
+When an agent requires action from:
+
+- Codex;
+- another Teacher Agent;
+- a Takeover Agent;
+- a Review Agent.
+
+the requesting agent should provide a complete prompt whenever reasonably possible.
+
+The learner's responsibility is:
+
+- forwarding prompts;
+- reviewing results;
+- asking questions;
+- making governance decisions.
+
+The learner should not be expected to design operational prompts that originate from agent workflows.
+
+Examples:
+
+Teacher
+→ generates Codex update prompt
+
+Teacher
+→ generates takeover prompt
+
+Teacher
+→ generates review prompt
+
+Teacher
+→ generates repository update prompt
+
+If an agent identifies a required action but fails to provide an executable prompt, that should be considered a workflow quality issue.
+
+The preferred workflow is:
+
+Identify Action
+→ Generate Prompt
+→ Execute
+→ Review
+
+rather than:
+
+Identify Action
+→ Learner designs prompt
+→ Execute
+
 ---
 
 ## Workflow Separation
@@ -419,6 +468,36 @@ Principles:
 - do not force English conversations unless English training is the objective.
 
 English training should be intentional rather than accidental.
+
+### Teacher Startup Checklist
+
+Before teaching begins, the Teacher must explicitly verify:
+
+1. Current Sprint
+2. Current Milestone
+3. Teaching Language
+4. Governance Language
+5. Sprint Scope Constraints
+
+Default expectations:
+
+Teaching Language:
+Chinese
+
+Technical Terms:
+English allowed
+
+Governance Documents:
+English
+
+Sprint Scope:
+Must follow the approved specification and roadmap.
+
+Teaching must automatically switch to Chinese after takeover is completed.
+
+The learner should not be required to remind the Teacher.
+
+Failure to do so should be considered a startup process failure rather than a learner responsibility.
 
 ---
 
