@@ -10,16 +10,16 @@ Stage 1: Rust Foundations
 
 ## Current Sprint
 
-Sprint-01 completed.
+None active.
 
 ## Current Milestone
 
-Sprint-01 completed and reviewed.
+Sprint-02 completed and reviewed.
 
 ## Current Learning Profile
 
 - Existing programming background: experienced software developer;
-- Rust level: around B;
+- Rust level: around B+;
 - Blockchain level: beginner;
 - Preferred blockchain direction: Solana first, then general blockchain fundamentals;
 - English level: can read technical English slowly, but English training is not the current main priority.
@@ -30,7 +30,9 @@ Sprint-01 completed and reviewed.
 - Created the GitHub repository;
 - Created a ChatGPT Project: `Rust Blockchain Career`;
 - Connected local Codex to the repository root;
-- Created the first version of the course governance structure.
+- Created the first version of the course governance structure;
+- Completed and reviewed Sprint-01;
+- Completed and reviewed Sprint-02.
 
 ## Current Repository Structure
 
@@ -55,12 +57,12 @@ templates/
 
 ## In Progress
 
-Sprint-02 planning preparation.
+Sprint-03 preparation.
 
 Current focus:
 
-- Sprint-02 planning;
-- define Sprint-02 scope;
+- Sprint-03 preparation;
+- review Sprint-02 outcomes;
 - prepare next project milestone.
 
 ## Sprint-01 Milestone Summary
@@ -96,10 +98,31 @@ Key outcomes:
 - Result-based error handling reasoning
 - architecture confidence improvement
 
+## Sprint-02 Completion
+
+Status:
+
+Completed
+
+Validation:
+
+- Review passed
+- Sprint-02 reviewed
+
+Key outcomes:
+
+- Parse versus Validation separation
+- ValidationError reasoning
+- AppError reasoning
+- From and into() usage
+- Result propagation across modules
+- error-boundary reasoning
+- responsibility-driven project organization
+
 ## Next Focus
 
-- Sprint-02 planning;
-- define Sprint-02 scope;
+- Sprint-03 preparation;
+- define Sprint-03 scope;
 - prepare next project milestone.
 
 ## Known Risk
@@ -143,32 +166,32 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Assessment:
 
-Rust Baseline Assessment
+Sprint-02 Review
 
 Result:
 
-Previous Rust level: B- (approaching B)
+Previous Rust level: B
 
-Current Rust level: B
+Current Rust level: B+
 
 Summary:
 
 Strengths:
 
-- Ownership
-- Borrowing
-- Lifetimes
+- Parse versus Validation separation
+- Result propagation reasoning
+- Error-boundary reasoning
+- Responsibility-driven project organization
 
 Improvement Areas:
 
-- Rust project organization
-- Error handling
-- Trait engineering usage
-- Project architecture confidence
+- public API boundary judgment
+- choosing when to introduce new error types
+- module dependency direction
 
 Recommendation:
 
-Begin with Sprint-01: Rust Project Foundations using tx_parser v0.1 as the primary learning project.
+Prepare Sprint-03 planning without starting implementation tasks yet.
 
 ## Active Learning Strategy
 

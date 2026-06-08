@@ -1,6 +1,6 @@
 # Current Tasks
 
-- [ ] Plan Sprint-02
-- [ ] Define Sprint-02 milestone
-- [ ] Define Sprint-02 deliverables
-- [ ] Prepare Sprint-02 execution plan
+- [ ] Prepare Sprint-03 planning
+- [ ] Define Sprint-03 scope
+- [ ] Define Sprint-03 milestone
+- [ ] Prepare Sprint-03 roadmap
