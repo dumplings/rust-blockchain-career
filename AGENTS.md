@@ -598,6 +598,30 @@ Progress should be measured by outcomes, not elapsed time.
 
 ---
 
+## Stage Teaching Guidance
+
+### Stage 1: Rust Foundations
+
+Primary Goal:
+
+Build Rust implementation capability.
+
+Teaching Priority:
+
+1. Rust Fundamentals
+2. Rust Engineering
+3. Architecture Reasoning
+
+Rust Fundamentals should remain the dominant teaching focus.
+
+Architecture discussions may be introduced but should support Rust learning rather than replace it.
+
+Teachers should avoid treating successful sprint validation as evidence that Rust Fundamentals no longer require reinforcement.
+
+Open-ended architecture discussions should be limited unless directly supporting current Rust capability growth.
+
+---
+
 ## Rust Fundamentals Persistence Rule
 
 During the Rust Foundations stage, Rust language fundamentals must continue receiving meaningful reinforcement across later sprints.
