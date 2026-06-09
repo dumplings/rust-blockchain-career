@@ -518,6 +518,124 @@ For the current stage:
 - Technical terminology should remain in English.
 - English training is a secondary objective and should not interfere with technical evaluation.
 
+### Output Classification Policy
+
+Output categories define expected language and repository persistence.
+
+#### Teaching Content
+
+Purpose:
+Direct instruction during learning execution.
+
+Language:
+Chinese.
+
+Repository Asset:
+Usually no.
+
+#### Teacher ↔ Learner Discussion
+
+Purpose:
+Clarification, feedback, short learning interaction.
+
+Language:
+Chinese.
+
+Repository Asset:
+No.
+
+#### Governance Documents
+
+Purpose:
+Persistent repository governance.
+
+Examples:
+
+- AGENTS.md
+- CONTEXT.md
+- master-roadmap.md
+- observations.md
+
+Language:
+English.
+
+Repository Asset:
+Yes.
+
+#### Codex Prompts
+
+Purpose:
+Executable prompts sent to Codex.
+
+Language:
+English.
+
+Repository Asset:
+Optional.
+
+#### Takeover Assessment Reports
+
+Purpose:
+Agent takeover validation.
+
+Language:
+English.
+
+Repository Asset:
+Recommended.
+
+#### Specification Review Reports
+
+Purpose:
+Sprint specification review before roadmap creation.
+
+Language:
+English.
+
+Repository Asset:
+Recommended.
+
+#### Sprint Roadmaps
+
+Purpose:
+Sprint scope, milestones, deliverables, completion criteria.
+
+Language:
+English.
+
+Repository Asset:
+Yes.
+
+#### Sprint Reviews / Closure Packages
+
+Purpose:
+Sprint completion, validation, handover.
+
+Language:
+English.
+
+Repository Asset:
+Yes.
+
+#### Failure Reviews
+
+Purpose:
+Document failed or terminated sprint execution.
+
+Language:
+English.
+
+Repository Asset:
+Yes.
+
+If an output is intended to become a repository asset, English should be used by default.
+
+If an output is direct teaching or learner-facing explanation during execution, Chinese should be used by default.
+
+Avoid mixed-language reporting unless technical terms require English.
+
+Technical terminology may remain in English.
+
 ### Interaction Policy
 
 Teaching language, governance language, and collaboration language are different concerns.
