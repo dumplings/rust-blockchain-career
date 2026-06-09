@@ -14,7 +14,7 @@ None active.
 
 ## Current Milestone
 
-Sprint-02 completed and reviewed.
+Sprint-03 terminated; Sprint-04 not yet created.
 
 ## Current Learning Profile
 
@@ -32,7 +32,8 @@ Sprint-02 completed and reviewed.
 - Connected local Codex to the repository root;
 - Created the first version of the course governance structure;
 - Completed and reviewed Sprint-01;
-- Completed and reviewed Sprint-02.
+- Completed and reviewed Sprint-02;
+- Recorded Sprint-03 termination and failure review.
 
 ## Current Repository Structure
 
@@ -57,13 +58,13 @@ templates/
 
 ## In Progress
 
-Sprint-03 preparation.
+Sprint-04 Specification Review and Teacher creation preparation.
 
 Current focus:
 
-- Sprint-03 preparation;
-- review Sprint-02 outcomes;
-- prepare next project milestone.
+- complete Sprint-04 Specification Review;
+- select Sprint-04 direction;
+- prepare Sprint-04 Teacher Agent creation.
 
 ## Sprint-01 Milestone Summary
 
@@ -121,15 +122,30 @@ Key outcomes:
 
 ## Next Focus
 
-- Sprint-03 preparation;
-- define Sprint-03 scope;
-- prepare next project milestone.
+- Sprint-04 Specification Review;
+- Sprint-04 direction selection;
+- Sprint-04 Teacher Agent creation preparation.
 
 ## Known Risk
+
+- Teacher mode drift;
+- Rust Fundamentals weakening;
+- workflow mixing between Learning Workflow and Governance Workflow;
+- repository state synchronization drift after abnormal sprint termination.
 
 Long chat sessions may become unreliable over time.
 
 The learning system should not depend on a single chat window, model, or AI platform.
+
+## Active Governance Context
+
+The previous Architect retired due to long-conversation drift.
+
+A new Architect Agent has taken over.
+
+Sprint-03 is terminated / failed due to learning-system execution failure, not Rust knowledge failure.
+
+Do not reopen Sprint-03 automatically.
 
 ## Future System Notes
 
@@ -191,7 +207,7 @@ Improvement Areas:
 
 Recommendation:
 
-Prepare Sprint-03 planning without starting implementation tasks yet.
+Prepare Sprint-04 Specification Review without starting implementation tasks yet.
 
 ## Active Learning Strategy
 

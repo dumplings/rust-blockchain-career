@@ -636,6 +636,34 @@ Avoid mixed-language reporting unless technical terms require English.
 
 Technical terminology may remain in English.
 
+### Cross-Agent Prompt Language Rule
+
+When an agent produces a prompt intended to be copied by the learner to another agent, the prompt should be written in English by default.
+
+This applies to prompts for:
+
+- Codex;
+- Teacher Agents;
+- Architect Agents;
+- Review Agents;
+- Takeover Agents;
+- future AI agents participating in the learning system.
+
+Learner-facing explanation before or after the prompt may be written in Chinese when that improves clarity.
+
+Repository-ready assets should remain English by default.
+
+Examples include:
+
+- sprint roadmaps;
+- specification review reports;
+- sprint review or closure packages;
+- failure reviews;
+- governance update requests;
+- Codex repository update prompts.
+
+The goal is cross-agent interoperability without forcing all learner-facing discussion into English.
+
 ### Interaction Policy
 
 Teaching language, governance language, and collaboration language are different concerns.
@@ -859,6 +887,46 @@ Codex
 
 Teacher Agent
 → Learning Validation
+
+### Repository Validation Reporting Rule
+
+During learning-project execution, repository validation should be reported through Codex rather than through raw learner-reported command output.
+
+The learner may run local validation commands such as `cargo check` and `cargo test` as part of self-checking.
+
+However, Teachers should not use pasted learner command output as the primary repository validation path.
+
+Preferred workflow:
+
+Student
+→ Implementation
+
+Student
+→ Local Self-Check
+(optional but encouraged: `cargo check` / `cargo test`)
+
+Teacher Agent
+→ Codex Repository Validation Prompt
+
+Learner
+→ Forwards prompt to Codex
+
+Codex
+→ Repository Validation Report
+
+Learner
+→ Forwards Codex report to Teacher
+
+Teacher Agent
+→ Learning Validation
+
+This keeps responsibilities separated:
+
+- Learner performs implementation and self-checking.
+- Codex validates repository state, test status, file changes, and scope compliance.
+- Teacher validates learning understanding, design reasoning, and concept mastery.
+
+Learner local validation is useful, but it does not replace Codex repository validation when formal sprint validation is required.
 
 Validation should consider:
 
