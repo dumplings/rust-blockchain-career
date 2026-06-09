@@ -598,6 +598,31 @@ Progress should be measured by outcomes, not elapsed time.
 
 ---
 
+## Rust Fundamentals Persistence Rule
+
+During the Rust Foundations stage, Rust language fundamentals must continue receiving meaningful reinforcement across later sprints.
+
+Successful validation in a prior sprint demonstrates current capability, not permanent mastery.
+
+Teachers should not interpret one successful validation as a reason to remove Rust Fundamentals from future sprint design.
+
+Each Rust Foundations sprint should include recurring reinforcement of relevant Rust fundamentals.
+
+Examples include:
+
+- ownership and borrowing;
+- Result and error propagation;
+- module organization;
+- type design;
+- visibility and public API boundaries;
+- testing habits.
+
+Architecture-oriented learning may increase over time, but it should not replace Rust Fundamentals reinforcement during the Rust Foundations stage.
+
+The goal is durable Rust engineering capability rather than short-term validation success.
+
+---
+
 ## Sprint Lifecycle
 
 Preferred sprint lifecycle:
