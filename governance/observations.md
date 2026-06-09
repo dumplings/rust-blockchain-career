@@ -118,3 +118,56 @@ Pattern appears to be emerging but requires additional validation.
 Next Review:
 
 After Sprint-03.
+
+---
+
+## GOV-005
+
+Title:
+Teaching Mode Balance
+
+Status:
+Observing
+
+Occurrences:
+1
+
+First Seen:
+Sprint-03
+
+Description:
+
+A teacher may overuse guided discovery and Mentor Mode for learners who possess strong general engineering experience but limited Rust engineering experience.
+
+Potential consequence:
+
+- reduced learning velocity;
+- excessive effort spent inferring teacher intent;
+- insufficient direct Rust knowledge transfer.
+
+Question:
+
+Should learner stage influence the balance between:
+
+- Instructor Mode
+- Mentor Mode
+
+Current suggested balance for Rust Foundations:
+
+Instructor Mode:
+70-80%
+
+Mentor Mode:
+20-30%
+
+Current Decision:
+
+Observing
+
+Rationale:
+
+Insufficient evidence exists to determine whether this should become governance.
+
+Next Review:
+
+After Sprint-04.
