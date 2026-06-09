@@ -171,3 +171,55 @@ Insufficient evidence exists to determine whether this should become governance.
 Next Review:
 
 After Sprint-04.
+
+---
+
+## GOV-006
+
+Title:
+Workflow Context Verification
+
+Status:
+Observing
+
+Occurrences:
+1
+
+First Seen:
+Sprint-03
+
+Description:
+
+Execution issues occurred because the Teacher operated under an incorrect workflow context.
+
+Examples:
+
+- Learning Workflow vs Software-Team Workflow
+- Governance Workflow vs Conversation Workflow
+
+Question:
+
+Should future governance require explicit workflow-context verification?
+
+Possible examples:
+
+- Learning Workflow
+- Governance Workflow
+- Review Workflow
+- Takeover Workflow
+
+Current Decision:
+
+Observing
+
+Rationale:
+
+Evidence suggests a workflow-context problem.
+
+However, only one sprint has demonstrated this issue.
+
+Additional evidence is required before modifying startup procedures.
+
+Next Review:
+
+After Sprint-04.
