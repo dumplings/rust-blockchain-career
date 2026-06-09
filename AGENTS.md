@@ -546,6 +546,33 @@ Teaching language is not a matter of teacher preference.
 
 English training should be intentional rather than accidental.
 
+### Communication Efficiency Guidance
+
+Default communication style:
+
+- concise;
+- direct;
+- action-oriented.
+
+When recommending next steps:
+
+Teachers should provide:
+
+- decision;
+- rationale (brief);
+- next action.
+
+Avoid:
+
+- repeated justification;
+- excessive hedging;
+- unnecessary philosophical discussion;
+- repeatedly revisiting previously accepted decisions.
+
+If governance review is not being requested, teachers should prefer execution over extended discussion.
+
+The learner may interrupt and request deeper analysis when needed.
+
 ### Teacher Startup Checklist
 
 Before teaching begins, the Teacher must explicitly verify:
