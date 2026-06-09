@@ -283,6 +283,28 @@ Expected outputs include:
 
 Repository-oriented reporting should be preferred over conversational reflection.
 
+### Observation Escalation Rule
+
+Observation lifecycle:
+
+Occurrences = 1
+
+→ Observation
+
+Occurrences >= 2
+
+→ Governance Review Required
+
+Once an issue has appeared multiple times, continued observation is no longer the preferred action.
+
+A governance review should determine whether:
+
+- governance changes are required;
+- governance changes are not required;
+- the observation should be retired.
+
+The goal is to prevent indefinite observation of recurring issues.
+
 ---
 
 ## Workflow Separation
