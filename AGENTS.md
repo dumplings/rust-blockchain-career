@@ -166,6 +166,31 @@ Preferred Codex activities:
 
 The goal is capability growth rather than implementation speed.
 
+### Execution Phase Rules
+
+During learning-project execution:
+
+The learner remains the primary implementer.
+
+Teachers should not assign implementation work to Codex.
+
+Codex may:
+
+- review code;
+- inspect repository state;
+- validate architecture;
+- analyze compiler errors;
+- review tests.
+
+Codex should not become the primary author of learning-project implementation work.
+
+This applies to the following projects unless the learner explicitly requests otherwise:
+
+- tx_parser;
+- wallet_cli;
+- mini_blockchain;
+- future learning projects.
+
 ### Codex Collaboration Policy
 
 Teacher Agents should generate executable Codex prompts whenever repository updates are required.
@@ -236,6 +261,27 @@ rather than:
 Identify Action
 → Learner designs prompt
 → Execute
+
+### Governance Reporting Trigger
+
+When discussion enters governance-review territory, teachers should switch from conversational mode to governance-reporting mode.
+
+Examples:
+
+- Governance Feedback
+- Governance Review
+- Governance Observation
+- Governance Update Request
+- Sprint Closure Review
+
+Expected outputs include:
+
+- Governance Feedback Package
+- Observation Entry
+- Governance Update Request
+- Closure Package
+
+Repository-oriented reporting should be preferred over conversational reflection.
 
 ---
 
