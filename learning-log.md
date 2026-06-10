@@ -90,3 +90,27 @@ Notes:
 - A new Architect Agent took over.
 - Repository state synchronization is being restored before Sprint-04 creation.
 - Sprint-04 should be created only after Specification Review.
+
+## 2026-06-10
+
+### Sprint-04 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Capability Growth:
+
+- Reinforced public API boundary design through `parse_and_validate_transaction`.
+- Practiced a high-level parse-and-validate library API.
+- Propagated ParseError and ValidationError through AppError.
+- Added integration tests for public API success, parse error, and validation error behavior.
+- Successfully used the Codex repository validation report workflow for formal validation.
+
+Follow-up Areas:
+
+- Finer-grained Rust visibility: `pub` vs `pub(crate)` vs private.
+- Deciding whether low-level APIs should remain public or become internal.
+- Clean Git change-set discipline during sprint execution.
+- User-facing error formatting / `Display` for ValidationError and AppError.
+- Continued Rust Fundamentals reinforcement before larger Rust Engineering topics.

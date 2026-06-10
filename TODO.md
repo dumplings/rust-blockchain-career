@@ -1,8 +1,8 @@
 # Current Tasks
 
-- [ ] Complete Sprint-04 Specification Review
-- [ ] Select Sprint-04 direction
-- [ ] Create Sprint-04 roadmap after specification approval
-- [ ] Create or initialize Sprint-04 Teacher Agent
-- [ ] Ensure Sprint-04 keeps Rust Fundamentals as the dominant Stage 1 priority
-- [ ] Ensure Sprint-04 workflow keeps the learner as primary implementer
+- [ ] Prepare Sprint-05 Specification Review
+- [ ] Select Sprint-05 direction
+- [ ] Keep Sprint-05 intentionally small
+- [ ] Continue Rust Fundamentals reinforcement
+- [ ] Decide whether Sprint-05 should continue tx_parser or introduce a new small project
+- [ ] Do not start wallet_cli, blockchain, Solana, or larger architecture work without explicit Sprint-05 specification approval

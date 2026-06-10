@@ -14,7 +14,7 @@ None active.
 
 ## Current Milestone
 
-Sprint-03 terminated; Sprint-04 not yet created.
+Sprint-04 completed and closed.
 
 ## Current Learning Profile
 
@@ -33,7 +33,8 @@ Sprint-03 terminated; Sprint-04 not yet created.
 - Created the first version of the course governance structure;
 - Completed and reviewed Sprint-01;
 - Completed and reviewed Sprint-02;
-- Recorded Sprint-03 termination and failure review.
+- Recorded Sprint-03 termination and failure review;
+- Completed and closed Sprint-04.
 
 ## Current Repository Structure
 
@@ -58,13 +59,13 @@ templates/
 
 ## In Progress
 
-Sprint-04 Specification Review and Teacher creation preparation.
+Sprint-05 Specification Review preparation.
 
 Current focus:
 
-- complete Sprint-04 Specification Review;
-- select Sprint-04 direction;
-- prepare Sprint-04 Teacher Agent creation.
+- prepare Sprint-05 Specification Review;
+- select Sprint-05 direction;
+- keep Sprint-05 intentionally small.
 
 ## Sprint-01 Milestone Summary
 
@@ -122,9 +123,9 @@ Key outcomes:
 
 ## Next Focus
 
-- Sprint-04 Specification Review;
-- Sprint-04 direction selection;
-- Sprint-04 Teacher Agent creation preparation.
+- Sprint-05 Specification Review;
+- Sprint-05 direction selection;
+- continued Rust Fundamentals reinforcement.
 
 ## Known Risk
 
@@ -146,6 +147,8 @@ A new Architect Agent has taken over.
 Sprint-03 is terminated / failed due to learning-system execution failure, not Rust knowledge failure.
 
 Do not reopen Sprint-03 automatically.
+
+Sprint-04 validated the updated repository validation reporting workflow: formal repository validation went through a Codex report rather than raw learner-reported command output.
 
 ## Future System Notes
 
@@ -182,32 +185,34 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Assessment:
 
-Sprint-02 Review
+Sprint-04 Review
 
 Result:
 
-Previous Rust level: B
-
-Current Rust level: B+
+PASS
 
 Summary:
 
 Strengths:
 
-- Parse versus Validation separation
-- Result propagation reasoning
-- Error-boundary reasoning
-- Responsibility-driven project organization
+- Public API as user-facing capability
+- High-level parse-and-validate workflow design
+- Result and `?` error propagation
+- AppError propagation from ParseError and ValidationError
+- Private modules plus public exports
+- Integration tests for crate-level public API behavior
 
 Improvement Areas:
 
-- public API boundary judgment
-- choosing when to introduce new error types
-- module dependency direction
+- finer-grained Rust visibility: `pub` vs `pub(crate)` vs private
+- deciding whether low-level APIs should remain public or become internal
+- clean Git change-set discipline during sprint execution
+- user-facing error formatting / `Display` for ValidationError and AppError
+- continued Rust Fundamentals reinforcement before larger Rust Engineering topics
 
 Recommendation:
 
-Prepare Sprint-04 Specification Review without starting implementation tasks yet.
+Prepare Sprint-05 Specification Review in a new window. Do not automatically expand into wallet_cli, blockchain, Solana, or larger architecture work.
 
 ## Active Learning Strategy
 
