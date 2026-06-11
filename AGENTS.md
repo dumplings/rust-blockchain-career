@@ -891,21 +891,28 @@ Purpose:
 - verify scope;
 - verify deliverables;
 - verify sprint size;
-- avoid oversized sprints.
+- prevent both oversized and undersized sprint design;
+- ensure the sprint can produce meaningful capability growth within the approved stage.
 
-Sprint scope should remain intentionally small.
+Sprint scope should be bounded enough to avoid long-context drift, but substantial enough to require meaningful implementation practice, learner decisions, and validation.
 
 ---
 
 ## Task Granularity Policy
 
-Avoid oversized learning tasks.
+Avoid both oversized and undersized learning tasks.
 
-Preferred teaching unit:
+Sprint design should optimize for learning throughput, not for minimum task size.
 
-- one concept;
-- one implementation;
-- one review cycle.
+A sprint should be bounded enough to avoid long-context drift, but substantial enough to create meaningful capability growth.
+
+Preferred sprint shape:
+
+* one cohesive learning theme;
+* two to four connected implementation tasks or implementation artifacts;
+* at least one meaningful learner design decision;
+* at least one required test addition or test update when code behavior or public API behavior changes;
+* one final validation cycle.
 
 Preferred workflow:
 
@@ -914,17 +921,31 @@ Learn
 → Test
 → Review
 
-before introducing major new topics.
+before introducing unrelated major topics.
 
-Sprint scope should be intentionally small, but not trivial.
+A sprint is likely undersized if it:
 
-A sprint should remain small enough to avoid long-context drift, while still producing meaningful capability growth.
+* contains only a tiny mechanical code change;
+* requires little or no teaching;
+* includes no meaningful learner decision;
+* adds no new test or test update when behavior or public API expectations changed;
+* ends with mostly review/discussion and very little implementation;
+* could reasonably be completed as a small task inside a larger sprint.
 
-If a proposed sprint contains only a tiny mechanical change, little teaching value, or no meaningful learner decision, the Teacher should increase learning substance within the same approved stage and theme instead of expanding into unrelated projects or unrelated topics.
+When a sprint appears undersized, the Teacher should increase implementation density within the same approved stage and theme instead of expanding into unrelated projects or topics.
 
-For Stage 1: Rust Foundations, increasing substance may mean adding a closely related implementation step, stronger test coverage, or clearer learner explanation around ownership, borrowing, Result, module boundaries, visibility, or testing habits.
+For Stage 1: Rust Foundations, increasing implementation density may include:
 
-Future agents should prioritize reducing cognitive load over maximizing topic coverage.
+* adding a closely related implementation step;
+* adding or updating tests;
+* requiring public API usage through integration tests;
+* reinforcing ownership, borrowing, Result, module boundaries, visibility, or testing habits through code;
+* adding a small end-to-end workflow inside the same project;
+* requiring a clearer learner design decision before implementation.
+
+Increasing sprint substance must not be used as justification to jump prematurely into unrelated topics such as blockchain concepts, Solana, Async Rust, Tokio, trait-heavy abstraction, generic-heavy refactor, or large architecture redesign.
+
+Future agents should reduce unnecessary cognitive load, but they must not reduce implementation density below the level needed for meaningful capability growth.
 
 ---
 
