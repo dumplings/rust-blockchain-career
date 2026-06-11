@@ -916,6 +916,14 @@ Learn
 
 before introducing major new topics.
 
+Sprint scope should be intentionally small, but not trivial.
+
+A sprint should remain small enough to avoid long-context drift, while still producing meaningful capability growth.
+
+If a proposed sprint contains only a tiny mechanical change, little teaching value, or no meaningful learner decision, the Teacher should increase learning substance within the same approved stage and theme instead of expanding into unrelated projects or unrelated topics.
+
+For Stage 1: Rust Foundations, increasing substance may mean adding a closely related implementation step, stronger test coverage, or clearer learner explanation around ownership, borrowing, Result, module boundaries, visibility, or testing habits.
+
 Future agents should prioritize reducing cognitive load over maximizing topic coverage.
 
 ---
