@@ -213,6 +213,60 @@ Users should not be required to manually translate governance decisions into Cod
 
 Repository-maintenance prompts are reusable learning assets.
 
+### Codex Prompt Formatting Safety Rule
+
+When an agent generates a Codex prompt that creates or updates Markdown repository files, the prompt should avoid unsafe nested Markdown code fences.
+
+Agents should not wrap an entire Markdown file body in an outer fenced code block if the file body itself contains fenced code blocks such as `rust`, `bash`, or `text`.
+
+Preferred approaches:
+
+- use plain prompt text without an outer Markdown fence when practical;
+- use inline code for short commands such as `cargo check` and `cargo test`;
+- avoid unnecessary fenced code blocks inside roadmap, review, or closure content;
+- if fenced code blocks are required, ensure the outer delimiter cannot be prematurely closed by inner delimiters.
+
+When a Codex prompt contains repository-ready Markdown content, the agent should make the prompt safe to copy and execute without Markdown truncation or fence escaping errors.
+
+If the learner is unsure whether a Codex prompt is safe to execute, the learner may request Architect prompt-safety review before forwarding it to Codex.
+
+### Sprint Roadmap Ownership Rule
+
+Sprint roadmap files are repository assets and require clear ownership and approval flow.
+
+Default responsibility:
+
+- Teacher Agents may draft sprint roadmaps.
+- Architect Agents may review sprint roadmaps when governance risk, scope risk, stage-alignment risk, or workflow-separation risk exists.
+- Codex may create or update sprint roadmap files only after receiving an explicit prompt forwarded by the learner.
+- The learner has final human approval authority before roadmap repository updates are accepted.
+
+A Teacher-generated roadmap draft or Codex prompt does not by itself mean the roadmap has been approved for repository creation.
+
+Preferred workflow:
+
+Teacher Agent
+→ Roadmap Draft
+
+Learner and/or Architect
+→ Review and Approval
+
+Teacher Agent or Architect Agent
+→ Codex Prompt
+
+Learner
+→ Forward Prompt to Codex
+
+Codex
+→ Repository Update
+
+Learner
+→ Review and Commit
+
+The Architect should not become the default sprint roadmap author during normal learning execution.
+
+The Architect should intervene when roadmap scope, stage alignment, workflow separation, or governance consistency is uncertain.
+
 ### Prompt Responsibility Policy
 
 When an agent requires action from:
