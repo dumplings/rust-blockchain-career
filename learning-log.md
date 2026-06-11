@@ -114,3 +114,25 @@ Follow-up Areas:
 - Clean Git change-set discipline during sprint execution.
 - User-facing error formatting / `Display` for ValidationError and AppError.
 - Continued Rust Fundamentals reinforcement before larger Rust Engineering topics.
+
+## 2026-06-11
+
+### Sprint-05 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Capability Growth:
+
+- Implemented `Display` for `ValidationError` and `AppError`.
+- Confirmed `AppError` delegates user-facing formatting to inner error types.
+- Added focused tests for formatted error output using `format!("{}", err)`.
+- Reviewed visibility and made no visibility change.
+- Completed formal validation through a Codex repository validation report.
+
+Follow-up Areas:
+
+- Continue Rust Fundamentals reinforcement.
+- Consider future `tx_parser` public API surface cleanup only through Specification Review.
+- Defer low-level API internalization, crate export strategy, and test migration until clearly needed.

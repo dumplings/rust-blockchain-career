@@ -14,7 +14,7 @@ None active.
 
 ## Current Milestone
 
-Sprint-04 completed and closed.
+Sprint-05 completed and closed.
 
 ## Current Learning Profile
 
@@ -34,7 +34,8 @@ Sprint-04 completed and closed.
 - Completed and reviewed Sprint-01;
 - Completed and reviewed Sprint-02;
 - Recorded Sprint-03 termination and failure review;
-- Completed and closed Sprint-04.
+- Completed and closed Sprint-04;
+- Completed and closed Sprint-05.
 
 ## Current Repository Structure
 
@@ -59,13 +60,13 @@ templates/
 
 ## In Progress
 
-Sprint-05 Specification Review preparation.
+Post-Sprint-05 repository synchronization.
 
 Current focus:
 
-- prepare Sprint-05 Specification Review;
-- select Sprint-05 direction;
-- keep Sprint-05 intentionally small.
+- verify and commit Sprint-05 repository updates;
+- prepare Sprint-06 Specification Review;
+- keep Sprint-06 scoped within Stage 1: Rust Foundations.
 
 ## Sprint-01 Milestone Summary
 
@@ -123,8 +124,8 @@ Key outcomes:
 
 ## Next Focus
 
-- Sprint-05 Specification Review;
-- Sprint-05 direction selection;
+- Sprint-06 Specification Review;
+- Sprint-06 direction selection;
 - continued Rust Fundamentals reinforcement.
 
 ## Known Risk
@@ -149,6 +150,8 @@ Sprint-03 is terminated / failed due to learning-system execution failure, not R
 Do not reopen Sprint-03 automatically.
 
 Sprint-04 validated the updated repository validation reporting workflow: formal repository validation went through a Codex report rather than raw learner-reported command output.
+
+Sprint-05 completed and closed with all validation layers passing.
 
 ## Future System Notes
 
@@ -185,7 +188,7 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Assessment:
 
-Sprint-04 Review
+Sprint-05 Review
 
 Result:
 
@@ -195,24 +198,24 @@ Summary:
 
 Strengths:
 
-- Public API as user-facing capability
-- High-level parse-and-validate workflow design
-- Result and `?` error propagation
-- AppError propagation from ParseError and ValidationError
-- Private modules plus public exports
-- Integration tests for crate-level public API behavior
+- User-facing error display with `Display`
+- ValidationError and AppError formatting
+- AppError delegation to inner error types
+- Focused tests for formatted error output
+- Minimal visibility review with no unnecessary code change
+- Scope control within Stage 1: Rust Foundations
 
 Improvement Areas:
 
-- finer-grained Rust visibility: `pub` vs `pub(crate)` vs private
-- deciding whether low-level APIs should remain public or become internal
-- clean Git change-set discipline during sprint execution
-- user-facing error formatting / `Display` for ValidationError and AppError
-- continued Rust Fundamentals reinforcement before larger Rust Engineering topics
+- continued Rust Fundamentals reinforcement
+- possible future tx_parser public API surface cleanup
+- low-level API internalization only through a future Specification Review
+- crate export strategy
+- test migration after visibility refinement, if needed
 
 Recommendation:
 
-Prepare Sprint-05 Specification Review in a new window. Do not automatically expand into wallet_cli, blockchain, Solana, or larger architecture work.
+Do not start Sprint-06 until Sprint-05 repository updates are committed. Prepare Sprint-06 through Specification Review. Continue Stage 1: Rust Foundations.
 
 ## Active Learning Strategy
 
