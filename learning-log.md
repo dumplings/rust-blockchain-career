@@ -136,3 +136,42 @@ Follow-up Areas:
 - Continue Rust Fundamentals reinforcement.
 - Consider future `tx_parser` public API surface cleanup only through Specification Review.
 - Defer low-level API internalization, crate export strategy, and test migration until clearly needed.
+
+## 2026-06-13
+
+### Sprint-07 Attempt-1 Failure Record
+
+Outcome:
+
+FAILED / DISCARDED
+
+Classification:
+
+Sprint-07 Attempt-1 was a teaching execution failure and governance failure, not learner completion and not learner Rust content failure.
+
+Learning Credit:
+
+- No Sprint-07 Attempt-1 learning progress is credited.
+- No `wallet_cli` capability is credited.
+- No `wallet_cli` implementation from Sprint-07 Attempt-1 is credited as official completed learning progress.
+- Sprint-07 teaching content is discarded.
+
+Governance Outcome:
+
+Sprint-07 produced governance improvements rather than completed learning outcomes.
+
+Relevant governance outputs:
+
+- `AGENTS.md` structural rewrite;
+- `roadmaps/sprint-07.md` abnormal sprint record;
+- `reviews/sprint-07-attempt-1-failure-review.md`.
+
+Repository / Project Status:
+
+- The original `/Users/dumplings/workspace/wallet_cli` path is no longer present.
+- Future agents should not assume any Sprint-07 Attempt-1 `wallet_cli` code exists, is valid, complete, or credited.
+- If `wallet_cli` is revisited later, it should be recreated from scratch unless a future Teacher or Architect explicitly decides otherwise.
+
+Next Step:
+
+The next real learning sprint should be Sprint-08. Future course content should be decided by the next Teacher / Architect based on the latest governance baseline and learner state.
