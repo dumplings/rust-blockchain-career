@@ -43,8 +43,10 @@ Future course content should be decided by the next Teacher / Architect based on
 Before designing Sprint-08, the next Teacher should read:
 
 - latest `AGENTS.md`;
+- `reviews/sprint-06-closure.md`;
 - `roadmaps/sprint-07.md`;
 - `reviews/sprint-07-attempt-1-failure-review.md`;
+- `reviews/architect-retirement-handover-2026-06-13.md`;
 - current `CONTEXT.md`;
 - current `learning-log.md`.
 
@@ -68,6 +70,7 @@ Before designing Sprint-08, the next Teacher should read:
 - Recorded Sprint-03 termination and failure review;
 - Completed and closed Sprint-04;
 - Completed and closed Sprint-05;
+- Completed and closed Sprint-06;
 - Recorded Sprint-07 Attempt-1 as FAILED / DISCARDED.
 
 ## Current Repository Structure
@@ -93,13 +96,14 @@ templates/
 
 ## In Progress
 
-Post-Sprint-07 governance synchronization.
+No active learning sprint.
 
 Current focus:
 
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
-- prepare for a future Sprint-08 only after the next Teacher / Architect reviews the current governance baseline.
+- prepare Sprint-08 only through Specification Review;
+- wait for the next Teacher / Architect to select the Sprint-08 direction based on the current governance baseline and learner state.
 
 ## Sprint-01 Milestone Summary
 
@@ -155,6 +159,28 @@ Key outcomes:
 - error-boundary reasoning
 - responsibility-driven project organization
 
+## Sprint-06 Completion
+
+Status:
+
+Completed
+
+Validation:
+
+- Student Validation passed
+- Codex Repository Validation passed
+- Teacher Learning Validation passed
+
+Key outcomes:
+
+- public API surface reasoning
+- crate boundary design
+- module visibility reasoning
+- high-level API versus low-level workflow distinction
+- public error boundary reasoning
+- binary crate and library crate separation
+- integration-test perspective
+
 ## Next Focus
 
 - Sprint-08 Specification Review when a next Teacher / Architect is ready;
@@ -185,6 +211,8 @@ Do not reopen Sprint-03 automatically.
 Sprint-04 validated the updated repository validation reporting workflow: formal repository validation went through a Codex report rather than raw learner-reported command output.
 
 Sprint-05 completed and closed with all validation layers passing.
+
+Sprint-06 completed and closed with all validation layers passing.
 
 The latest `AGENTS.md` structural rewrite is now the current governance baseline.
 
