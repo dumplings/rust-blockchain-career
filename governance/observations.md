@@ -10,7 +10,13 @@ The queue should remain small.
 
 Do not use this file for general ideas or brainstorming.
 
-Only record recurring governance observations.
+New observations should be specific, governance-relevant, and likely to recur. Historical one-time observations may remain in this file after they are retired.
+
+Last reviewed:
+2026-06-13
+
+Review result:
+The legacy observations below have been closed, accepted, or integrated into the current governance baseline where appropriate. Future observations should not remain indefinitely in `Observing` after the scheduled review point has passed.
 
 ---
 
@@ -20,7 +26,7 @@ Title:
 Prerequisite Awareness
 
 Status:
-Observing
+Retired
 
 Occurrences:
 1
@@ -38,15 +44,15 @@ Example:
 
 Current Decision:
 
-Observation only.
+Retired.
 
 Rationale:
 
-Insufficient data exists to determine whether a governance rule is needed.
+This was a single observed prerequisite-awareness issue. The current `AGENTS.md` teaching policy already covers the underlying risk through Concept Before Code, Teaching Is Primary, and explicit implementation standards.
 
-Next Review:
+Disposition:
 
-After Sprint-03.
+No standalone governance rule is required.
 
 ---
 
@@ -56,7 +62,7 @@ Title:
 Sprint Transition Rule
 
 Status:
-Observing
+Accepted
 
 Occurrences:
 1
@@ -74,15 +80,15 @@ Sprint closure required additional discussion regarding:
 
 Current Decision:
 
-Observation only.
+Accepted and integrated into the governance baseline.
 
 Rationale:
 
-Further sprint data is required before formalizing governance updates.
+Sprint transition requirements are now covered by the Sprint Lifecycle, Sprint Roadmap Ownership, Governance Workflow, and Prompt Responsibility policies in `AGENTS.md`.
 
-Next Review:
+Disposition:
 
-After Sprint-03.
+No further observation is needed unless sprint transition failures recur under the current governance baseline.
 
 ---
 
@@ -92,7 +98,7 @@ Title:
 Closure Package Requirement
 
 Status:
-Observing
+Accepted
 
 Occurrences:
 2
@@ -109,15 +115,15 @@ Closure Packages were required before repository updates.
 
 Current Decision:
 
-Observation only.
+Accepted and integrated into the governance baseline.
 
 Rationale:
 
-Pattern appears to be emerging but requires additional validation.
+This observation reached two occurrences and should not remain in `Observing`. Closure package expectations are now covered by the Sprint Lifecycle, Governance Update Policy, and Failure / Handover sections in `AGENTS.md`.
 
-Next Review:
+Disposition:
 
-After Sprint-03.
+No further observation is needed unless closure-package failures recur under the current governance baseline.
 
 ---
 
@@ -127,13 +133,16 @@ Title:
 Teaching Mode Balance
 
 Status:
-Observing
+Accepted
 
 Occurrences:
-1
+2
 
 First Seen:
 Sprint-03
+
+Most Recent:
+Sprint-07 Attempt-1
 
 Description:
 
@@ -152,7 +161,7 @@ Should learner stage influence the balance between:
 - Instructor Mode
 - Mentor Mode
 
-Current suggested balance for Rust Foundations:
+Historical suggested balance for Rust Foundations, not retained as a fixed rule:
 
 Instructor Mode:
 70-80%
@@ -162,15 +171,15 @@ Mentor Mode:
 
 Current Decision:
 
-Observing
+Accepted and reframed.
 
 Rationale:
 
-Insufficient evidence exists to determine whether this should become governance.
+The original Instructor Mode / Mentor Mode ratio should not become a fixed numerical rule. The underlying governance issue is now reframed as a requirement for structured instruction over guided discovery, concept before code, checkpoint-based teaching, and pause-and-review before progress.
 
-Next Review:
+Disposition:
 
-After Sprint-04.
+Integrated into the current `AGENTS.md` teaching execution policy.
 
 ---
 
@@ -180,13 +189,16 @@ Title:
 Workflow Context Verification
 
 Status:
-Observing
+Accepted
 
 Occurrences:
-1
+2
 
 First Seen:
 Sprint-03
+
+Most Recent:
+Sprint-07 Attempt-1
 
 Description:
 
@@ -210,16 +222,12 @@ Possible examples:
 
 Current Decision:
 
-Observing
+Accepted and integrated into the governance baseline.
 
 Rationale:
 
-Evidence suggests a workflow-context problem.
+Sprint-03 and Sprint-07 Attempt-1 both exposed workflow-context and validation-boundary drift. The current `AGENTS.md` now requires explicit workflow separation, role boundaries, validation layers, and Teacher startup verification.
 
-However, only one sprint has demonstrated this issue.
+Disposition:
 
-Additional evidence is required before modifying startup procedures.
-
-Next Review:
-
-After Sprint-04.
+No further observation is needed unless workflow-context drift recurs under the current governance baseline.

@@ -200,9 +200,11 @@ The learning system should not depend on a single chat window, model, or AI plat
 
 ## Active Governance Context
 
-The previous Architect retired due to long-conversation drift.
+The previous Architect retired after completing the Sprint-07 governance intervention.
 
-A new Architect Agent has taken over.
+No Architect Agent is currently active.
+
+The next Teacher / Architect session should begin from the current governance baseline rather than assuming an active Architect is already in place.
 
 Sprint-03 is terminated / failed due to learning-system execution failure, not Rust knowledge failure.
 
