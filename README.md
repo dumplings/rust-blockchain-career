@@ -24,6 +24,7 @@ This repository is persistent.
 ## Structure
 
 ```text
+docs/        Durable policies, agent startup docs, and human runbooks
 notes/        Study notes and topic summaries
 roadmaps/     Learning roadmaps and sprint plans
 reviews/      Sprint reviews and progress evaluations
@@ -61,10 +62,12 @@ The goal is not only to learn Rust and blockchain, but also to preserve reusable
 Before helping with this project, read these files first:
 
 1. `README.md` — understand what this repository is;
-2. `AGENTS.md` — understand teaching principles and collaboration rules;
+2. `AGENTS.md` — understand the core system principles and policy map;
 3. `CONTEXT.md` — understand the current learning state;
 4. `TODO.md` — understand the current sprint tasks;
 5. `learning-log.md` — understand recent progress.
+
+Then read the role-specific policy documents referenced by `AGENTS.md`.
 
 Do not rely only on chat history.
 
@@ -76,9 +79,10 @@ ChatGPT Project files are readable copies and may be outdated.
 When a new AI agent takes over this learning system, it should:
 
 1. Read `README.md`, `AGENTS.md`, `CONTEXT.md`, `TODO.md`, and `learning-log.md`;
-2. Identify the current sprint and current bottleneck;
-3. Avoid redesigning the whole system unless necessary;
-4. Continue from the existing roadmap and learning assets;
-5. Update files after important learning sessions or sprint reviews.
+2. Read the policy documents relevant to its role;
+3. Identify the current sprint and current bottleneck;
+4. Avoid redesigning the whole system unless necessary;
+5. Continue from the existing roadmap and learning assets;
+6. Update files after important learning sessions or sprint reviews.
 
 The purpose of this system is to make the learning process transferable across different chats, models, agents, and tools.

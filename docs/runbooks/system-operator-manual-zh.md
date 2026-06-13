@@ -107,12 +107,13 @@ Architect 不应该默认代替 Teacher 进行日常教学，也不应该替 Lea
 - `CONTEXT.md`
 - `TODO.md`
 - `roadmaps/master-roadmap.md`
+- 和当前角色相关的 `docs/policies/*policy.md`
 - 最近一个 sprint roadmap，例如 `roadmaps/sprint-02.md`
 - 最近一个 sprint review，例如 `reviews/sprint-02-review.md`
 - 如果存在失败或治理问题，加入相关 review，例如 `reviews/sprint-03-failure-review.md`
 - `governance/observations.md`
-- `docs/architect-bootstrap-guide.md`
-- `docs/system-operator-manual-zh.md`
+- `docs/agents/architect-bootstrap-guide.md`
+- `docs/runbooks/system-operator-manual-zh.md`
 
 ### 需要上传什么文件
 
@@ -121,9 +122,12 @@ Architect 不应该默认代替 Teacher 进行日常教学，也不应该替 Lea
 1. `AGENTS.md`
 2. `CONTEXT.md`
 3. `roadmaps/master-roadmap.md`
-4. 最近的 sprint review
-5. 当前或即将创建的 sprint roadmap
-6. 与当前问题相关的 governance / docs 文件
+4. `docs/policies/teacher-execution-policy.md`
+5. `docs/policies/sprint-governance-policy.md`
+6. `docs/policies/language-output-policy.md`
+7. 最近的 sprint review
+8. 当前或即将创建的 sprint roadmap
+9. 与当前问题相关的 governance / docs 文件
 
 不要一次上传所有历史文件，除非新 Agent 明确需要。
 
@@ -248,6 +252,9 @@ Please begin by summarizing the current sprint context and asking only the minim
 - `AGENTS.md`
 - `CONTEXT.md`
 - `roadmaps/master-roadmap.md`
+- `docs/policies/teacher-execution-policy.md`
+- `docs/policies/sprint-governance-policy.md`
+- `docs/policies/language-output-policy.md`
 - 当前 sprint roadmap
 - 最近 sprint review
 - 如果相关，`reviews/sprint-03-failure-review.md`
@@ -279,7 +286,7 @@ Please read the uploaded repository governance files and assume responsibility f
 
 Architect responsibilities:
 
-- Maintain coherence across AGENTS.md, CONTEXT.md, roadmaps, reviews, observations, and docs.
+- Maintain coherence across AGENTS.md, policy documents, CONTEXT.md, roadmaps, reviews, observations, and docs.
 - Protect the separation between Governance Workflow and Learning Workflow.
 - Review whether sprint structures align with the Master Roadmap.
 - Detect recurring governance failures and trigger Governance Review when needed.
@@ -306,8 +313,12 @@ Please begin by summarizing the current governance state, active risks, and the 
 - `CONTEXT.md`
 - `roadmaps/master-roadmap.md`
 - `governance/observations.md`
-- `docs/architect-bootstrap-guide.md`
-- `docs/system-operator-manual-zh.md`
+- `docs/policies/governance-lifecycle-policy.md`
+- `docs/policies/sprint-governance-policy.md`
+- `docs/policies/codex-collaboration-policy.md`
+- `docs/policies/language-output-policy.md`
+- `docs/agents/architect-bootstrap-guide.md`
+- `docs/runbooks/system-operator-manual-zh.md`
 - 最近的 sprint review
 - 如果相关，`reviews/sprint-03-failure-review.md`
 - 当前或计划中的 sprint roadmap
@@ -329,6 +340,7 @@ Codex 适合处理 repository-facing 工作。
 适合找 Codex 的情况：
 
 - Teacher 或 Architect 给了 repository update prompt；
+- 需要按照 `docs/policies/codex-collaboration-policy.md` 做 repository validation；
 - 需要创建 governance document；
 - 需要更新 `CONTEXT.md`、`TODO.md`、review、roadmap；
 - 需要检查代码是否符合 sprint requirements；
@@ -402,9 +414,10 @@ Codex 适合处理 repository-facing 工作。
 
 1. 创建新的 Teacher Agent。
 2. 上传 `AGENTS.md`、`CONTEXT.md`、Master Roadmap、当前 sprint roadmap、最近 review。
-3. 要求 Teacher 执行 startup checklist。
-4. 要求 Teacher 用中文总结当前 sprint context。
-5. 继续当前 sprint，不要自动重开已失败或已关闭的 sprint。
+3. 上传 `docs/policies/teacher-execution-policy.md`、`docs/policies/sprint-governance-policy.md`、`docs/policies/language-output-policy.md`。
+4. 要求 Teacher 执行 startup checklist。
+5. 要求 Teacher 用中文总结当前 sprint context。
+6. 继续当前 sprint，不要自动重开已失败或已关闭的 sprint。
 
 ### Architect 替换
 
@@ -412,10 +425,11 @@ Codex 适合处理 repository-facing 工作。
 
 1. 创建新的 Architect Agent。
 2. 上传 `AGENTS.md`、`CONTEXT.md`、`roadmaps/master-roadmap.md`、`governance/observations.md`。
-3. 上传 `docs/architect-bootstrap-guide.md` 和本文档。
-4. 如果治理问题来自 Sprint-03，上传 `reviews/sprint-03-failure-review.md`。
-5. 要求 Architect 总结 governance state 和 active risks。
-6. 只让 Architect 处理系统治理，不让它直接接管日常教学。
+3. 上传 `docs/policies/governance-lifecycle-policy.md`、`docs/policies/sprint-governance-policy.md`、`docs/policies/codex-collaboration-policy.md`、`docs/policies/language-output-policy.md`。
+4. 上传 `docs/agents/architect-bootstrap-guide.md` 和本文档。
+5. 如果治理问题来自 Sprint-03，上传 `reviews/sprint-03-failure-review.md`。
+6. 要求 Architect 总结 governance state 和 active risks。
+7. 只让 Architect 处理系统治理，不让它直接接管日常教学。
 
 ## 9. 常见错误
 
@@ -492,8 +506,9 @@ Sprint validation 成功不代表 Rust fundamentals 永久掌握。
 - `CONTEXT.md`
 - `roadmaps/master-roadmap.md`
 - `governance/observations.md`
-- `docs/architect-bootstrap-guide.md`
-- `docs/system-operator-manual-zh.md`
+- relevant `docs/policies/*policy.md`
+- `docs/agents/architect-bootstrap-guide.md`
+- `docs/runbooks/system-operator-manual-zh.md`
 
 不要依赖旧聊天记录作为唯一依据。
 
@@ -572,4 +587,3 @@ Sprint validation 成功不代表 Rust fundamentals 永久掌握。
 治理只服务于学习。
 
 如果系统已经足够支持下一个 sprint，就优先继续学习，不要为了完善治理而长期暂停。
-

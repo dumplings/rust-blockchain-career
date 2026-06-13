@@ -196,3 +196,44 @@ Repository / Project Status:
 Next Step:
 
 The next real learning sprint should be Sprint-08. Future course content should be decided by the next Teacher / Architect based on the latest governance baseline and learner state.
+
+### Governance Structure Update
+
+Outcome:
+
+AGENTS.md split into a core governance entry point plus role-specific policy documents.
+
+Repository Assets Updated:
+
+- `AGENTS.md`
+- `docs/policies/teacher-execution-policy.md`
+- `docs/policies/sprint-governance-policy.md`
+- `docs/policies/codex-collaboration-policy.md`
+- `docs/policies/language-output-policy.md`
+- `docs/policies/governance-lifecycle-policy.md`
+
+Purpose:
+
+- reduce patch-style rule accumulation in `AGENTS.md`;
+- allow future agents to load only the policy documents relevant to their role;
+- keep current sprint state in `CONTEXT.md` rather than in long-lived governance rules;
+- preserve cross-agent interoperability through English repository assets.
+
+### Documentation Directory Reorganization
+
+Outcome:
+
+The `docs/` directory was reorganized into purpose-based subdirectories.
+
+Repository Structure:
+
+- `docs/policies/` for role-specific and workflow-specific governance policies;
+- `docs/agents/` for agent startup, takeover, and bootstrap documents;
+- `docs/runbooks/` for human-facing operating manuals;
+- `docs/README.md` for the documentation directory map.
+
+Purpose:
+
+- make `docs/` easier to understand;
+- separate policy documents from startup prompts and human runbooks;
+- help future agents load the correct documents for their role.

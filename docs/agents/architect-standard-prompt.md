@@ -33,9 +33,13 @@ Required governance files:
 - `TODO.md`
 - `roadmaps/master-roadmap.md`
 - `governance/observations.md`
-- `docs/architect-bootstrap-guide.md`
-- `docs/system-operator-manual-zh.md`
-- `docs/architect-standard-prompt.md`
+- `docs/policies/governance-lifecycle-policy.md`
+- `docs/policies/sprint-governance-policy.md`
+- `docs/policies/codex-collaboration-policy.md`
+- `docs/policies/language-output-policy.md`
+- `docs/agents/architect-bootstrap-guide.md`
+- `docs/runbooks/system-operator-manual-zh.md`
+- `docs/agents/architect-standard-prompt.md`
 
 Required learning-state files:
 
@@ -182,9 +186,13 @@ Required files to review:
 - TODO.md
 - roadmaps/master-roadmap.md
 - governance/observations.md
-- docs/architect-bootstrap-guide.md
-- docs/system-operator-manual-zh.md
-- docs/architect-standard-prompt.md
+- docs/policies/governance-lifecycle-policy.md
+- docs/policies/sprint-governance-policy.md
+- docs/policies/codex-collaboration-policy.md
+- docs/policies/language-output-policy.md
+- docs/agents/architect-bootstrap-guide.md
+- docs/runbooks/system-operator-manual-zh.md
+- docs/agents/architect-standard-prompt.md
 - the most recent sprint roadmap
 - the most recent sprint review
 - any active sprint roadmap

@@ -22,7 +22,9 @@ The next real teaching sprint should use Sprint-08.
 
 ## Current Governance Status
 
-The latest `AGENTS.md` has been structurally rewritten and should be treated as the current governance baseline.
+The latest `AGENTS.md` has been structurally rewritten as the core governance entry point.
+
+Detailed governance rules now live in role-specific policy documents under `docs/policies/`.
 
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure, not as learner completion.
 
@@ -43,6 +45,9 @@ Future course content should be decided by the next Teacher / Architect based on
 Before designing Sprint-08, the next Teacher should read:
 
 - latest `AGENTS.md`;
+- `docs/policies/teacher-execution-policy.md`;
+- `docs/policies/sprint-governance-policy.md`;
+- `docs/policies/language-output-policy.md`;
 - `reviews/sprint-06-closure.md`;
 - `roadmaps/sprint-07.md`;
 - `reviews/sprint-07-attempt-1-failure-review.md`;
@@ -57,6 +62,14 @@ Before designing Sprint-08, the next Teacher should read:
 - Blockchain level: beginner;
 - Preferred blockchain direction: Solana first, then general blockchain fundamentals;
 - English level: can read technical English slowly, but English training is not the current main priority.
+
+## Current Language Requirements
+
+- Technical teaching language: Chinese
+- Technical terminology: English allowed when useful
+- Governance document language: English
+- Repository-ready roadmap / review / failure review / handover language: English
+- English training: secondary objective unless explicitly defined by a sprint
 
 ## Completed
 
@@ -84,6 +97,10 @@ learning-log.md
 .gitignore
 
 assets/
+docs/
+  agents/
+  policies/
+  runbooks/
 notes/
 reviews/
 roadmaps/
@@ -216,7 +233,7 @@ Sprint-05 completed and closed with all validation layers passing.
 
 Sprint-06 completed and closed with all validation layers passing.
 
-The latest `AGENTS.md` structural rewrite is now the current governance baseline.
+The latest `AGENTS.md` structural rewrite and the role-specific policy documents under `docs/policies/` are now the current governance baseline.
 
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
@@ -279,7 +296,8 @@ Sprint-07 Attempt-1 was a teaching execution failure, not learner completion and
 
 Governance outcomes:
 
-- `AGENTS.md` was structurally rewritten and is the current governance baseline;
+- `AGENTS.md` was structurally rewritten as the core governance entry point;
+- role-specific policy documents under `docs/policies/` are part of the current governance baseline;
 - `roadmaps/sprint-07.md` records Sprint-07 as an abnormal sprint placeholder;
 - `reviews/sprint-07-attempt-1-failure-review.md` records the formal failure review;
 - no Sprint-07 learning progress or `wallet_cli` capability is credited.

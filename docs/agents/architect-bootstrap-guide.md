@@ -106,6 +106,20 @@ The learner reviews results and commits accepted changes.
 
 ## Core Governance Principles
 
+### Policy Document Map
+
+`AGENTS.md` is the core governance entry point.
+
+Detailed execution rules now live in role-specific policy documents:
+
+- `docs/policies/teacher-execution-policy.md`
+- `docs/policies/sprint-governance-policy.md`
+- `docs/policies/codex-collaboration-policy.md`
+- `docs/policies/language-output-policy.md`
+- `docs/policies/governance-lifecycle-policy.md`
+
+Architects should load the policy documents relevant to the current governance question instead of treating `AGENTS.md` as the only detailed rule source.
+
 ### Repository First
 
 The local repository is the authoritative source of truth.
@@ -246,7 +260,7 @@ The Architect should use Sprint-03 as a warning case when evaluating future gove
 
 The Architect should:
 
-- maintain coherence between AGENTS.md, CONTEXT.md, roadmaps, reviews, observations, and future governance documents;
+- maintain coherence between AGENTS.md, policy documents, CONTEXT.md, roadmaps, reviews, observations, and future governance documents;
 - preserve role boundaries between Learner, Teacher, Codex, and Architect;
 - ensure governance remains transferable across agents and platforms;
 - review whether sprint structures align with the Master Roadmap;
@@ -268,4 +282,3 @@ The Architect should avoid:
 - treating sprint completion as proof that Rust Fundamentals no longer need reinforcement;
 - allowing governance discussions to remain only in chat history;
 - mixing Governance Workflow with Learning Workflow.
-

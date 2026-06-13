@@ -48,7 +48,7 @@ Retired.
 
 Rationale:
 
-This was a single observed prerequisite-awareness issue. The current `AGENTS.md` teaching policy already covers the underlying risk through Concept Before Code, Teaching Is Primary, and explicit implementation standards.
+This was a single observed prerequisite-awareness issue. `docs/policies/teacher-execution-policy.md` now covers the underlying risk through Concept Before Code, Teaching Before Assessment, and explicit implementation standards.
 
 Disposition:
 
@@ -84,7 +84,7 @@ Accepted and integrated into the governance baseline.
 
 Rationale:
 
-Sprint transition requirements are now covered by the Sprint Lifecycle, Sprint Roadmap Ownership, Governance Workflow, and Prompt Responsibility policies in `AGENTS.md`.
+Sprint transition requirements are now covered by `docs/policies/sprint-governance-policy.md`, `docs/policies/governance-lifecycle-policy.md`, and `docs/policies/codex-collaboration-policy.md`.
 
 Disposition:
 
@@ -119,7 +119,7 @@ Accepted and integrated into the governance baseline.
 
 Rationale:
 
-This observation reached two occurrences and should not remain in `Observing`. Closure package expectations are now covered by the Sprint Lifecycle, Governance Update Policy, and Failure / Handover sections in `AGENTS.md`.
+This observation reached two occurrences and should not remain in `Observing`. Closure package expectations are now covered by `docs/policies/sprint-governance-policy.md` and `docs/policies/governance-lifecycle-policy.md`.
 
 Disposition:
 
@@ -179,7 +179,7 @@ The original Instructor Mode / Mentor Mode ratio should not become a fixed numer
 
 Disposition:
 
-Integrated into the current `AGENTS.md` teaching execution policy.
+Integrated into `docs/policies/teacher-execution-policy.md`.
 
 ---
 
@@ -226,7 +226,7 @@ Accepted and integrated into the governance baseline.
 
 Rationale:
 
-Sprint-03 and Sprint-07 Attempt-1 both exposed workflow-context and validation-boundary drift. The current `AGENTS.md` now requires explicit workflow separation, role boundaries, validation layers, and Teacher startup verification.
+Sprint-03 and Sprint-07 Attempt-1 both exposed workflow-context and validation-boundary drift. The current governance baseline now requires explicit workflow separation, role boundaries, validation layers, and Teacher startup verification through `AGENTS.md`, `docs/policies/teacher-execution-policy.md`, and `docs/policies/sprint-governance-policy.md`.
 
 Disposition:
 

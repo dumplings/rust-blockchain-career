@@ -37,6 +37,7 @@ Required files for the next agent to read:
 - `CONTEXT.md`
 - `TODO.md`
 - `learning-log.md`
+- Relevant policy document under `docs/policies/`.
 - Relevant roadmap, review, failure review, or governance file.
 
 ## Repository State
