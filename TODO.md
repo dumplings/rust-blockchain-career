@@ -1,7 +1,7 @@
 # Current Tasks
 
-- [ ] Review and commit Sprint-08 closure governance updates
-- [ ] Prepare Sprint-09 Specification Review
+- [ ] Review and commit current governance policy updates
+- [ ] Decide whether to authorize Sprint-09 Specification Review
 - [ ] Continue Rust Fundamentals reinforcement
 - [ ] Preserve Sprint-07 as a failed / abnormal sprint record and do not credit Sprint-07 learning progress
 - [ ] Keep governance repository validation and learning-project validation separate

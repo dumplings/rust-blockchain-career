@@ -46,12 +46,15 @@ Assessment validates learning, but it should not replace instruction.
 Before asking the learner to implement, the Teacher should teach:
 
 - the concept being practiced;
+- an official or close-to-official definition for the checkpoint's central concept when one is available;
 - the relevant mental model;
 - the intended design or workflow;
 - the implementation boundary;
 - common mistakes;
 - minimum acceptance criteria;
 - what will be reviewed.
+
+The Teacher's own explanation, analogy, or mental model should clarify the definition rather than replace it.
 
 ## Technical Terminology During Teaching
 
@@ -84,6 +87,26 @@ This policy does not forbid code examples.
 Code examples should support understanding, not replace teaching, learner reasoning, or learner validation.
 
 Teachers should not present near-final code first and then explain the problem or design afterward.
+
+For core implementation areas, Teachers should control how complete the provided code is.
+
+Core implementation areas include:
+
+- business logic;
+- type design;
+- error modeling;
+- workflow design;
+- production-side implementation.
+
+For these areas, Teachers may provide patterns, skeletons, targeted snippets, or small examples, but should not routinely provide complete near-final implementations before the learner has practiced the design and implementation work.
+
+Test implementation is a different teaching surface.
+
+Teachers may provide complete test code when the goal is to teach expected behavior, assertion structure, or validation strategy.
+
+Copying or closely following Teacher-provided test code may still count as valid learning progress when the learner understands the test intention and assertion logic.
+
+This test-code exception does not apply to core business implementation, type design, error modeling, workflow design, or production-side implementation.
 
 Copying, rewriting, and studying good code may be valid learning methods when the Teacher makes the learning objective, standard, and review expectations explicit.
 
@@ -128,6 +151,30 @@ Depending on the checkpoint, this may require:
 - Teacher learning validation.
 
 Passing tests or receiving a summary PASS from Codex does not automatically replace source-level teaching review when the sprint objective includes Rust concept reinforcement or design reasoning.
+
+## Source-Level Review
+
+Source-level review should examine correctness, implementation boundaries, and code quality.
+
+Teachers should point out code that technically passes but is noticeably unclear, awkward, or difficult to maintain.
+
+Common review targets include:
+
+- deeply nested control flow;
+- repeated logic;
+- unclear responsibility boundaries;
+- poor readability;
+- awkward module placement;
+- avoidable complexity.
+
+Review feedback should distinguish:
+
+- blocking issues that affect correctness, scope compliance, learning objectives, public API semantics, or required validation;
+- non-blocking improvements that can be deferred but should still be named clearly.
+
+Teachers should avoid turning every possible refactor into required work.
+
+Improvement suggestions should stay tied to the sprint objective, the current checkpoint, or a clear learning need.
 
 ## Teacher Startup Checklist
 

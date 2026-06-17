@@ -18,7 +18,7 @@ Sprint-08 completed and closed.
 
 Sprint-08 `wallet_cli` implementation passed final validation.
 
-Next teaching step: Sprint-09 Specification Review / next Stage 1 Rust Foundations step.
+Candidate next focus: Sprint-09 Specification Review / next Stage 1 Rust Foundations step, pending learner or Architect authorization.
 
 ## Current Governance Status
 
@@ -41,6 +41,8 @@ The discarded Sprint-07 `wallet_cli` attempt is not credited. Sprint-08 later re
 If `wallet_cli` is revisited later, future agents should use Sprint-08 as the completed learning record, not Sprint-07.
 
 Sprint-08 is complete and closed. No Sprint-08 execution work remains active.
+
+Sprint-09 has not been authorized or started.
 
 Before starting Sprint-09, the Teacher should read:
 
@@ -122,7 +124,7 @@ No active learning sprint.
 
 Current focus:
 
-- prepare Sprint-09 Specification Review;
+- decide whether to authorize Sprint-09 Specification Review;
 - continue Stage 1 Rust Foundations reinforcement;
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
@@ -207,7 +209,7 @@ Key outcomes:
 
 ## Next Focus
 
-- Sprint-09 Specification Review / next Rust Foundations step;
+- Sprint-09 Specification Review / next Rust Foundations step, pending learner or Architect authorization;
 - continued Rust Fundamentals reinforcement;
 - maintain strict workflow separation between `rust-blockchain-career` governance validation and `wallet_cli` learning-project validation.
 
@@ -332,7 +334,7 @@ Learning outcomes:
 
 Recommendation:
 
-Prepare Sprint-09 Specification Review. Continue Stage 1 Rust Foundations reinforcement. Do not credit Sprint-07 learning progress.
+Consider authorizing Sprint-09 Specification Review. Continue Stage 1 Rust Foundations reinforcement. Do not credit Sprint-07 learning progress.
 
 ## Active Learning Strategy
 
