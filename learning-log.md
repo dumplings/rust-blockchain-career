@@ -237,3 +237,120 @@ Purpose:
 - make `docs/` easier to understand;
 - separate policy documents from startup prompts and human runbooks;
 - help future agents load the correct documents for their role.
+
+## 2026-06-16
+
+### Sprint-08 Start
+
+Outcome:
+
+Sprint-08 roadmap created and accepted.
+
+Sprint:
+
+`wallet_cli v0.1 — Minimal CLI Workflow + Command Modeling + User-Facing Error Boundary`
+
+Stage:
+
+Stage 1 — Rust Foundations
+
+Project:
+
+`wallet_cli`
+
+Project Status:
+
+From scratch.
+
+### Sprint-08 Micro-checkpoint 1A
+
+Outcome:
+
+PASS
+
+Completed:
+
+- created a fresh `/Users/dumplings/workspace/wallet_cli` Cargo project;
+- created `src/main.rs`, `src/lib.rs`, and `src/command.rs`;
+- kept `src/lib.rs` limited to `mod command;`;
+- kept `src/main.rs` as default `Hello, world!`;
+- kept `src/command.rs` empty;
+- kept dependencies empty;
+- validated `wallet_cli` separately from the `rust-blockchain-career` governance repository.
+
+Next Step:
+
+Continue Sprint-08 with Micro-checkpoint 1B: command model only.
+
+Governance Note:
+
+Sprint-08 validation should keep the governance repository and the separate `wallet_cli` learning project as separate validation targets.
+
+## 2026-06-17
+
+### Sprint-08 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Sprint:
+
+`wallet_cli v0.1 — Minimal CLI Workflow + Command Modeling + User-Facing Error Boundary`
+
+Stage:
+
+Stage 1 — Rust Foundations
+
+Validation:
+
+- Student Validation passed.
+- Codex Repository Validation passed.
+- Teacher Learning Validation passed.
+- `cargo check` passed.
+- `cargo test` passed.
+- Final test count: 31 passed.
+
+Implementation Summary:
+
+- Created `wallet_cli` from scratch during Sprint-08.
+- Implemented command modeling for `balance` and `transfer`.
+- Implemented fallible command parsing.
+- Implemented domain values for `Address` and `Amount`.
+- Used private fields, constructors, and accessors for valid-state protection.
+- Implemented domain validation and validated command conversion.
+- Implemented `CliError` as the public workflow error boundary.
+- Used `From` conversions and `Display` for user-facing error formatting.
+- Implemented success output formatting.
+- Exposed a public library-side workflow through `run(args: &[String]) -> Result<String, CliError>`.
+- Kept `main.rs` thin.
+- Added success-path and error-path tests.
+
+Rust Capabilities Reinforced:
+
+- enum modeling;
+- `Result` and error propagation;
+- custom error types;
+- `From` conversion;
+- `Display` formatting;
+- private fields and constructors;
+- accessors;
+- module boundaries;
+- crate-root re-exports;
+- public API boundary reasoning;
+- library crate versus binary crate responsibilities;
+- CLI workflow responsibility separation;
+- testing success paths and error paths.
+
+Governance Notes:
+
+- Sprint-08 counts as completed learning progress.
+- Sprint-08 replaces the discarded Sprint-07 `wallet_cli` attempt as the official completed learning record for this topic.
+- No Sprint-07 learning progress is credited.
+- Governance repository validation and `wallet_cli` learning-project validation must remain separate.
+
+Next Focus:
+
+- Prepare Sprint-09 Specification Review.
+- Continue Stage 1 Rust Foundations reinforcement.
+- Avoid Solana, Async Rust, Tokio, blockchain networking, or large architecture work unless explicitly approved by a future sprint roadmap.

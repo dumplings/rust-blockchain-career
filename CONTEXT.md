@@ -14,11 +14,11 @@ None active.
 
 ## Current Milestone
 
-Sprint-07 Attempt-1 failed / discarded.
+Sprint-08 completed and closed.
 
-Sprint-07 is reserved as an abnormal sprint record.
+Sprint-08 `wallet_cli` implementation passed final validation.
 
-The next real teaching sprint should use Sprint-08.
+Next teaching step: Sprint-09 Specification Review / next Stage 1 Rust Foundations step.
 
 ## Current Governance Status
 
@@ -36,18 +36,21 @@ No `wallet_cli` implementation from Sprint-07 Attempt-1 is credited as official 
 
 Future agents should not assume any Sprint-07 Attempt-1 `wallet_cli` code exists, is valid, complete, or credited.
 
-The original `/Users/dumplings/workspace/wallet_cli` path is no longer present.
+The discarded Sprint-07 `wallet_cli` attempt is not credited. Sprint-08 later recreated `wallet_cli` from scratch as the official completed learning project for this topic.
 
-If `wallet_cli` is revisited later, it should be recreated from scratch unless a future Teacher or Architect explicitly decides otherwise.
+If `wallet_cli` is revisited later, future agents should use Sprint-08 as the completed learning record, not Sprint-07.
 
-Future course content should be decided by the next Teacher / Architect based on the latest governance baseline and learner state.
+Sprint-08 is complete and closed. No Sprint-08 execution work remains active.
 
-Before designing Sprint-08, the next Teacher should read:
+Before starting Sprint-09, the Teacher should read:
 
 - latest `AGENTS.md`;
 - `docs/policies/teacher-execution-policy.md`;
 - `docs/policies/sprint-governance-policy.md`;
+- `docs/policies/codex-collaboration-policy.md`;
 - `docs/policies/language-output-policy.md`;
+- `roadmaps/sprint-08.md`;
+- `reviews/sprint-08-closure.md`;
 - `reviews/sprint-06-closure.md`;
 - `roadmaps/sprint-07.md`;
 - `reviews/sprint-07-attempt-1-failure-review.md`;
@@ -84,7 +87,9 @@ Before designing Sprint-08, the next Teacher should read:
 - Completed and closed Sprint-04;
 - Completed and closed Sprint-05;
 - Completed and closed Sprint-06;
-- Recorded Sprint-07 Attempt-1 as FAILED / DISCARDED.
+- Recorded Sprint-07 Attempt-1 as FAILED / DISCARDED;
+- Created and accepted Sprint-08 roadmap;
+- Completed and closed Sprint-08.
 
 ## Current Repository Structure
 
@@ -117,10 +122,12 @@ No active learning sprint.
 
 Current focus:
 
+- prepare Sprint-09 Specification Review;
+- continue Stage 1 Rust Foundations reinforcement;
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
-- prepare Sprint-08 only through Specification Review;
-- wait for the next Teacher / Architect to select the Sprint-08 direction based on the current governance baseline and learner state.
+- keep governance repository validation separate from learning-project validation;
+- avoid Solana, Async Rust, Tokio, blockchain networking, or large architecture work unless explicitly approved by a future sprint roadmap.
 
 ## Sprint-01 Milestone Summary
 
@@ -200,9 +207,9 @@ Key outcomes:
 
 ## Next Focus
 
-- Sprint-08 Specification Review when a next Teacher / Architect is ready;
-- Sprint-08 direction selection;
-- continued Rust Fundamentals reinforcement.
+- Sprint-09 Specification Review / next Rust Foundations step;
+- continued Rust Fundamentals reinforcement;
+- maintain strict workflow separation between `rust-blockchain-career` governance validation and `wallet_cli` learning-project validation.
 
 ## Known Risk
 
@@ -235,6 +242,23 @@ Sprint-06 completed and closed with all validation layers passing.
 
 The latest `AGENTS.md` structural rewrite and the role-specific policy documents under `docs/policies/` are now the current governance baseline.
 
+Sprint-08 roadmap was created and accepted.
+
+Sprint-08 completed and closed with final status PASS / CLOSED.
+
+Sprint-08 `wallet_cli` implementation summary:
+
+- project was created from scratch during Sprint-08 at `/Users/dumplings/workspace/wallet_cli`;
+- Student Validation passed;
+- Codex Repository Validation passed;
+- Teacher Learning Validation passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test count: 31 passed;
+- dependencies remained empty;
+- no out-of-scope implementation was found;
+- no Sprint-07 implementation was credited or reused.
+
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
 Sprint-07 is reserved as an abnormal sprint record, not a normal completed sprint.
@@ -245,9 +269,9 @@ No `wallet_cli` implementation from Sprint-07 Attempt-1 is credited as official 
 
 Future agents should not assume any Sprint-07 Attempt-1 `wallet_cli` code exists, is valid, complete, or credited.
 
-The original `/Users/dumplings/workspace/wallet_cli` path is no longer present.
+The discarded Sprint-07 `wallet_cli` attempt remains uncredited.
 
-The next real teaching sprint should use Sprint-08 numbering.
+The next real teaching sprint should use Sprint-09 numbering.
 
 ## Future System Notes
 
@@ -284,27 +308,31 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Assessment:
 
-Sprint-07 Attempt-1 Failure Review
+Sprint-08 Closure Report
 
 Result:
 
-FAILED / DISCARDED
+PASS / CLOSED
 
 Summary:
 
-Sprint-07 Attempt-1 was a teaching execution failure, not learner completion and not learner Rust content failure.
+Sprint-08 completed the from-scratch `wallet_cli` learning project and passed all required validation layers.
 
-Governance outcomes:
+Learning outcomes:
 
-- `AGENTS.md` was structurally rewritten as the core governance entry point;
-- role-specific policy documents under `docs/policies/` are part of the current governance baseline;
-- `roadmaps/sprint-07.md` records Sprint-07 as an abnormal sprint placeholder;
-- `reviews/sprint-07-attempt-1-failure-review.md` records the formal failure review;
-- no Sprint-07 learning progress or `wallet_cli` capability is credited.
+- command modeling;
+- fallible command parsing;
+- domain validation with private fields and constructors;
+- `Result`-based error propagation;
+- `From` conversion into a public CLI error boundary;
+- `Display` user-facing formatting;
+- module boundary and crate-root API reasoning;
+- library-side workflow with a thin `main.rs`;
+- success-path and error-path tests.
 
 Recommendation:
 
-Do not continue Sprint-07. Do not treat Sprint-07 as completed. The next real teaching sprint should use Sprint-08 and should be designed by the next Teacher / Architect after reading the latest governance baseline.
+Prepare Sprint-09 Specification Review. Continue Stage 1 Rust Foundations reinforcement. Do not credit Sprint-07 learning progress.
 
 ## Active Learning Strategy
 

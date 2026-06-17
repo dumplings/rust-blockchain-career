@@ -7,7 +7,8 @@
 - Stage: Stage 1 — Rust Foundations
 - Project: `wallet_cli`
 - Project status: From scratch
-- Sprint status: Planned / Not Started
+- Sprint status: Completed / Closed
+- Current milestone: Final validation passed; PASS / CLOSED
 
 ## 2. Governance Context
 
@@ -380,18 +381,18 @@ Sprint-08 is complete only when:
 
 ## 15. Handover Notes
 
-Sprint-08 is planned but not started.
+Sprint-08 is completed and closed.
 
-This roadmap authorizes future Sprint-08 learning execution only after the learner and Teacher accept the roadmap and begin the sprint.
+This roadmap authorized Sprint-08 learning execution after the learner and Teacher accepted the roadmap and began the sprint.
 
-This roadmap does not create a `wallet_cli` project.
+This roadmap did not itself create a `wallet_cli` project.
 
-This roadmap does not start implementation.
+This roadmap did not itself start implementation.
 
 This roadmap does not continue Sprint-07.
 
 This roadmap does not credit Sprint-07 learning progress.
 
-A future Teacher should teach Sprint-08 checkpoint by checkpoint, using Chinese for technical teaching unless a later approved objective explicitly changes the language requirement.
+Sprint-08 closure is recorded in `reviews/sprint-08-closure.md`.
 
 Repository-ready assets, validation reports, and future closure documents should remain in English by default.
