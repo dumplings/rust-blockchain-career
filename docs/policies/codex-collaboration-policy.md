@@ -93,6 +93,28 @@ Codex repository validation verifies:
 
 Teachers should not use pasted learner command output as the primary repository validation path.
 
+## One Repository Per Validation Prompt
+
+A Codex validation prompt should validate one repository or project root at a time.
+
+The governance repository and a separate learning-project repository must be validated with separate prompts and separate verdicts.
+
+Examples:
+
+- validate `rust-blockchain-career` governance state in one prompt;
+- validate `/Users/dumplings/workspace/wallet_cli` learning-project state in a separate prompt.
+
+Do not combine governance repository validation and learning-project validation into one prompt unless the learner explicitly requests a cross-repository audit.
+
+When a sprint uses a separate learning project, the Teacher should identify:
+
+- validation target;
+- working directory;
+- files or behavior to inspect;
+- commands to run;
+- scope constraints;
+- expected verdict format.
+
 ## Minimum Validation Report Format
 
 A Codex repository validation report should include:

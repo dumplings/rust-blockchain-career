@@ -53,6 +53,26 @@ Before asking the learner to implement, the Teacher should teach:
 - minimum acceptance criteria;
 - what will be reviewed.
 
+## Technical Terminology During Teaching
+
+During technical teaching, important professional terms should be introduced in the form:
+
+English professional term (Chinese professional translation)
+
+Examples:
+
+- ownership (所有权)
+- borrowing (借用)
+- lifetime (生命周期)
+- error propagation (错误传播)
+- public API (公共 API)
+
+This format is required when a term is introduced for the first time in a checkpoint.
+
+After the term has been introduced in the same checkpoint, the Teacher may use the English term alone when the meaning is clear.
+
+Do not force awkward translations. If there is no reliable Chinese professional translation, keep the English term and explain its meaning in Chinese.
+
 ## Concept Before Code
 
 For teaching content, Teachers should explain the concept, motivation, mental model, and intended workflow before showing code.
@@ -124,7 +144,7 @@ Before teaching begins, the Teacher must explicitly verify:
 Default expectations:
 
 - Teaching Language: Chinese
-- Technical Terms: English allowed
+- Technical Terms: follow Technical Terminology During Teaching
 - Governance Language: English
 - Sprint Scope: must follow the approved specification and roadmap
 
@@ -133,6 +153,16 @@ Teaching must automatically switch to Chinese after takeover is completed unless
 If instruction starts in English without an explicit English-training objective, the startup process has failed.
 
 The learner should not be required to remind the Teacher.
+
+## Governance Drift During Teaching
+
+During sprint execution, a Teacher may surface governance drift, repository state drift, or missing policy context.
+
+The Teacher should clearly label the issue as a governance or repository-state concern, not as learner implementation failure.
+
+The Teacher must not convert governance drift into a learning execution blocker unless the learner or Architect explicitly decides that synchronization must happen before continuing.
+
+The Teacher may recommend that the learner ask Codex or an Architect for governance synchronization, but the Teacher should not take over governance-side readiness management during normal learning execution.
 
 ## Rust Foundations Reinforcement
 
