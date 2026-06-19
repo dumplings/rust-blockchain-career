@@ -240,6 +240,8 @@ Teaching requirements:
 - During Rust Foundations, keep Rust Fundamentals as the dominant focus.
 - Prefer project-driven learning.
 - Do not assign implementation work to Codex unless I explicitly request that mode.
+- When performing Specification Review, follow the repository's sprint workflow contract and use `templates/specification-review-template.md` when a formal review package is needed.
+- When asking me to forward work to Architect, Codex, or another agent, provide a complete cross-agent action request instead of an informal summary.
 - When repository updates are needed, generate a complete executable Codex prompt.
 
 Please begin by summarizing the current sprint context and asking only the minimum necessary questions.
@@ -251,10 +253,13 @@ Please begin by summarizing the current sprint context and asking only the minim
 
 - `AGENTS.md`
 - `CONTEXT.md`
+- `TODO.md`
 - `roadmaps/master-roadmap.md`
 - `docs/policies/teacher-execution-policy.md`
 - `docs/policies/sprint-governance-policy.md`
+- `docs/policies/codex-collaboration-policy.md`
 - `docs/policies/language-output-policy.md`
+- `templates/specification-review-template.md`
 - 当前 sprint roadmap
 - 最近 sprint review
 - 如果相关，`reviews/sprint-03-failure-review.md`
@@ -375,12 +380,13 @@ Codex 适合处理 repository-facing 工作。
 2. 查看最近 sprint review。
 3. 创建 Teacher Agent。
 4. Teacher 完成 startup checklist。
-5. Teacher 做 Specification Review。
-6. Teacher 创建或确认 sprint roadmap。
-7. 如果 roadmap 需要入库，Teacher 生成 Codex prompt。
-8. Codex 更新 repository。
-9. 你 review 并 commit。
-10. Sprint execution 开始。
+5. Teacher 做 Specification Review，并在需要正式评审时使用 `templates/specification-review-template.md`。
+6. 如果需要 Architect、Codex 或其它 agent 参与，Teacher 应提供完整 cross-agent action request。
+7. Teacher 创建或确认 sprint roadmap。
+8. 如果 roadmap 需要入库，Teacher 生成 Codex prompt。
+9. Codex 更新 repository。
+10. 你 review 并 commit。
+11. Sprint execution 开始。
 
 ### Sprint 关闭
 

@@ -354,3 +354,76 @@ Next Focus:
 - Prepare Sprint-09 Specification Review.
 - Continue Stage 1 Rust Foundations reinforcement.
 - Avoid Solana, Async Rust, Tokio, blockchain networking, or large architecture work unless explicitly approved by a future sprint roadmap.
+
+## 2026-06-20
+
+### Sprint-09 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Sprint:
+
+`wallet_cli v0.2 - In-Memory Mock State + Ownership/Borrowing Workflow`
+
+Stage:
+
+Stage 1 - Rust Foundations
+
+Validation:
+
+- Student Validation passed.
+- Codex Repository Validation passed with non-blocking notes.
+- Teacher Learning Validation passed.
+- `cargo check` passed.
+- `cargo test` passed.
+- Final test count: 39 passed.
+
+Implementation Summary:
+
+- Continued from the official Sprint-08 `wallet_cli` baseline.
+- Introduced `MockWalletState`.
+- Used private state fields and `HashMap<String, u64>` for deterministic mock balances.
+- Implemented read-only balance lookup through immutable borrowing.
+- Implemented deterministic mock credit behavior through mutable borrowing.
+- Added `run_with_state(args: &[String], state: &mut MockWalletState) -> Result<String, CliError>`.
+- Kept `run(args)` as the simple public workflow API by creating temporary state and delegating to `run_with_state`.
+- Updated balance and transfer user-facing output.
+- Cleaned crate-root public exports to expose the selected public workflow/state API.
+- Added tests for state initialization, read-only behavior, mutation behavior, and no-mutation-on-error behavior.
+
+Rust Capabilities Reinforced:
+
+- owned values and state ownership;
+- `let mut` versus `&mut`;
+- `&self` versus `&mut self`;
+- immutable borrowing;
+- mutable borrowing;
+- `HashMap`;
+- `HashMap::entry(...).or_insert(...)`;
+- `impl Into<String>`;
+- crate public facade versus internal module paths;
+- public workflow/state API reasoning;
+- state transition tests;
+- no-mutation-on-error tests.
+
+Governance Notes:
+
+- Sprint-09 counts as completed learning progress.
+- Sprint-09 remained inside Stage 1 Rust Foundations.
+- No Sprint-07 learning progress is credited.
+- Governance repository validation and `wallet_cli` learning-project validation must remain separate.
+- Tests should support the primary Rust learning objective and should not dominate implementation-heavy Rust Foundations sprints.
+- Future Teachers should teach newly required Rust concepts directly rather than silently avoiding them.
+
+Non-Blocking Follow-up Areas:
+
+- Optional future improvement: add invalid transfer address no-mutation coverage.
+- Future public API cleanup: decide whether `CliError` should be re-exported from the crate root because `run` and `run_with_state` return `Result<String, CliError>`.
+
+Next Focus:
+
+- Review and commit Sprint-09 closure governance updates.
+- Commit the separate `wallet_cli` Sprint-09 implementation.
+- Decide whether to authorize the next Stage 1 Rust Foundations step / Sprint-10 Specification Review.

@@ -81,6 +81,35 @@ Expected outputs include:
 
 Repository-oriented reporting should be preferred over conversational reflection.
 
+## Cross-Agent Action Requests
+
+When a Teacher, Architect, Review Agent, or other participating agent asks the learner to forward work to another agent, the request should be complete enough to execute without the learner reconstructing missing operational context.
+
+This applies to requests for:
+
+- Architect review;
+- Teacher takeover or continuation;
+- Codex repository updates;
+- Codex repository validation;
+- roadmap or closure review;
+- governance synchronization;
+- handover or replacement.
+
+Minimum fields:
+
+1. Request target
+2. Purpose
+3. Current authoritative state
+4. Relevant files or evidence reviewed
+5. Decision or action requested
+6. Scope boundaries and non-goals
+7. Expected output
+8. Authorization status
+
+Short informal summaries may be used for learner-facing discussion, but they should not be presented as the complete request when another agent is expected to act on them.
+
+If the request is intentionally lightweight, the agent should say what is being omitted and why the limited request is sufficient.
+
 ## Observation Lifecycle
 
 Observations should eventually become:

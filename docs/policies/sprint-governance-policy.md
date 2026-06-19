@@ -47,6 +47,113 @@ Purpose:
 - prevent both oversized and undersized sprint design;
 - ensure the sprint can produce meaningful capability growth within the approved stage.
 
+## Sprint Workflow Contracts
+
+Each sprint phase should have a clear purpose, owner, decision boundary, and output.
+
+Agents may use judgment inside these boundaries, but they should not leave the learner to infer missing workflow steps or translate informal recommendations into operational requests.
+
+### Specification Review
+
+Purpose:
+Evaluate the next candidate sprint before roadmap creation or execution.
+
+Primary owner:
+Teacher, with Architect review when scope, stage alignment, workflow separation, or governance consistency is uncertain.
+
+Required work:
+
+- confirm the current stage, active sprint state, and previous sprint outcome;
+- review the relevant roadmap, closure, failure review, handover, and current-state files;
+- identify the candidate sprint direction;
+- explain why the direction fits the current stage and long-term roadmap;
+- define proposed scope and explicit non-goals;
+- identify expected learner implementation work;
+- identify required tests, validation layers, and repository validation targets;
+- surface risks, ambiguities, and decisions needed before roadmap creation;
+- state whether execution is authorized, not authorized, or awaiting learner / Architect approval.
+
+Required output:
+A Specification Review report or cross-agent action request that is complete enough for the learner to forward without reconstructing missing context.
+
+A Specification Review recommendation does not authorize sprint execution by itself.
+
+### Sprint Roadmap
+
+Purpose:
+Convert an approved sprint direction into an executable learning plan.
+
+Primary owner:
+Teacher, with Architect review when governance risk exists.
+
+Required work:
+
+- define sprint identity, objective, stage alignment, scope, and non-goals;
+- define checkpoint sequence and expected learner decisions;
+- define implementation artifacts and testing requirements;
+- define Student Validation, Codex Repository Validation, and Teacher Learning Validation requirements;
+- define completion criteria.
+
+Required output:
+A roadmap draft or repository-ready roadmap update prompt.
+
+Roadmap creation or repository update requires learner approval.
+
+### Sprint Execution
+
+Purpose:
+Teach and validate the approved roadmap through checkpoint-based learning.
+
+Primary owner:
+Teacher for teaching and validation; learner for implementation.
+
+Required work:
+
+- teach the checkpoint concept and implementation boundary;
+- keep the learner as the primary implementer;
+- review source-level work before moving on when the checkpoint requires it;
+- keep scope aligned with the approved roadmap;
+- generate Codex validation prompts when formal repository validation is required.
+
+Required output:
+Checkpoint instructions, learner tasks, review feedback, validation prompts, and learning validation decisions as needed.
+
+### Sprint Closure
+
+Purpose:
+Decide whether the sprint counts as completed learning progress and preserve the outcome.
+
+Primary owner:
+Teacher, with Codex repository validation and learner review.
+
+Required work:
+
+- confirm Student Validation;
+- confirm Codex Repository Validation;
+- complete Teacher Learning Validation;
+- record completed work, capability growth, remaining gaps, scope compliance, and governance lessons;
+- identify recommended next actions without authorizing the next sprint by implication.
+
+Required output:
+A closure package or sprint review that is repository-ready when the sprint outcome should be preserved.
+
+### State Synchronization
+
+Purpose:
+Keep current-state files aligned with durable sprint outcomes.
+
+Primary owner:
+Teacher or Architect for deciding what needs synchronization; Codex for repository updates when prompted by the learner.
+
+Required work:
+
+- identify which current-state files would mislead future agents if left unchanged;
+- keep state updates scoped to meaningful milestones;
+- avoid mixing governance repository updates with separate learning-project validation.
+
+Required output:
+A complete Codex prompt when repository updates are required.
+
 ## Task Granularity
 
 Avoid both oversized and undersized learning tasks.

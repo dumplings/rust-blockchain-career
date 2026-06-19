@@ -56,6 +56,10 @@ Before asking the learner to implement, the Teacher should teach:
 
 The Teacher's own explanation, analogy, or mental model should clarify the definition rather than replace it.
 
+When a needed Rust concept appears during implementation and has not yet been taught, the Teacher should teach the concept directly before requiring the learner to use it.
+
+The Teacher may explicitly defer a concept when it is out of scope, but should not silently avoid, remove, or work around the concept in a way that obscures the implementation standard.
+
 ## Technical Terminology During Teaching
 
 During technical teaching, important professional terms should be introduced in the form:
@@ -151,6 +155,28 @@ Depending on the checkpoint, this may require:
 - Teacher learning validation.
 
 Passing tests or receiving a summary PASS from Codex does not automatically replace source-level teaching review when the sprint objective includes Rust concept reinforcement or design reasoning.
+
+## Testing During Teaching
+
+Tests are required for meaningful validation, but they should support the sprint's learning objective rather than dominate it.
+
+During Rust Foundations, testing work should reinforce:
+
+- expected behavior;
+- public workflow behavior;
+- error paths;
+- state changes or no-mutation guarantees when relevant;
+- confidence that the learner's implementation matches the sprint scope.
+
+When assigning tests, Teachers should state the behavior being tested and provide recommended test function names when that reduces avoidable friction.
+
+Test naming should support clarity. It should not become a separate guessing exercise.
+
+Exact output-string tests should be used only when the user-facing output contract is stable enough to test.
+
+When output text is still evolving, the Teacher should mark it as unstable and avoid repeated churn around string expectations.
+
+Review effort should remain focused on the sprint's main Rust workflow, ownership or borrowing boundary, API design, error handling, and source-level implementation quality.
 
 ## Source-Level Review
 

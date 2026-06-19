@@ -147,6 +147,12 @@ This keeps responsibilities separated:
 - Codex validates repository state, test status, file changes, architecture, and scope compliance;
 - Teacher validates understanding, design reasoning, and concept mastery.
 
+After learner local self-check, a concise confirmation such as "self-check done" may be enough for the Teacher to generate the Codex validation prompt.
+
+The learner should not be required to paste detailed raw command output by default.
+
+The Teacher may ask for specific output when it is needed to diagnose a problem, but learner-reported output should not replace formal Codex repository validation when validation is required.
+
 ## Prompt Formatting Safety
 
 When an agent generates a Codex prompt that creates or updates Markdown repository files, the prompt should avoid unsafe nested Markdown code fences.

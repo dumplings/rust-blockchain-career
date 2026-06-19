@@ -28,7 +28,7 @@ docs/        Durable policies, agent startup docs, and human runbooks
 notes/        Study notes and topic summaries
 roadmaps/     Learning roadmaps and sprint plans
 reviews/      Sprint reviews and progress evaluations
-templates/    Reusable templates for logs, notes, reviews, and handovers
+templates/    Reusable templates for logs, notes, specification reviews, sprint reviews, and handovers
 assets/       Images, diagrams, screenshots, and exported materials
 ```
 
