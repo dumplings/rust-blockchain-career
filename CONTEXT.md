@@ -14,11 +14,11 @@ None active.
 
 ## Current Milestone
 
-Sprint-09 completed and closed.
+Sprint-10 completed and closed.
 
-Sprint-09 `wallet_cli` implementation passed final validation.
+Sprint-10 `wallet_cli` implementation passed final validation.
 
-Candidate next focus: next Stage 1 Rust Foundations reinforcement step / Sprint-10 Specification Review, pending learner or Architect authorization.
+Candidate next focus: future Stage 1 Rust Foundations continuation / next specification review, pending learner or Architect authorization.
 
 ## Current Governance Status
 
@@ -44,23 +44,26 @@ Sprint-08 is complete and closed. No Sprint-08 execution work remains active.
 
 Sprint-09 is complete and closed. No Sprint-09 execution work remains active.
 
-Before starting the next sprint, the Teacher should read:
+Sprint-10 is complete and closed. No Sprint-10 execution work remains active.
+
+Before starting the next sprint or future specification review, the Teacher should read:
 
 - latest `AGENTS.md`;
+- current `CONTEXT.md`;
+- current `TODO.md`;
+- `roadmaps/master-roadmap.md`;
 - `docs/policies/teacher-execution-policy.md`;
 - `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/codex-collaboration-policy.md`;
 - `docs/policies/language-output-policy.md`;
+- `roadmaps/sprint-10.md`;
+- `reviews/sprint-10-closure.md`;
 - `roadmaps/sprint-09.md`;
 - `reviews/sprint-09-closure.md`;
-- `roadmaps/sprint-08.md`;
-- `reviews/sprint-08-closure.md`;
-- `reviews/sprint-06-closure.md`;
-- `roadmaps/sprint-07.md`;
-- `reviews/sprint-07-attempt-1-failure-review.md`;
-- `reviews/architect-retirement-handover-2026-06-13.md`;
-- current `CONTEXT.md`;
 - current `learning-log.md`.
+
+Sprint-08 files may be used as project-baseline background when needed.
+
+Older Sprint-06 and Sprint-07 files are historical background only, not mandatory startup material, unless a governance ambiguity or historical failure question requires them.
 
 ## Current Learning Profile
 
@@ -95,7 +98,9 @@ Before starting the next sprint, the Teacher should read:
 - Created and accepted Sprint-08 roadmap;
 - Completed and closed Sprint-08;
 - Created and accepted Sprint-09 roadmap;
-- Completed and closed Sprint-09.
+- Completed and closed Sprint-09;
+- Created Sprint-10 roadmap;
+- Completed and closed Sprint-10.
 
 ## Current Repository Structure
 
@@ -129,14 +134,14 @@ No active learning sprint.
 
 Current focus:
 
-- review and commit Sprint-09 closure governance updates;
-- commit the separate `wallet_cli` Sprint-09 implementation;
-- decide whether to authorize the next Stage 1 Rust Foundations step / Sprint-10 Specification Review;
+- review and commit Sprint-10 closure governance updates;
+- commit the separate `wallet_cli` Sprint-10 implementation;
+- decide whether to authorize the next Stage 1 Rust Foundations step / future specification review;
 - continue Stage 1 Rust Foundations reinforcement;
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
 - keep governance repository validation separate from learning-project validation;
-- avoid Solana, Async Rust, Tokio, blockchain networking, or large architecture work unless explicitly approved by a future sprint roadmap.
+- avoid Solana, Async Rust, Tokio, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap.
 
 ## Sprint-01 Milestone Summary
 
@@ -216,7 +221,7 @@ Key outcomes:
 
 ## Next Focus
 
-- next Stage 1 Rust Foundations reinforcement step / Sprint-10 Specification Review, pending learner or Architect authorization;
+- decide whether to authorize the next Stage 1 Rust Foundations step / future specification review;
 - continued Rust Fundamentals reinforcement;
 - maintain strict workflow separation between `rust-blockchain-career` governance validation and `wallet_cli` learning-project validation.
 
@@ -259,6 +264,10 @@ Sprint-09 roadmap was created and accepted.
 
 Sprint-09 completed and closed with final status PASS / CLOSED.
 
+Sprint-10 roadmap was created and accepted.
+
+Sprint-10 completed and closed with final status PASS / CLOSED.
+
 Sprint-08 `wallet_cli` implementation summary:
 
 - project was created from scratch during Sprint-08 at `/Users/dumplings/workspace/wallet_cli`;
@@ -288,6 +297,20 @@ Sprint-09 `wallet_cli` implementation summary:
 - preserved non-persistent CLI state boundary;
 - no real wallet, persistence, Solana, RPC, async/Tokio, signing, sender-account, insufficient-funds, or blockchain semantics were introduced.
 
+Sprint-10 `wallet_cli` implementation summary:
+
+- project continued from the official Sprint-09 `wallet_cli` baseline;
+- Student Validation passed;
+- Codex Repository Validation passed;
+- Teacher Learning Validation passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test count: 42 passed;
+- `CliError` was re-exported from the crate root;
+- `run`, `run_with_state`, `MockWalletState`, and `CliError` form the intended crate-root public API;
+- lower-level errors, command parsing, domain types, and output helpers remain internal to the crate facade;
+- no new dependencies or out-of-scope behavior were introduced.
+
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
 Sprint-07 is reserved as an abnormal sprint record, not a normal completed sprint.
@@ -300,7 +323,7 @@ Future agents should not assume any Sprint-07 Attempt-1 `wallet_cli` code exists
 
 The discarded Sprint-07 `wallet_cli` attempt remains uncredited.
 
-The next real teaching sprint should use Sprint-10 numbering if the learner authorizes another sprint.
+The next real teaching sprint or specification review should require explicit learner or Architect authorization.
 
 ## Future System Notes
 
@@ -337,7 +360,7 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Assessment:
 
-Sprint-09 Closure Report
+Sprint-10 Closure Report
 
 Result:
 
@@ -345,24 +368,25 @@ PASS / CLOSED
 
 Summary:
 
-Sprint-09 completed the `wallet_cli` in-memory mock state workflow and passed all required validation layers.
+Sprint-10 completed the Stage 1 Rust Foundations sprint:
+
+`wallet_cli v0.3 — Public API Contract + Error Boundary Cleanup`
+
+Sprint-10 continued from the official Sprint-09 `wallet_cli` baseline and passed Student Validation, Codex Repository Validation, and Teacher Learning Validation.
 
 Learning outcomes:
 
-- state ownership;
-- immutable borrowing through read-only balance behavior;
-- mutable borrowing through deterministic mock credit behavior;
-- `HashMap` state modeling;
-- `HashMap::entry(...).or_insert(...)`;
-- public workflow/state API reasoning;
-- crate-root public API cleanup;
-- internal module path reasoning;
-- state transition tests;
-- no-mutation-on-error tests.
+- crate-root public facade;
+- `CliError` public error contract;
+- `run`, `run_with_state`, and `MockWalletState` public API status;
+- lower-level error visibility decisions;
+- `pub use`;
+- `Result<T, E>` as public API contract;
+- limited public API validation tests.
 
 Recommendation:
 
-Consider authorizing the next Stage 1 Rust Foundations step / Sprint-10 Specification Review. Continue Rust Fundamentals reinforcement. Do not credit Sprint-07 learning progress.
+Review and commit Sprint-10 closure governance updates. Commit the separate `wallet_cli` Sprint-10 implementation. Decide whether to authorize the next Stage 1 Rust Foundations step / future specification review. Continue Rust Fundamentals reinforcement. Keep governance repository validation separate from `wallet_cli` learning-project validation. Do not credit Sprint-07 learning progress.
 
 ## Active Learning Strategy
 

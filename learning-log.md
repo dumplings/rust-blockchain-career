@@ -427,3 +427,99 @@ Next Focus:
 - Review and commit Sprint-09 closure governance updates.
 - Commit the separate `wallet_cli` Sprint-09 implementation.
 - Decide whether to authorize the next Stage 1 Rust Foundations step / Sprint-10 Specification Review.
+
+### Sprint-10 Roadmap Draft
+
+Outcome:
+
+Roadmap drafted / Execution not authorized
+
+Sprint:
+
+`wallet_cli v0.3 - Public API Contract + Error Boundary Cleanup`
+
+Stage:
+
+Stage 1 - Rust Foundations
+
+Repository Asset:
+
+- `roadmaps/sprint-10.md`
+
+Planning Summary:
+
+- Sprint-10 is proposed as a continuation from the official Sprint-09 `wallet_cli` baseline.
+- The central learning decision is whether `CliError` should be re-exported from the crate root because public workflow functions return `Result<String, CliError>`.
+- The sprint should cover the broader public API contract, including crate-root facade design, lower-level error visibility, public status of `run`, `run_with_state`, and `MockWalletState`, and limited public API validation tests.
+- Testing should support public API validation and must not dominate the sprint.
+
+Governance Notes:
+
+- Sprint-10 execution has not started.
+- Sprint-10 execution requires explicit learner approval after roadmap creation.
+- The `wallet_cli` learning project was not modified by roadmap creation.
+- Governance repository validation and `wallet_cli` learning-project validation must remain separate.
+- No Sprint-07 learning progress is credited.
+
+Next Focus:
+
+- Review and commit Sprint-10 roadmap and current-state governance updates.
+- Decide whether to explicitly authorize Sprint-10 execution from `roadmaps/sprint-10.md`.
+
+### Sprint-10 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Sprint:
+
+`wallet_cli v0.3 - Public API Contract + Error Boundary Cleanup`
+
+Stage:
+
+Stage 1 - Rust Foundations
+
+Validation:
+
+- Student Validation passed.
+- Codex Repository Validation passed.
+- Teacher Learning Validation passed.
+- `cargo check` passed.
+- `cargo test` passed.
+- Final test count: 42 passed.
+
+Implementation Summary:
+
+- Continued from the official Sprint-09 `wallet_cli` baseline.
+- Re-exported `CliError` from the crate root.
+- Confirmed `run`, `run_with_state`, `MockWalletState`, and `CliError` as the intended crate-root public API.
+- Kept `CommandParseError` and `DomainValidationError` as lower-level internal errors.
+- Kept lower-level command, domain, and output helpers internal.
+- Added limited public API validation tests for external-caller usage.
+- Preserved Sprint-08 and Sprint-09 behavior.
+- Introduced no new dependencies or product behavior.
+
+Rust Capabilities Reinforced:
+
+- public API contract reasoning;
+- crate-root public facade design;
+- `pub use`;
+- `Result<T, E>` as public API contract;
+- public error boundary reasoning;
+- lower-level error internalization;
+- limited integration-style public API tests;
+- visibility and module boundary discipline.
+
+Governance Notes:
+
+- Sprint-10 counts as completed learning progress.
+- No Sprint-07 learning progress is credited.
+- Governance repository validation and `wallet_cli` learning-project validation must remain separate.
+- `CliError` is public and its variants still reflect lower-level parse/domain categories; this is a non-blocking future design note, not a Sprint-10 closure blocker.
+
+Next Focus:
+
+- Review and commit Sprint-10 closure governance updates.
+- Commit the separate `wallet_cli` Sprint-10 implementation.
+- Decide whether to authorize the next Stage 1 Rust Foundations step / future specification review.
