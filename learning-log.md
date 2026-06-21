@@ -589,3 +589,39 @@ Next Focus:
 - Review and commit Sprint-11 closure governance updates.
 - Commit the separate `wallet_cli` Sprint-11 implementation.
 - Decide whether to authorize Stage 1 exit assessment, a new Stage 1 Rust Foundations project, Stage 2 Rust Engineering preparation, or another Architect-approved next step.
+
+### Stage 1 Exit Assessment Specification
+
+Outcome:
+
+Specification accepted / Execution not started
+
+Repository Asset:
+
+- `roadmaps/stage-1-exit-assessment.md`
+
+Governance Assets Updated:
+
+- `docs/policies/sprint-governance-policy.md`
+- `templates/specification-review-template.md`
+
+Purpose:
+
+- Define a Stage 1 Exit Assessment before deciding whether to advance to Stage 2.
+- Evaluate Stage 1 capability through a high-density assessment rather than another low-density `wallet_cli` continuation.
+- Preserve the conclusion that `wallet_cli` is sufficiently exhausted for Stage 1 Rust Foundations.
+- Add explicit learning-density and project-continuation checks to sprint planning governance.
+
+Assessment Intent:
+
+- Verify ownership and borrowing in project context.
+- Verify intentional `Result` and error propagation.
+- Verify module boundaries and crate-root public API reasoning.
+- Verify small Rust project navigation.
+- Verify meaningful but limited testing habits.
+- Use a small fresh assessment project by default rather than extending `wallet_cli`.
+
+Next Focus:
+
+- Review and commit learning-density governance updates and Stage 1 Exit Assessment specification.
+- Open a dedicated Stage 1 Exit Assessment Teacher window.
