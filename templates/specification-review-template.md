@@ -38,6 +38,19 @@ Required files usually include:
 
 State the candidate sprint direction in one or two paragraphs.
 
+## Learning Density And Project Continuation
+
+Assess whether the proposed sprint has enough learning density to justify a dedicated sprint.
+
+Address:
+
+- whether the sprint is at risk of being too small or too diffuse;
+- whether related remaining work should be consolidated into one sprint;
+- whether the proposed project still has meaningful learning value for the current stage;
+- whether the project should be continued, finalized through a consolidation sprint, replaced by a new project, or followed by a stage exit assessment.
+
+If the same project has already been used across multiple sprints, explicitly state whether the project is still worth continuing and why.
+
 ## Stage Alignment
 
 Explain why the proposed direction fits the current stage and long-term roadmap.
@@ -76,7 +89,7 @@ Repository validation target:
 
 ## Risks And Ambiguities
 
-List scope risks, stage-alignment risks, workflow risks, technical ambiguities, or missing information.
+List scope risks, stage-alignment risks, learning-density risks, project-exhaustion risks, workflow risks, technical ambiguities, or missing information.
 
 ## Decisions Needed
 
@@ -88,6 +101,7 @@ Examples:
 - Architect review;
 - scope revision;
 - repository update;
+- project continuation or exit decision;
 - replacement of the proposed direction.
 
 ## Recommended Next Action

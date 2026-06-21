@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This policy defines sprint design, execution, review, closure, roadmap ownership, and failed-sprint handling.
+This policy defines sprint design, execution, review, closure, roadmap ownership, learning density, project continuation, and failed-sprint handling.
 
 Use this file for:
 
@@ -10,6 +10,7 @@ Use this file for:
 - sprint roadmap creation or review;
 - sprint execution boundary checks;
 - sprint closure;
+- learning-density and project-continuation decisions;
 - failed or discarded sprint attempts;
 - current-state synchronization.
 
@@ -44,6 +45,8 @@ Purpose:
 - verify scope;
 - verify deliverables;
 - verify sprint size;
+- verify learning density;
+- evaluate project continuation when the same project has been used across multiple sprints;
 - prevent both oversized and undersized sprint design;
 - ensure the sprint can produce meaningful capability growth within the approved stage.
 
@@ -67,6 +70,8 @@ Required work:
 - review the relevant roadmap, closure, failure review, handover, and current-state files;
 - identify the candidate sprint direction;
 - explain why the direction fits the current stage and long-term roadmap;
+- assess expected learning density, not only sprint size;
+- when continuing an existing learning project, assess the remaining project learning value;
 - define proposed scope and explicit non-goals;
 - identify expected learner implementation work;
 - identify required tests, validation layers, and repository validation targets;
@@ -89,6 +94,7 @@ Teacher, with Architect review when governance risk exists.
 Required work:
 
 - define sprint identity, objective, stage alignment, scope, and non-goals;
+- define how the sprint maintains sufficient learning density;
 - define checkpoint sequence and expected learner decisions;
 - define implementation artifacts and testing requirements;
 - define Student Validation, Codex Repository Validation, and Teacher Learning Validation requirements;
@@ -154,13 +160,19 @@ Required work:
 Required output:
 A complete Codex prompt when repository updates are required.
 
-## Task Granularity
+## Sprint Size, Learning Density, And Project Continuation
 
 Avoid both oversized and undersized learning tasks.
 
 Sprint design should optimize for learning throughput, not minimum task size.
 
+Sprint size and learning density are related but separate.
+
 A sprint should be bounded enough to avoid long-context drift, but substantial enough to create meaningful capability growth.
+
+Learning density means the sprint contains enough meaningful concepts, implementation work, design decisions, and explanation requirements to justify a dedicated learning cycle.
+
+A sprint may be somewhat larger when its theme is cohesive, its non-goals are clear, and it prevents a learning thread from being split into multiple low-density follow-up sprints.
 
 Preferred sprint shape:
 
@@ -168,6 +180,7 @@ Preferred sprint shape:
 - two to four connected implementation tasks or implementation artifacts;
 - at least one meaningful learner design decision;
 - at least one required test addition or test update when code behavior or public API behavior changes;
+- one clear explanation or design-reasoning target;
 - one final validation cycle.
 
 Preferred workflow:
@@ -186,11 +199,12 @@ A sprint is likely undersized if it:
 - includes no meaningful learner decision;
 - adds no new test or test update when behavior or public API expectations changed;
 - ends with mostly review or discussion and very little implementation;
+- continues an existing project with only isolated cleanup, style polish, or small test adjustments;
 - could reasonably be completed as a small task inside a larger sprint.
 
-When a sprint appears undersized, the Teacher should increase implementation density within the same approved stage and theme instead of expanding into unrelated projects or topics.
+When a sprint appears undersized, the Teacher should increase learning density within the same approved stage and theme instead of expanding into unrelated projects or topics.
 
-For Stage 1: Rust Foundations, increasing implementation density may include:
+For Stage 1: Rust Foundations, increasing learning density may include:
 
 - adding a closely related implementation step;
 - adding or updating tests;
@@ -200,6 +214,37 @@ For Stage 1: Rust Foundations, increasing implementation density may include:
 - requiring a clearer learner design decision before implementation.
 
 Increasing sprint substance must not be used as justification to jump prematurely into unrelated topics such as blockchain concepts, Solana, Async Rust, Tokio, trait-heavy abstraction, generic-heavy refactor, or large architecture redesign.
+
+Tests may support learning density, but test expansion should not be used as filler. When the learner has explicitly lower priority for testing workload, tests should validate the sprint's core contract without becoming the main learning burden.
+
+## Project Continuation And Exhaustion
+
+When the same learning project has been used across multiple sprints, the next Specification Review should assess whether continuing the project still creates meaningful learning value.
+
+Continuing the same project is appropriate when:
+
+- high-value concepts remain unpracticed or weak;
+- the next work reinforces the active stage objective;
+- the project still supports meaningful learner implementation and design decisions;
+- the remaining work can be organized as a cohesive sprint rather than scattered cleanup.
+
+The Teacher should recommend a final consolidation sprint when:
+
+- several related remaining issues can be resolved together;
+- continuing the project one more time would produce meaningful capability growth;
+- splitting the remaining issues would create low-density follow-up sprints;
+- the project is close to exhausting its value for the current stage.
+
+The Teacher should recommend leaving the project when:
+
+- remaining work is mostly polish, small isolated fixes, broad test expansion, or feature accumulation;
+- continuing would mainly preserve momentum rather than teach a meaningful capability;
+- a new project, stage exit assessment, or stage transition would produce better learning density;
+- the project has already served its role for the current stage.
+
+After a project is declared sufficiently exhausted for a stage, future sprints should not continue it by default.
+
+Revisiting an exhausted project requires an explicit new high-value reason, such as a stage-appropriate assessment finding, a new stage objective, or a clearly justified integration need.
 
 ## Roadmap Ownership
 
