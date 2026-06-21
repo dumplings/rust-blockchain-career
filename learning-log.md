@@ -523,3 +523,69 @@ Next Focus:
 - Review and commit Sprint-10 closure governance updates.
 - Commit the separate `wallet_cli` Sprint-10 implementation.
 - Decide whether to authorize the next Stage 1 Rust Foundations step / future specification review.
+
+## 2026-06-21
+
+### Sprint-11 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Sprint:
+
+`wallet_cli v0.4 - Final Public Error Contract + Source-Level Consolidation`
+
+Stage:
+
+Stage 1 - Rust Foundations
+
+Validation:
+
+- Student Validation passed.
+- Codex Repository Validation passed.
+- Teacher Learning Validation passed.
+- `cargo check` passed.
+- `cargo test` passed.
+- Final test count: 42 passed.
+
+Implementation Summary:
+
+- Continued from the official Sprint-10 `wallet_cli` baseline.
+- Completed the final public error contract cleanup.
+- Redesigned `CliError` as a public struct with private fields.
+- Introduced public `CliErrorKind`.
+- Re-exported `CliErrorKind` from the crate root.
+- Kept `wallet_cli::run`, `wallet_cli::run_with_state`, `wallet_cli::MockWalletState`, `wallet_cli::CliError`, and `wallet_cli::CliErrorKind` as the intended final public API.
+- Removed lower-level parse/domain error exposure from public `CliError` variants and public fields.
+- Preserved `From<CommandParseError>` and `From<DomainValidationError>` mapping into public `CliError`.
+- Preserved `Display for CliError` as the user-facing formatting boundary.
+- Updated workflow/public API tests to use `error.kind()` and `CliErrorKind`.
+- Preserved Sprint-08, Sprint-09, and Sprint-10 behavior.
+- Introduced no new dependencies or out-of-scope behavior.
+
+Rust Capabilities Reinforced:
+
+- public error contract reasoning;
+- public enum variant exposure reasoning;
+- public struct with private fields;
+- public error kind design;
+- internal error mapping through `From`;
+- `Display` as user-facing formatting boundary;
+- crate-root public facade stability;
+- public API / workflow tests;
+- source-level consolidation discipline.
+
+Governance Notes:
+
+- Sprint-11 counts as completed Stage 1 Rust Foundations learning progress.
+- No Sprint-07 learning progress is credited.
+- Governance repository validation and `wallet_cli` learning-project validation must remain separate.
+- `wallet_cli` is considered sufficiently exhausted for Stage 1 Rust Foundations unless a future review explicitly finds a new high-value reason to revisit it.
+- Future checkpoints should use Codex for repository/source inspection after meaningful implementation changes, while keeping learner self-check as a local aid rather than the primary review source.
+
+Next Focus:
+
+- Review and commit Sprint-11 closure governance updates.
+- Commit the separate `wallet_cli` Sprint-11 implementation.
+- Decide whether to authorize Stage 1 exit assessment, a new Stage 1 Rust Foundations project, Stage 2 Rust Engineering preparation, or another Architect-approved next step.
