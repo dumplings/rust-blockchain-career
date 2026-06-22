@@ -4,7 +4,7 @@
 
 - Assessment name: Stage 1 Exit Assessment
 - Stage under review: Stage 1 - Rust Foundations
-- Assessment status: Specification drafted / Execution not authorized
+- Assessment status: PASS / CLOSED
 - Primary purpose: decide whether the learner is ready to leave Stage 1 and begin Stage 2 Rust Engineering
 - Primary evaluator: Teacher Agent
 - Repository validation: Codex, if the assessment includes code changes
@@ -14,11 +14,13 @@ This assessment is not Sprint-12.
 
 This assessment does not start a new learning sprint by itself.
 
-Execution requires explicit learner approval after this specification is reviewed.
+Execution required explicit learner approval after this specification was reviewed.
 
-## 2. Current State Basis
+The assessment was later completed and recorded in `reviews/stage-1-exit-assessment.md`.
 
-Authoritative current state:
+## 2. Assessment-Time State Basis
+
+Authoritative state when this assessment was specified:
 
 - Current stage: Stage 1 - Rust Foundations
 - Current active sprint: None
@@ -298,10 +300,16 @@ The Teacher may recommend a next direction after assessment, but stage transitio
 
 ## 14. Recommended Next Action
 
-Review this specification with the learner.
+The assessment has been completed.
 
-If accepted, open a dedicated Teacher window for:
+Final result:
 
-`Stage 1 Exit Assessment`
+PASS - Advance To Stage 2
 
-The Teacher should execute the assessment according to this specification and produce `reviews/stage-1-exit-assessment.md` after validation.
+Final report:
+
+`reviews/stage-1-exit-assessment.md`
+
+Recommended next action:
+
+Run a separate Stage 2 Specification Review before drafting or starting Sprint-12.

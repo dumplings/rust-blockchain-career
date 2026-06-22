@@ -6,7 +6,7 @@ Become job-ready for entry-level Rust + Blockchain development within 60 days.
 
 ## Current Stage
 
-Stage 1: Rust Foundations
+Stage 2: Rust Engineering
 
 ## Current Sprint
 
@@ -14,17 +14,17 @@ None active.
 
 ## Current Milestone
 
-Stage 1 Exit Assessment specification accepted.
+Stage 1 Exit Assessment completed and closed.
 
-Specification exists at `roadmaps/stage-1-exit-assessment.md`.
+Final report exists at `reviews/stage-1-exit-assessment.md`.
 
-Assessment execution has not started.
+Final result: PASS - Advance To Stage 2.
 
 Sprint-11 completed and closed. Sprint-11 `wallet_cli` implementation passed final validation.
 
 `wallet_cli` is considered sufficiently exhausted for Stage 1 Rust Foundations unless a future review explicitly finds a new high-value reason to revisit it.
 
-Candidate next focus: open a dedicated Stage 1 Exit Assessment Teacher window and execute the assessment according to `roadmaps/stage-1-exit-assessment.md`.
+Candidate next focus: run a separate Stage 2 Specification Review before drafting or starting Sprint-12.
 
 ## Current Governance Status
 
@@ -54,6 +54,10 @@ Sprint-10 is complete and closed. No Sprint-10 execution work remains active.
 
 Sprint-11 is complete and closed. No Sprint-11 execution work remains active.
 
+Stage 1 Exit Assessment is complete and closed. It counts as the Stage 1 exit decision.
+
+Stage 2 has not started as an execution sprint. No Sprint-12 roadmap or execution has been authorized.
+
 Before starting the next sprint or future specification review, the Teacher should read:
 
 - latest `AGENTS.md`;
@@ -63,14 +67,13 @@ Before starting the next sprint or future specification review, the Teacher shou
 - `docs/policies/teacher-execution-policy.md`;
 - `docs/policies/sprint-governance-policy.md`;
 - `docs/policies/language-output-policy.md`;
-- `roadmaps/stage-1-exit-assessment.md`, if executing the Stage 1 Exit Assessment;
+- `roadmaps/stage-1-exit-assessment.md`;
+- `reviews/stage-1-exit-assessment.md`;
 - `roadmaps/sprint-11.md`;
 - `reviews/sprint-11-closure.md`;
-- `roadmaps/sprint-10.md`;
-- `reviews/sprint-10-closure.md`;
 - current `learning-log.md`.
 
-Sprint-09 and Sprint-08 files may be used as project-baseline background when needed.
+Sprint-10, Sprint-09, and Sprint-08 files may be used as project-baseline background when needed.
 
 Older Sprint-06 and Sprint-07 files are historical background only, not mandatory startup material, unless a governance ambiguity or historical failure question requires them.
 
@@ -112,7 +115,9 @@ Older Sprint-06 and Sprint-07 files are historical background only, not mandator
 - Completed and closed Sprint-10;
 - Created Sprint-11 roadmap;
 - Completed and closed Sprint-11;
-- Created Stage 1 Exit Assessment specification.
+- Created Stage 1 Exit Assessment specification;
+- Completed and closed Stage 1 Exit Assessment;
+- Advanced to Stage 2: Rust Engineering.
 
 ## Current Repository Structure
 
@@ -146,13 +151,13 @@ No active learning sprint.
 
 Current focus:
 
-- commit learning-density governance updates and Stage 1 Exit Assessment specification;
-- open a dedicated Stage 1 Exit Assessment Teacher window;
-- continue Stage 1 Rust Foundations reinforcement;
+- review and commit Stage 1 Exit Assessment governance updates;
+- prepare a Stage 2 Specification Review;
+- begin Stage 2 Rust Engineering planning without starting Sprint-12 automatically;
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
 - keep governance repository validation separate from learning-project validation;
-- avoid Solana, Async Rust, Tokio, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap.
+- avoid Solana, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap.
 
 ## Sprint-01 Milestone Summary
 
@@ -232,9 +237,10 @@ Key outcomes:
 
 ## Next Focus
 
-- open a dedicated Stage 1 Exit Assessment Teacher window and execute the assessment;
-- continued Rust Fundamentals reinforcement;
-- maintain strict workflow separation between `rust-blockchain-career` governance validation and `wallet_cli` learning-project validation.
+- run a Stage 2 Specification Review;
+- decide the first Stage 2 Rust Engineering direction, scope, project, and validation plan;
+- continue reinforcing Rust Fundamentals inside larger Rust engineering work;
+- maintain strict workflow separation between `rust-blockchain-career` governance validation and separate learning-project validation.
 
 ## Known Risk
 
@@ -285,7 +291,9 @@ Sprint-11 completed and closed with final status PASS / CLOSED.
 
 Stage 1 Exit Assessment specification was created and accepted.
 
-Stage 1 Exit Assessment execution has not started.
+Stage 1 Exit Assessment completed and closed with final result PASS - Advance To Stage 2.
+
+Stage 2 is now the current learning stage, but Sprint-12 has not been drafted, authorized, or started.
 
 Sprint-08 `wallet_cli` implementation summary:
 
@@ -350,6 +358,23 @@ Sprint-11 `wallet_cli` implementation summary:
 - no new dependencies or out-of-scope behavior were introduced;
 - `wallet_cli` is considered sufficiently exhausted for Stage 1 Rust Foundations unless a future review explicitly finds a new high-value reason to revisit it.
 
+Stage 1 Exit Assessment `task_tracker` summary:
+
+- assessment used a fresh project at `/Users/dumplings/workspace/task_tracker`;
+- final report exists at `reviews/stage-1-exit-assessment.md`;
+- final result: PASS - Advance To Stage 2;
+- Student Validation passed;
+- Codex Repository Validation passed conditionally with non-blocking concerns;
+- Teacher Learning Validation passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test count: 4 passed;
+- project used no external dependencies;
+- project did not continue `wallet_cli`;
+- assessment stayed out of Solana, blockchain networking, real wallet behavior, persistence, async Rust, Tokio, `clap`, and large architecture work;
+- demonstrated ownership, borrowing, `Result`, error propagation, module boundaries, crate-root public API basics, limited testing habits, small-project navigation, and source-level tradeoff reasoning;
+- non-blocking reinforcement areas for Stage 2 include more precise `?` / `From` explanation, stronger success-path assertions, richer public error context when appropriate, and continued ownership / borrowing reasoning in larger codebases.
+
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
 Sprint-07 is reserved as an abnormal sprint record, not a normal completed sprint.
@@ -399,17 +424,17 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Assessment:
 
-Stage 1 Exit Assessment Specification Draft
+Stage 1 Exit Assessment
 
 Result:
 
-Specification accepted / Execution not started
+PASS - Advance To Stage 2
 
 Summary:
 
-`roadmaps/stage-1-exit-assessment.md` defines the proposed Stage 1 Exit Assessment.
+`reviews/stage-1-exit-assessment.md` records the completed Stage 1 Exit Assessment.
 
-The assessment is intended to decide whether the learner is ready to leave Stage 1 and begin Stage 2 Rust Engineering.
+The assessment decided that the learner is ready to leave Stage 1 and begin Stage 2 Rust Engineering.
 
 Assessment focus:
 
@@ -422,7 +447,7 @@ Assessment focus:
 
 Recommendation:
 
-Open a dedicated Teacher window for Stage 1 Exit Assessment and execute the assessment according to `roadmaps/stage-1-exit-assessment.md`. Keep governance repository validation separate from any assessment project validation. Do not credit Sprint-07 learning progress. Do not start or draft Sprint-12 without explicit authorization.
+Proceed to a separate Stage 2 Specification Review. Keep governance repository validation separate from any learning-project validation. Do not credit Sprint-07 learning progress. Do not start or draft Sprint-12 without explicit authorization.
 
 ## Active Learning Strategy
 
