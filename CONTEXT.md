@@ -69,6 +69,7 @@ Before starting the next sprint or future specification review, the Teacher shou
 - `docs/policies/language-output-policy.md`;
 - `roadmaps/stage-1-exit-assessment.md`;
 - `reviews/stage-1-exit-assessment.md`;
+- `reviews/architect-retirement-handover-2026-06-22.md`, if onboarding a new Architect;
 - `roadmaps/sprint-11.md`;
 - `reviews/sprint-11-closure.md`;
 - current `learning-log.md`.
@@ -257,9 +258,13 @@ The learning system should not depend on a single chat window, model, or AI plat
 
 The previous Architect retired after completing the Sprint-07 governance intervention.
 
+The Stage 2 transition Architect also retired after recording the Stage 1 Exit Assessment and Stage 2 transition.
+
 No Architect Agent is currently active.
 
 The next Teacher / Architect session should begin from the current governance baseline rather than assuming an active Architect is already in place.
+
+The latest Architect handover is `reviews/architect-retirement-handover-2026-06-22.md`.
 
 Sprint-03 is terminated / failed due to learning-system execution failure, not Rust knowledge failure.
 
