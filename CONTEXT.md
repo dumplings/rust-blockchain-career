@@ -6,7 +6,7 @@ Become job-ready for entry-level Rust + Blockchain development within 60 days.
 
 ## Current Stage
 
-Stage 2: Rust Engineering
+Stage 2 - Rust Engineering
 
 ## Current Sprint
 
@@ -14,17 +14,17 @@ None active.
 
 ## Current Milestone
 
-Stage 1 Exit Assessment completed and closed.
+Sprint-12 completed and closed.
 
-Final report exists at `reviews/stage-1-exit-assessment.md`.
+Final report exists at `reviews/sprint-12-closure.md`.
 
-Final result: PASS - Advance To Stage 2.
+Final result: PASS / CLOSED.
 
-Sprint-11 completed and closed. Sprint-11 `wallet_cli` implementation passed final validation.
+`devlog_cli` is the official Sprint-12 Stage 2 learning project foundation.
 
-`wallet_cli` is considered sufficiently exhausted for Stage 1 Rust Foundations unless a future review explicitly finds a new high-value reason to revisit it.
+Sprint-13 has not been drafted, authorized, or started.
 
-Candidate next focus: run a separate Stage 2 Specification Review before drafting or starting Sprint-12.
+Next recommended action: Sprint-13 Specification Review.
 
 ## Current Governance Status
 
@@ -56,7 +56,11 @@ Sprint-11 is complete and closed. No Sprint-11 execution work remains active.
 
 Stage 1 Exit Assessment is complete and closed. It counts as the Stage 1 exit decision.
 
-Stage 2 has not started as an execution sprint. No Sprint-12 roadmap or execution has been authorized.
+Sprint-12 is complete and closed. It counts as completed Stage 2 Rust Engineering learning progress.
+
+Current active sprint after Sprint-12 closure: None.
+
+Sprint-13 has not been drafted, authorized, or started.
 
 Before starting the next sprint or future specification review, the Teacher should read:
 
@@ -72,6 +76,8 @@ Before starting the next sprint or future specification review, the Teacher shou
 - `reviews/architect-retirement-handover-2026-06-22.md`, if onboarding a new Architect;
 - `roadmaps/sprint-11.md`;
 - `reviews/sprint-11-closure.md`;
+- `roadmaps/sprint-12.md`;
+- `reviews/sprint-12-closure.md`;
 - current `learning-log.md`.
 
 Sprint-10, Sprint-09, and Sprint-08 files may be used as project-baseline background when needed.
@@ -118,7 +124,9 @@ Older Sprint-06 and Sprint-07 files are historical background only, not mandator
 - Completed and closed Sprint-11;
 - Created Stage 1 Exit Assessment specification;
 - Completed and closed Stage 1 Exit Assessment;
-- Advanced to Stage 2: Rust Engineering.
+- Advanced to Stage 2: Rust Engineering;
+- Created Sprint-12 roadmap;
+- Completed and closed Sprint-12.
 
 ## Current Repository Structure
 
@@ -152,9 +160,11 @@ No active learning sprint.
 
 Current focus:
 
-- review and commit Stage 1 Exit Assessment governance updates;
-- prepare a Stage 2 Specification Review;
-- begin Stage 2 Rust Engineering planning without starting Sprint-12 automatically;
+- review and commit Sprint-12 closure governance updates;
+- run Sprint-13 Specification Review before drafting or starting Sprint-13;
+- decide whether to continue `devlog_cli` only through Sprint-13 Specification Review;
+- increase Rust-specific learning density in future Stage 2 sprint design;
+- preserve the Teacher direct review plus Codex formal validation collaboration model for Architect review;
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
 - keep governance repository validation separate from learning-project validation;
@@ -238,9 +248,10 @@ Key outcomes:
 
 ## Next Focus
 
-- run a Stage 2 Specification Review;
-- decide the first Stage 2 Rust Engineering direction, scope, project, and validation plan;
-- continue reinforcing Rust Fundamentals inside larger Rust engineering work;
+- review and commit Sprint-12 closure governance updates;
+- run Sprint-13 Specification Review before drafting or starting Sprint-13;
+- decide whether `devlog_cli` should continue only through Sprint-13 Specification Review;
+- increase Rust-specific learning density while continuing Stage 2 Rust Engineering;
 - maintain strict workflow separation between `rust-blockchain-career` governance validation and separate learning-project validation.
 
 ## Known Risk
@@ -298,7 +309,13 @@ Stage 1 Exit Assessment specification was created and accepted.
 
 Stage 1 Exit Assessment completed and closed with final result PASS - Advance To Stage 2.
 
-Stage 2 is now the current learning stage, but Sprint-12 has not been drafted, authorized, or started.
+Sprint-12 roadmap was created and accepted.
+
+Sprint-12 completed and closed with final status PASS / CLOSED.
+
+Stage 2 remains the current learning stage.
+
+No Sprint-13 roadmap or execution has been authorized.
 
 Sprint-08 `wallet_cli` implementation summary:
 
@@ -380,6 +397,24 @@ Stage 1 Exit Assessment `task_tracker` summary:
 - demonstrated ownership, borrowing, `Result`, error propagation, module boundaries, crate-root public API basics, limited testing habits, small-project navigation, and source-level tradeoff reasoning;
 - non-blocking reinforcement areas for Stage 2 include more precise `?` / `From` explanation, stronger success-path assertions, richer public error context when appropriate, and continued ownership / borrowing reasoning in larger codebases.
 
+Sprint-12 `devlog_cli` implementation summary:
+
+- project was created fresh during Sprint-12 at `/Users/dumplings/workspace/devlog_cli`;
+- final report exists at `reviews/sprint-12-closure.md`;
+- final result: PASS / CLOSED;
+- Student Validation passed;
+- Codex Repository Validation passed;
+- Teacher Learning Validation passed;
+- `cargo fmt --check` passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test count: 8 passed;
+- `devlog_cli` is the official Sprint-12 Stage 2 learning project foundation;
+- implementation introduced `DevLogEntry`, `EntryStore`, `DevLogError`, `DevLogErrorKind`, `serde`, `serde_json`, JSON serialization/deserialization, file-backed storage, workflow composition, crate-root public facade re-exports, and focused unit/integration tests;
+- Sprint-12 did not continue `wallet_cli`, did not turn `task_tracker` into the next teaching project, and did not reuse or credit Sprint-07 Attempt-1;
+- learner feedback: future Stage 2 sprints should increase the absolute amount of Rust-specific learning and practice, not only architecture discussion;
+- process observation: preserve the hybrid model of Teacher direct source review plus Codex formal full-project validation.
+
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
 Sprint-07 is reserved as an abnormal sprint record, not a normal completed sprint.
@@ -425,6 +460,26 @@ Upgrade principle:
 Do not restructure for structure's sake.
 Only split files or directories when the current structure starts to hurt maintenance, search, or handover.
 
+## Latest Sprint Closure
+
+Sprint:
+
+Sprint-12 - `devlog_cli v0.1 - Stage 2 Project Foundation`
+
+Result:
+
+PASS / CLOSED
+
+Summary:
+
+`reviews/sprint-12-closure.md` records the completed Sprint-12 closure.
+
+Sprint-12 created the official Stage 2 `devlog_cli` learning project foundation and validated dependency management, JSON serialization/deserialization, file-backed storage, workflow boundaries, public API facade design, maintainable public error boundary design, and focused tests.
+
+Recommendation:
+
+Run a separate Sprint-13 Specification Review. Do not draft, authorize, or start Sprint-13 from this closure report alone. Keep governance repository validation separate from learning-project validation. Do not credit Sprint-07 learning progress. Do not continue `wallet_cli` or `task_tracker` by default.
+
 ## Latest Assessment
 
 Assessment:
@@ -452,7 +507,7 @@ Assessment focus:
 
 Recommendation:
 
-Proceed to a separate Stage 2 Specification Review. Keep governance repository validation separate from any learning-project validation. Do not credit Sprint-07 learning progress. Do not start or draft Sprint-12 without explicit authorization.
+This assessment recommendation was completed by the later Stage 2 Specification Review, Sprint-12 roadmap, and Sprint-12 execution. Continue using it as the Stage 1 exit evidence, not as the current next action.
 
 ## Active Learning Strategy
 

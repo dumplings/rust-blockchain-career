@@ -673,3 +673,43 @@ Next Focus:
 - Run a separate Stage 2 Specification Review.
 - Do not start or draft Sprint-12 automatically from this assessment report alone.
 - Keep `task_tracker` separate from governance repository updates.
+
+## 2026-06-23
+
+### Sprint-12 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Project:
+
+`devlog_cli`
+
+Topics Learned:
+
+- dependency management
+- serde
+- serde_json
+- serialization
+- deserialization
+- JSON boundary
+- file IO boundary
+- storage boundary
+- workflow boundary
+- public API facade
+- maintainable error boundary
+- `From`
+- `?`
+- `ok_or_else`
+- `Path`
+- `AsRef<Path>`
+- integration tests
+- engineering tradeoffs
+
+Insights:
+
+- JSON string conversion and file IO should be separated.
+- `workflow.rs` composes lower-level boundaries.
+- Public errors protect external callers from internal implementation details.
+- Stage 2 requires more engineering structure, but future sprints should increase Rust-specific mechanics practice.
