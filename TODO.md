@@ -2,7 +2,7 @@
 
 - [ ] Review and commit Sprint-13 closure governance updates
 - [ ] Review and commit the Sprint-14 roadmap and closure governance updates
-- [ ] Decide whether to request a future Sprint-15 Specification Review; Sprint-15 is not drafted or authorized
+- [ ] Review the saved Sprint-15 roadmap and decide whether to authorize Sprint-15 execution
 - [ ] Commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it
 - [ ] Review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it
 - [ ] Preserve the Teacher direct review plus Codex formal validation collaboration model

@@ -826,3 +826,27 @@ Teaching Process Notes:
 Next Status:
 
 No active sprint. Sprint-15 is not drafted or authorized.
+
+## 2026-06-27
+
+### Sprint-15 Roadmap Save
+
+Outcome:
+
+Roadmap created. Execution not authorized.
+
+Repository Asset:
+
+- `roadmaps/sprint-15.md`
+
+Planning Summary:
+
+- Sprint-15 is a Stage 2 midpoint assessment roadmap.
+- The recommended assessment project is `rust_engineering_assessment` with the internal theme `record_store`.
+- Sprint-15 remains not active.
+- Sprint-15 execution is not authorized.
+- No Sprint-15 learning project has been created.
+
+Next Status:
+
+Review the saved Sprint-15 roadmap and decide whether to explicitly authorize Sprint-15 execution.

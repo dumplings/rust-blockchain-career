@@ -26,7 +26,11 @@ Sprint-14 consolidated value/reference reasoning, traits/generics, generic owner
 
 Current active sprint remains None.
 
-Sprint-15 is not drafted, not active, and not authorized.
+Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+
+Sprint-15 is not active, and execution is not authorized.
+
+No Sprint-15 learning project should be created until explicit learner authorization.
 
 ## Current Governance Status
 
@@ -66,7 +70,11 @@ Sprint-14 is complete and closed. It counts as completed Stage 2 Rust Engineerin
 
 Current active sprint after Sprint-14 closure: None.
 
-Sprint-15 is not drafted, not active, and not authorized.
+Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+
+Sprint-15 is not active, and execution is not authorized.
+
+No Sprint-15 learning project should be created until explicit learner authorization.
 
 Before any future sprint planning or execution, the Teacher should read:
 
@@ -140,7 +148,8 @@ Older Sprint-06 and Sprint-07 files are historical background only, not mandator
 - Created Sprint-13 roadmap;
 - Completed and closed Sprint-13;
 - Created Sprint-14 roadmap;
-- Completed and closed Sprint-14.
+- Completed and closed Sprint-14;
+- Created Sprint-15 roadmap for review only.
 
 ## Current Repository Structure
 
@@ -176,7 +185,7 @@ Current focus:
 
 - review and commit Sprint-13 closure governance updates;
 - review and commit the Sprint-14 roadmap and closure governance updates;
-- decide whether to request a future Sprint-15 Specification Review;
+- review the saved Sprint-15 roadmap and decide whether to authorize Sprint-15 execution;
 - commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
 - review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
 - carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
@@ -187,7 +196,11 @@ Current focus:
 - keep governance repository validation separate from learning-project validation;
 - avoid Solana, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap.
 
-Sprint-15 is not drafted, not active, and not authorized.
+Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+
+Sprint-15 is not active, and execution is not authorized.
+
+No Sprint-15 learning project should be created until explicit learner authorization.
 
 ## Sprint-01 Milestone Summary
 
@@ -269,13 +282,17 @@ Key outcomes:
 
 - review and commit Sprint-13 closure governance updates;
 - review and commit the Sprint-14 roadmap and closure governance updates;
-- decide whether to request a future Sprint-15 Specification Review;
+- review the saved Sprint-15 roadmap and decide whether to authorize Sprint-15 execution;
 - commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
 - review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
 - carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
 - maintain strict workflow separation between `rust-blockchain-career` governance validation and separate learning-project validation.
 
-Sprint-15 is not drafted, not active, and not authorized.
+Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+
+Sprint-15 is not active, and execution is not authorized.
+
+No Sprint-15 learning project should be created until explicit learner authorization.
 
 ## Known Risk
 
@@ -346,7 +363,11 @@ Sprint-14 roadmap was created and later completed.
 
 Sprint-14 completed and closed with final status PASS / CLOSED.
 
-Sprint-15 is not drafted, not active, and not authorized.
+Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+
+Sprint-15 is not active, and execution is not authorized.
+
+No Sprint-15 learning project should be created until explicit learner authorization.
 
 Sprint-08 `wallet_cli` implementation summary:
 
@@ -549,7 +570,7 @@ Sprint-14 completed the focused Stage 2 `rust_mechanics_lab` project and validat
 
 Recommendation:
 
-Current active sprint is None. Sprint-15 is not drafted, not active, and not authorized. If future Sprint-15 planning is desired, start with a separate Specification Review. Keep governance repository validation separate from learning-project validation and do not credit Sprint-07 learning progress.
+Current active sprint is None. Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`, but Sprint-15 is not active and execution is not authorized. The next allowed step is learner review of the saved roadmap and an explicit decision on whether to authorize Sprint-15 execution. Keep governance repository validation separate from learning-project validation and do not credit Sprint-07 learning progress.
 
 ## Latest Assessment
 
