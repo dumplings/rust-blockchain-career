@@ -14,17 +14,19 @@ None active.
 
 ## Current Milestone
 
-Sprint-12 completed and closed.
+Sprint-14 completed and closed.
 
-Final report exists at `reviews/sprint-12-closure.md`.
+Final report exists at `reviews/sprint-14-closure.md`.
 
 Final result: PASS / CLOSED.
 
-`devlog_cli` is the official Sprint-12 Stage 2 learning project foundation.
+`rust_mechanics_lab` was completed as the Sprint-14 Stage 2 Rust mechanics consolidation learning project.
 
-Sprint-13 has not been drafted, authorized, or started.
+Sprint-14 consolidated value/reference reasoning, traits/generics, generic ownership and borrowing, and `RefCell<T>` / interior mutability.
 
-Next recommended action: Sprint-13 Specification Review.
+Current active sprint remains None.
+
+Sprint-15 is not drafted, not active, and not authorized.
 
 ## Current Governance Status
 
@@ -58,11 +60,15 @@ Stage 1 Exit Assessment is complete and closed. It counts as the Stage 1 exit de
 
 Sprint-12 is complete and closed. It counts as completed Stage 2 Rust Engineering learning progress.
 
-Current active sprint after Sprint-12 closure: None.
+Sprint-13 is complete and closed. It counts as completed Stage 2 Rust Engineering learning progress.
 
-Sprint-13 has not been drafted, authorized, or started.
+Sprint-14 is complete and closed. It counts as completed Stage 2 Rust Engineering learning progress.
 
-Before starting the next sprint or future specification review, the Teacher should read:
+Current active sprint after Sprint-14 closure: None.
+
+Sprint-15 is not drafted, not active, and not authorized.
+
+Before any future sprint planning or execution, the Teacher should read:
 
 - latest `AGENTS.md`;
 - current `CONTEXT.md`;
@@ -78,6 +84,10 @@ Before starting the next sprint or future specification review, the Teacher shou
 - `reviews/sprint-11-closure.md`;
 - `roadmaps/sprint-12.md`;
 - `reviews/sprint-12-closure.md`;
+- `roadmaps/sprint-13.md`;
+- `reviews/sprint-13-closure.md`;
+- `roadmaps/sprint-14.md`;
+- `reviews/sprint-14-closure.md`;
 - current `learning-log.md`.
 
 Sprint-10, Sprint-09, and Sprint-08 files may be used as project-baseline background when needed.
@@ -126,7 +136,11 @@ Older Sprint-06 and Sprint-07 files are historical background only, not mandator
 - Completed and closed Stage 1 Exit Assessment;
 - Advanced to Stage 2: Rust Engineering;
 - Created Sprint-12 roadmap;
-- Completed and closed Sprint-12.
+- Completed and closed Sprint-12;
+- Created Sprint-13 roadmap;
+- Completed and closed Sprint-13;
+- Created Sprint-14 roadmap;
+- Completed and closed Sprint-14.
 
 ## Current Repository Structure
 
@@ -160,15 +174,20 @@ No active learning sprint.
 
 Current focus:
 
-- review and commit Sprint-12 closure governance updates;
-- run Sprint-13 Specification Review before drafting or starting Sprint-13;
-- decide whether to continue `devlog_cli` only through Sprint-13 Specification Review;
-- increase Rust-specific learning density in future Stage 2 sprint design;
+- review and commit Sprint-13 closure governance updates;
+- review and commit the Sprint-14 roadmap and closure governance updates;
+- decide whether to request a future Sprint-15 Specification Review;
+- commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
+- review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
+- carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
+- consider public deserialization boundaries, duplicate-id validation, and overflow-safe id generation only through future approved scope;
 - preserve the Teacher direct review plus Codex formal validation collaboration model for Architect review;
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
 - keep governance repository validation separate from learning-project validation;
 - avoid Solana, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap.
+
+Sprint-15 is not drafted, not active, and not authorized.
 
 ## Sprint-01 Milestone Summary
 
@@ -248,11 +267,15 @@ Key outcomes:
 
 ## Next Focus
 
-- review and commit Sprint-12 closure governance updates;
-- run Sprint-13 Specification Review before drafting or starting Sprint-13;
-- decide whether `devlog_cli` should continue only through Sprint-13 Specification Review;
-- increase Rust-specific learning density while continuing Stage 2 Rust Engineering;
+- review and commit Sprint-13 closure governance updates;
+- review and commit the Sprint-14 roadmap and closure governance updates;
+- decide whether to request a future Sprint-15 Specification Review;
+- commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
+- review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
+- carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
 - maintain strict workflow separation between `rust-blockchain-career` governance validation and separate learning-project validation.
+
+Sprint-15 is not drafted, not active, and not authorized.
 
 ## Known Risk
 
@@ -315,7 +338,15 @@ Sprint-12 completed and closed with final status PASS / CLOSED.
 
 Stage 2 remains the current learning stage.
 
-No Sprint-13 roadmap or execution has been authorized.
+Sprint-13 roadmap was created and accepted.
+
+Sprint-13 completed and closed with final status PASS / CLOSED.
+
+Sprint-14 roadmap was created and later completed.
+
+Sprint-14 completed and closed with final status PASS / CLOSED.
+
+Sprint-15 is not drafted, not active, and not authorized.
 
 Sprint-08 `wallet_cli` implementation summary:
 
@@ -415,6 +446,46 @@ Sprint-12 `devlog_cli` implementation summary:
 - learner feedback: future Stage 2 sprints should increase the absolute amount of Rust-specific learning and practice, not only architecture discussion;
 - process observation: preserve the hybrid model of Teacher direct source review plus Codex formal full-project validation.
 
+Sprint-13 `devlog_cli` implementation summary:
+
+- project continued from the official Sprint-12 `devlog_cli` baseline;
+- final report exists at `reviews/sprint-13-closure.md`;
+- final result: PASS / CLOSED;
+- Student local validation passed;
+- Codex Repository Validation passed with non-blocking notes;
+- Teacher Learning Validation passed;
+- `cargo fmt --check` passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test count: 13 passed, 0 failed;
+- preserved appropriate `Path` / `PathBuf` / `AsRef<Path>` API design;
+- added deserialization validation before persisted state is trusted;
+- restored `EntryStore::next_id` from loaded entries;
+- added bounded context-aware IO error mapping;
+- introduced the minimal `EntryStorage` trait and `FileEntryStorage`;
+- added a generic workflow boundary and fake-storage testing;
+- kept `main.rs` thin and preserved a coherent crate-root public API facade;
+- dependencies remained limited to `serde` and `serde_json`;
+- future reinforcement areas include the value/reference mental model, ownership and borrowing with generics, trait/generic terminology, `RefCell` / interior mutability, public deserialization boundaries, duplicate-id validation, and overflow-safe id generation;
+- Sprint-13 did not continue `wallet_cli`, did not turn `task_tracker` into a teaching project, and did not reuse or credit Sprint-07 Attempt-1.
+
+Sprint-14 `rust_mechanics_lab` implementation summary:
+
+- project used the focused Stage 2 Rust mechanics lab at `/Users/dumplings/workspace/rust_mechanics_lab`;
+- final report exists at `reviews/sprint-14-closure.md`;
+- final result: PASS / CLOSED;
+- Student / implementation validation passed;
+- Codex Repository Validation passed;
+- Teacher Learning Validation passed;
+- `cargo fmt --check` passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test result: 13 integration tests passed;
+- validated value ownership, shared borrowing, mutable borrowing, ownership transfer, clone from borrow, trait definition and concrete implementation, concrete function versus generic trait-bound function, generic ownership / borrowing / mutable borrowing, and `RefCell<T>` interior mutability for a fake recorder scenario;
+- confirmed exclusions included no `dyn Trait`, no `Rc<RefCell<T>>`, no async/threading/concurrency primitives, no external dependencies, and no unrelated CLI, file IO, storage, networking, or blockchain-specific logic;
+- non-blocking suggestion: consider `Default` for `FakeRecorder` later if useful, but this was not required for Sprint-14 closure;
+- carry-forward teaching-process corrections include terminology format discipline, stronger validation question framing, deeper initial `RefCell<T>` explanation, recommended test names, and field-access auto-deref clarification.
+
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
 Sprint-07 is reserved as an abnormal sprint record, not a normal completed sprint.
@@ -464,7 +535,7 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Sprint:
 
-Sprint-12 - `devlog_cli v0.1 - Stage 2 Project Foundation`
+Sprint-14 - `Rust Mechanics Consolidation Lab - Value/Reference + Traits/Generics + Interior Mutability`
 
 Result:
 
@@ -472,13 +543,13 @@ PASS / CLOSED
 
 Summary:
 
-`reviews/sprint-12-closure.md` records the completed Sprint-12 closure.
+`reviews/sprint-14-closure.md` records the completed Sprint-14 closure.
 
-Sprint-12 created the official Stage 2 `devlog_cli` learning project foundation and validated dependency management, JSON serialization/deserialization, file-backed storage, workflow boundaries, public API facade design, maintainable public error boundary design, and focused tests.
+Sprint-14 completed the focused Stage 2 `rust_mechanics_lab` project and validated value/reference reasoning, traits and generics, generic ownership and borrowing, and `RefCell<T>` / interior mutability through a small concept-focused lab.
 
 Recommendation:
 
-Run a separate Sprint-13 Specification Review. Do not draft, authorize, or start Sprint-13 from this closure report alone. Keep governance repository validation separate from learning-project validation. Do not credit Sprint-07 learning progress. Do not continue `wallet_cli` or `task_tracker` by default.
+Current active sprint is None. Sprint-15 is not drafted, not active, and not authorized. If future Sprint-15 planning is desired, start with a separate Specification Review. Keep governance repository validation separate from learning-project validation and do not credit Sprint-07 learning progress.
 
 ## Latest Assessment
 

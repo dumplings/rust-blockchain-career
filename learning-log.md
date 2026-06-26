@@ -713,3 +713,116 @@ Insights:
 - `workflow.rs` composes lower-level boundaries.
 - Public errors protect external callers from internal implementation details.
 - Stage 2 requires more engineering structure, but future sprints should increase Rust-specific mechanics practice.
+
+## 2026-06-25
+
+### Sprint-13 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Project:
+
+`devlog_cli`
+
+Topics Learned:
+
+- `Path` / `PathBuf` / `AsRef<Path>`
+- ownership and borrowing at storage/workflow boundaries
+- deserialization validation
+- invariant restoration
+- `next_id` consistency
+- context-aware error mapping
+- `From` and `map_err`
+- trait
+- generic bound
+- static dispatch
+- storage abstraction
+- fake storage testing
+- public API facade
+
+Insights:
+
+- External persisted JSON is an untrusted boundary.
+- Deserialized data must be validated or restored before being trusted.
+- Workflow can depend on behavior rather than concrete file IO.
+- Minimal traits should expose only the behavior the workflow needs.
+- Implementation completion is not the same as concept mastery.
+- Teacher-provided clear examples can support efficient learning, but concept validation is still required.
+
+### Sprint-14 Roadmap Creation
+
+Outcome:
+
+Roadmap created. Execution not authorized.
+
+Project:
+
+`rust_mechanics_lab`
+
+Focus:
+
+- value versus reference;
+- traits and generics;
+- ownership and borrowing with generic parameters;
+- `RefCell<T>` and interior mutability.
+
+Note:
+
+Sprint-14 is a concept-focused Stage 2 Rust mechanics lab.
+
+## 2026-06-26
+
+### Sprint-14 Completion
+
+Outcome:
+
+PASS / CLOSED
+
+Project:
+
+`rust_mechanics_lab`
+
+Topics Learned:
+
+- value versus reference;
+- ownership transfer;
+- shared borrowing;
+- mutable borrowing;
+- clone from borrow;
+- trait as behavior contract;
+- concrete implementation through `impl Trait for Type`;
+- concrete function versus generic trait-bound function;
+- generic ownership, borrowing, and mutable borrowing;
+- `RefCell<T>` and interior mutability;
+- fake recorder / test double reasoning.
+
+Validation:
+
+- Student / implementation validation passed.
+- Codex Repository Validation passed.
+- Teacher Learning Validation passed.
+- `cargo fmt --check` passed.
+- `cargo check` passed.
+- `cargo test` passed.
+- Final test result: 13 integration tests passed.
+
+Insights:
+
+- Generic ownership and borrowing follow the same ownership rules as concrete ownership and borrowing.
+- `&mut S` is a mutable borrow, not ownership transfer.
+- `RefCell<T>` provides runtime borrow checking and interior mutability; it is useful for selected fake/test scenarios but is not a general replacement for ordinary `&mut`.
+- Returning owned snapshots can avoid leaking `RefCell<T>` implementation details.
+- Field access can auto-deref `self`; `self.title`, `(*self).title`, and `*self.title` do not mean the same thing.
+
+Teaching Process Notes:
+
+- Teacher terminology must follow the required `English professional term (Chinese professional translation)` format when introducing important professional terms.
+- Future validation questions should avoid circular justification of Teacher-dictated design and should focus on contrast, consequence, source-level reasoning, tradeoffs, or error diagnosis.
+- `RefCell<T>` explanations should clearly distinguish ordinary `&mut self` mutation from fake-recorder / test-observation use cases.
+- Recommended test function names should be provided upfront when that reduces avoidable friction.
+
+Next Status:
+
+No active sprint. Sprint-15 is not drafted or authorized.

@@ -1,9 +1,12 @@
 # Current Tasks
 
-- [ ] Review and commit Sprint-12 closure governance updates
-- [ ] Run Sprint-13 Specification Review before drafting or starting Sprint-13
-- [ ] Decide whether to continue `devlog_cli` only through Sprint-13 Specification Review
-- [ ] Increase Rust-specific learning density in future Stage 2 sprint design
-- [ ] Preserve Teacher direct review plus Codex formal validation collaboration model for Architect review
+- [ ] Review and commit Sprint-13 closure governance updates
+- [ ] Review and commit the Sprint-14 roadmap and closure governance updates
+- [ ] Decide whether to request a future Sprint-15 Specification Review; Sprint-15 is not drafted or authorized
+- [ ] Commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it
+- [ ] Review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it
+- [ ] Preserve the Teacher direct review plus Codex formal validation collaboration model
+- [ ] Carry forward Sprint-14 teaching-process corrections: terminology format, validation question quality, `RefCell` explanation depth, recommended test names, and field-access auto-deref
+- [ ] Carry forward future approved-scope topics only when justified: public deserialization boundaries, duplicate-id validation, and overflow-safe id generation
 - [ ] Preserve Sprint-07 as a failed / abnormal sprint record and do not credit Sprint-07 learning progress
 - [ ] Keep governance repository validation and learning-project validation separate
