@@ -71,7 +71,7 @@ Avoid mixing technical assessment and language assessment unless explicitly requ
 
 Current language requirements should be checked in `CONTEXT.md` before teaching begins.
 
-At the current Rust Foundations stage, `CONTEXT.md` requires:
+Current language requirements are recorded in `CONTEXT.md`. When `CONTEXT.md` requires Chinese technical teaching:
 
 - technical learning must be conducted primarily in Chinese;
 - technical terminology should remain in English when useful;

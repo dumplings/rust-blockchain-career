@@ -56,7 +56,7 @@ Codex should keep changes scoped to the request and avoid unrelated refactors.
 
 ## Prompt Responsibility
 
-When an agent requires action from Codex, the requesting agent should provide a complete executable prompt whenever reasonably possible.
+When an agent recommends a Codex repository update, repository validation, roadmap save, closure sync, governance synchronization, or file modification, the requesting agent must provide an executable Codex prompt unless the learner explicitly says no prompt is needed.
 
 The learner's responsibility is:
 
@@ -67,6 +67,17 @@ The learner's responsibility is:
 
 The learner should not be expected to design operational prompts that originate from agent workflows.
 
+The Codex prompt should include:
+
+1. Repository root
+2. Task purpose
+3. Files to inspect
+4. Files allowed to modify
+5. Files or repositories that must not be modified
+6. Authorization status
+7. Required validation or report format
+8. Expected final response
+
 Preferred workflow:
 
 Identify Action
@@ -75,6 +86,8 @@ Identify Action
 -> Review
 
 If an agent identifies a required action but fails to provide an executable prompt, that is a workflow quality issue.
+
+Telling the learner to "have Codex do it" without an executable prompt is a workflow quality failure.
 
 ## Formal Repository Validation
 

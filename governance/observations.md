@@ -231,3 +231,38 @@ Sprint-03 and Sprint-07 Attempt-1 both exposed workflow-context and validation-b
 Disposition:
 
 No further observation is needed unless workflow-context drift recurs under the current governance baseline.
+
+---
+
+## GOV-007
+
+Title:
+Prompt Responsibility / Cross-Agent Handoff Completion
+
+Status:
+Accepted and integrated into governance baseline
+
+Occurrences:
+2 or more
+
+First Seen:
+Sprint-13 closure
+
+Most Recent:
+Post-Sprint-14 / pre-Sprint-15 Architect handoff
+
+Description:
+
+Agents identified downstream action requiring Codex, Teacher, Architect, or another agent, but stopped at analysis or recommendation rather than producing ready-to-send prompts.
+
+Current Decision:
+
+Accepted as a recurring governance issue.
+
+Rationale:
+
+Existing Prompt Responsibility guidance exists, but repeated drift shows the need for a clearer hard postcondition.
+
+Disposition:
+
+Integrated through updates to governance lifecycle, Codex collaboration, and Architect startup guidance.

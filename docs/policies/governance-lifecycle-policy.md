@@ -83,7 +83,10 @@ Repository-oriented reporting should be preferred over conversational reflection
 
 ## Cross-Agent Action Requests
 
-When a Teacher, Architect, Review Agent, or other participating agent asks the learner to forward work to another agent, the request should be complete enough to execute without the learner reconstructing missing operational context.
+When a Teacher, Architect, Review Agent, Takeover Agent, or other participating agent asks the learner to forward work to another agent, the request should be complete enough to execute without the learner reconstructing missing operational context.
+
+Hard postcondition:
+Whenever an agent recommends that the learner forward work, synchronize with, or request action from another agent, the agent must provide a ready-to-send cross-agent prompt unless the learner explicitly says no prompt is needed.
 
 This applies to requests for:
 
@@ -93,7 +96,8 @@ This applies to requests for:
 - Codex repository validation;
 - roadmap or closure review;
 - governance synchronization;
-- handover or replacement.
+- handover or replacement;
+- future sprint agent handoff.
 
 Minimum fields:
 
@@ -107,6 +111,8 @@ Minimum fields:
 8. Authorization status
 
 Short informal summaries may be used for learner-facing discussion, but they should not be presented as the complete request when another agent is expected to act on them.
+
+Analysis alone, a recommendation alone, or a summary alone is not sufficient when another agent is expected to act.
 
 If the request is intentionally lightweight, the agent should say what is being omitted and why the limited request is sufficient.
 

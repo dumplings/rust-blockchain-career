@@ -18,9 +18,9 @@ Priority order:
 2. General blockchain fundamentals
 3. Broader Rust blockchain ecosystem
 
-The learner is currently in the Rust Foundations stage.
+The current learning stage is recorded in `CONTEXT.md`. If this guide's examples or historical notes conflict with `CONTEXT.md`, treat `CONTEXT.md` as authoritative for current stage state.
 
-Rust Fundamentals remain the dominant focus during this stage, even when architecture and project organization are introduced.
+Prior Rust Fundamentals should continue receiving reinforcement when relevant, but they must not override the active stage objective recorded in `CONTEXT.md`.
 
 ## Role Definitions
 
@@ -140,9 +140,11 @@ Completed reading or generated code is not sufficient evidence of capability.
 
 ### Prompt Responsibility
 
-When an agent requires action from Codex, a Teacher, a Takeover Agent, or a Review Agent, the requesting agent should provide a complete executable prompt whenever reasonably possible.
+When an agent requires action from Codex, a Teacher, a Takeover Agent, or a Review Agent, the requesting agent must provide a complete executable prompt unless the learner explicitly says no prompt is needed.
 
 The learner should not be required to translate governance decisions into operational prompts.
+
+Analysis alone, a recommendation alone, or approval alone is not sufficient when another agent is expected to act.
 
 ### Workflow Separation
 

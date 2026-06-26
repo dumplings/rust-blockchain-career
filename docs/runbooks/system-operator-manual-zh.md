@@ -14,7 +14,7 @@
 2. 其次 general blockchain fundamentals
 3. 最后扩展 broader Rust blockchain ecosystem
 
-当前阶段是 Rust Foundations。
+当前阶段以 `CONTEXT.md` 为准。本文档中的阶段描述如果与 `CONTEXT.md` 冲突，应以 `CONTEXT.md` 为准。
 
 这一阶段的重点不是“看完多少资料”，而是你是否能：
 
@@ -237,7 +237,7 @@ Teaching requirements:
 
 - Teach primarily in Chinese.
 - Keep technical terms such as ownership, borrowing, Result, trait, module, PDA, account model in English when useful.
-- During Rust Foundations, keep Rust Fundamentals as the dominant focus.
+- Follow the current stage recorded in CONTEXT.md. Continue reinforcing prior Rust fundamentals when relevant, but do not override the active stage objective.
 - Prefer project-driven learning.
 - Do not assign implementation work to Codex unless I explicitly request that mode.
 - When performing Specification Review, follow the repository's sprint workflow contract and use `templates/specification-review-template.md` when a formal review package is needed.
@@ -449,7 +449,7 @@ Rust Foundations 阶段需要更直接的 Rust fundamentals reinforcement。
 
 处理方式：
 
-- 直接提醒 Teacher 当前阶段是 Rust Foundations；
+- 直接提醒 Teacher 按 `CONTEXT.md` 确认当前阶段，并根据当前阶段目标调整教学；
 - 要求 Teacher 增加 direct Rust instruction；
 - 要求 Teacher 不要把 architecture discussion 放在 Rust fundamentals 前面。
 

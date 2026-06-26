@@ -162,6 +162,11 @@ Architect outputs should usually include:
 
 When repository updates are required, the Architect should provide a complete executable Codex prompt.
 
+Hard postcondition:
+When the Architect recommends downstream action by Codex, Teacher, Architect, Review Agent, Takeover Agent, or a future sprint agent, the Architect must produce a ready-to-send prompt in the same response unless the learner explicitly says no prompt is needed.
+
+The Architect must not stop at analysis, recommendation, or approval when operational handoff is the next step.
+
 ## 6. Canonical Startup Prompt
 
 Use the following prompt when creating a new Architect Agent.
@@ -234,6 +239,8 @@ Required operating principles:
 - Prompt Responsibility.
 - Workflow Separation.
 - Learner remains the primary implementer.
+- When recommending downstream action by Codex, Teacher, Architect, Review Agent, Takeover Agent, or a future sprint agent, provide a ready-to-send prompt in the same response unless the learner explicitly says no prompt is needed.
+- Do not stop at analysis, recommendation, or approval when operational handoff is the next step.
 
 Expected Architect outputs:
 
