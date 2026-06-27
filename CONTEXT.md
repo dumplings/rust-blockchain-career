@@ -14,23 +14,21 @@ None active.
 
 ## Current Milestone
 
-Sprint-14 completed and closed.
+Sprint-15 completed and closed.
 
-Final report exists at `reviews/sprint-14-closure.md`.
+Final report exists at `reviews/sprint-15-closure.md`.
 
-Final result: PASS / CLOSED.
+Final result: PASS WITH NOTES / CLOSED.
 
-`rust_mechanics_lab` was completed as the Sprint-14 Stage 2 Rust mechanics consolidation learning project.
+`rust_engineering_assessment` was completed as the Sprint-15 Stage 2 midpoint assessment learning project at `/Users/dumplings/workspace/rust_engineering_assessment`.
 
-Sprint-14 consolidated value/reference reasoning, traits/generics, generic ownership and borrowing, and `RefCell<T>` / interior mutability.
+Sprint-15 assessed integrated domain modeling, ownership and borrowing, public error design, serde / JSON boundaries, deserialization validation, storage boundaries, traits/generics, and focused tests.
 
 Current active sprint remains None.
 
-Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+Sprint-16 is not started, not drafted, and not authorized.
 
-Sprint-15 is not active, and execution is not authorized.
-
-No Sprint-15 learning project should be created until explicit learner authorization.
+No new sprint is authorized by Sprint-15 closure.
 
 ## Current Governance Status
 
@@ -68,13 +66,13 @@ Sprint-13 is complete and closed. It counts as completed Stage 2 Rust Engineerin
 
 Sprint-14 is complete and closed. It counts as completed Stage 2 Rust Engineering learning progress.
 
-Current active sprint after Sprint-14 closure: None.
+Sprint-15 is complete and closed with PASS WITH NOTES. It counts as completed Stage 2 Rust Engineering learning progress.
 
-Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+Current active sprint after Sprint-15 closure: None.
 
-Sprint-15 is not active, and execution is not authorized.
+Sprint-16 is not started, not drafted, and not authorized.
 
-No Sprint-15 learning project should be created until explicit learner authorization.
+No new sprint is authorized by Sprint-15 closure.
 
 Before any future sprint planning or execution, the Teacher should read:
 
@@ -96,6 +94,8 @@ Before any future sprint planning or execution, the Teacher should read:
 - `reviews/sprint-13-closure.md`;
 - `roadmaps/sprint-14.md`;
 - `reviews/sprint-14-closure.md`;
+- `roadmaps/sprint-15.md`;
+- `reviews/sprint-15-closure.md`;
 - current `learning-log.md`.
 
 Sprint-10, Sprint-09, and Sprint-08 files may be used as project-baseline background when needed.
@@ -149,7 +149,8 @@ Older Sprint-06 and Sprint-07 files are historical background only, not mandator
 - Completed and closed Sprint-13;
 - Created Sprint-14 roadmap;
 - Completed and closed Sprint-14;
-- Created Sprint-15 roadmap for review only.
+- Created Sprint-15 roadmap;
+- Completed and closed Sprint-15 with PASS WITH NOTES.
 
 ## Current Repository Structure
 
@@ -185,22 +186,23 @@ Current focus:
 
 - review and commit Sprint-13 closure governance updates;
 - review and commit the Sprint-14 roadmap and closure governance updates;
-- review the saved Sprint-15 roadmap and decide whether to authorize Sprint-15 execution;
+- review and commit the Sprint-15 closure governance updates;
 - commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
 - review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
 - carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
-- consider public deserialization boundaries, duplicate-id validation, and overflow-safe id generation only through future approved scope;
+- carry forward Sprint-15 reinforcement topics about `RefCell` scenarios, reference copy semantics, `Path` / `PathBuf`, `HashSet`, persisted-data boundaries, file/storage tests, public error traits, and overflow-safe id generation;
 - preserve the Teacher direct review plus Codex formal validation collaboration model for Architect review;
 - preserve Sprint-07 as a failed / abnormal sprint record;
 - ensure no Sprint-07 learning progress is credited;
 - keep governance repository validation separate from learning-project validation;
-- avoid Solana, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap.
+- avoid Solana, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap;
+- do not start, draft, or authorize Sprint-16 without a separate approved workflow.
 
-Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+Sprint-15 is closed with PASS WITH NOTES and counts as completed Stage 2 Rust Engineering learning progress.
 
-Sprint-15 is not active, and execution is not authorized.
+The Sprint-15 learning project is `/Users/dumplings/workspace/rust_engineering_assessment`.
 
-No Sprint-15 learning project should be created until explicit learner authorization.
+Sprint-16 is not started, not drafted, and not authorized.
 
 ## Sprint-01 Milestone Summary
 
@@ -282,17 +284,18 @@ Key outcomes:
 
 - review and commit Sprint-13 closure governance updates;
 - review and commit the Sprint-14 roadmap and closure governance updates;
-- review the saved Sprint-15 roadmap and decide whether to authorize Sprint-15 execution;
+- review and commit the Sprint-15 closure governance updates;
 - commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
 - review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
 - carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
+- carry forward the Sprint-15 reinforcement topics recorded in `TODO.md` and `reviews/sprint-15-closure.md` only through future approved scope;
 - maintain strict workflow separation between `rust-blockchain-career` governance validation and separate learning-project validation.
 
-Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+Sprint-15 is PASS WITH NOTES / CLOSED.
 
-Sprint-15 is not active, and execution is not authorized.
+Current active sprint is None.
 
-No Sprint-15 learning project should be created until explicit learner authorization.
+Sprint-16 is not started, not drafted, and not authorized.
 
 ## Known Risk
 
@@ -363,11 +366,15 @@ Sprint-14 roadmap was created and later completed.
 
 Sprint-14 completed and closed with final status PASS / CLOSED.
 
-Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`.
+Sprint-15 roadmap was created and later completed.
 
-Sprint-15 is not active, and execution is not authorized.
+Sprint-15 completed and closed with final status PASS WITH NOTES / CLOSED.
 
-No Sprint-15 learning project should be created until explicit learner authorization.
+Sprint-15 used `/Users/dumplings/workspace/rust_engineering_assessment` as its separate learning project.
+
+Current active sprint is None.
+
+Sprint-16 is not started, not drafted, and not authorized.
 
 Sprint-08 `wallet_cli` implementation summary:
 
@@ -507,6 +514,25 @@ Sprint-14 `rust_mechanics_lab` implementation summary:
 - non-blocking suggestion: consider `Default` for `FakeRecorder` later if useful, but this was not required for Sprint-14 closure;
 - carry-forward teaching-process corrections include terminology format discipline, stronger validation question framing, deeper initial `RefCell<T>` explanation, recommended test names, and field-access auto-deref clarification.
 
+Sprint-15 `rust_engineering_assessment` implementation summary:
+
+- project used the fresh Stage 2 midpoint assessment library at `/Users/dumplings/workspace/rust_engineering_assessment`;
+- final report exists at `reviews/sprint-15-closure.md`;
+- final result: PASS WITH NOTES / CLOSED;
+- Student local validation passed;
+- Codex Repository Validation returned PASS WITH NOTES;
+- Teacher Learning Validation returned PASS WITH NOTES;
+- `cargo fmt --check` passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test result: 8 unit tests passed, with 0 doc tests;
+- implemented a validated `Record` domain model, store-generated deterministic ids, read-only listing, controlled title updates, and categorized public errors;
+- implemented JSON serialization, post-deserialization invariant restoration, duplicate-id rejection, and `next_id` recomputation;
+- implemented file convenience methods over a small raw-string storage trait and generic boundary with `PathBuf`-owned file storage;
+- remained a small library crate with no CLI, product, blockchain, async, database, or large-framework expansion;
+- non-blocking notes include possible `u64::MAX` id overflow, public `Deserialize` bypass risk, limited file/storage tests, string-based error context, missing `Display` / `std::error::Error`, and crate-root facade ergonomics;
+- carry-forward learning includes `RefCell` scenario comparison, reference copy semantics, `Path` / `PathBuf`, `HashSet`, stricter persisted-data types, file/storage tests, public error traits, and overflow-safe id generation.
+
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
 Sprint-07 is reserved as an abnormal sprint record, not a normal completed sprint.
@@ -556,21 +582,21 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Sprint:
 
-Sprint-14 - `Rust Mechanics Consolidation Lab - Value/Reference + Traits/Generics + Interior Mutability`
+Sprint-15 - `Stage 2 Midpoint Assessment — Rust Engineering Integration`
 
 Result:
 
-PASS / CLOSED
+PASS WITH NOTES / CLOSED
 
 Summary:
 
-`reviews/sprint-14-closure.md` records the completed Sprint-14 closure.
+`reviews/sprint-15-closure.md` records the completed Sprint-15 closure.
 
-Sprint-14 completed the focused Stage 2 `rust_mechanics_lab` project and validated value/reference reasoning, traits and generics, generic ownership and borrowing, and `RefCell<T>` / interior mutability through a small concept-focused lab.
+Sprint-15 completed the fresh Stage 2 `rust_engineering_assessment` project and validated integrated domain modeling, ownership and borrowing, public error design, serde / JSON boundaries, deserialization validation, storage boundaries, trait/generic judgment, and focused tests.
 
 Recommendation:
 
-Current active sprint is None. Sprint-15 roadmap now exists at `roadmaps/sprint-15.md`, but Sprint-15 is not active and execution is not authorized. The next allowed step is learner review of the saved roadmap and an explicit decision on whether to authorize Sprint-15 execution. Keep governance repository validation separate from learning-project validation and do not credit Sprint-07 learning progress.
+Current active sprint is None. Sprint-16 is not started, not drafted, and not authorized. Any future sprint requires a separate approved workflow. Keep governance repository validation separate from learning-project validation and do not credit Sprint-07 learning progress.
 
 ## Latest Assessment
 

@@ -835,6 +835,8 @@ Outcome:
 
 Roadmap created. Execution not authorized.
 
+This planning status was later superseded by the completed Sprint-15 record below.
+
 Repository Asset:
 
 - `roadmaps/sprint-15.md`
@@ -850,3 +852,62 @@ Planning Summary:
 Next Status:
 
 Review the saved Sprint-15 roadmap and decide whether to explicitly authorize Sprint-15 execution.
+
+### Sprint-15 Completion
+
+Outcome:
+
+PASS WITH NOTES / CLOSED
+
+Project:
+
+`rust_engineering_assessment`
+
+Project Path:
+
+`/Users/dumplings/workspace/rust_engineering_assessment`
+
+Validation:
+
+- Student local validation passed.
+- Codex Repository Validation returned PASS WITH NOTES.
+- Teacher Learning Validation returned PASS WITH NOTES.
+- `cargo fmt --check` passed.
+- `cargo check` passed.
+- `cargo test` passed.
+- Final test result: 8 unit tests passed; 0 doc tests ran.
+
+Implementation Summary:
+
+- Built a fresh small Rust library crate with a `record_store` theme.
+- Protected `Record` state with private fields, validated construction, accessors, and controlled title updates.
+- Used store-generated deterministic ids and read-only record listing.
+- Implemented a categorized public error boundary with `From` and context-aware `map_err` usage.
+- Implemented JSON serialization and validated restoration of untrusted persisted data.
+- Rejected duplicate ids through `HashSet` detection.
+- Recomputed `next_id` from loaded records rather than trusting persisted state.
+- Separated JSON conversion from raw string storage.
+- Added a small behavior-based storage trait, generic save/load methods, and `PathBuf`-owned file storage.
+- Kept the project within assessment scope with no CLI, blockchain, async, database, or large-framework expansion.
+
+Learning Gains:
+
+- Integrated domain modeling, ownership/borrowing, error design, serde, persistence, traits/generics, and tests in a fresh project.
+- Reinforced that persisted JSON is untrusted until domain invariants are restored.
+- Reinforced small behavior-based trait design without making the store generic over storage.
+- Reinforced `Path`, `PathBuf`, and `AsRef<Path>` boundary choices.
+- Reinforced `HashSet` for duplicate detection.
+- Practiced distinguishing blocking failures from acceptable non-blocking technical debt.
+
+Non-Blocking Notes:
+
+- Id arithmetic may overflow at `u64::MAX`.
+- Public derived `Deserialize` can bypass the trusted `RecordStore::from_json` path.
+- File IO and generic storage behavior have limited or no direct tests.
+- Error details use formatted strings rather than structured context.
+- `RecordStoreError` does not implement `Display` or `std::error::Error`.
+- The crate-root public facade could be more ergonomic.
+
+Next Status:
+
+Sprint-15 is closed and counts as completed Stage 2 Rust Engineering learning progress. Stage 2 remains active. No sprint is active. Sprint-16 is not started, not drafted, and not authorized.
