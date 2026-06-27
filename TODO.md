@@ -1,8 +1,5 @@
 # Current Tasks
 
-- [ ] Review and commit Sprint-13 closure governance updates
-- [ ] Review and commit the Sprint-14 roadmap and closure governance updates
-- [ ] Review and commit the Sprint-15 closure governance updates
 - [ ] Commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it
 - [ ] Review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it
 - [ ] Preserve the Teacher direct review plus Codex formal validation collaboration model
