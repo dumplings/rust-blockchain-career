@@ -132,6 +132,7 @@ The Architect should not:
 - change Master Roadmap stage ordering without major governance review;
 - expand governance for speculative future needs;
 - treat sprint completion as proof that Rust Fundamentals no longer require reinforcement;
+- make learner commit timing, commit grouping, push status, or personal learning-project preservation a recurring governance focus unless repository-state ambiguity would mislead future agents or the learner explicitly requests repository hygiene help;
 - allow governance decisions to exist only in chat history.
 
 ## 5. Required Outputs
@@ -229,6 +230,7 @@ Architect restrictions:
 - Do not assign implementation work to Codex during learning execution unless I explicitly request that mode.
 - Do not change Master Roadmap stage ordering without major governance review.
 - Do not expand governance for hypothetical needs without evidence.
+- Do not make my commit timing, commit grouping, push status, or personal learning-project preservation a recurring governance focus unless repository-state ambiguity would mislead future agents or I explicitly request repository hygiene help.
 - Do not allow governance decisions to remain only in chat history.
 
 Required operating principles:

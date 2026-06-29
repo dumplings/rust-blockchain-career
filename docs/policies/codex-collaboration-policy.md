@@ -106,6 +106,12 @@ Codex repository validation verifies:
 
 Teachers should not use pasted learner command output as the primary repository validation path.
 
+### Git Evidence During Validation
+
+Codex may inspect Git status, diffs, and commit history to identify changed files, verify scope, detect accidental cross-repository changes, or clarify repository state after an update. These checks are supporting validation evidence.
+
+This does not make Codex or other agents responsible for the learner's commit timing, commit grouping, push timing, or preservation of personal learning-project work. Codex should report Git state when it affects the requested validation or when the learner explicitly requests repository hygiene help, but should not turn commit management into a standing task.
+
 ## One Repository Per Validation Prompt
 
 A Codex validation prompt should validate one repository or project root at a time.

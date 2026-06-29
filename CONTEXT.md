@@ -12,9 +12,21 @@ Stage 2 - Rust Engineering
 
 None active.
 
+Sprint-16 status: Stopped before completion / partial unvalidated progress.
+
+Sprint-17 status: PASS WITH NOTES / CLOSED.
+
 ## Current Milestone
 
-Sprint-15 completed and closed.
+Sprint-17 completed and closed with PASS WITH NOTES.
+
+Sprint-16 remains stopped before completion and is not closed.
+
+Sprint-15 remains completed and closed.
+
+Final Sprint-17 report exists at `reviews/sprint-17-closure.md`.
+
+Sprint-17 counts as completed Stage 2.5 learning progress within its validated Rust Core Fluency scope.
 
 Final report exists at `reviews/sprint-15-closure.md`.
 
@@ -24,11 +36,73 @@ Final result: PASS WITH NOTES / CLOSED.
 
 Sprint-15 assessed integrated domain modeling, ownership and borrowing, public error design, serde / JSON boundaries, deserialization validation, storage boundaries, traits/generics, and focused tests.
 
-Current active sprint remains None.
+Current active sprint after Sprint-17 closure remains None.
 
-Sprint-16 is not started, not drafted, and not authorized.
+Sprint-16 execution began under the accepted roadmap and was stopped by the learner before completion.
 
-No new sprint is authorized by Sprint-15 closure.
+No later sprint is authorized by Sprint-17 closure.
+
+## Current Curriculum Coverage Status
+
+A completed Rust curriculum coverage and job-readiness audit is recorded at `reviews/rust-curriculum-coverage-audit.md`.
+
+The topic-level governance planning reference is recorded at `reviews/rust-core-coverage-matrix.md`.
+
+The Stage 2 Post-Midpoint Review is recorded at `reviews/stage-2-post-midpoint-review.md`.
+
+The Stage 2.5 bridge specification is recorded at `reviews/stage-2-5-bridge-specification.md`.
+
+The approved Stage 2.5 Unit 1 source proposal is recorded at `roadmaps/stage-2-5-unit-1-rust-core-fluency.md`.
+
+The formal Sprint-16 roadmap is recorded at `roadmaps/sprint-16.md`.
+
+The Stage 2.5 remaining-coverage planning review is recorded at `reviews/stage-2-5-remaining-coverage-review.md`.
+
+The accepted Sprint-17 roadmap is recorded at `roadmaps/sprint-17.md`.
+
+The completed Sprint-17 closure is recorded at `reviews/sprint-17-closure.md`.
+
+Audit verdict: SIGNIFICANT RUST COVERAGE GAPS.
+
+The audit does not invalidate Sprint-15. Sprint-15 remains PASS WITH NOTES / CLOSED, Stage 2 remains active, and no sprint is active.
+
+A Stage 2 Post-Midpoint Review confirmed the P0 / P1 Rust coverage boundary and approved `Stage 2.5 — Rust Core Philosophy Bridge` as the required bridge direction and planning layer before Stage 3.
+
+`roadmaps/master-roadmap.md` now represents Stage 2.5 as the required bridge before Stage 3. This representation does not make Stage 2.5 executable and does not authorize implementation, Sprint-16, or Stage 3 transition.
+
+The Unit 1 proposal was converted into the formal Sprint-16 roadmap, and execution began under the learner-accepted roadmap. The learner stopped Sprint-16 before completion.
+
+The learning project `/Users/dumplings/workspace/rust_core_fluency_lab` was created during authorized Sprint-16 execution and later used as the separately validated Sprint-17 learning project. This governance update does not modify it.
+
+Sprint-16 is not complete and is not closed. No Sprint-16 closure exists.
+
+Student Validation and Teacher Learning Validation remain incomplete for Sprint-16. Formal Codex Repository Validation was not performed under the Sprint-16 boundary.
+
+Sprint-16 produced partial Rust Core Fluency progress, but its evidence was not enough by itself to mark Unit 1 or any Rust Core Coverage Matrix topic complete.
+
+Under the Sprint-16 boundary, Checkpoint 1 was mostly practiced but remains partial and unvalidated. Practiced areas included `iter`, `iter_mut`, `into_iter`, borrowed and mutable slices, owned `Vec<T>` workflows, `HashSet` duplicate detection, `HashMap` counting or grouping, ownership-related cloning decisions, and loop clarity for mutation-heavy logic. The material was later revalidated under the separate Sprint-17 completion boundary.
+
+Under the Sprint-16 boundary, Checkpoint 2 partially introduced closure parameters versus captures, shared-borrow and mutable-borrow capture, mutable closure bindings, conceptual `Fn`, `FnMut`, and `FnOnce`, and move capture. It remains incomplete and unvalidated for Sprint-16. Sprint-17 separately completed and validated closure consolidation.
+
+Checkpoint 3 was not completed. Checkpoint 4 was not completed.
+
+The learner accepted the Stage 2.5 remaining-coverage review as the planning direction for Sprint-17 roadmap drafting. The accepted direction redistributes unfinished Unit 1 work across normally sized future sprints rather than automatically continuing Sprint-16 or combining fluency, lifetime, and smart-pointer work in Sprint-17.
+
+`roadmaps/sprint-17.md` was accepted by the learner and executed through all four checkpoints. Student Validation passed, Codex Repository Validation returned PASS WITH NOTES, and Teacher Learning Validation returned PASS WITH NOTES.
+
+Sprint-17 is PASS WITH NOTES / CLOSED. Its closure exists at `reviews/sprint-17-closure.md`. No Sprint-16 closure exists.
+
+Sprint-17 Checkpoint 1 revalidated the partial iterator and collection material under the Sprint-17 completion boundary. This does not complete or close Sprint-16.
+
+Sprint-17 provides durable evidence for closures and iterators, systematic pattern matching, and collection ownership behavior. The Rust Core Coverage Matrix records these topics as covered sufficiently for now while preserving reinforcement notes.
+
+Stage 2.5 remains incomplete. Deeper ownership and borrowing, explicit lifetime reasoning, smart pointers, deeper `RefCell<T>`, and engineering-contract consolidation remain future work.
+
+Do not transition to Stage 3 before the P0 / P1 Rust coverage decisions and Stage 3 entry prerequisites are durably resolved.
+
+Stage 3 transition remains unauthorized.
+
+Sprint-17 is PASS WITH NOTES / CLOSED. Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only; they are not drafted, scoped, accepted, or authorized.
 
 ## Current Governance Status
 
@@ -68,11 +142,13 @@ Sprint-14 is complete and closed. It counts as completed Stage 2 Rust Engineerin
 
 Sprint-15 is complete and closed with PASS WITH NOTES. It counts as completed Stage 2 Rust Engineering learning progress.
 
-Current active sprint after Sprint-15 closure: None.
+Sprint-17 is complete and closed with PASS WITH NOTES. It counts as completed Stage 2.5 learning progress within its validated scope.
 
-Sprint-16 is not started, not drafted, and not authorized.
+Current active sprint after Sprint-17 closure: None.
 
-No new sprint is authorized by Sprint-15 closure.
+Sprint-16 execution stopped before completion. Its progress is partial and unvalidated; Sprint-16 is not complete or closed.
+
+No later sprint is authorized by Sprint-17 closure.
 
 Before any future sprint planning or execution, the Teacher should read:
 
@@ -96,6 +172,15 @@ Before any future sprint planning or execution, the Teacher should read:
 - `reviews/sprint-14-closure.md`;
 - `roadmaps/sprint-15.md`;
 - `reviews/sprint-15-closure.md`;
+- `reviews/rust-curriculum-coverage-audit.md`;
+- `reviews/rust-core-coverage-matrix.md`;
+- `reviews/stage-2-post-midpoint-review.md`;
+- `reviews/stage-2-5-bridge-specification.md`;
+- `reviews/stage-2-5-remaining-coverage-review.md`;
+- `roadmaps/stage-2-5-unit-1-rust-core-fluency.md`;
+- `roadmaps/sprint-16.md`;
+- `roadmaps/sprint-17.md`;
+- `reviews/sprint-17-closure.md`;
 - current `learning-log.md`.
 
 Sprint-10, Sprint-09, and Sprint-08 files may be used as project-baseline background when needed.
@@ -151,6 +236,9 @@ Older Sprint-06 and Sprint-07 files are historical background only, not mandator
 - Completed and closed Sprint-14;
 - Created Sprint-15 roadmap;
 - Completed and closed Sprint-15 with PASS WITH NOTES.
+- Recorded Sprint-16 as stopped before completion, incomplete, and unclosed;
+- Created and accepted Sprint-17 roadmap;
+- Completed and closed Sprint-17 with PASS WITH NOTES.
 
 ## Current Repository Structure
 
@@ -184,11 +272,13 @@ No active learning sprint.
 
 Current focus:
 
-- review and commit Sprint-13 closure governance updates;
-- review and commit the Sprint-14 roadmap and closure governance updates;
-- review and commit the Sprint-15 closure governance updates;
-- commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
-- review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
+- preserve Sprint-17 as PASS WITH NOTES / CLOSED;
+- preserve Sprint-16 as incomplete and not closed;
+- preserve Sprint-16 as stopped before completion with partial unvalidated progress;
+- maintain Sprint-17 evidence for closures / iterators, systematic pattern matching, and collection ownership behavior;
+- keep deeper ownership / borrowing, explicit lifetimes, smart pointers, deeper `RefCell`, and engineering-contract consolidation visible as remaining Stage 2.5 work;
+- keep Sprint-18 Lifetimes And Borrowing Topology as a planning recommendation only;
+- do not transition to Stage 3 before remaining P0 / P1 entry prerequisites are satisfied and separately reviewed;
 - carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
 - carry forward Sprint-15 reinforcement topics about `RefCell` scenarios, reference copy semantics, `Path` / `PathBuf`, `HashSet`, persisted-data boundaries, file/storage tests, public error traits, and overflow-safe id generation;
 - preserve the Teacher direct review plus Codex formal validation collaboration model for Architect review;
@@ -196,13 +286,17 @@ Current focus:
 - ensure no Sprint-07 learning progress is credited;
 - keep governance repository validation separate from learning-project validation;
 - avoid Solana, blockchain networking, real wallet behavior, or large architecture work unless explicitly approved by a future roadmap;
-- do not start, draft, or authorize Sprint-16 without a separate approved workflow.
+- do not mark Sprint-16 complete or create a Sprint-16 closure from this partial-progress update.
+
+Sprint-17 is closed with PASS WITH NOTES and counts as completed Stage 2.5 learning progress within its validated Rust Core Fluency scope.
+
+The Sprint-17 learning project is `/Users/dumplings/workspace/rust_core_fluency_lab`.
 
 Sprint-15 is closed with PASS WITH NOTES and counts as completed Stage 2 Rust Engineering learning progress.
 
 The Sprint-15 learning project is `/Users/dumplings/workspace/rust_engineering_assessment`.
 
-Sprint-16 is not started, not drafted, and not authorized.
+Sprint-16 execution stopped before completion. Sprint-16 is not complete or closed.
 
 ## Sprint-01 Milestone Summary
 
@@ -282,20 +376,22 @@ Key outcomes:
 
 ## Next Focus
 
-- review and commit Sprint-13 closure governance updates;
-- review and commit the Sprint-14 roadmap and closure governance updates;
-- review and commit the Sprint-15 closure governance updates;
-- commit the separate `devlog_cli` Sprint-13 implementation if the learner wants to preserve it;
-- review and commit the separate `rust_mechanics_lab` Sprint-14 implementation if the learner wants to preserve it;
+- preserve the Sprint-17 closure and coverage evidence;
+- keep Sprint-18, Sprint-19, and Sprint-20 as planning recommendations only;
+- preserve Sprint-16 as stopped before completion, incomplete, unclosed, and without completion credit;
+- consider later Stage 2.5 planning, likely Lifetimes And Borrowing Topology, only through a separate specification and approval workflow;
+- continue reinforcement for borrowed enum matching, `HashSet<T>` versus `HashSet<&T>`, and iterator / closure fluency;
 - carry forward Sprint-14 teaching-process corrections about terminology format, validation question quality, `RefCell` explanation depth, test naming, and field-access auto-deref;
 - carry forward the Sprint-15 reinforcement topics recorded in `TODO.md` and `reviews/sprint-15-closure.md` only through future approved scope;
 - maintain strict workflow separation between `rust-blockchain-career` governance validation and separate learning-project validation.
 
-Sprint-15 is PASS WITH NOTES / CLOSED.
+Sprint-17 is PASS WITH NOTES / CLOSED.
 
 Current active sprint is None.
 
-Sprint-16 is not started, not drafted, and not authorized.
+Sprint-16 execution stopped before completion. Sprint-16 is not complete or closed.
+
+Stage 3 transition remains unauthorized. No later sprint is authorized.
 
 ## Known Risk
 
@@ -372,9 +468,15 @@ Sprint-15 completed and closed with final status PASS WITH NOTES / CLOSED.
 
 Sprint-15 used `/Users/dumplings/workspace/rust_engineering_assessment` as its separate learning project.
 
+Sprint-17 roadmap was accepted and executed through all four checkpoints.
+
+Sprint-17 completed and closed with final status PASS WITH NOTES / CLOSED.
+
+Sprint-17 used `/Users/dumplings/workspace/rust_core_fluency_lab` as its separate learning project.
+
 Current active sprint is None.
 
-Sprint-16 is not started, not drafted, and not authorized.
+Sprint-16 execution stopped before completion. Sprint-16 is not complete or closed.
 
 Sprint-08 `wallet_cli` implementation summary:
 
@@ -533,6 +635,25 @@ Sprint-15 `rust_engineering_assessment` implementation summary:
 - non-blocking notes include possible `u64::MAX` id overflow, public `Deserialize` bypass risk, limited file/storage tests, string-based error context, missing `Display` / `std::error::Error`, and crate-root facade ergonomics;
 - carry-forward learning includes `RefCell` scenario comparison, reference copy semantics, `Path` / `PathBuf`, `HashSet`, stricter persisted-data types, file/storage tests, public error traits, and overflow-safe id generation.
 
+Sprint-17 `rust_core_fluency_lab` implementation summary:
+
+- project used the bounded Rust Core Fluency library at `/Users/dumplings/workspace/rust_core_fluency_lab`;
+- final report exists at `reviews/sprint-17-closure.md`;
+- final result: PASS WITH NOTES / CLOSED;
+- all four Sprint-17 checkpoints passed;
+- Student Validation passed;
+- Codex Repository Validation returned PASS WITH NOTES;
+- Teacher Learning Validation returned PASS WITH NOTES;
+- `cargo fmt --check` passed;
+- `cargo check` passed;
+- `cargo test` passed;
+- final test result: 7 unit tests passed, with 0 doc tests;
+- validated iterator ownership, borrowed and owned collection APIs, closure capture and trait concepts, systematic pattern matching, collection choice, clone decisions, and integrated transformations;
+- remained within the bounded Sprint-17 scope and introduced no lifetime, smart-pointer, blockchain, async, persistence, or broad architecture work;
+- non-blocking learning notes include borrowed enum-field matching, `HashSet<T>` versus `HashSet<&T>`, and iterator / closure automaticity;
+- non-blocking repository notes include nine public transformation functions without direct behavioral tests, no source-level `move` closure, an entirely untracked project, and untracked `.DS_Store` / `.idea/` metadata;
+- Sprint-17 Checkpoint 1 evidence belongs to Sprint-17 and does not complete or close Sprint-16.
+
 Sprint-07 Attempt-1 failed and was discarded as a teaching execution failure.
 
 Sprint-07 is reserved as an abnormal sprint record, not a normal completed sprint.
@@ -582,7 +703,7 @@ Only split files or directories when the current structure starts to hurt mainte
 
 Sprint:
 
-Sprint-15 - `Stage 2 Midpoint Assessment — Rust Engineering Integration`
+Sprint-17 - `Stage 2.5 Remaining Rust Core Fluency And Pattern Matching Consolidation`
 
 Result:
 
@@ -590,13 +711,15 @@ PASS WITH NOTES / CLOSED
 
 Summary:
 
-`reviews/sprint-15-closure.md` records the completed Sprint-15 closure.
+`reviews/sprint-17-closure.md` records the completed Sprint-17 closure.
 
-Sprint-15 completed the fresh Stage 2 `rust_engineering_assessment` project and validated integrated domain modeling, ownership and borrowing, public error design, serde / JSON boundaries, deserialization validation, storage boundaries, trait/generic judgment, and focused tests.
+Sprint-17 completed the bounded `rust_core_fluency_lab` project work and validated closures and iterators, systematic pattern matching, collection ownership behavior, borrowed-input/owned-output transformations, clone decisions, and loop-versus-iterator tradeoffs.
 
 Recommendation:
 
-Current active sprint is None. Sprint-16 is not started, not drafted, and not authorized. Any future sprint requires a separate approved workflow. Keep governance repository validation separate from learning-project validation and do not credit Sprint-07 learning progress.
+Current active sprint is None. Sprint-16 remains stopped before completion, incomplete, unclosed, and without completion credit. Stage 2.5 remains incomplete, and Stage 3 transition remains unauthorized. Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only. Keep governance repository validation separate from learning-project validation and do not credit Sprint-07 learning progress.
+
+Future Architect consideration: review governance-file complexity and possible lightweight consolidation when appropriate. Sprint-17 closure does not authorize that review.
 
 ## Latest Assessment
 

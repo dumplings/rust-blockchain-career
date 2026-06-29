@@ -16,6 +16,9 @@ Rust Foundations
 Stage 2:
 Rust Engineering
 
+Stage 2.5:
+Rust Core Philosophy Bridge
+
 Stage 3:
 Blockchain Foundations
 
@@ -72,6 +75,33 @@ Expected outcomes:
 - learner can extend and maintain larger Rust projects;
 - learner can make engineering tradeoffs;
 - learner can use Rust tools and libraries with confidence.
+
+### Stage 2.5: Rust Core Philosophy Bridge
+
+Purpose:
+
+Consolidate Rust's deeper philosophy, mental models, idiomatic fluency, and job-readiness coverage before blockchain-specific complexity.
+
+Major capabilities:
+
+- ownership as resource discipline;
+- borrowing as controlled access;
+- aliasing XOR mutability;
+- explicit lifetime reasoning;
+- closures and iterator fluency;
+- pattern matching fluency;
+- smart pointers as ownership-topology tools;
+- `RefCell<T>` and interior mutability as deliberate escape hatches;
+- traits and generics as abstraction tradeoffs;
+- public API and error boundaries as contracts;
+- systems mindset before blockchain.
+
+Expected outcomes:
+
+- learner can explain and apply core Rust mental models beyond isolated syntax;
+- learner can read and write more idiomatic Rust involving closures, iterators, patterns, lifetimes, and ownership topology;
+- learner can reason about smart pointers and interior mutability as design tools;
+- learner is better prepared to learn blockchain and Solana concepts without stacking them on shallow Rust foundations.
 
 ### Stage 3: Blockchain Foundations
 
@@ -164,6 +194,19 @@ Complete this stage only when the learner can:
 5. Write integration tests for meaningful workflows.
 6. Explain engineering tradeoffs in Rust project design.
 
+### Stage 2.5: Rust Core Philosophy Bridge
+
+Complete this bridge only when the learner can:
+
+1. Explain deeper ownership and borrowing models, including aliasing versus mutation, ownership transfer, borrowed views, indirection, cleanup, and reference copy semantics.
+2. Explain lifetimes as relationships among references and reason through simple lifetime-related compiler diagnostics.
+3. Use and explain closures and iterators, including capture behavior, lazy processing, adapter chains, and loop-versus-iterator tradeoffs.
+4. Use and explain systematic pattern matching for ordinary Rust code.
+5. Explain smart pointers such as `Box<T>`, `Rc<T>`, `Weak<T>`, `RefCell<T>`, `Deref`, and `Drop` as ownership-topology and resource-lifecycle tools.
+6. Explain when interior mutability is justified and when ordinary `&mut` design is preferable.
+7. Explain how traits, generics, public APIs, and public error boundaries express engineering contracts and tradeoffs.
+8. Demonstrate enough Rust core fluency for Stage 3 Blockchain Foundations to start without major Rust fundamentals risk.
+
 ### Stage 3: Blockchain Foundations
 
 Complete this stage only when the learner can:
@@ -212,6 +255,17 @@ Sprint roadmaps should define local scope, deliverables, and completion criteria
 
 Sprint roadmaps must not override the active stage objective.
 
+Stage 2.5 is a required bridge between Stage 2 Rust Engineering and Stage 3 Blockchain Foundations.
+
+Stage 2.5 may contain one or more separately approved bridge units, sprints, or assessments. Its representation in this roadmap does not authorize any of them.
+
+Topic-level coverage and recommended bridge structure remain in:
+
+- `reviews/rust-core-coverage-matrix.md`;
+- `reviews/stage-2-5-bridge-specification.md`.
+
+Any bridge-unit or sprint roadmap requires a separate approved workflow.
+
 ---
 
 ## Governance Notes
@@ -223,5 +277,9 @@ Sprint planning must align with the active stage.
 Stage progression is based on capability, not calendar time.
 
 Do not advance stages only because a sprint ended.
+
+Stage 3 must not begin until the Stage 2.5 exit criteria are satisfied or a separate governance decision explicitly accepts any remaining gap.
+
+Adding Stage 2.5 to this roadmap does not start, draft, scope, or authorize Sprint-16; authorize bridge execution or learning-project work; or authorize Stage 3 transition.
 
 Do not use this roadmap to create timelines or estimate sprint counts.

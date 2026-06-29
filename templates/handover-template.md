@@ -42,7 +42,9 @@ Required files for the next agent to read:
 
 ## Repository State
 
-Record relevant git state, uncommitted changes, and any files that need review or commit.
+Record Git state only when it affects the handover, such as an in-progress Codex update, scope ambiguity, or repository state that would mislead the next agent.
+
+Do not treat the learner's commit timing, commit grouping, push status, or personal learning-project preservation as a standing handover concern.
 
 ## Risks
 

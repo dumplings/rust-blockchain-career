@@ -911,3 +911,75 @@ Non-Blocking Notes:
 Next Status:
 
 Sprint-15 is closed and counts as completed Stage 2 Rust Engineering learning progress. Stage 2 remains active. No sprint is active. Sprint-16 is not started, not drafted, and not authorized.
+
+## 2026-06-30
+
+### Sprint-17 Completion
+
+Outcome:
+
+PASS WITH NOTES / CLOSED
+
+Sprint:
+
+`Stage 2.5 Remaining Rust Core Fluency And Pattern Matching Consolidation`
+
+Project:
+
+`rust_core_fluency_lab`
+
+Project Path:
+
+`/Users/dumplings/workspace/rust_core_fluency_lab`
+
+Checkpoint Results:
+
+- Checkpoint 1 - Sprint-16 partial-progress revalidation gate: PASS
+- Checkpoint 2 - Closure consolidation in project context: PASS
+- Checkpoint 3 - Pattern matching fluency: PASS
+- Checkpoint 4 - Integrated Rust core fluency exercise: PASS
+
+Validation:
+
+- Student Validation: PASS
+- Codex Repository Validation: PASS WITH NOTES
+- Teacher Learning Validation: PASS WITH NOTES
+- `cargo fmt --check`: PASS
+- `cargo check`: PASS
+- `cargo test`: PASS
+- Final test result: 7 unit tests passed, 0 failed; 0 doc tests
+
+Capability Growth:
+
+- Revalidated `iter`, `iter_mut`, and `into_iter` ownership differences.
+- Practiced `&[T]`, `&mut [T]`, and `Vec<T>` API choices.
+- Used `HashSet` duplicate or membership behavior and `HashMap` counting or grouping.
+- Produced owned output from borrowed input with justified clones.
+- Explained closure parameters, shared-borrow capture, mutable-borrow capture, move capture, mutable closure bindings, and conceptual `Fn`, `FnMut`, and `FnOnce`.
+- Used closures inside iterator pipelines and compared closures with named helper functions.
+- Applied `match`, `if let`, `let ... else`, `while let`, destructuring, guards, refutability, and exhaustiveness.
+- Integrated iterators, closures, patterns, collection ownership, borrowed input, and owned output in one bounded exercise.
+
+Non-Blocking Notes:
+
+- Matching borrowed enum fields without moving non-`Copy` values needs reinforcement.
+- `HashSet<T>` versus `HashSet<&T>` choices need continued practice.
+- Iterator and closure combinations such as `any(|x| ...)` are understood but not yet automatic.
+- Nine of sixteen public transformation functions lack direct behavioral tests, including `open_titles`, `take_open_records`, and `mark_blocked_as_done`.
+- No `move` closure appears in source; move capture was validated conceptually during Teacher Learning Validation.
+- The learning project is entirely untracked, including `.DS_Store` and `.idea/` metadata.
+
+Governance Notes:
+
+- Sprint-17 counts as completed Stage 2.5 learning progress within its validated Rust Core Fluency scope.
+- Sprint-16 remains stopped before completion, incomplete, unclosed, and without completion credit.
+- Sprint-17 Checkpoint 1 evidence does not retroactively complete or close Sprint-16.
+- Stage 2.5 remains incomplete.
+- Stage 3 transition remains unauthorized.
+- Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only.
+- Sprint-07 remains a failed / abnormal sprint record with no learning credit.
+- Governance repository validation and learning-project validation remain separate.
+
+Next Status:
+
+No sprint is active. Later Stage 2.5 work remains recommended, likely Lifetimes And Borrowing Topology, but no later sprint is drafted, scoped, accepted, or authorized.

@@ -43,6 +43,10 @@ Learner 是你本人。
 
 你是学习进度和仓库资产的最终负责人。
 
+这里的“最终 commit repository changes”表示 repository change 的审核、接受和 commit 决策由你负责。它不表示 Teacher 或 Architect 需要持续跟踪你的 commit 时间、commit 分组、push 时间，或个人 learning project 是否保存。
+
+Git status、git diff 和 commit history 是 repository validation 与 state synchronization 的辅助证据，不是 governance objective。只有在 Codex 刚完成 repository update、repository state 会影响未来 handover、正式 validation 需要 scope evidence，或你明确要求 repository hygiene / Git audit 时，Agent 才需要重点提醒或检查这些信息。
+
 ### Teacher
 
 Teacher 负责教学和学习执行。

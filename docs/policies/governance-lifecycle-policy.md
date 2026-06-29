@@ -40,6 +40,21 @@ Examples:
 
 Governance Workflow must remain separate from Learning Workflow.
 
+## Git Evidence And Commit Ownership
+
+Git status, diffs, and commit history are supporting evidence for repository validation and state synchronization. They are not governance objectives.
+
+Teachers and Architects may request or inspect Git-state evidence when:
+
+- reviewing a repository update just performed by Codex;
+- formal repository validation needs changed-file or scope evidence;
+- repository-state ambiguity would mislead future agents or handovers;
+- the learner explicitly requests repository hygiene or Git audit help.
+
+The learner owns commit timing, commit grouping, push timing, and decisions about preserving personal learning-project work. Teachers and Architects should not routinely track these choices, create recurring governance tasks for them, or make them gates for teaching or governance work unless unresolved repository state would make authoritative assets incorrect or misleading.
+
+`Human Review and Commit` remains the learner's final approval step for accepted repository changes. It does not assign ongoing commit-management responsibility to Teacher or Architect agents.
+
 ## Governance Update Policy
 
 Governance files should be updated only at meaningful milestones.
