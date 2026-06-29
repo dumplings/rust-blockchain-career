@@ -17,6 +17,8 @@
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 - Stage 3 transition: Not authorized
 
+Post-execution status note: the identity and authorization language in this roadmap records the accepted pre-execution boundary. Sprint-17 later completed and closed with PASS WITH NOTES; `reviews/sprint-17-closure.md` is the authoritative completion record. That separate Sprint-17 completion boundary does not complete or close Sprint-16, complete the original Unit 1 execution boundary, complete Stage 2.5, or authorize Stage 3 transition.
+
 The learner accepted this roadmap before execution. Recording acceptance makes Sprint-17 ready for a future Teacher execution window but does not start Sprint-17, modify or validate the learning project, complete Sprint-16, or authorize Stage 3 transition.
 
 ## 2. Sprint Purpose

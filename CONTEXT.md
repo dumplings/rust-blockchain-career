@@ -410,11 +410,13 @@ The previous Architect retired after completing the Sprint-07 governance interve
 
 The Stage 2 transition Architect also retired after recording the Stage 1 Exit Assessment and Stage 2 transition.
 
+The post-Sprint-17 Architect retired through a controlled handover after Sprint-17 closure because long-context reliability and boundary discipline declined. This was not an emergency failure review.
+
 No Architect Agent is currently active.
 
-The next Teacher / Architect session should begin from the current governance baseline rather than assuming an active Architect is already in place.
+The next Architect session should begin from the current governance baseline and the latest retirement handover rather than assuming an active Architect is already in place.
 
-The latest Architect handover is `reviews/architect-retirement-handover-2026-06-22.md`.
+The latest Architect handover is `reviews/architect-retirement-handover-2026-06-30-post-sprint-17.md`.
 
 Sprint-03 is terminated / failed due to learning-system execution failure, not Rust knowledge failure.
 

@@ -1,5 +1,6 @@
 # Current Tasks
 
+- [ ] Onboard the next Architect from `reviews/architect-retirement-handover-2026-06-30-post-sprint-17.md` before any later Stage 2.5 sprint planning
 - [ ] Maintain the Rust Core Coverage Matrix for remaining Stage 2.5 coverage and before any Stage 3 transition decision
 - [ ] Do not mark Sprint-16 complete or create a Sprint-16 closure from the partial-progress record
 - [x] Review and accept the Sprint-17 roadmap

@@ -16,6 +16,7 @@
 - Source proposal: `roadmaps/stage-2-5-unit-1-rust-core-fluency.md`
 - Source specification: `reviews/stage-2-5-bridge-specification.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
+- Later topic-evidence boundary: Sprint-17 PASS WITH NOTES / CLOSED; no Sprint-16 completion effect
 - Stage 3 transition: Not authorized
 
 The learner accepted this roadmap and Sprint-16 execution later began under it. The learner stopped the Sprint-16 window before the roadmap was completed. Sprint-16 is not complete or closed, and the partial progress recorded below remains unvalidated.
@@ -491,13 +492,15 @@ Sprint-16 covers only Stage 2.5 Unit 1 — Rust Core Fluency.
 
 It does not complete Stage 2.5.
 
-The learner has agreed to the directional sequence:
+At roadmap acceptance time, the learner agreed to this provisional directional sequence:
 
 1. Sprint-16 — Unit 1: Rust Core Fluency
 2. Sprint-17 — Unit 2: Ownership Topology And Lifetimes
 3. Sprint-18 — Unit 3: Engineering Contract Consolidation
 
 Recording this sequence does not create, draft, scope, or authorize Sprint-17 or Sprint-18. Each later sprint requires its own approved roadmap workflow.
+
+This provisional sequence was superseded by `reviews/stage-2-5-remaining-coverage-review.md`. Under the later distribution, Sprint-17 became the separate Rust Core Fluency consolidation sprint and is now PASS WITH NOTES / CLOSED. Sprint-18 Lifetimes And Borrowing Topology, Sprint-19 Smart Pointers And Interior Mutability, and Sprint-20 Engineering Contract Consolidation remain planning recommendations only; they are not drafted, scoped, accepted, or authorized.
 
 Sprint-16 should prepare the learner for Unit 2. Sprint-16 does not authorize Unit 2 and does not authorize Stage 3 transition.
 
@@ -519,19 +522,19 @@ Current state:
 
 `/Users/dumplings/workspace/rust_core_fluency_lab` was created during authorized Sprint-16 execution. This governance update does not inspect, validate, or modify that project.
 
-Remaining Unit 1 content returns to Stage 2.5 remaining-coverage planning. Future planning should decide whether the content is resumed, merged into a later sprint, or redistributed across future sprints. It must not be treated as an automatic Sprint-16 continuation.
+The remaining Rust Core Fluency topic group was redistributed through the accepted Stage 2.5 remaining-coverage process. It was not treated as an automatic Sprint-16 continuation.
 
-The learner accepted the expanded distribution in `reviews/stage-2-5-remaining-coverage-review.md` and accepted `roadmaps/sprint-17.md` for future Teacher execution. Sprint-17 execution has not started and does not continue or close Sprint-16.
+The learner accepted the expanded distribution in `reviews/stage-2-5-remaining-coverage-review.md` and later completed Sprint-17 with PASS WITH NOTES. Sprint-17 established a separate completion boundary and independently validated closures and iterators, systematic pattern matching, and collection ownership behavior. This topic-level evidence does not continue, complete, or close Sprint-16 and does not complete the original Unit 1 execution boundary.
 
-Sprint-17 is accepted / ready for Teacher execution, but execution has not started. Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only; they are not drafted, scoped, accepted, or authorized. Stage 3 transition remains unauthorized.
+Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only; they are not drafted, scoped, accepted, or authorized. Stage 2.5 remains incomplete, and Stage 3 transition remains unauthorized.
 
 ## 19. Partial Progress Record
 
-The following records partial, unvalidated learning progress only. It does not mark Unit 1 or any Rust Core Coverage Matrix topic complete.
+The following records partial, unvalidated progress under the Sprint-16 boundary only. It does not mark Sprint-16 or the original Unit 1 execution boundary complete. Later Sprint-17 topic evidence is recorded separately in `reviews/sprint-17-closure.md` and `reviews/rust-core-coverage-matrix.md`.
 
 ### Checkpoint 1 — Iterator And Collection Reading
 
-Mostly practiced, but still requires brief later validation before completion credit:
+Mostly practiced, but at the Sprint-16 stop point it still required later validation. Sprint-17 later performed revalidation under its separate boundary without granting Sprint-16 completion credit:
 
 - `iter`, `iter_mut`, and `into_iter`;
 - borrowed slices such as `&[T]`;
@@ -564,4 +567,4 @@ Not completed.
 
 Not completed.
 
-This status record is not a Sprint-16 closure. The accepted Sprint-17 roadmap does not continue, complete, or close Sprint-16.
+This status record is not a Sprint-16 closure. Sprint-17 did not continue, complete, or close Sprint-16.

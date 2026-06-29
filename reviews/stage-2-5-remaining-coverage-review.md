@@ -4,19 +4,21 @@
 
 - Document type: Stage 2.5 remaining-coverage review
 - Review date: 2026-06-29
-- Status: Planning direction accepted; Sprint-17 roadmap accepted separately; execution not started
+- Status: Historical planning review; Sprint-17 later completed and closed with PASS WITH NOTES
 - Current stage: Stage 2 — Rust Engineering / Stage 2.5 planning context
 - Current active sprint: None
 - Sprint-16 status: Stopped before completion / partial unvalidated progress
 - Sprint-16 closure: None
 - Stage 3 transition: Not authorized
-- Sprint-17: Roadmap accepted / ready for Teacher execution; execution not started
+- Sprint-17: PASS WITH NOTES / CLOSED under a separate completion boundary
 - Sprint-18: Directional only; not drafted, not scoped, and not authorized
 - Source roadmap: `roadmaps/sprint-16.md`
 - Source bridge specification: `reviews/stage-2-5-bridge-specification.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 
 This review determined how remaining Stage 2.5 coverage should be distributed before Sprint-17 roadmap drafting. The learner accepted its expanded distribution as the drafting direction. It remains a planning review, not a sprint roadmap, execution authorization, validation report, or closure.
+
+Post-Sprint-17 clarification: the unresolved-topic statements below record the planning state on 2026-06-29. Sprint-16 remains incomplete and unclosed under its original execution boundary. Sprint-17 later established a separate completion boundary and independently validated closures and iterators, systematic pattern matching, and collection ownership behavior. Those topics are now covered sufficiently for the current curriculum point in `reviews/rust-core-coverage-matrix.md`, but Sprint-17 does not complete Sprint-16, the original Unit 1 execution boundary, or Stage 2.5. Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only, and Stage 3 transition remains unauthorized.
 
 ## 2. Review Questions And Decision Summary
 
@@ -239,7 +241,7 @@ A future Sprint-17 should:
 
 Before drafting, the roadmap workflow must explicitly decide the project choice, implementation boundary, test boundary, and validation target.
 
-## 9. Coverage Matrix Implications
+## 9. Coverage Matrix Implications At Review Time
 
 - Sprint-16 partial progress does not mark any topic complete.
 - Coverage classifications should not change based on partial, unvalidated evidence.
@@ -269,11 +271,11 @@ The learner accepted the expanded Stage 2.5 distribution as the direction for dr
 
 `roadmaps/sprint-17.md` now records the proposed scope, checkpoints, preferred project boundary, tests, and validation requirements.
 
-The learner accepted the Sprint-17 roadmap. Sprint-17 is ready for future Teacher execution, but execution is not started and the current active sprint remains None. The preferred project choice remains subject to the roadmap's initial source-level review gate during future execution.
+The learner accepted the Sprint-17 roadmap after this review. Sprint-17 later completed and closed with PASS WITH NOTES; `reviews/sprint-17-closure.md` is the authoritative completion record.
 
-## 12. What Must Not Be Marked Complete
+## 12. What Was Incomplete At Review Time
 
-The following remain incomplete:
+At the time of this review, the following were incomplete:
 
 - Sprint-16;
 - Stage 2.5 Unit 1;
@@ -304,4 +306,4 @@ This review does not:
 - mark any Rust Core Coverage Matrix topic complete;
 - record Teacher failure or teaching-drift details.
 
-Final review decision: The expanded Stage 2.5 distribution remains the planning direction. The Sprint-17 roadmap is accepted / ready for Teacher execution, and execution has not started.
+Final review decision at the time of this review: the expanded Stage 2.5 distribution became the planning direction for Sprint-17. Sprint-17 later completed and closed under its separate validation boundary; the later closure does not complete Sprint-16, the original Unit 1 execution boundary, or Stage 2.5.

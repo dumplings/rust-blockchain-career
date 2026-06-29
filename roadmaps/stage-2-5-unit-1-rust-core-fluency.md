@@ -9,12 +9,13 @@
 - Current sprint: None active
 - Sprint-15: PASS WITH NOTES / CLOSED
 - Sprint-16: Execution stopped before completion; partial unvalidated progress; not complete or closed
+- Sprint-17: PASS WITH NOTES / CLOSED under a separate completion boundary
 - Execution status: No current execution
 - Stage 3 transition: Not authorized
 - Source specification: `reviews/stage-2-5-bridge-specification.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 
-This document records the source proposal that the learner approved as the basis for `roadmaps/sprint-16.md`. Sprint-16 execution later began and was stopped before completion. The formal roadmap remains the authoritative Sprint-16 scope record, while remaining Unit 1 coverage returns to future Stage 2.5 planning.
+This document records the source proposal that the learner approved as the basis for `roadmaps/sprint-16.md`. Sprint-16 execution later began and was stopped before completion. The formal roadmap remains the authoritative Sprint-16 scope record. Sprint-17 later established a separate completion boundary and independently validated the Rust Core Fluency topic group. This supports topic-level coverage for closures and iterators, systematic pattern matching, and collection ownership behavior, but it does not complete Sprint-16, the original Unit 1 execution boundary, or Stage 2.5.
 
 ## 2. Purpose
 
@@ -35,15 +36,17 @@ This unit should connect syntax to ownership behavior, API choices, control flow
 
 This proposal addresses the Rust Core Fluency portion of `Stage 2.5 — Rust Core Philosophy Bridge`.
 
-It directly responds to the coverage matrix findings that:
+At proposal time, it directly responded to coverage matrix findings that:
 
 - closures and iterators are a P0 gap;
 - systematic pattern matching is a P1 gap;
 - collection selection, borrowing, mutation, and transformation need P1 reinforcement.
 
+Sprint-17 later supplied validated evidence for these Rust Core Fluency topics, and the coverage matrix now records them as covered sufficiently for the current curriculum point. Remaining Stage 2.5 work is unchanged by this proposal document.
+
 Unit 1 does not complete all Stage 2.5 requirements. In particular, it does not complete explicit lifetime reasoning, ownership topology, smart pointers, deeper interior mutability, or engineering-contract consolidation.
 
-Completion of a future authorized Unit 1 would prepare the learner for Unit 2 — Ownership Topology And Lifetimes. It would not by itself authorize Unit 2 or Stage 3.
+At proposal time, completion of a future authorized Unit 1 was expected to prepare the learner for Unit 2 — Ownership Topology And Lifetimes. It would not by itself have authorized Unit 2 or Stage 3.
 
 ## 4. Proposed Learning Outcomes
 
@@ -380,7 +383,7 @@ The learner subsequently approved Unit 1 as Sprint-16 and authorized creation of
 
 Sprint-16 execution stopped before completion. Sprint-16 is not complete or closed, and its progress remains partial and unvalidated.
 
-The learner accepted the expanded distribution in `reviews/stage-2-5-remaining-coverage-review.md` and accepted `roadmaps/sprint-17.md` for future Teacher execution. Sprint-17 execution has not started and does not change Sprint-16 completion state.
+The learner accepted the expanded distribution in `reviews/stage-2-5-remaining-coverage-review.md` and later completed Sprint-17 with PASS WITH NOTES. Sprint-17 evidence belongs to its separate completion boundary and does not change Sprint-16 completion state or retroactively complete the original Unit 1 execution boundary.
 
 The existing `/Users/dumplings/workspace/rust_core_fluency_lab` project is not inspected, validated, or modified by this governance update.
 
@@ -397,4 +400,4 @@ This proposal synchronization does not:
 - authorize Stage 3 transition;
 - modify any learning-project repository.
 
-Final proposal status: Approved as the drafting basis and superseded by `roadmaps/sprint-16.md`. Sprint-16 stopped before completion with partial unvalidated progress.
+Final proposal status: Approved as the drafting basis and superseded by `roadmaps/sprint-16.md`. Sprint-16 stopped before completion with partial unvalidated progress. Sprint-17 later validated the Rust Core Fluency topic group separately; Stage 2.5 remains incomplete.
