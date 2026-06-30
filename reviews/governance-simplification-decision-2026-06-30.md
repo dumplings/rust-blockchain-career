@@ -50,6 +50,11 @@ The governance architecture was sound, but several active surfaces had begun to 
    - `docs/agents/teacher-standard-prompt.md` launches accepted Sprint Teacher windows.
    - Architect prepares the task-specific attachments and addendum; Learner creates execution authority by deliberately sending the explicit start command.
 
+10. Learner-facing conversation and persistent artifact language are separate.
+   - Browser-based Teacher, Architect, and Codex conversation defaults to Chinese.
+   - Repository-ready governance documents and cross-agent prompts default to English.
+   - A structured takeover or governance verdict in chat remains learner-facing conversation unless a repository-ready artifact is explicitly requested.
+
 ## Files Changed
 
 - `AGENTS.md`
@@ -68,6 +73,7 @@ The governance architecture was sound, but several active surfaces had begun to 
 - `docs/policies/sprint-governance-policy.md`
 - `docs/policies/governance-lifecycle-policy.md`
 - `docs/policies/codex-collaboration-policy.md`
+- `docs/policies/language-output-policy.md`
 - `templates/specification-review-template.md`
 - `governance/observations.md`
 

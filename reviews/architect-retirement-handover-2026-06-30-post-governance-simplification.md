@@ -55,6 +55,7 @@ Canonical Architect bundle:
 - `CONTEXT.md`
 - `TODO.md`
 - `docs/policies/governance-lifecycle-policy.md`
+- `docs/policies/language-output-policy.md`
 - the learner's current task
 - exact task target files, when a task exists
 
@@ -88,4 +89,4 @@ The learner authorized Codex to commit the accepted governance simplification an
 
 ## Language Note
 
-Governance documents and cross-agent prompts remain English by default. Learner-facing operational discussion may use Chinese.
+Learner-facing Teacher, Architect, and Codex conversation defaults to Chinese. Repository-ready governance documents and cross-agent prompts remain English by default.

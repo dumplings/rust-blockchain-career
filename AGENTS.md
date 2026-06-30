@@ -248,10 +248,13 @@ Current teaching-language requirements live in `CONTEXT.md`.
 
 Stable defaults:
 
+- learner-facing conversation with Teacher, Architect, or Codex is conducted in Chinese by default;
 - technical terminology may remain in English;
 - governance documents are written in English by default;
 - repository-ready roadmaps, reviews, failure reviews, handovers, and cross-agent prompts are written in English by default;
 - English training should be intentional and must not interfere with technical assessment unless explicitly part of a sprint objective.
+
+A structured browser-chat response, including an Architect takeover verdict or governance review, remains learner-facing conversation and should be in Chinese unless the learner explicitly requests a repository-ready English artifact.
 
 Detailed language and output classification rules are in `docs/policies/language-output-policy.md`.
 
@@ -273,6 +276,7 @@ Always load:
 - compact `CONTEXT.md`;
 - task-only `TODO.md`;
 - `docs/policies/governance-lifecycle-policy.md`;
+- `docs/policies/language-output-policy.md`;
 - the current task or approved decision;
 - the exact target files.
 

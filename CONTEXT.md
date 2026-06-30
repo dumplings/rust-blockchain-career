@@ -63,6 +63,7 @@ The current governance update does not start Sprint-18, open a Teacher window, o
 - Target specialization: Solana development
 - Curriculum prerequisite order: Rust capability, general blockchain foundations, then deeper Solana development
 - Technical teaching language: Chinese
+- Learner-facing Teacher, Architect, and Codex conversation language: Chinese
 - Technical terminology: English allowed when useful
 - Governance and repository-ready document language: English
 - English training: Secondary unless explicitly selected as a sprint objective

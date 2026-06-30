@@ -6,6 +6,8 @@
 
 页面端 Teacher 和 Architect 通常不能访问本地仓库。对这些窗口，“加载文件”表示由 Learner 上传附件或粘贴内容。需要 Git、diff、本地源码或仓库验证时，由 Codex 提供 scoped evidence report。
 
+页面端 Teacher、Architect 和 Codex 与 Learner 的对话默认使用中文。英文用于 repository-ready governance documents 和 cross-agent prompts。结构化 takeover verdict 仍然是 learner-facing conversation，不应因为形式正式而自动切换成英文。
+
 ## 1. 系统目标与课程顺序
 
 系统目标是建立参与 Rust + Blockchain 开发所需的知识、工程能力和可验证项目经验。
