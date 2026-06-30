@@ -35,6 +35,8 @@ Preferred lifecycle:
 Sprint Review
 -> Specification Review
 -> Sprint Roadmap
+-> Roadmap Acceptance / Accepted But Not Started
+-> Explicit Learner Start Command
 -> Sprint Execution
 -> Sprint Review / Closure
 
@@ -66,8 +68,9 @@ Teacher, with Architect review when scope, stage alignment, workflow separation,
 
 Required work:
 
-- confirm the current stage, active sprint state, and previous sprint outcome;
-- review the relevant roadmap, closure, failure review, handover, and current-state files;
+- confirm the current stage, active sprint state, and any prior outcome relevant to the candidate direction;
+- use current state, curriculum progress, and stage-relevant coverage artifacts as the continuity baseline;
+- load a previous roadmap, closure, failure review, handover, or learning log only when candidate scope, unresolved coverage, project continuation, or authority ambiguity requires that evidence;
 - identify the candidate sprint direction;
 - explain why the direction fits the current stage and long-term roadmap;
 - assess expected learning density, not only sprint size;
@@ -105,6 +108,33 @@ A roadmap draft or repository-ready roadmap update prompt.
 
 Roadmap creation or repository update requires learner approval.
 
+### Sprint Execution Start Gate
+
+Roadmap acceptance creates an accepted-but-not-started state by default.
+
+Accepted-but-not-started is not active sprint execution. Sprint execution begins only after the learner gives an explicit command to start execution or checkpoint work.
+
+Valid explicit start commands include:
+
+- “Start Sprint-18 execution now.”
+- “Begin Teacher mode now.”
+- “Start Checkpoint 1 now.”
+- equivalent clear learner wording.
+
+The learner may combine roadmap acceptance and execution start in one message only when the message unambiguously states both decisions.
+
+None of the following authorizes execution by itself:
+
+- accepting a roadmap;
+- creating or updating roadmap or current-state files;
+- placing execution in `TODO.md` as the next task;
+- writing “next permitted action” or equivalent readiness wording;
+- completing the Teacher startup checklist.
+
+Without an explicit learner start command, an agent may summarize readiness and ask whether the learner wants to begin. The agent must not start teaching, issue checkpoint work, or treat the sprint as active.
+
+This gate applies especially when an agent would switch from Architect / governance mode into Teacher / learning execution mode. Existing role boundaries in `AGENTS.md` remain authoritative.
+
 ### Sprint Execution
 
 Purpose:
@@ -115,6 +145,7 @@ Teacher for teaching and validation; learner for implementation.
 
 Required work:
 
+- confirm that the Sprint Execution Start Gate has been satisfied;
 - teach the checkpoint concept and implementation boundary;
 - keep the learner as the primary implementer;
 - review source-level work before moving on when the checkpoint requires it;
@@ -256,6 +287,29 @@ Default responsibility:
 - Architect Agents may review sprint roadmaps when governance risk, scope risk, stage-alignment risk, or workflow-separation risk exists.
 - Codex may create or update sprint roadmap files only after receiving an explicit prompt forwarded by the learner.
 - The learner has final human approval authority before roadmap repository updates are accepted.
+
+### Learner Approval And Roadmap Quality Responsibility
+
+The learner has final human authority over repository updates, roadmap acceptance, and sprint start. These are distinct decisions unless the learner's message unambiguously combines them.
+
+Roadmap acceptance by itself creates the accepted-but-not-started state defined by the Sprint Execution Start Gate. It does not authorize sprint execution.
+
+Learner approval does not require the learner to perform detailed curriculum-design quality assurance or independently detect whether a roadmap is too dense, too broad, poorly sequenced, or pedagogically miscalibrated.
+
+Teacher and Architect agents remain responsible for:
+
+- scope calibration;
+- learning density;
+- stage alignment;
+- checkpoint boundaries and sequencing;
+- implementation and testing expectations;
+- validation design.
+
+The learner may provide lightweight direction confirmation rather than reviewing every roadmap detail.
+
+If overload, underload, or miscalibration becomes visible only during execution, treat that as normal learning-system feedback. The Teacher should adjust at a checkpoint boundary through narrowing, reinforcement, deferral, or splitting, and should request a governance decision when the required change would materially alter accepted sprint scope.
+
+Approval must not be used to shift responsibility for roadmap-quality problems onto the learner.
 
 A Teacher-generated roadmap draft or Codex prompt does not by itself mean the roadmap has been approved for repository creation.
 

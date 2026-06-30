@@ -27,7 +27,7 @@ Long-term direction:
 - develop technical English reading and writing ability over time;
 - preserve a reusable learning system that can survive agent, model, platform, and chat changes.
 
-The initial 60-day goal is only the first phase. The broader goal is long-term professional transition and continuous skill improvement.
+The original 60-day framing describes an initial phase and is not an active deadline. The governing goal is long-term professional transition, practical capability growth, and continuous skill improvement.
 
 ## 3. Source Of Truth
 
@@ -88,6 +88,23 @@ Rust Fundamentals include:
 - testing habits.
 
 Successful validation in one sprint demonstrates current capability, not permanent mastery. Future Rust Foundations sprints must continue reinforcing relevant fundamentals.
+
+### Curriculum Continuity: What To Teach vs How To Teach
+
+What to teach is determined by:
+
+- the overall curriculum and stage ordering in `roadmaps/master-roadmap.md`;
+- the current stage and bridge phase in `CONTEXT.md`;
+- stage-relevant coverage artifacts;
+- the accepted current sprint roadmap, including its scope, non-goals, and checkpoint sequence.
+
+`reviews/rust-core-coverage-matrix.md` is the current Rust-core coverage ledger for Stage 2 and Stage 2.5. It is not a permanent universal coverage ledger for later blockchain or Solana stages; those stages may require their own approved coverage artifacts.
+
+How to teach is determined by the role boundaries and validation model in this file, the Teacher and sprint execution policies, the language policy, the learner-primary implementation boundary, and the current learner profile and active risks in `CONTEXT.md`.
+
+A new sprint or Teacher execution window must not depend on the previous chat or a previous lesson summary by default. Curriculum continuity comes from repository state, the Master Roadmap, the accepted sprint roadmap, and stage-relevant coverage artifacts. Previous closures, handovers, failure reviews, and `learning-log.md` are conditional evidence when current scope, coverage, continuity, or authority questions require them.
+
+This repository-based continuity allows Teacher, Architect, and Codex or coding-agent windows to be retired and replaced without making chat memory an authority.
 
 ## 6. Role Boundaries
 
@@ -205,58 +222,143 @@ Stable defaults:
 
 Detailed language and output classification rules are in `docs/policies/language-output-policy.md`.
 
-## 10. Policy Documents
+## 10. Canonical Startup Bundles
 
-Agents should load only the policy files relevant to the current task.
+This section is the canonical owner of agent startup bundles. Other documents should reference this matrix and add only task-specific evidence instead of reproducing cumulative file lists.
 
-### Teacher Work
-
-Required:
-
-- `AGENTS.md`
-- `CONTEXT.md`
-- `TODO.md`
-- `roadmaps/master-roadmap.md`
-- `docs/policies/teacher-execution-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/language-output-policy.md`
-- current or proposed sprint roadmap, if one exists
-- most recent relevant sprint review or failure review
-
-### Codex Repository Work
-
-Required:
-
-- `AGENTS.md`
-- `CONTEXT.md`
-- `TODO.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/language-output-policy.md`
-- the specific prompt or task request
-- relevant roadmap, review, or code files
+Load only what the current workflow needs. "Conditionally load" means load the item when the task, current-state pointer, or authority question makes it relevant. "Do not load by default" does not prohibit later inspection when evidence requires it.
 
 ### Architect / Governance Work
 
-Required:
+Always load:
 
-- `AGENTS.md`
-- `CONTEXT.md`
-- `TODO.md`
-- `roadmaps/master-roadmap.md`
-- `governance/observations.md`
-- `docs/policies/governance-lifecycle-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/language-output-policy.md`
-- `docs/agents/architect-bootstrap-guide.md`
-- relevant reviews, failure reviews, and handovers
+- `AGENTS.md`;
+- compact `CONTEXT.md`;
+- task-only `TODO.md`;
+- `docs/policies/governance-lifecycle-policy.md`;
+- the current task or approved decision;
+- the exact target files.
 
-### Language / Output Questions
+Conditionally load:
 
-Required:
+- `roadmaps/master-roadmap.md`;
+- `governance/observations.md`;
+- sprint, Codex collaboration, or language policies;
+- the current roadmap or relevant review;
+- the latest handover when onboarding or resolving authority ambiguity.
 
-- `AGENTS.md`
-- `docs/policies/language-output-policy.md`
+Do not load by default:
+
+- the full `learning-log.md`;
+- all historical roadmaps and reviews;
+- `docs/policies/teacher-execution-policy.md`;
+- the human-facing runbook.
+
+### Teacher Sprint Execution
+
+Always load:
+
+- `AGENTS.md`;
+- compact `CONTEXT.md`;
+- the accepted current sprint roadmap;
+- `docs/policies/teacher-execution-policy.md`;
+- `docs/policies/sprint-governance-policy.md`;
+- `docs/policies/language-output-policy.md`;
+- the explicit learner start message.
+
+Conditionally load:
+
+- the current Specification Review;
+- the latest relevant closure or handover;
+- the coverage matrix;
+- `docs/policies/codex-collaboration-policy.md`;
+- `roadmaps/master-roadmap.md` when stage alignment is uncertain.
+
+Do not load by default:
+
+- unrelated historical sprint files;
+- the full `learning-log.md`;
+- Architect documents;
+- `governance/observations.md`.
+
+### Sprint Closure
+
+Always load:
+
+- `AGENTS.md`;
+- compact `CONTEXT.md`;
+- the accepted sprint roadmap;
+- Student Validation evidence;
+- the Codex Repository Validation report;
+- `docs/policies/teacher-execution-policy.md`;
+- `docs/policies/sprint-governance-policy.md`.
+
+Conditionally load:
+
+- the coverage matrix;
+- `docs/policies/codex-collaboration-policy.md`;
+- the previous closure when comparison is needed;
+- `docs/policies/language-output-policy.md`;
+- the sprint review template.
+
+Do not load by default:
+
+- all previous roadmaps and closures;
+- old handovers;
+- the full `learning-log.md`.
+
+### Codex Repository Validation
+
+Always load:
+
+- the explicit validation prompt;
+- `AGENTS.md`;
+- `docs/policies/codex-collaboration-policy.md`;
+- the target repository or authorized files;
+- the relevant acceptance criteria.
+
+Conditionally load:
+
+- compact `CONTEXT.md`;
+- `docs/policies/sprint-governance-policy.md`;
+- `docs/policies/language-output-policy.md`;
+- the closure draft.
+
+Do not load by default:
+
+- unrelated repositories;
+- the full governance history;
+- old sprint files;
+- Teacher or Architect startup material.
+
+### Governance Update
+
+Always load:
+
+- `AGENTS.md`;
+- compact `CONTEXT.md`;
+- `docs/policies/governance-lifecycle-policy.md`;
+- `docs/policies/codex-collaboration-policy.md`;
+- the approved decision;
+- the exact target files.
+
+Conditionally load:
+
+- `TODO.md`;
+- `roadmaps/master-roadmap.md`;
+- the coverage matrix;
+- `governance/observations.md`;
+- sprint or language policies;
+- the relevant review.
+
+Do not load by default:
+
+- every policy;
+- all roadmaps and reviews;
+- the full `learning-log.md`;
+- learning-project code.
+
+For a language- or output-only question, load `AGENTS.md` and `docs/policies/language-output-policy.md`.
 
 ## 11. Failure And Handover
 

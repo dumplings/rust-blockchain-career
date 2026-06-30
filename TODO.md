@@ -1,30 +1,8 @@
 # Current Tasks
 
-- [ ] Onboard the next Architect from `reviews/architect-retirement-handover-2026-06-30-post-sprint-17.md` before any later Stage 2.5 sprint planning
-- [ ] Maintain the Rust Core Coverage Matrix for remaining Stage 2.5 coverage and before any Stage 3 transition decision
-- [ ] Do not mark Sprint-16 complete or create a Sprint-16 closure from the partial-progress record
-- [x] Review and accept the Sprint-17 roadmap
-- [x] Complete and close Sprint-17 with PASS WITH NOTES
-- [x] Record Sprint-17 durable evidence for closures / iterators, systematic pattern matching, and collection ownership behavior
-- [ ] Keep Sprint-18, Sprint-19, and Sprint-20 as planning recommendations until separately drafted and approved
-- [ ] Keep Stage 3 transition unauthorized
-- [ ] Define Stage 3 entry prerequisites for P0 / P1 Rust coverage topics
-- [ ] Plan remaining deeper ownership / borrowing, lifetimes, smart pointers, deeper `RefCell`, and engineering-contract consolidation before Stage 3 transition
-- [ ] Treat Sprint-18 Lifetimes And Borrowing Topology as a recommendation only until a separate specification and approval workflow authorizes it
-- [ ] Preserve the Teacher direct review plus Codex formal validation collaboration model
-- [ ] Carry forward Sprint-14 teaching-process corrections: terminology format, validation question quality, `RefCell` explanation depth, recommended test names, and field-access auto-deref
-- [ ] Reinforce matching borrowed enum fields without moving non-`Copy` values
-- [ ] Reinforce `HashSet<T>` versus `HashSet<&T>` semantic choices and iterator / closure fluency such as `any(|x| ...)`
-- [ ] Consider direct behavioral coverage for currently untested `rust_core_fluency_lab` public transformations only through future approved scope
-- [ ] Review the untracked `rust_core_fluency_lab` source and `.DS_Store` / `.idea/` metadata through a separate repository-hygiene action
-- [ ] Compare normal `Vec<Record>` mutation through `&mut self` with `RefCell<Vec<Record>>` for APIs that only have `&self`, such as fake recorders or test doubles
-- [ ] Reinforce that `&T` is `Copy`, while `&mut T` is not `Copy` because it represents exclusive mutable access
-- [ ] Reinforce the analogy that `&Path` roughly corresponds to `&str`, while `PathBuf` roughly corresponds to `String`
-- [ ] Reinforce `HashSet` as a direct duplicate-detection tool
-- [ ] Revisit stricter persisted-data design using raw or persisted structs instead of public `Deserialize` on trusted public types
-- [ ] Add focused file/storage test coverage when justified by future approved scope
-- [ ] Revisit `Display` and `std::error::Error` for public error types
-- [ ] Revisit overflow-safe id generation, including `max_id + 1` and `next_id += 1`
-- [ ] Preserve Sprint-07 as a failed / abnormal sprint record and do not credit Sprint-07 learning progress
-- [ ] Keep governance repository validation and learning-project validation separate
-- [ ] Ask a future Architect to consider a lightweight governance-file complexity and consolidation review when appropriate; do not perform it as part of Sprint-17
+- [ ] Complete final learner acceptance review of the governance optimization package, including startup-load simplification, Architect Bootstrap Guide cleanup, and final governance-model alignment
+- [ ] Keep Sprint-18 accepted but not started throughout the governance-optimization window; after that window, await an explicit learner start command before opening a Teacher execution window
+- [ ] Maintain `reviews/rust-core-coverage-matrix.md` before any Stage 3 transition review
+- [ ] Define and approve Stage 3 entry prerequisites before any Stage 3 transition decision
+- [ ] If still needed and separately authorized, perform a repository-hygiene review for untracked `rust_core_fluency_lab` source and `.DS_Store` / `.idea/` metadata
+- [ ] When formal validation is requested, use separate prompts and verdicts for the governance repository and any learning-project repository

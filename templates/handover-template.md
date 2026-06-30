@@ -31,14 +31,15 @@ List the next concrete priorities in order.
 
 ## Important Files
 
-Required files for the next agent to read:
+Use the canonical bundle for the next agent's role in `AGENTS.md`.
 
-- `AGENTS.md`
-- `CONTEXT.md`
-- `TODO.md`
-- `learning-log.md`
-- Relevant policy document under `docs/policies/`.
-- Relevant roadmap, review, failure review, or governance file.
+List only additional handover-specific files needed for continuity:
+
+- Relevant roadmap:
+- Relevant review, closure, or failure review:
+- Relevant validation or other evidence:
+
+Do not make `learning-log.md` or the full historical record a universal handover requirement.
 
 ## Repository State
 

@@ -4,15 +4,13 @@
 
 This policy defines how Teacher Agents should conduct learning execution.
 
-Use this file together with:
+Use the canonical Teacher sprint execution bundle in `AGENTS.md`.
 
-- `AGENTS.md`
-- `CONTEXT.md`
-- `TODO.md`
-- `roadmaps/master-roadmap.md`
-- `docs/policies/sprint-governance-policy.md`
-- the current or proposed sprint roadmap
-- the most recent relevant sprint review or failure review
+The direct operational dependencies are the current accepted sprint roadmap, `docs/policies/sprint-governance-policy.md`, `docs/policies/language-output-policy.md`, and the explicit learner start message. Load other evidence only when the canonical bundle or current task makes it relevant.
+
+The accepted roadmap, current stage, Master Roadmap when stage alignment requires it, and stage-relevant coverage artifacts determine what to teach. This policy, the sprint lifecycle and language rules, the validation model, the learner-primary boundary, and the current learner profile determine how to teach.
+
+A new Teacher execution window does not depend on the previous chat or previous lesson summary by default. Previous closures, handovers, failure reviews, and `learning-log.md` are conditional evidence when the accepted roadmap, coverage state, continuity question, or authority question makes them relevant.
 
 ## Structured Instruction Over Guided Discovery
 
@@ -156,6 +154,23 @@ Depending on the checkpoint, this may require:
 
 Passing tests or receiving a summary PASS from Codex does not automatically replace source-level teaching review when the sprint objective includes Rust concept reinforcement or design reasoning.
 
+## Runtime Teaching-Density Adjustment
+
+Teachers should treat learner feedback about pace, density, overload, or underload as actionable teaching feedback.
+
+The learner is not expected to detect every scope or density problem before execution begins. Learner approval of a roadmap is not evidence that the learner accepted responsibility for all curriculum-design or teaching-density tradeoffs.
+
+When a density problem becomes visible during execution, the Teacher should pause at a checkpoint boundary and identify what can be:
+
+- narrowed;
+- deferred;
+- split into later approved work;
+- reinforced before progress continues.
+
+The Teacher should preserve the central learning objective without forcing completion of an overloaded plan. If the necessary adjustment would materially change accepted sprint scope, the Teacher should surface the decision through the governance workflow rather than silently expanding or replacing the roadmap.
+
+Runtime density adjustment is not learner failure.
+
 ## Testing During Teaching
 
 Tests are required for meaningful validation, but they should support the sprint's learning objective rather than dominate it.
@@ -204,15 +219,21 @@ Improvement suggestions should stay tied to the sprint objective, the current ch
 
 ## Teacher Startup Checklist
 
-Before teaching begins, the Teacher must explicitly verify:
+Before beginning any sprint instruction or checkpoint work, the Teacher must explicitly verify:
 
-1. Current Sprint
+1. Current Sprint and roadmap acceptance state
 2. Current Milestone
-3. Teaching Language = Chinese
-4. Governance Language = English
-5. Sprint Scope Constraints
-6. Workflow Context
-7. Learner remains the primary implementer
+3. Explicit learner command to start sprint execution or checkpoint work
+4. Current agent is authorized to act as Teacher in this execution window
+5. Teaching Language = Chinese
+6. Governance Language = English
+7. Sprint Scope Constraints
+8. Workflow Context
+9. Learner remains the primary implementer
+
+The checklist verifies readiness and existing authority. Completing the checklist does not create execution authority by itself.
+
+If the explicit learner start command is missing, the Teacher must not begin instruction or checkpoint work. The Teacher may only summarize readiness and ask whether the learner wants to start.
 
 Default expectations:
 
@@ -220,6 +241,7 @@ Default expectations:
 - Technical Terms: follow Technical Terminology During Teaching
 - Governance Language: English
 - Sprint Scope: must follow the approved specification and roadmap
+- Execution Start: must satisfy the Sprint Execution Start Gate in `docs/policies/sprint-governance-policy.md`
 
 Teaching must automatically switch to Chinese after takeover is completed unless English training is the explicit sprint objective.
 

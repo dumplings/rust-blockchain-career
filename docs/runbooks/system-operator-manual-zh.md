@@ -4,9 +4,11 @@
 
 它的目的不是教 Rust，也不是给 AI Agent 的内部规范，而是帮助你在 Teacher、Codex 或 Architect 不稳定、不可用、需要替换时，仍然可以继续运行这个学习系统。
 
+Agent 的启动文件由 `AGENTS.md` 第 10 节统一定义。本文档是人工操作支持，不需要作为 Agent 的默认启动输入。
+
 ## 1. 系统目标
 
-这个学习系统的目标是帮助你尽快具备 entry-level Rust + Blockchain 开发岗位所需的实际工程能力。
+这个学习系统的目标是帮助你持续建立 entry-level Rust + Blockchain 开发岗位所需的实际工程能力，并支持后续长期成长。
 
 当前长期方向：
 
@@ -105,35 +107,17 @@ Architect 不应该默认代替 Teacher 进行日常教学，也不应该替 Lea
 
 ### 需要准备的文件
 
-建议至少准备这些文件：
+先确认要执行的 workflow，再按 `AGENTS.md` 第 10 节选择对应的 canonical startup bundle。通用入口只有 `AGENTS.md`、精简的 `CONTEXT.md` 和当前用户任务；其余文件按角色和任务条件加载。
 
-- `AGENTS.md`
-- `CONTEXT.md`
-- `TODO.md`
-- `roadmaps/master-roadmap.md`
-- 和当前角色相关的 `docs/policies/*policy.md`
-- 最近一个 sprint roadmap，例如 `roadmaps/sprint-02.md`
-- 最近一个 sprint review，例如 `reviews/sprint-02-review.md`
-- 如果存在失败或治理问题，加入相关 review，例如 `reviews/sprint-03-failure-review.md`
-- `governance/observations.md`
-- `docs/agents/architect-bootstrap-guide.md`
-- `docs/runbooks/system-operator-manual-zh.md`
+对于 Teacher sprint execution，只有在当前 roadmap 已接受并且 Learner 已给出明确 execution-start command 后，才进入执行准备。Specification Review、最近 closure、handover、coverage matrix 或 Master Roadmap 只在当前任务需要时补充。
+
+“教什么”由 Master Roadmap、`CONTEXT.md` 中的当前阶段、当前阶段相关的 coverage artifact，以及已接受 sprint roadmap 的 scope、non-goals 和 checkpoint sequence 决定。“怎么教”由 role boundaries、Teacher 与 sprint policy、language rules、validation model、learner-primary boundary 和当前 learner profile 决定。新的 Teacher window 默认不依赖上一个 chat 或 lesson summary；历史 closure、handover 和 learning log 只在当前 scope、coverage 或 authority 问题需要时加载。
 
 ### 需要上传什么文件
 
-如果你在 ChatGPT Project 或新的 AI 会话中启动 Teacher，优先上传：
+在 ChatGPT Project 或新的 AI 会话中，按 `AGENTS.md` 第 10 节上传对应角色的 canonical startup bundle，再添加当前任务明确需要的 evidence。
 
-1. `AGENTS.md`
-2. `CONTEXT.md`
-3. `roadmaps/master-roadmap.md`
-4. `docs/policies/teacher-execution-policy.md`
-5. `docs/policies/sprint-governance-policy.md`
-6. `docs/policies/language-output-policy.md`
-7. 最近的 sprint review
-8. 当前或即将创建的 sprint roadmap
-9. 与当前问题相关的 governance / docs 文件
-
-不要一次上传所有历史文件，除非新 Agent 明确需要。
+不要默认上传完整 `learning-log.md`、全部历史 roadmap、review 或 handover，也不要把本文档作为 Agent 的默认启动文件。
 
 ### 应该创建什么类型的 Agent
 
@@ -229,13 +213,15 @@ Please read the uploaded repository governance files before teaching.
 
 Startup requirements:
 
-1. Verify Current Sprint.
-2. Verify Current Milestone.
-3. Verify Teaching Language = Chinese.
-4. Verify Governance Language = English.
+1. Verify the current sprint roadmap is accepted.
+2. Verify an explicit learner command to start sprint execution or checkpoint work.
+3. Verify that you are authorized to act as Teacher in this execution window.
+4. Verify Teaching Language = Chinese and Governance Language = English.
 5. Verify Sprint Scope Constraints.
-6. Confirm that the learner remains the primary implementer.
-7. Follow the approved Master Roadmap and current sprint roadmap.
+6. Verify the current workflow context.
+7. Confirm that the learner remains the primary implementer.
+
+If the explicit learner start command is missing, do not begin instruction or checkpoint work. Summarize readiness and ask whether the learner wants to start.
 
 Teaching requirements:
 
@@ -253,28 +239,9 @@ Please begin by summarizing the current sprint context and asking only the minim
 
 ### 需要同步哪些文件
 
-创建 Teacher 时，优先同步：
+创建 Teacher 时，按 `AGENTS.md` 第 10 节同步 Teacher sprint execution bundle。
 
-- `AGENTS.md`
-- `CONTEXT.md`
-- `TODO.md`
-- `roadmaps/master-roadmap.md`
-- `docs/policies/teacher-execution-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/language-output-policy.md`
-- `templates/specification-review-template.md`
-- 当前 sprint roadmap
-- 最近 sprint review
-- 如果相关，`reviews/sprint-03-failure-review.md`
-- 如果相关，`governance/observations.md`
-
-如果 Teacher 要做 closure，也同步：
-
-- 当前 sprint 期间的学习记录；
-- Codex review 结果；
-- relevant code files；
-- test output summary。
+如果 Teacher 要做 closure，改用同一节的 Sprint closure bundle，并补充当前 sprint 的 Student Validation evidence、Codex Repository Validation report，以及任务确实需要的 code 或 test evidence。不要把全部历史文件或完整 learning log 当成默认输入。
 
 ## 6. 如何创建一个 Architect
 
@@ -316,21 +283,9 @@ Please begin by summarizing the current governance state, active risks, and the 
 
 ### 需要同步哪些文件
 
-创建 Architect 时，优先同步：
+创建 Architect 时，按 `AGENTS.md` 第 10 节同步 Architect / governance bundle。只有 onboarding、authority ambiguity 或当前治理问题需要时，才补充 latest handover、Master Roadmap、observations、相关 policy、roadmap 或 review。
 
-- `AGENTS.md`
-- `CONTEXT.md`
-- `roadmaps/master-roadmap.md`
-- `governance/observations.md`
-- `docs/policies/governance-lifecycle-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/language-output-policy.md`
-- `docs/agents/architect-bootstrap-guide.md`
-- `docs/runbooks/system-operator-manual-zh.md`
-- 最近的 sprint review
-- 如果相关，`reviews/sprint-03-failure-review.md`
-- 当前或计划中的 sprint roadmap
+不要默认同步所有历史 review、failure review、完整 learning log 或本文档。
 
 Architect 如果需要生成 Codex prompt，应明确说明：
 
@@ -380,17 +335,12 @@ Codex 适合处理 repository-facing 工作。
 
 正常顺序：
 
-1. 读取 `CONTEXT.md` 和 `roadmaps/master-roadmap.md`。
-2. 查看最近 sprint review。
-3. 创建 Teacher Agent。
-4. Teacher 完成 startup checklist。
-5. Teacher 做 Specification Review，并在需要正式评审时使用 `templates/specification-review-template.md`。
-6. 如果需要 Architect、Codex 或其它 agent 参与，Teacher 应提供完整 cross-agent action request。
-7. Teacher 创建或确认 sprint roadmap。
-8. 如果 roadmap 需要入库，Teacher 生成 Codex prompt。
-9. Codex 更新 repository。
-10. 你 review 并 commit。
-11. Sprint execution 开始。
+1. 按 `AGENTS.md` 第 10 节准备 Teacher sprint execution bundle。
+2. 确认当前 sprint roadmap 已 accepted；roadmap acceptance 本身不启动 execution。
+3. Learner 给出明确的 sprint execution 或 checkpoint start command。
+4. 创建或恢复被授权的 Teacher Agent。
+5. Teacher 完成 startup checklist，核对 roadmap state、start command、Teacher authority、language、scope、workflow 和 learner-primary implementation。
+6. 只有 checklist 通过后，Sprint execution 才能开始。
 
 ### Sprint 关闭
 
@@ -423,23 +373,20 @@ Codex 适合处理 repository-facing 工作。
 正常顺序：
 
 1. 创建新的 Teacher Agent。
-2. 上传 `AGENTS.md`、`CONTEXT.md`、Master Roadmap、当前 sprint roadmap、最近 review。
-3. 上传 `docs/policies/teacher-execution-policy.md`、`docs/policies/sprint-governance-policy.md`、`docs/policies/language-output-policy.md`。
-4. 要求 Teacher 执行 startup checklist。
-5. 要求 Teacher 用中文总结当前 sprint context。
-6. 继续当前 sprint，不要自动重开已失败或已关闭的 sprint。
+2. 按 `AGENTS.md` 第 10 节同步 Teacher sprint execution bundle；只有 continuity 需要时才补充最近 closure 或 handover。
+3. 要求 Teacher 执行 startup checklist。
+4. 要求 Teacher 用中文总结当前 sprint context。
+5. 继续当前已授权 sprint，不要自动重开已失败或已关闭的 sprint。
 
 ### Architect 替换
 
 正常顺序：
 
 1. 创建新的 Architect Agent。
-2. 上传 `AGENTS.md`、`CONTEXT.md`、`roadmaps/master-roadmap.md`、`governance/observations.md`。
-3. 上传 `docs/policies/governance-lifecycle-policy.md`、`docs/policies/sprint-governance-policy.md`、`docs/policies/codex-collaboration-policy.md`、`docs/policies/language-output-policy.md`。
-4. 上传 `docs/agents/architect-bootstrap-guide.md` 和本文档。
-5. 如果治理问题来自 Sprint-03，上传 `reviews/sprint-03-failure-review.md`。
-6. 要求 Architect 总结 governance state 和 active risks。
-7. 只让 Architect 处理系统治理，不让它直接接管日常教学。
+2. 按 `AGENTS.md` 第 10 节同步 Architect / governance bundle。
+3. onboarding 或 authority ambiguity 时补充 latest handover；当前任务需要时再补充 Master Roadmap、observations、相关 policy、roadmap 或 review。
+4. 要求 Architect 总结 governance state 和 active risks。
+5. 只让 Architect 处理系统治理，不让它直接接管日常教学。
 
 ## 9. 常见错误
 
@@ -510,15 +457,7 @@ Sprint validation 成功不代表 Rust fundamentals 永久掌握。
 
 ### 第一步：确认 repository 是 source of truth
 
-先读取：
-
-- `AGENTS.md`
-- `CONTEXT.md`
-- `roadmaps/master-roadmap.md`
-- `governance/observations.md`
-- relevant `docs/policies/*policy.md`
-- `docs/agents/architect-bootstrap-guide.md`
-- `docs/runbooks/system-operator-manual-zh.md`
+先读取 `AGENTS.md`、精简的 `CONTEXT.md` 和当前用户任务。判断所需角色后，按 `AGENTS.md` 第 10 节补齐对应 bundle 和必要 evidence。
 
 不要依赖旧聊天记录作为唯一依据。
 
@@ -540,11 +479,12 @@ Sprint validation 成功不代表 Rust fundamentals 永久掌握。
 
 查看 `CONTEXT.md`：
 
-- Current Stage
-- Current Sprint
-- Current Milestone
-- Next Focus
-- Known Risk
+- Current Stage And Bridge Phase
+- Current Sprint State
+- Current Authorization Boundary
+- Current Active Governance Focus
+- Active Risks
+- Next Allowed Transition
 
 查看 `TODO.md`：
 

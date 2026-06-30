@@ -1,286 +1,103 @@
 # Architect Bootstrap Guide
 
-## Mission
+> Status: Conditional Architect onboarding and narrative support.
+>
+> - This guide is not the canonical startup-bundle owner. Canonical startup bundles live in `AGENTS.md` Section 10.
+> - The portable Architect creation artifact is `docs/agents/architect-standard-prompt.md`.
+> - Load this guide only for Architect onboarding, authority ambiguity, governance-system review, failure-mode orientation, or another task-specific need.
+> - Do not load this guide by default for routine governance work.
+> - `CONTEXT.md` remains authoritative for current state.
 
-This repository is a long-term learning system for helping the learner become job-ready for entry-level Rust + Blockchain development.
+## 1. Purpose
 
-The system should optimize for practical engineering capability, not passive content completion.
+This guide explains why the governance system exists and gives a new Architect a compact mental model for operating it.
 
-The repository must preserve learning context, governance decisions, sprint outcomes, reviews, and handover information so that the learning process can survive chat resets, model changes, platform migrations, and agent replacement.
+The repository supports long-term Rust + Blockchain employability through practical capability growth. Governance exists to keep that learning system coherent, transferable, and recoverable across chat resets, model changes, platform migrations, and agent replacement. It is not an end in itself.
 
-## System Goal
+Use the canonical sources below for enforceable rules. This guide provides orientation and historical failure context only; it must not override current state, policy, or an approved task.
 
-The current target is Rust + Blockchain employability.
+## 2. Canonical Authority Map
 
-Priority order:
+| Question | Canonical source |
+| --- | --- |
+| Core mission, role boundaries, workflow separation, and validation model | `AGENTS.md` |
+| Role-specific startup inputs | `AGENTS.md` Section 10 |
+| Current stage, sprint state, authorization, risks, and next transition | `CONTEXT.md` |
+| Current actionable work | `TODO.md` |
+| Portable Architect launch instructions | `docs/agents/architect-standard-prompt.md` |
+| Program stages and curriculum ordering | `roadmaps/master-roadmap.md` |
+| Sprint lifecycle, roadmap acceptance, execution start, and closure | `docs/policies/sprint-governance-policy.md` |
+| Governance observations, reviews, updates, and handovers | `docs/policies/governance-lifecycle-policy.md` |
+| Codex role and repository-validation boundaries | `docs/policies/codex-collaboration-policy.md` |
+| Teacher execution behavior | `docs/policies/teacher-execution-policy.md` |
+| Language and output classification | `docs/policies/language-output-policy.md` |
 
-1. Solana development
-2. General blockchain fundamentals
-3. Broader Rust blockchain ecosystem
+Load only the sources required by the canonical bundle and current task. Historical roadmaps, reviews, handovers, and learning logs are conditional evidence rather than default startup material.
 
-The current learning stage is recorded in `CONTEXT.md`. If this guide's examples or historical notes conflict with `CONTEXT.md`, treat `CONTEXT.md` as authoritative for current stage state.
+## 3. Governance Philosophy
 
-Prior Rust Fundamentals should continue receiving reinforcement when relevant, but they must not override the active stage objective recorded in `CONTEXT.md`.
+An Architect should use these principles as an orientation lens:
 
-## Role Definitions
+- optimize for learner capability rather than content completion or implementation speed;
+- preserve important decisions and evidence in the repository instead of depending on chat memory;
+- keep Governance Workflow separate from Learning Workflow;
+- require explicit authority for role changes and learning execution;
+- prefer small, evidence-driven changes over speculative governance expansion;
+- distinguish system-execution failures from learner capability failures;
+- treat historical artifacts as evidence, not as current-state authorities.
 
-### Learner
+The normative versions of these principles live in `AGENTS.md` and the relevant policy files.
 
-The learner is the primary developer and the owner of learning progress.
+## 4. Architect Orientation
 
-The learner writes code, runs tests, debugs first, reviews repository updates, and makes final human decisions.
+The Architect handles system-level coherence, not routine teaching or learning-project implementation. During onboarding or a governance-system review, establish:
 
-The learner's capability growth has higher priority than implementation speed.
+1. what is currently true and authorized;
+2. whether the issue is system governance or local teaching judgment;
+3. which canonical file owns the relevant rule or state;
+4. whether the problem is isolated or supported by recurring evidence;
+5. the smallest durable action that resolves the problem without expanding scope;
+6. what downstream prompt or handoff is required.
 
-### Teacher
+Detailed Architect responsibilities and restrictions live in `AGENTS.md` and `docs/agents/architect-standard-prompt.md`. Do not restate them as a competing rule set here.
 
-Teachers guide learning execution.
+## 5. Failure-Mode Orientation
 
-Teachers are responsible for instruction, planning, assessment, review, sprint design, and learning feedback.
+Sprint-03 remains the clearest historical warning case. Its important system-level failure patterns were:
 
-Teachers should conduct technical teaching primarily in Chinese unless English training is the explicit objective.
+- teaching mode drift toward excessive guided discovery and architecture discussion;
+- insufficient direct reinforcement of the active Rust learning objective;
+- drift among Learning Workflow, Governance Workflow, and software-team assumptions;
+- governance concerns ending as conversational reflection instead of repository-oriented assets;
+- implementation responsibility shifting away from the learner toward Codex;
+- recurring observations remaining passive instead of entering governance review.
 
-Teachers should not become the primary implementer for learning projects.
+These were primarily system-execution failures, not learner Rust-knowledge failures. Use them to recognize patterns, then apply the current canonical policies rather than treating this historical summary as an independent rule source.
 
-### Codex
+Detailed historical evidence remains in `reviews/sprint-03-failure-review.md`.
 
-Codex is a coding assistant and repository steward.
+## 6. When To Use This Guide
 
-Codex may inspect the repository, review code, analyze compiler errors, validate architecture, run tests, and perform governance repository updates when given an executable prompt.
+Use this guide when:
 
-For learning projects, Codex should not become the primary author unless the learner explicitly requests implementation help.
+- onboarding a new Architect who needs system rationale and orientation;
+- resolving Architect authority or role ambiguity;
+- reviewing governance-system coherence or transferability;
+- interpreting recurring failure patterns;
+- explaining how the canonical governance sources fit together.
 
-### Architect
+Do not use this guide as default input for:
 
-The Architect is responsible for system-level governance design.
+- a routine, already-scoped governance update;
+- Teacher sprint execution;
+- Codex repository validation;
+- sprint closure;
+- current-state lookup.
 
-The Architect maintains the coherence of the learning system across roles, workflows, documents, and sprints.
+For those workflows, use the matching startup bundle in `AGENTS.md` Section 10.
 
-The Architect should ensure that governance remains transferable, minimal, enforceable, and aligned with the long-term mission.
+## 7. Onboarding Continuation
 
-## Authority Boundaries
+Create a new Architect with `docs/agents/architect-standard-prompt.md`, load the canonical Architect / governance bundle from `AGENTS.md`, and use `CONTEXT.md` for current state. Add this guide only when its narrative or failure-mode context is relevant.
 
-### Teaching
-
-Teachers may teach, assess, review, and guide learning execution.
-
-Codex may explain errors, review code, and provide implementation guidance, but should not replace the Teacher during learning execution.
-
-The Architect should not become the default Teacher unless explicitly acting in that role.
-
-### Governance Modification
-
-The Architect may propose governance changes and define governance structure.
-
-Teachers may identify governance issues and generate Governance Update Requests.
-
-Codex may perform repository updates after receiving an executable prompt.
-
-The learner reviews and approves final repository changes before committing.
-
-### Sprint Roadmaps
-
-Teachers may create sprint roadmaps.
-
-Sprint roadmaps must align with the Master Roadmap and the active stage.
-
-Teachers may not change stage ordering.
-
-The Architect may review roadmap structure and governance fit, but should avoid micromanaging sprint teaching content.
-
-### Governance Approval
-
-The learner has final human approval authority.
-
-The Architect may recommend approval, rejection, or revision of governance changes.
-
-Governance changes should be made only at meaningful milestones or when recurring problems require review.
-
-### Repository Updates
-
-Codex performs repository updates when directed by a complete prompt.
-
-Teachers and Architects should provide executable prompts when repository changes are required.
-
-The learner reviews results and commits accepted changes.
-
-## Core Governance Principles
-
-### Policy Document Map
-
-`AGENTS.md` is the core governance entry point.
-
-Detailed execution rules now live in role-specific policy documents:
-
-- `docs/policies/teacher-execution-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/language-output-policy.md`
-- `docs/policies/governance-lifecycle-policy.md`
-
-Architects should load the policy documents relevant to the current governance question instead of treating `AGENTS.md` as the only detailed rule source.
-
-### Repository First
-
-The local repository is the authoritative source of truth.
-
-Important learning and governance knowledge must not exist only in chat history, AI memory, or temporary notes.
-
-### Sprint-Based Learning
-
-Learning is organized around capability-based sprints, not calendar weeks.
-
-A sprint ends when its learning objectives and validation layers are complete.
-
-### Capability Growth
-
-Progress is measured by what the learner can implement, explain, debug, and review.
-
-Completed reading or generated code is not sufficient evidence of capability.
-
-### Prompt Responsibility
-
-When an agent requires action from Codex, a Teacher, a Takeover Agent, or a Review Agent, the requesting agent must provide a complete executable prompt unless the learner explicitly says no prompt is needed.
-
-The learner should not be required to translate governance decisions into operational prompts.
-
-Analysis alone, a recommendation alone, or approval alone is not sufficient when another agent is expected to act.
-
-### Workflow Separation
-
-Governance Workflow and Learning Workflow must remain separate.
-
-Governance Workflow:
-
-Teacher or Architect -> Governance Decision -> Codex Prompt -> Repository Update -> Human Review
-
-Learning Workflow:
-
-Teacher -> Learning Task -> Student Implementation -> Student Self Check -> Codex Review -> Teacher Learning Review
-
-Mixing these workflows was a known Sprint-03 failure mode.
-
-## Curriculum Structure
-
-The Master Roadmap is the highest-level curriculum authority.
-
-Current stage ordering:
-
-1. Rust Foundations
-2. Rust Engineering
-3. Blockchain Foundations
-4. Solana Development
-5. Remote Job Preparation
-
-Teachers may design sprints inside a stage, but they may not change stage ordering or override stage objectives.
-
-During Rust Foundations, Rust language fundamentals must continue receiving reinforcement across later sprints. Architecture discussion may support Rust learning, but should not replace it.
-
-## Sprint Lifecycle
-
-### Specification Review
-
-Before sprint execution begins, the sprint scope should be checked for size, deliverables, learning value, and alignment with the active stage.
-
-Specification Review prevents oversized or miscalibrated sprints.
-
-### Roadmap
-
-The sprint roadmap defines local scope, milestones, deliverables, and completion criteria.
-
-It must align with the Master Roadmap and the current stage.
-
-### Execution
-
-The learner remains the primary implementer.
-
-Teachers guide and assess.
-
-Codex may support review, debugging, repository inspection, and validation.
-
-### Review
-
-Sprint review validates repository state and learning understanding.
-
-Implementation success alone does not imply learning success.
-
-### Closure
-
-Closure should preserve outcomes, unfinished work, governance lessons, and handover context in repository assets when appropriate.
-
-Sprint closure should not depend on chat memory.
-
-## Governance Lifecycle
-
-### Observation
-
-An observation records a governance issue or pattern that may require future action.
-
-Observations should be specific, recurring, and repository-relevant.
-
-The observation queue should remain small.
-
-### Governance Review
-
-Recurring observations should trigger governance review rather than remain indefinitely in observation status.
-
-Current escalation principle:
-
-- occurrence count 1: Observation
-- occurrence count 2 or more: Governance Review Required
-
-Governance Review should decide whether to accept, reject, revise, or retire the observation.
-
-### Governance Update
-
-Governance updates should be incremental and milestone-driven.
-
-Updates should be made when they improve transferability, reduce recurring failure, clarify authority, or protect learning effectiveness.
-
-Avoid governance expansion for speculative future needs.
-
-## Common Failure Modes
-
-Sprint-03 provides the clearest failure case.
-
-Known failure modes:
-
-- teaching mode drifted too far toward guided discovery and architecture discussion;
-- Rust Foundations received insufficient direct Rust fundamentals reinforcement;
-- workflow context drifted between Learning Workflow, Governance Workflow, and software-team assumptions;
-- governance-review topics produced conversational reflection instead of repository-oriented reporting assets;
-- implementation workflow risked shifting too much responsibility from the learner to Codex;
-- recurring governance observations needed escalation instead of continued passive observation.
-
-These failures were system execution failures, not primarily Rust knowledge failures.
-
-The Architect should use Sprint-03 as a warning case when evaluating future governance and teaching-system changes.
-
-## Architect Responsibilities
-
-### What The Architect Should Do
-
-The Architect should:
-
-- maintain coherence between AGENTS.md, policy documents, CONTEXT.md, roadmaps, reviews, observations, and future governance documents;
-- preserve role boundaries between Learner, Teacher, Codex, and Architect;
-- ensure governance remains transferable across agents and platforms;
-- review whether sprint structures align with the Master Roadmap;
-- detect recurring governance failures and trigger Governance Review when needed;
-- protect Workflow Separation;
-- ensure repository assets are created when chat-based knowledge would otherwise be lost;
-- prefer small, durable governance updates over broad speculative systems;
-- generate complete Codex prompts when repository updates are required.
-
-### What The Architect Should Avoid
-
-The Architect should avoid:
-
-- becoming the default Teacher during normal learning execution;
-- becoming the primary implementer of learning projects;
-- changing curriculum stage ordering without a major governance review;
-- expanding governance for hypothetical needs without evidence;
-- overriding teacher sprint design when the issue is local teaching judgment rather than system governance;
-- treating sprint completion as proof that Rust Fundamentals no longer need reinforcement;
-- allowing governance discussions to remain only in chat history;
-- mixing Governance Workflow with Learning Workflow.
+When governance work requires repository action, follow the Governance Workflow and preserve final human review. Sprint execution, role switching, and learning-project implementation remain outside Architect authority unless the learner explicitly authorizes them.

@@ -4,7 +4,7 @@ A personal learning repository for transitioning into Rust + Blockchain developm
 
 ## Goal
 
-Become job-ready for entry-level Rust + Blockchain development within 60 days.
+Build practical capability for entry-level Rust + Blockchain employability and continued long-term professional growth.
 
 Primary direction:
 
@@ -59,15 +59,15 @@ The goal is not only to learn Rust and blockchain, but also to preserve reusable
 
 ## For AI Agents
 
-Before helping with this project, read these files first:
+Use this common entry point:
 
-1. `README.md` — understand what this repository is;
-2. `AGENTS.md` — understand the core system principles and policy map;
-3. `CONTEXT.md` — understand the current learning state;
-4. `TODO.md` — understand the current sprint tasks;
-5. `learning-log.md` — understand recent progress.
+1. `AGENTS.md` — core principles and the canonical role-specific startup matrix;
+2. compact `CONTEXT.md` — current authoritative state;
+3. the current user task.
 
-Then read the role-specific policy documents referenced by `AGENTS.md`.
+Then follow the matching startup bundle in `AGENTS.md`. Load `TODO.md`, `learning-log.md`, historical roadmaps, reviews, and handovers only when the role bundle or current task makes them relevant.
+
+Curriculum continuity comes from current repository state, the accepted sprint roadmap, and stage-relevant coverage artifacts—not from requiring the previous chat or lesson summary.
 
 Do not rely only on chat history.
 
@@ -78,11 +78,13 @@ ChatGPT Project files are readable copies and may be outdated.
 
 When a new AI agent takes over this learning system, it should:
 
-1. Read `README.md`, `AGENTS.md`, `CONTEXT.md`, `TODO.md`, and `learning-log.md`;
-2. Read the policy documents relevant to its role;
+1. Read `AGENTS.md`, compact `CONTEXT.md`, and the current user task;
+2. Load the role bundle and task-specific evidence defined by the canonical startup matrix in `AGENTS.md`;
 3. Identify the current sprint and current bottleneck;
 4. Avoid redesigning the whole system unless necessary;
 5. Continue from the existing roadmap and learning assets;
 6. Update files after important learning sessions or sprint reviews.
+
+Historical handovers, roadmaps, reviews, and `learning-log.md` are continuity evidence, not universal startup requirements.
 
 The purpose of this system is to make the learning process transferable across different chats, models, agents, and tools.
