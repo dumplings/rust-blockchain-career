@@ -16,23 +16,11 @@ The repository supports long-term Rust + Blockchain employability through practi
 
 Use the canonical sources below for enforceable rules. This guide provides orientation and historical failure context only; it must not override current state, policy, or an approved task.
 
-## 2. Canonical Authority Map
+## 2. Canonical Sources
 
-| Question | Canonical source |
-| --- | --- |
-| Core mission, role boundaries, workflow separation, and validation model | `AGENTS.md` |
-| Role-specific startup inputs | `AGENTS.md` Section 10 |
-| Current stage, sprint state, authorization, risks, and next transition | `CONTEXT.md` |
-| Current actionable work | `TODO.md` |
-| Portable Architect launch instructions | `docs/agents/architect-standard-prompt.md` |
-| Program stages and curriculum ordering | `roadmaps/master-roadmap.md` |
-| Sprint lifecycle, roadmap acceptance, execution start, and closure | `docs/policies/sprint-governance-policy.md` |
-| Governance observations, reviews, updates, and handovers | `docs/policies/governance-lifecycle-policy.md` |
-| Codex role and repository-validation boundaries | `docs/policies/codex-collaboration-policy.md` |
-| Teacher execution behavior | `docs/policies/teacher-execution-policy.md` |
-| Language and output classification | `docs/policies/language-output-policy.md` |
+Use the Canonical Rule Ownership table and Architect / governance startup bundle in `AGENTS.md`. This guide does not maintain another authority map.
 
-Load only the sources required by the canonical bundle and current task. Historical roadmaps, reviews, handovers, and learning logs are conditional evidence rather than default startup material.
+Current state comes from `CONTEXT.md`; current actions come from `TODO.md`; historical roadmaps, reviews, handovers, and learning logs are conditional evidence.
 
 ## 3. Governance Philosophy
 

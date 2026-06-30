@@ -4,24 +4,15 @@
 
 - Sprint number: Sprint-18
 - Sprint title: `Lifetimes And Borrowing Topology`
-- Sprint status: Accepted / awaiting explicit learner start command
-- Execution status: Not started
-- Authorization status: Roadmap accepted by learner; execution requires an explicit learner start command; this repository update does not start learning execution; learning-project creation remains pending a future authorized Teacher execution window
-- Current active sprint: None
+- Lifecycle status: Accepted / not started
 - Stage relationship: Stage 2.5 — Rust Core Philosophy Bridge
-- Stage 2.5 status: Incomplete
-- Sprint-17: PASS WITH NOTES / CLOSED
-- Sprint-16: Stopped before completion; incomplete; unclosed; no completion credit
-- Stage 3 transition: Not authorized
 - Source Specification Review: `reviews/sprint-18-specification-review.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 - Candidate learning project: `rust_lifetime_topology_lab`
 - Candidate project path: `/Users/dumplings/workspace/rust_lifetime_topology_lab`
-- Project status: Not created by this roadmap draft
+- Project status: Not created
 
-The learner accepted this roadmap for Sprint-18. Acceptance confirms the roadmap direction and creates an accepted-but-not-started state. A Teacher execution window may open only after an explicit learner command to start Sprint-18 execution or checkpoint work; the Teacher startup checklist must then be completed before Checkpoint 1.
-
-Recording acceptance does not start Sprint-18 through this repository update and does not create or modify any learning project. No Teacher execution window is open. Candidate learning-project creation remains pending an explicit learner start command and the future Teacher execution window.
+Execution authority is governed by the Sprint Execution Start Gate in `docs/policies/sprint-governance-policy.md`; current authorization state is owned by `CONTEXT.md`.
 
 ## 2. Sprint Purpose
 
@@ -48,19 +39,7 @@ Sprint-17 supplied durable evidence for closures and iterators, systematic patte
 
 This sprint should occur before smart-pointer and engineering-contract consolidation because the learner first needs a clear model of ordinary ownership, borrowing, references, and lifetime relationships. Later work can then compare ordinary borrowing with smart-pointer ownership topologies without teaching both models simultaneously.
 
-The topic is high value but has a high overload risk. Ownership topology and lifetimes can expand into advanced annotations, smart pointers, compiler theory, or contrived examples if scope is not actively controlled.
-
-Runtime density controls are required:
-
-- pause at every checkpoint boundary;
-- ask for pace, density, overload, and underload feedback;
-- narrow, reinforce, defer, or split material when runtime evidence requires it;
-- do not force completion of an overloaded checkpoint sequence;
-- treat runtime density adjustment as normal teaching feedback, not learner failure;
-- do not treat learner roadmap approval as detailed curriculum-quality assurance;
-- surface a governance decision when an adjustment would materially change accepted sprint scope.
-
-The preferred sprint shape is three required checkpoints plus one conditional integrated checkpoint.
+The topic has a high overload risk because it can expand into advanced annotations, smart pointers, compiler theory, or contrived exercises. Apply the runtime-density rules in the Teacher and sprint policies. The Sprint-18-specific control is three required checkpoints plus one conditional integrated checkpoint; advanced lifetime and smart-pointer scope remains excluded.
 
 ## 4. Learning Objectives
 
@@ -259,7 +238,7 @@ Preferred candidate if project-based execution is later authorized:
 - crate shape: small Rust library crate;
 - dependency boundary: standard library only unless a later approved roadmap amendment says otherwise.
 
-The project does not exist as a result of this roadmap draft and must not be created before separate execution authorization.
+The project is a candidate execution artifact and is currently uncreated.
 
 Candidate domain behaviors should make borrowed views and owned outputs natural, for example:
 
@@ -315,8 +294,6 @@ The learner should also review:
 - known blocking and non-blocking issues;
 - scope and non-goal compliance.
 
-Student Validation is not performed during roadmap drafting.
-
 ## 12. Codex Repository Validation
 
 Formal Codex Repository Validation is required if a learning project is created or modified.
@@ -333,8 +310,6 @@ Codex should verify:
 - compiler and test commands pass;
 - tests remain focused;
 - blocking and non-blocking findings are distinguished.
-
-Governance-repository validation and learning-project validation must remain separate.
 
 ## 13. Teacher Learning Validation
 
@@ -361,12 +336,8 @@ Passing compiler checks or tests is not enough.
 
 ## 14. Completion Criteria
 
-Sprint-18 may be closed only when:
+Under the lifecycle and validation rules in `docs/policies/sprint-governance-policy.md`, Sprint-18 may be closed only when:
 
-- this roadmap has been accepted before execution;
-- the learner explicitly commanded Sprint-18 execution or checkpoint work to start;
-- the Teacher startup checklist was completed before Checkpoint 1;
-- Sprint-18 execution began under this accepted roadmap;
 - Checkpoints 1 through 3 are completed;
 - Checkpoint 4 is completed or explicitly narrowed, deferred, or split through an approved density adjustment;
 - Student Validation passes if code is created or modified;
@@ -375,31 +346,13 @@ Sprint-18 may be closed only when:
 - scope remains within the approved P0 ownership-and-lifetime boundary;
 - smart-pointer topology remains deferred;
 - explicit non-goals remain respected;
-- Sprint-16 remains incomplete and unclosed;
-- Stage 2.5 remains incomplete unless a separate later governance decision changes that state;
-- Stage 3 transition remains unauthorized;
 - a Sprint-18 closure document is created through the approved governance workflow.
 
 Sprint-18 must not be marked complete solely because code compiles or tests pass.
 
-## 15. Runtime Density Adjustment
+## 15. Sprint-Specific Density Adjustment
 
-The learner is not responsible for detecting roadmap density problems before execution.
-
-Overload or underload discovered during teaching and implementation is normal learning-system feedback. It does not indicate learner failure and does not mean the learner accepted responsibility for roadmap-quality problems by approving the sprint.
-
-Checkpoint boundaries are the required adjustment points. The Teacher should:
-
-- pause and identify the density problem;
-- preserve the central P0 learning objective;
-- narrow or reinforce current material when possible;
-- defer excluded or lower-priority material;
-- split work into later approved scope when needed;
-- record the adjustment for later validation and closure.
-
-If an adjustment materially changes the accepted roadmap, the Teacher or Architect should surface a governance decision rather than silently rewriting the sprint during execution.
-
-Density adjustment must not be used to introduce smart-pointer topology or unrelated scope.
+Follow the canonical runtime-density rules in the Teacher and sprint policies. For Sprint-18, Checkpoint 4 is conditional and may be reduced, deferred, or split when Checkpoints 1 through 3 consume the appropriate density. Any adjustment must preserve the P0 ownership-and-lifetime objective and must not introduce smart-pointer topology or unrelated scope.
 
 ## 16. Relationship To Later Stage 2.5 Planning
 
@@ -412,23 +365,6 @@ These are planning recommendations only. They are not drafted, scoped, accepted,
 
 Sprint-18 does not complete Stage 2.5. A later governance review must evaluate remaining P0 / P1 coverage and Stage 3 entry prerequisites.
 
-## 17. Authorization Boundary
+## 17. Authorization Reference
 
-This roadmap has been accepted by the learner and is awaiting an explicit learner start command.
-
-Roadmap acceptance does not start execution. Sprint-18 remains accepted but not started until the learner gives an explicit command to start Sprint-18 execution or checkpoint work.
-
-Creating or accepting this file does not:
-
-- start Sprint-18;
-- start Sprint-18 execution through this repository update;
-- create or modify `/Users/dumplings/workspace/rust_lifetime_topology_lab`;
-- create or modify any learning-project repository;
-- perform Student, Codex, or Teacher learning-project execution through this repository update;
-- complete or close Sprint-16;
-- create a Sprint-16 closure;
-- complete Stage 2.5;
-- authorize Stage 3 transition;
-- draft, accept, or authorize Sprint-19 or Sprint-20.
-
-Next transition: await an explicit learner start command. After that command, open a Sprint-18 Teacher execution window, complete the Teacher startup checklist for current state, authority, scope, language, workflow boundaries, and learner-primary implementation, then begin with Checkpoint 1 only. Sprint-18 is not active until that execution window begins.
+This roadmap is accepted but not started. Use `CONTEXT.md` for current authorization and `docs/policies/sprint-governance-policy.md` for the execution-start transition. No statement in this roadmap overrides those canonical sources.

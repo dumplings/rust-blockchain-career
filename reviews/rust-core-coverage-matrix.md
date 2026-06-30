@@ -161,4 +161,4 @@ Sprint-16 execution stopped before completion. Student Validation and Teacher Le
 
 Sprint-17 independently completed all four of its checkpoints and all three validation layers. Sprint-17 evidence changes the classifications for closures and iterators, systematic pattern matching, and collection ownership behavior only.
 
-Stage 2.5 remains incomplete. Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only and are not drafted, scoped, accepted, or authorized. Stage 3 transition remains unauthorized.
+Stage 2.5 remains incomplete based on the unresolved coverage recorded above. Sprint lifecycle and transition authorization are owned by `CONTEXT.md`, the sprint governance policy, and any accepted current roadmap; this coverage ledger does not define or synchronize those states.

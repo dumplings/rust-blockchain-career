@@ -54,18 +54,29 @@ Typical repository update targets:
 
 Codex should keep changes scoped to the request and avoid unrelated refactors.
 
+## Repository Bridge For Remote Roles
+
+Browser-based Teacher and Architect windows may not have local filesystem or Git access. Codex should act as the repository bridge when those roles need local evidence.
+
+A scoped Codex evidence report should include, as applicable:
+
+1. Repository root and requested purpose
+2. Files inspected
+3. Current Git status and changed files
+4. Relevant diff or requirement summary
+5. Commands and validation results
+6. Conflicts, stale state, or missing evidence
+7. A final repository verdict
+
+Canonical source files required by the remote role should still be supplied as attachments or pasted content. A Codex summary supports inspection but does not replace the authoritative file when the role must interpret its exact rules or contract.
+
+Evidence reports may remain in chat when they are temporary. Create a repository asset only when the result is a meaningful decision, validation, closure, or handover that must persist.
+
 ## Prompt Responsibility
 
-When an agent recommends a Codex repository update, repository validation, roadmap save, closure sync, governance synchronization, or file modification, the requesting agent must provide an executable Codex prompt unless the learner explicitly says no prompt is needed.
+The general cross-agent handoff requirement is owned by `docs/policies/governance-lifecycle-policy.md`. This section defines the additional payload required when Codex is the target.
 
-The learner's responsibility is:
-
-- forwarding prompts;
-- reviewing results;
-- asking questions;
-- making governance decisions.
-
-The learner should not be expected to design operational prompts that originate from agent workflows.
+For a Codex repository update, validation, roadmap save, closure sync, governance synchronization, or file modification, provide an executable prompt unless the learner explicitly says no prompt is needed.
 
 The Codex prompt should include:
 
@@ -84,10 +95,6 @@ Identify Action
 -> Generate Prompt
 -> Execute
 -> Review
-
-If an agent identifies a required action but fails to provide an executable prompt, that is a workflow quality issue.
-
-Telling the learner to "have Codex do it" without an executable prompt is a workflow quality failure.
 
 ## Formal Repository Validation
 

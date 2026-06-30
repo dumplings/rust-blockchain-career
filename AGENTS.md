@@ -12,18 +12,20 @@ Detailed execution rules live in the policy files under `docs/policies/`.
 
 ## 2. Mission
 
-Priority order:
+Strategic specialization priority:
 
 1. Solana development
 2. General blockchain fundamentals
 3. Broader Rust blockchain ecosystem
 
+This is a career-direction priority, not the curriculum prerequisite order. The curriculum remains prerequisite-based: establish Rust capability, learn general blockchain foundations, and then move into deeper Solana development. Solana-first specialization must not be used to skip the blockchain foundations required by `roadmaps/master-roadmap.md`.
+
 Long-term direction:
 
 - build practical Rust engineering capability;
 - become employable in entry-level Rust + Blockchain roles;
-- prioritize Solana development first;
-- gradually build general blockchain fundamentals;
+- specialize toward Solana development as the primary blockchain direction;
+- build the general blockchain foundations required for that specialization;
 - develop technical English reading and writing ability over time;
 - preserve a reusable learning system that can survive agent, model, platform, and chat changes.
 
@@ -42,6 +44,14 @@ The local repository is authoritative.
 
 Chat conversations are temporary working sessions. Important learning and governance knowledge must not exist only in chat history, AI memory, or temporary notes.
 
+### Cross-Platform Evidence Delivery
+
+Teacher and Architect roles may run in browser-based chat windows without local filesystem or Git access. For those roles, "load" means the required repository files are supplied as attachments or pasted content; a local path alone is not evidence that the agent has read the file.
+
+Codex is the repository bridge for remote roles. When a Teacher or Architect needs local file inspection, Git status, diffs, code validation, or repository updates, it should produce a ready-to-send Codex request. Codex returns a scoped repository report or performs an authorized update, and the remote role continues from that evidence.
+
+Remote agents must not claim to have inspected local files that were not supplied. The learner should not be required to reconstruct repository evidence manually when Codex can package it.
+
 Learning sessions should produce at least one persistent asset when meaningful:
 
 - note;
@@ -51,6 +61,27 @@ Learning sessions should produce at least one persistent asset when meaningful:
 - roadmap update;
 - context update;
 - handover.
+
+### Canonical Rule Ownership
+
+Each durable question should have one canonical owner. Other files may include a short role-specific reminder, but they must reference the owner instead of recreating a second full rule.
+
+| Question | Canonical owner |
+| --- | --- |
+| Mission, source priority, core role boundaries, workflow separation, validation model, startup bundles | `AGENTS.md` |
+| Current stage, sprint state, authorization, risks, and next transition | `CONTEXT.md` |
+| Current actionable work | `TODO.md` |
+| Curriculum stages, ordering, and exit criteria | `roadmaps/master-roadmap.md` |
+| Sprint lifecycle, roadmap ownership, execution-start gate, density, and closure | `docs/policies/sprint-governance-policy.md` |
+| Teaching method, checkpoints, startup checklist, and learning validation | `docs/policies/teacher-execution-policy.md` |
+| Codex boundaries and repository validation | `docs/policies/codex-collaboration-policy.md` |
+| Language and output classification | `docs/policies/language-output-policy.md` |
+| Governance review, cross-agent handoff, Git evidence boundaries, and handover lifecycle | `docs/policies/governance-lifecycle-policy.md` |
+| Stage-specific knowledge coverage | The approved coverage artifact for that stage |
+| Sprint-specific scope, non-goals, checkpoints, artifacts, and validation requirements | The accepted sprint roadmap |
+| Completed, failed, or historical evidence | `reviews/*` and `learning-log.md` |
+
+If two files disagree, use the canonical owner for that question and treat the other wording as stale evidence or a defect to correct. Roadmaps, templates, prompts, and runbooks must not override canonical policy.
 
 ## 4. Current State Lives Outside This File
 
@@ -136,6 +167,8 @@ Teacher agents are responsible for:
 Teachers should not replace learner implementation practice with unreviewed task completion.
 
 Teachers should not assign learning-project implementation work to Codex by default.
+
+The Teacher is the default pedagogical author of sprint specifications and roadmaps. The Teacher owns learning objectives, checkpoint sequence, exercises, learning density, and validation design. Architect review is required when stage alignment, scope, workflow separation, or governance consistency is uncertain; the Architect is not the default roadmap author.
 
 ### Codex / Coding Agents
 
@@ -227,6 +260,10 @@ Detailed language and output classification rules are in `docs/policies/language
 This section is the canonical owner of agent startup bundles. Other documents should reference this matrix and add only task-specific evidence instead of reproducing cumulative file lists.
 
 Load only what the current workflow needs. "Conditionally load" means load the item when the task, current-state pointer, or authority question makes it relevant. "Do not load by default" does not prohibit later inspection when evidence requires it.
+
+For browser-based agents, supply the selected bundle as attachments or pasted content. When the task depends on unsupplied local state or Git evidence, add a Codex repository report rather than asking the remote agent to infer it.
+
+Portable browser launch prompts live in `docs/agents/architect-standard-prompt.md` and `docs/agents/teacher-standard-prompt.md`. They establish the role and evidence-delivery model; they do not add another required file after their instructions have been supplied to the new window.
 
 ### Architect / Governance Work
 

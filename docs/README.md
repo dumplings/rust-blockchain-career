@@ -31,6 +31,7 @@ Read only the policy files relevant to the current task.
 
 - `architect-bootstrap-guide.md` — Architect role, governance scope, common failure modes.
 - `architect-standard-prompt.md` — Canonical prompt for starting a new Architect Agent.
+- `teacher-standard-prompt.md` — Canonical prompt for starting an accepted sprint in a browser-based Teacher window.
 
 ## Runbooks
 
@@ -45,3 +46,5 @@ Read only the policy files relevant to the current task.
 `CONTEXT.md` remains the current-state source.
 
 The files under `docs/` provide role-specific operating detail and should not duplicate short-lived current sprint state.
+
+Canonical rule ownership is defined in `AGENTS.md`. Policies, prompts, templates, runbooks, and roadmaps should reference the canonical owner and add only role-specific or task-specific detail. A duplicated summary is informational and cannot override its canonical source.

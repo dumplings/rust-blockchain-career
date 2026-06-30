@@ -6,11 +6,13 @@ A personal learning repository for transitioning into Rust + Blockchain developm
 
 Build practical capability for entry-level Rust + Blockchain employability and continued long-term professional growth.
 
-Primary direction:
+Strategic specialization priority:
 
 1. Solana development;
 2. General blockchain fundamentals;
 3. Broader Rust blockchain ecosystem.
+
+This priority describes the intended specialization. The learning sequence remains prerequisite-based: Rust capability, then general blockchain foundations, then deeper Solana development.
 
 ## Repository Role
 

@@ -6,6 +6,8 @@ Become employable as a Rust + Blockchain Junior Developer.
 
 The roadmap is capability-based rather than calendar-based.
 
+The system's Solana-first priority describes the intended specialization, not permission to skip prerequisites. The curriculum deliberately places Blockchain Foundations before Solana Development so later Solana work rests on general blockchain understanding.
+
 ---
 
 ## Stage Overview
@@ -243,9 +245,7 @@ Complete this stage only when the learner can:
 
 ## Sprint Relationship
 
-Stages contain multiple sprints.
-
-Teachers may design sprints.
+Stages contain multiple sprints. Sprint design, review, and acceptance ownership follows `docs/policies/sprint-governance-policy.md`.
 
 Teachers may not change stage ordering.
 
@@ -280,6 +280,6 @@ Do not advance stages only because a sprint ended.
 
 Stage 3 must not begin until the Stage 2.5 exit criteria are satisfied or a separate governance decision explicitly accepts any remaining gap.
 
-Adding Stage 2.5 to this roadmap does not start, draft, scope, or authorize Sprint-16; authorize bridge execution or learning-project work; or authorize Stage 3 transition.
+Current sprint and execution authorization are owned by `CONTEXT.md` and the sprint governance policy, not by this curriculum roadmap.
 
 Do not use this roadmap to create timelines or estimate sprint counts.

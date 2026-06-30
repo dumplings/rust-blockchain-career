@@ -73,6 +73,8 @@ Avoid updating governance files for every study session.
 
 Governance updates should be incremental when possible, but structural refactors are appropriate when accumulated patches create ambiguity.
 
+When a reusable rule already has a canonical owner in `AGENTS.md`, update that owner and remove or shorten conflicting downstream copies. Do not respond to an execution failure by adding the same full warning to every policy, prompt, template, roadmap, and state file. Role-specific reminders are appropriate only when they add operational detail for that role.
+
 ## Governance Reporting Mode
 
 When discussion enters governance-review territory, Teachers or Architects should switch from conversational mode to governance-reporting mode.
@@ -124,6 +126,7 @@ Minimum fields:
 6. Scope boundaries and non-goals
 7. Expected output
 8. Authorization status
+9. Evidence delivery method when the target cannot access the local repository
 
 Short informal summaries may be used for learner-facing discussion, but they should not be presented as the complete request when another agent is expected to act on them.
 

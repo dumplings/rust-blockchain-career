@@ -108,6 +108,36 @@ A roadmap draft or repository-ready roadmap update prompt.
 
 Roadmap creation or repository update requires learner approval.
 
+#### Roadmap Content Standard
+
+A sprint roadmap is a sprint-specific execution contract, not a copy of repository governance.
+
+It should contain only the detail needed to execute and validate that sprint:
+
+- identity and current lifecycle status;
+- objective and stage alignment;
+- evidence or coverage gap that justifies the sprint;
+- required scope and explicit non-goals;
+- learner decisions and checkpoint sequence;
+- project or exercise boundary;
+- sprint-specific testing and validation requirements;
+- sprint-specific completion criteria;
+- risks or density adjustments unique to the sprint.
+
+The roadmap should reference, rather than restate, global rules for:
+
+- learner-primary implementation;
+- the Sprint Execution Start Gate;
+- the three-layer validation model;
+- language defaults;
+- Governance Workflow and Learning Workflow separation;
+- generic runtime-density handling;
+- repository update and handoff requirements.
+
+A brief status sentence or a sprint-specific constraint may repeat a global rule when needed for safe execution. Long generic policy sections, repeated non-authorization lists, and historical-state synchronization do not belong in every roadmap.
+
+Accepted and closed roadmaps are as-of execution contracts. Do not retrofit later current state into historical roadmaps; use `CONTEXT.md`, closures, and coverage artifacts for later state.
+
 ### Sprint Execution Start Gate
 
 Roadmap acceptance creates an accepted-but-not-started state by default.
@@ -116,7 +146,7 @@ Accepted-but-not-started is not active sprint execution. Sprint execution begins
 
 Valid explicit start commands include:
 
-- “Start Sprint-18 execution now.”
+- “Start Sprint-XX execution now.”
 - “Begin Teacher mode now.”
 - “Start Checkpoint 1 now.”
 - equivalent clear learner wording.
@@ -283,7 +313,7 @@ Sprint roadmap files are repository assets and require clear ownership and appro
 
 Default responsibility:
 
-- Teacher Agents may draft sprint roadmaps.
+- Teacher Agents are the default pedagogical authors of sprint specifications and roadmaps. They own learning objectives, checkpoint sequence, exercises, learning density, and validation design.
 - Architect Agents may review sprint roadmaps when governance risk, scope risk, stage-alignment risk, or workflow-separation risk exists.
 - Codex may create or update sprint roadmap files only after receiving an explicit prompt forwarded by the learner.
 - The learner has final human approval authority before roadmap repository updates are accepted.

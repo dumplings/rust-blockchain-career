@@ -23,16 +23,26 @@ Summarize the authoritative current state, including:
 
 List the files used as review evidence.
 
-Required files usually include:
+Use current repository state and stage-relevant evidence rather than a cumulative historical bundle.
+
+Core review inputs usually include:
 
 - `AGENTS.md`
 - `CONTEXT.md`
-- `TODO.md`
 - `roadmaps/master-roadmap.md`
-- relevant policy documents under `docs/policies/`
-- the most recent relevant sprint roadmap
-- the most recent relevant sprint closure, failure review, or handover
-- `learning-log.md`
+- `docs/policies/sprint-governance-policy.md`
+- the learner's current direction or candidate decision
+- the approved coverage artifact for the current stage, when one exists
+
+Load conditionally when the decision requires them:
+
+- `TODO.md` when selecting or changing current actionable work;
+- Teacher, Codex, language, or governance policy for the corresponding operational question;
+- a previous roadmap or closure when the candidate depends on carry-forward scope or validated outcomes;
+- a failure review or handover when failure handling or authority continuity is relevant;
+- `learning-log.md` when chronology or evidence cannot be resolved from current state, coverage, and relevant reviews.
+
+Do not require the full learning log, all historical roadmaps, or the latest handover merely because they exist.
 
 ## Proposed Direction
 
