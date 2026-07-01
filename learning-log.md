@@ -983,3 +983,144 @@ Governance Notes:
 Next Status:
 
 No sprint is active. Later Stage 2.5 work remains recommended, likely Lifetimes And Borrowing Topology, but no later sprint is drafted, scoped, accepted, or authorized.
+
+## 2026-07-01
+
+### Sprint-18 Completion
+
+Outcome:
+
+PASS WITH NOTES / CLOSED
+
+Sprint:
+
+`Lifetimes And Borrowing Topology`
+
+Project:
+
+No learning project was created. The candidate `rust_lifetime_topology_lab` remained uncreated and was not inspected or modified during closure synchronization.
+
+Checkpoint Results:
+
+- Checkpoint 1 - Ownership And Borrowing Topology: PASS WITH NOTES
+- Checkpoint 2 - Lifetimes As Reference Relationships: PASS WITH NOTES
+- Checkpoint 3 - Compiler Diagnostics And Small API Repair: PASS WITH NOTES
+- Checkpoint 4 - Integrated Bounded Exercise And Validation: PASS WITH NOTES
+
+Validation:
+
+- Student Validation: NOT APPLICABLE because no learning-project code was created or modified.
+- Codex Repository Validation for a learning project: NOT APPLICABLE because no learning-project repository was created or modified.
+- Teacher Learning Validation: PASS WITH NOTES.
+- No learning-project compiler or test command was required or performed.
+
+Capability Growth:
+
+- Explained ownership as resource discipline and borrowing as controlled access.
+- Traced owners, moves, references, borrowed views, and owned values in bounded source.
+- Distinguished shared-borrow and mutable-borrow rights and explained aliasing XOR mutability.
+- Explained the shared-read copy semantics of `&T` and the exclusive mutable-access semantics of `&mut T`.
+- Explained lifetimes as relationships among references rather than runtime lifetime extension.
+- Reasoned about input/output reference relationships and bounded lifetime elision.
+- Read and wrote meaningful explicit lifetime annotations for simple relationships.
+- Diagnosed invalid local-reference escape, ambiguous lifetime relationships, and conflicting borrow rights.
+- Repaired bounded APIs through ownership changes, relationship clarification, or shorter borrow scopes.
+- Compared borrowed-output and owned-output APIs and justified cloning, formatting, allocation, borrowing, and ownership choices.
+
+Non-Blocking Notes:
+
+- Continue using precise wording that owners are variable bindings or owned values in scopes, not functions themselves.
+- Continue describing lifetime annotations as reference-relationship declarations that do not extend value lifetimes.
+- Continue identifying input names and output reference origins precisely.
+- Start borrow-checker diagnostic triage from source ownership and return origin before adding annotations.
+
+Governance Notes:
+
+- Sprint-18 counts as completed Stage 2.5 learning progress within its validated ownership, borrowing, and lifetime scope.
+- The deeper ownership/borrowing and explicit lifetime P0 topics are covered sufficiently for the current curriculum point, not permanently mastered.
+- Sprint-16 remains stopped before completion, incomplete, unclosed, and without completion credit.
+- Sprint-17 remains PASS WITH NOTES / CLOSED.
+- Stage 2.5 remains incomplete because P1 coverage or approved placement work remains.
+- Stage 3 transition remains unauthorized.
+- Sprint-19 and Sprint-20 remain planning recommendations only.
+
+Next Status:
+
+No sprint is active. A future Architect or Teacher may review remaining Stage 2.5 P1 coverage and prepare the next sprint through the approved governance workflow. No later sprint execution is authorized.
+
+### Sprint-19 Planning
+
+The Sprint-19 roadmap, `Smart Pointers And Interior Mutability`, was drafted for learner review. It is not accepted or active, and execution is not authorized. No learning project was created; `rust_smart_pointer_lab` remains the candidate project only. Sprint-20 remains a future planning direction, with no roadmap or execution authorization.
+
+### Sprint-19 Roadmap Acceptance
+
+The learner accepted the Sprint-19 roadmap, `Smart Pointers And Interior Mutability`. Sprint-19 is accepted but not started, execution is not authorized, and no Teacher execution window is open. No learning project was created; `rust_smart_pointer_lab` remains the candidate project only. Sprint-20 remains a future planning direction. Stage 2.5 remains incomplete, and Stage 3 transition remains unauthorized.
+
+## 2026-07-02
+
+### Sprint-19 Completion
+
+Outcome:
+
+PASS WITH NOTES / CLOSED
+
+Sprint:
+
+`Smart Pointers And Interior Mutability`
+
+Project:
+
+`rust_smart_pointer_lab`
+
+Project Path:
+
+`/Users/dumplings/workspace/rust_smart_pointer_lab`
+
+Checkpoint Results:
+
+- Checkpoint 1 - Owned Indirection: `Box<T>`, `Deref`, And `Drop`: PASS WITH NOTES
+- Checkpoint 2 - Shared Ownership: `Rc<T>`: PASS WITH NOTES
+- Checkpoint 3 - Non-Owning Links: `Weak<T>` And Cycle Reasoning: PASS WITH NOTES
+- Checkpoint 4 - Interior Mutability: `RefCell<T>`: PASS WITH NOTES
+- Checkpoint 5 - Integrated Ownership-Topology Design Review: PASS WITH NOTES
+
+Validation:
+
+- Student Validation: PASS.
+- Codex Repository Validation: PASS WITH NOTES.
+- Teacher Learning Validation: PASS WITH NOTES.
+- `cargo fmt --check`: PASS.
+- isolated `cargo check --locked`: PASS WITH WARNINGS.
+- isolated `cargo test --locked`: PASS, 13 passed and 0 failed; 0 doc tests.
+
+Capability Growth:
+
+- Explained `Box<T>` as owned indirection and distinguished it from shared ownership.
+- Explained `Deref` and deref coercion as access ergonomics rather than ownership changes.
+- Reasoned about deterministic ownership end and cleanup.
+- Explained `Rc<T>` shared ownership, owner-handle cloning, and strong counts.
+- Explained `Weak<T>` non-owning links, upgrade, absence handling, and bounded cycle risk.
+- Explained `RefCell<T>` runtime borrow checking, interior mutability, borrow guards, and conflicting-borrow panic behavior.
+- Preferred ordinary `&mut` when it could express the design directly.
+- Compared owned values, references, `Box<T>`, `Rc<T>`, `Weak<T>`, and `RefCell<T>` as ownership-topology choices.
+
+Non-Blocking Notes:
+
+- `BoxedLabel` is private and produces dead-code warnings in a normal library build.
+- Weak-cycle reasoning is only lightly preserved in project source and tests.
+- No custom `Drop` implementation was created; cleanup reasoning used explicit `drop` behavior.
+- The learning project and `.idea/` metadata are currently untracked.
+- The initial Checkpoint 1 task framing was insufficiently detailed; the Teacher corrected later delivery after learner feedback.
+
+Governance Notes:
+
+- Sprint-19 counts as completed Stage 2.5 learning progress within its validated smart-pointer and interior-mutability scope.
+- Sprint-16 remains incomplete and unclosed without completion credit.
+- Sprint-17 and Sprint-18 remain PASS WITH NOTES / CLOSED.
+- Stage 2.5 remains incomplete because broader traits and generics, public error ergonomics, and Rust-specific common-concept reinforcement remain or require approved placement.
+- Stage 3 transition remains unauthorized.
+- Sprint-20 remains a future planning direction only.
+
+Next Status:
+
+No sprint is active. The next allowed action is a review of the remaining Stage 2.5 P1 coverage and a possible Sprint-20 Specification Review. No Sprint-20 roadmap or execution is authorized.

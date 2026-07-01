@@ -9,16 +9,20 @@
 - Sprint-15: PASS WITH NOTES / CLOSED
 - Sprint-16: Execution stopped before completion; partial unvalidated progress; not complete or closed
 - Sprint-17: PASS WITH NOTES / CLOSED
+- Sprint-18: PASS WITH NOTES / CLOSED
+- Sprint-19: PASS WITH NOTES / CLOSED
 - Stage 2.5: Required bridge before Stage 3; partially completed and still in progress at the curriculum level
 - Unit 1 proposal: `roadmaps/stage-2-5-unit-1-rust-core-fluency.md`; approved as drafting basis
 - Unit 1 formal roadmap: `roadmaps/sprint-16.md`; partial unvalidated execution evidence; no topic completed under the Sprint-16 boundary
 - Remaining-coverage review: `reviews/stage-2-5-remaining-coverage-review.md`; planning artifact; no classification change
 - Sprint-17 roadmap and closure: `roadmaps/sprint-17.md` and `reviews/sprint-17-closure.md`; validated durable evidence for Rust Core Fluency topics
+- Sprint-18 roadmap and closure: `roadmaps/sprint-18.md` and `reviews/sprint-18-closure.md`; validated durable evidence for ownership, borrowing, and lifetime reasoning
+- Sprint-19 roadmap and closure: `roadmaps/sprint-19.md` and `reviews/sprint-19-closure.md`; validated durable evidence for smart pointers, interior mutability, and ownership-topology tradeoffs
 - Source audit: `reviews/rust-curriculum-coverage-audit.md`
 - Post-midpoint decision: `reviews/stage-2-post-midpoint-review.md`
 - Primary external baseline: [The Rust Programming Language](https://doc.rust-lang.org/book/)
 
-This matrix records topic-level governance state for Stage 2.5 decisions after Sprint-17 closure. It is not a sprint roadmap, implementation plan, or stage authorization.
+This matrix records topic-level governance state for Stage 2.5 decisions after Sprint-19 closure. It is not a sprint roadmap, implementation plan, universal mastery ledger, or stage authorization.
 
 ## 2. Purpose
 
@@ -51,21 +55,21 @@ Recommended handling describes the governance treatment that a future approved r
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Cargo and project basics | Covered sufficiently for now | P1 | Fresh projects and repeated `cargo fmt`, `cargo check`, and `cargo test` evidence in `learning-log.md` and Sprint closures. | Broader tooling is tracked separately under Cargo ecosystem practices. | Maintain through normal approved project work. | Successful tool commands plus learner explanation of crate targets and project structure. | No independent block; retain routine evidence. |
 | Variables / data types / functions / control flow | Partially covered; reinforce | P1 | Used throughout all completed Rust projects. | Usage is largely implicit; no durable assessment maps Rust-specific expression, mutability, type, and control-flow semantics. | Include explicit coverage or evidence review in the approved pre-Stage-3 plan. | Source-level explanation, small contrast exercises, and compiler-error reasoning. | Must be covered or explicitly planned before Stage 3. |
-| Ownership / borrowing / moves / references / slices | Partially covered; reinforce | P0 | Stage 1 Exit Assessment PASS; Sprint-13 through Sprint-15 reinforced API-boundary ownership; Sprint-14 directly validated value/reference choices. | Mental-model depth remains weak around reference copy semantics, aliasing, indirection, mutation, and cleanup topology. | The approved Stage 2.5 bridge direction must assign explicit mental-model reinforcement and transfer validation through a separate specification. | Learner explanation, source-level ownership tracing, compiler-error prediction, bounded code exercises, and Teacher Learning Validation. | Blocks Stage 3 decision until coverage and validation handling are approved. |
+| Ownership / borrowing / moves / references / slices | Covered sufficiently for now | P0 | Stage 1 Exit Assessment PASS; Sprint-13 through Sprint-15 reinforced API-boundary ownership; Sprint-14 directly validated value/reference choices; Sprint-18 validated ownership as resource discipline, borrowing as controlled access, source-level topology tracing, aliasing versus mutation, and reference copy/exclusivity semantics. | Precise owner wording, input/output origin tracing, and source-first borrow-diagnostic triage still need reinforcement. | Maintain through approved Rust work and compare ordinary borrowing with smart-pointer topology when later scope requires it. | Learner explanation, source-level ownership tracing, compiler-error prediction, bounded API repair, and Teacher Learning Validation. | Sprint-18 resolves this P0 topic for the current curriculum point; remaining Stage 2.5 P1 placement still governs Stage 3 readiness. |
 | Structs / methods / encapsulation | Covered sufficiently for now | P1 | `task_tracker`, `devlog_cli`, `rust_mechanics_lab`, and `rust_engineering_assessment` used private fields, constructors, methods, accessors, and controlled mutation. | Risk is regression rather than missing exposure. | Maintain through future approved project design. | Public API review, invariant reasoning, and focused behavior tests. | No independent block; preserve demonstrated capability. |
 | Enums and basic matching | Covered sufficiently for now | P1 | Earlier enum/error modeling plus Sprint-17 validated intentional use of `match`, `if let`, `let ... else`, `while let`, destructuring, guards, and exhaustiveness. | Matching borrowed enum fields without accidentally moving non-`Copy` fields still needs reinforcement. | Maintain through normal source reading and future approved Rust work. | Source review, ownership explanation for borrowed patterns, and focused exhaustive/non-exhaustive matching exercises. | Sprint-17 resolves the current basic-matching coverage requirement; retain reinforcement. |
 | Modules / privacy / crates / public APIs | Covered sufficiently for now | P1 | Stage 1 Exit Assessment explicitly passed module organization, visibility, crate boundaries, and public API basics; later sprints reinforced crate facades. | Later projects must preserve rather than assume the capability. | Maintain through architecture and public-surface review. | Codex scope/API validation plus learner explanation of `pub`, `pub(crate)`, private items, and crate boundaries. | No independent block; retain evidence in future work. |
 | Collections and strings | Covered sufficiently for now | P1 | Earlier projects used `Vec`, `String`, `HashMap`, `HashSet`, slices, and entry APIs; Sprint-17 directly validated collection selection, iteration ownership, borrowed-input/owned-output transformations, duplicate detection, counting/grouping, and clone decisions. | `HashSet<T>` versus `HashSet<&T>` semantic choices and automatic iterator fluency still need reinforcement. | Maintain through future approved work and revisit owned-versus-borrowed set elements when a concrete API requires the choice. | Small comparative exercises, ownership explanation, and focused behavior tests. | Sprint-17 resolves the current collection-ownership coverage requirement; retain reinforcement. |
 | Error handling | Covered sufficiently for now | P1 | Strong evidence for `Result`, `?`, `From`, `map_err`, custom errors, public error kinds, and context-aware boundaries. | `Display`, `std::error::Error`, structured context, and library error ergonomics remain incomplete. | Maintain current capability and add the recorded public-error ergonomics reinforcement. | Source/API review, error-chain explanation, success/error tests, and Teacher Learning Validation. | Public-error ergonomics should be covered or planned before Stage 3. |
 | Generics / traits / static dispatch | Partially covered; reinforce | P1 | Sprint-13 introduced a minimal storage trait/generic boundary; Sprint-14 validated bounds, static dispatch, and monomorphization; Sprint-15 assessed practical judgment. | Evidence is limited to small behavior traits and functions; broader type/method design and tradeoffs remain weak. | Assign broader but bounded generic/trait reasoning in the approved pre-Stage-3 plan. | Design comparison, generic ownership tracing, source-level explanation, and focused implementation/tests when authorized. | Must be covered or explicitly planned before Stage 3. |
-| Lifetimes | Explicitly deferred | P0 | Initial `reviews/rust-baseline-assessment.md` recorded basic understanding; Sprint-14 and Sprint-15 explicitly excluded deep lifetime work. | No later project-level validation shows explicit lifetime relationships or annotation reasoning. | The approved Stage 2.5 bridge direction must assign explicit lifetime coverage and validation through a separate specification. | Reference-relationship diagrams, signature explanation, compiler-error diagnosis, and bounded lifetime exercises. | Blocks Stage 3 decision until coverage and validation handling are approved. |
+| Lifetimes | Covered sufficiently for now | P0 | Initial `reviews/rust-baseline-assessment.md` recorded basic understanding; Sprint-18 validated input/output reference relationships, bounded elision, meaningful explicit annotations, invalid local-reference escape, compiler diagnostics, and borrowed-versus-owned API tradeoffs. | Lifetime annotations, input names, output origins, and the fact that annotations do not extend runtime value lifetimes still need precise reinforcement. | Maintain through future source reading and approved API design without reopening Sprint-18 or expanding into advanced lifetime syntax by default. | Reference-relationship diagrams, signature explanation, compiler-error diagnosis, bounded API repair, and Teacher Learning Validation. | Sprint-18 resolves this P0 topic for the current curriculum point; remaining Stage 2.5 P1 placement still governs Stage 3 readiness. |
 | Testing | Covered sufficiently for now | P1 | Unit, integration, workflow, state-transition, persistence, and fake-storage tests exist across completed projects. | Some file/storage paths and public contracts remain lightly tested. | Maintain focused testing tied to learning objectives; avoid broad expansion as filler. | Student Validation, Codex Repository Validation, and learner explanation of what each test proves. | No independent block; preserve focused testing capability. |
 | CLI project structure | Partially covered; reinforce | P2 | `wallet_cli` used a thin binary and library-side command workflow; later projects preserved thin `main.rs`. | Environment variables, stderr behavior, full argument tooling, and production CLI ergonomics were deferred. | Place in Stage 3/4 only when an approved project needs a stronger CLI boundary. | End-to-end CLI behavior, library/binary responsibility review, and focused command tests. | No Stage 3 entry block; retain a future placement decision. |
-| Closures and iterators | Covered sufficiently for now | P0 | Sprint-17 completed and validated iterator ownership, borrowed and owned collection APIs, closure parameters and captures, mutable closure bindings, conceptual `Fn` / `FnMut` / `FnOnce`, iterator pipelines, helper-versus-closure choices, and loop-versus-iterator tradeoffs. | No `move` closure appears in source, although move capture passed conceptual Teacher validation; iterator-and-closure combinations are understood but not yet automatic. | Maintain through normal approved Rust work and reinforce capture and adapter fluency without reopening Sprint-17. | Learner explanation, source-level ownership tracing, loop-versus-iterator comparison, bounded transformations, and focused tests. | The closures/iterators P0 topic is resolved for the current curriculum point; deeper ownership and lifetime P0 topics still block Stage 3. |
+| Closures and iterators | Covered sufficiently for now | P0 | Sprint-17 completed and validated iterator ownership, borrowed and owned collection APIs, closure parameters and captures, mutable closure bindings, conceptual `Fn` / `FnMut` / `FnOnce`, iterator pipelines, helper-versus-closure choices, and loop-versus-iterator tradeoffs. | No `move` closure appears in source, although move capture passed conceptual Teacher validation; iterator-and-closure combinations are understood but not yet automatic. | Maintain through normal approved Rust work and reinforce capture and adapter fluency without reopening Sprint-17. | Learner explanation, source-level ownership tracing, loop-versus-iterator comparison, bounded transformations, and focused tests. | This P0 topic is resolved for the current curriculum point; remaining Stage 2.5 P1 placement still governs Stage 3 readiness. |
 | Cargo ecosystem practices | Partially covered; reinforce | P2 | `Cargo.toml`, dependency selection, `serde`, and `serde_json` were covered in Sprint-12 onward. | Workspaces, release profiles, documentation, publishing, `cargo clippy`, and wider ecosystem workflow are not durably planned. | Schedule only the job-relevant subset during Stage 3/4 or portfolio preparation. | Tool-use demonstration and explanation of dependency/workspace/release decisions. | No Stage 3 entry block; track for later engineering readiness. |
-| `Box<T>` / `Deref` / `Drop` | Missing / not planned | P1 | No durable coverage evidence or assigned plan was found. | Missing heap indirection, recursive-type, deref coercion, and deterministic cleanup mental models. | Include in an approved pre-Stage-3 smart-pointer and ownership-topology plan. | Concept explanation, memory/ownership diagrams, bounded exercises, and source-level review. | Must be covered or explicitly planned before Stage 3. |
-| `Rc<T>` / `Weak<T>` / shared ownership | Explicitly deferred | P1 | Sprint-14 and Sprint-15 excluded `Rc<RefCell<T>>`; no `Weak<T>` evidence exists. | Missing single-threaded shared ownership, cycle risk, and non-owning references. | Include with smart-pointer topology before Stage 3; keep reference-cycle scope bounded. | Ownership-count tracing, cycle/`Weak<T>` explanation, bounded exercises, and tests when authorized. | Must be covered or explicitly planned before Stage 3. |
-| `RefCell<T>` / interior mutability | Partially covered; reinforce | P1 | Sprint-14 validated a fake recorder using runtime borrow checking; Sprint-15 and `TODO.md` preserve reinforcement needs. | Initial explanation required correction; comparison with ordinary `&mut self`, runtime borrow failure, and composition with shared ownership remain incomplete. | Reinforce with explicit contrast and boundary reasoning in the approved pre-Stage-3 plan. | Source comparison, borrow-guard explanation, scenario selection, and focused tests. | Must be covered or explicitly planned before Stage 3. |
+| `Box<T>` / `Deref` / `Drop` | Covered sufficiently for now | P1 | Sprint-19 validated `Box<T>` owned indirection, custom `Deref<Target = str>`, deref coercion, ownership-chain tracing, and deterministic ownership-end reasoning through explicit `drop` behavior. | No custom `Drop` implementation was created, and the private `BoxedLabel` concept surface produces dead-code warnings in a normal library build. | Maintain through approved Rust work and reinforce cleanup reasoning when a real resource-lifecycle boundary appears. | Concept explanation, ownership tracing, bounded source exercises, focused tests, Codex validation, and Teacher Learning Validation. | Sprint-19 resolves this P1 topic for the current curriculum point; this is not permanent mastery. |
+| `Rc<T>` / `Weak<T>` / shared ownership | Covered sufficiently for now | P1 | Sprint-19 validated single-threaded shared ownership, `Rc::clone`, strong counts, `Weak::downgrade`, `Weak::upgrade`, absence handling, non-owning semantics, and bounded cycle-risk reasoning. | Cycle-breaking reasoning is validated through Teacher discussion but remains lightly preserved in project source and tests. | Maintain through future approved ownership-topology work without expanding into production graph design by default. | Ownership-count tracing, cycle/`Weak<T>` explanation, focused behavior tests, Codex validation, and Teacher Learning Validation. | Sprint-19 resolves this P1 topic for the current curriculum point; this is not permanent mastery. |
+| `RefCell<T>` / interior mutability | Covered sufficiently for now | P1 | Sprint-14 introduced runtime borrowing through a fake recorder; Sprint-19 validated interior mutability, `Ref` and `RefMut` guards, runtime borrow failure, and preference for ordinary `&mut` when sufficient. | More complex composition with shared ownership remains a future reinforcement topic rather than a current independent blocker. | Maintain through future approved Rust work and require explicit justification whenever interior mutability is chosen. | Source comparison, guard-lifetime explanation, controlled failure tests, design-choice reasoning, Codex validation, and Teacher Learning Validation. | Sprint-19 resolves this P1 topic for the current curriculum point; this is not permanent mastery. |
 | Threads / channels / `Mutex<T>` / `Send` / `Sync` | Explicitly deferred | P2 | Sprint-14 excluded threading and concurrency primitives; later work did not supersede the exclusion. | Missing Rust ownership transfer across threads, message passing, shared-state synchronization, and marker-trait reasoning. | Assign before substantial backend or concurrent client work in Stage 3/4. | Thread/channel exercises, synchronization reasoning, compiler diagnostics, and focused tests when authorized. | No Stage 3 entry block; placement must precede work that depends on concurrency. |
 | `Arc<T>` / shared-state concurrency | Explicitly deferred | P2 | Sprint-14 and Sprint-15 explicitly excluded `Arc<Mutex<T>>`. | Missing thread-safe shared ownership and the relationship among `Arc`, `Mutex`, `Send`, and `Sync`. | Cover with concurrency before substantial multi-threaded or client/backend work. | Ownership/synchronization diagrams, bounded shared-state exercise, and race-safety explanation. | No Stage 3 entry block; required before dependent Stage 4/backend work. |
 | Async / await / futures / runtimes | Explicitly deferred | P2 | Async Rust and Tokio were repeatedly excluded in Stage 1 and Stage 2 roadmaps. | Missing futures, polling, task/runtime boundaries, async borrowing, cancellation, and async error handling. | Assign during Stage 3/4 before approved networking, RPC, or Solana client work needs it. | Async workflow explanation, bounded runtime exercise, compiler/test validation, and source review. | No Stage 3 entry block; required before dependent networking/client work. |
@@ -77,14 +81,14 @@ Recommended handling describes the governance treatment that a future approved r
 
 The P0 set and current resolution status are:
 
-1. Deeper ownership and borrowing mental model
+1. Deeper ownership and borrowing mental model — covered sufficiently for now by Sprint-18
    - aliasing and mutation;
    - moves and reference relationships;
    - indirection and cleanup;
    - owned values versus borrowed views;
    - reference copy semantics;
    - source-level ownership tracing.
-2. Explicit lifetime reasoning
+2. Explicit lifetime reasoning — covered sufficiently for now by Sprint-18
    - relationships among input and output references;
    - lifetime annotations as relationship descriptions;
    - compiler diagnostics;
@@ -93,20 +97,24 @@ The P0 set and current resolution status are:
    - closure capture, iterator ownership, iterator pipelines, transformation, collection, and loop tradeoffs were validated;
    - source-level `move` closure use and automatic adapter fluency remain reinforcement notes rather than current blockers.
 
-Sprint-17 resolves the closures-and-iterators P0 topic for the current curriculum point. Deeper ownership and borrowing plus explicit lifetime reasoning remain unresolved P0 blockers. No Stage 3 transition is authorized.
+Sprint-17 resolves the closures-and-iterators P0 topic for the current curriculum point. Sprint-18 resolves deeper ownership and borrowing plus explicit lifetime reasoning for the current curriculum point.
+
+All identified P0 Rust-core topics are now covered sufficiently for the current curriculum point. This does not imply permanent mastery. Stage 2.5 remains incomplete because the P1 work below still must be covered or placed in an approved pre-Stage-3 plan. No Stage 3 transition is authorized.
 
 ## 6. P1 Before Stage 3
 
-The following P1 areas should be covered or placed in an approved pre-Stage-3 plan:
+The following P1 areas remain to be covered or placed in an approved pre-Stage-3 plan:
 
-- smart pointers: `Box<T>`, `Rc<T>`, `Weak<T>`, `Deref`, and `Drop`;
-- deeper `RefCell<T>` and interior mutability reasoning;
 - broader generic and trait design;
 - public error traits and library error ergonomics;
 - Rust-specific common concept reinforcement where durable evidence is currently implicit;
 - continued preservation of modules, APIs, testing, and encapsulation capability.
 
 Sprint-17 resolves systematic pattern matching and collection ownership behavior for the current curriculum point. Their recorded reinforcement notes do not reopen Sprint-17 or replace the remaining P1 work above.
+
+Sprint-18 resolves the previously open P0 ownership, borrowing, and lifetime topics for the current curriculum point. Its reinforcement notes do not replace the remaining P1 work above.
+
+Sprint-19 resolves smart pointers and deeper interior-mutability reasoning for the current curriculum point. Its source-preservation, warning, and repository-hygiene notes do not reopen those topics or replace the remaining P1 work above.
 
 P1 planning should consolidate related concepts into cohesive learning units. It should not create one sprint per Rust book chapter or use tests as filler.
 
@@ -125,13 +133,17 @@ The approved direction may organize:
 - compile-time and runtime borrow checking;
 - the conceptual transition toward `Arc<T>`, `Mutex<T>`, `Send`, and `Sync`.
 
-Stage 2.5 does not replace the wider coverage matrix. Sprint-17 now supplies validated placement and evidence for closures, iterators, patterns, and collection ownership. Generic/trait breadth, errors, Cargo practices, concurrency, async, and other unresolved topics retain their matrix classifications and placement requirements.
+Stage 2.5 does not replace the wider coverage matrix. Sprint-17 supplies validated placement and evidence for closures, iterators, patterns, and collection ownership. Sprint-18 supplies validated evidence for deeper ownership, borrowing, and explicit lifetime reasoning. Sprint-19 supplies validated evidence for smart pointers, interior mutability, and ownership-topology tradeoffs. Generic/trait breadth, errors, Cargo practices, concurrency, async, and other unresolved topics retain their matrix classifications and placement requirements.
 
 Stage 2.5 is now represented in `roadmaps/master-roadmap.md` as the required high-level bridge before Stage 3. That representation did not itself authorize implementation, Sprint-16, or Stage 3 transition.
 
 `roadmaps/sprint-16.md` formalized the original Unit 1 coverage and validation shape. Sprint-16 produced partial, unvalidated execution evidence before being stopped prior to completion and remains incomplete and unclosed.
 
-Sprint-17 established a separate completion boundary and produced validated evidence for closures and iterators, systematic pattern matching, and collection ownership behavior. It did not complete Sprint-16 or Stage 2.5. Deeper ownership and borrowing, explicit lifetimes, smart pointers, deeper `RefCell<T>`, and engineering-contract consolidation remain future Stage 2.5 work.
+Sprint-17 established a separate completion boundary and produced validated evidence for closures and iterators, systematic pattern matching, and collection ownership behavior. It did not complete Sprint-16 or Stage 2.5.
+
+Sprint-18 established a separate completion boundary and produced validated Teacher Learning evidence for deeper ownership, borrowing, and explicit lifetime reasoning without creating a learning project. It did not complete Sprint-16 or Stage 2.5. Smart pointers, deeper `RefCell<T>`, broader traits and generics, public error ergonomics, and engineering-contract consolidation remain future or placement-required Stage 2.5 work.
+
+Sprint-19 established a separate completion boundary and produced validated Student, Codex Repository, and Teacher Learning evidence for smart pointers, deeper `RefCell<T>`, and ownership-topology tradeoffs. It did not complete Sprint-16 or Stage 2.5. Broader traits and generics, public error ergonomics, Rust-specific common-concept reinforcement, and engineering-contract consolidation remain future or placement-required Stage 2.5 work.
 
 ## 8. Matrix Maintenance Rules
 
@@ -146,10 +158,10 @@ Sprint-17 established a separate completion boundary and produced validated evid
 
 ## 9. Explicit Non-Authorization Statement
 
-This matrix and the Sprint-17 closure synchronization do not:
+This matrix and the Sprint-19 closure synchronization do not:
 
 - mark Sprint-16 or Unit 1 complete;
-- perform learning-project validation or modify `rust_core_fluency_lab`;
+- perform learning-project validation or modify any learning project;
 - authorize later Stage 2.5 units;
 - authorize further Master Roadmap changes;
 - authorize Stage 3 transition;
@@ -160,5 +172,9 @@ This matrix and the Sprint-17 closure synchronization do not:
 Sprint-16 execution stopped before completion. Student Validation and Teacher Learning Validation remain incomplete for Sprint-16, and formal Codex Repository Validation was not performed under the Sprint-16 boundary.
 
 Sprint-17 independently completed all four of its checkpoints and all three validation layers. Sprint-17 evidence changes the classifications for closures and iterators, systematic pattern matching, and collection ownership behavior only.
+
+Sprint-18 independently completed all four checkpoints and Teacher Learning Validation. Student Validation and Codex Repository Validation for a learning project were not applicable because no learning-project code or repository was created or modified. Sprint-18 evidence changes the classifications for ownership, borrowing, and lifetimes only.
+
+Sprint-19 independently completed all five checkpoints, Student Validation, Codex Repository Validation, and Teacher Learning Validation. Sprint-19 evidence changes the classifications for smart pointers and interior mutability only.
 
 Stage 2.5 remains incomplete based on the unresolved coverage recorded above. Sprint lifecycle and transition authorization are owned by `CONTEXT.md`, the sprint governance policy, and any accepted current roadmap; this coverage ledger does not define or synchronize those states.
