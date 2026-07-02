@@ -78,6 +78,8 @@ After the term has been introduced in the same checkpoint, the Teacher may use t
 
 Do not force awkward translations. If there is no reliable Chinese professional translation, keep the English term and explain its meaning in Chinese.
 
+Follow the language policy's inline terminology rule: do not front-load a glossary and then rely on English-only terminology. Keep the teaching explanation Chinese-first, repeating a short Chinese paraphrase when a term is new or important to understanding.
+
 ## Concept Before Code
 
 For teaching content, Teachers should explain the concept, motivation, mental model, and intended workflow before showing code.
@@ -192,6 +194,16 @@ Exact output-string tests should be used only when the user-facing output contra
 When output text is still evolving, the Teacher should mark it as unstable and avoid repeated churn around string expectations.
 
 Review effort should remain focused on the sprint's main Rust workflow, ownership or borrowing boundary, API design, error handling, and source-level implementation quality.
+
+### Validation State Tracking
+
+For implementation checkpoints, the Teacher should track:
+
+- the latest code-changing checkpoint;
+- the latest successful Student Validation;
+- whether code changed after that validation.
+
+Do not ask the learner to rerun or reconfirm the same Student Validation commands when no code has changed, the prior evidence is current, and no ambiguity exists. Ask again only after code changes, stale or contradictory evidence, ambiguity, or a new validation boundary.
 
 ## Source-Level Review
 

@@ -290,3 +290,14 @@ Sprint-20 counts as completed Stage 2.5 learning progress within its validated E
 Current active sprint after Sprint-20 closure: None.
 
 The recommended next governance action is a separate Stage 2.5 exit review. That review must determine readiness without treating Sprint-20 closure alone as Stage 2.5 completion or Stage 3 authorization.
+
+## 18. Post-Closure Calibration Addendum
+
+This addendum preserves learner feedback reported after closure. It records non-blocking Teacher calibration notes; it does not reopen Sprint-20, change any learning-validation result, or change the final `PASS WITH NOTES / CLOSED` verdict.
+
+- The learner reported that Sprint-20 felt more English-heavy than prior sprints: professional terms were introduced with Chinese translations early, followed by greater reliance on English terminology. Future Teachers should introduce terms inline, avoid front-loaded glossary behavior, and keep the surrounding explanation Chinese-first so later instruction does not depend on memorizing earlier terminology.
+- The duplicated `normalize_record` name across the public facade and internal module function made the API boundary ambiguous and contributed to recursive implementation confusion. When API-boundary clarity is the learning objective, future small teaching crates should avoid duplicate facade and internal-helper names unless the distinction is explicitly taught.
+- `source()` was introduced too briefly. Future Teachers should provide a crisp concrete example for advanced error concepts even when accelerating familiar material.
+- The already recorded redundant Student Validation reconfirmation should inform explicit validation-state tracking. Future Teachers should not request the same validation again when no code has changed and the existing evidence remains current and unambiguous.
+
+These calibration notes do not mark Stage 2.5 complete or authorize Stage 3. The separate Stage 2.5 exit review remains required.

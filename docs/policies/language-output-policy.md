@@ -60,7 +60,11 @@ Important professional terminology should be introduced using:
 
 `English professional term (Chinese professional translation)`
 
-After introduction, the English term may be used alone when clear. Do not force awkward translations.
+Important terminology should be introduced inline at the point of use, not as a front-loaded glossary that the learner must remember for later instruction.
+
+After introduction, English technical terms may remain in use, but the surrounding explanation must stay Chinese-first. Repeat a short Chinese explanation or paraphrase when a term is new, cognitively important, ambiguous, or likely to affect comprehension. Do not force awkward translations.
+
+Later instruction must not depend on memorizing an earlier glossary. Technical English should support technical understanding rather than become an implicit English assessment unless the sprint explicitly selects English training as an objective.
 
 Technical knowledge and English ability must not be assessed together unless the sprint explicitly includes English training.
 
