@@ -2,14 +2,16 @@
 
 ## Next Governance / Planning Task
 
-Review the remaining Stage 2.5 P1 coverage and decide whether to prepare a Sprint-20 Specification Review through the approved governance workflow.
+Prepare or perform a separate Stage 2.5 exit review after Sprint-20 closure.
 
 Current boundary:
 
 - no active learning sprint;
 - Sprint-19 is PASS WITH NOTES / CLOSED;
+- Sprint-20 is PASS WITH NOTES / CLOSED;
 - the Teacher execution window is closed / not active;
-- Sprint-20 remains a planning direction only;
-- no Sprint-20 roadmap or execution is authorized;
-- Stage 2.5 remains incomplete;
+- Sprint-20 learning project `rust_engineering_contract_lab` exists with no active execution;
+- Stage 2.5 remains incomplete pending the separate exit review;
 - Stage 3 transition remains unauthorized.
+
+The exit review should inspect the Rust Core Coverage Matrix and Sprint-17 through Sprint-20 closure evidence. Sprint-20 closure alone must not complete Stage 2.5 or authorize Stage 3.

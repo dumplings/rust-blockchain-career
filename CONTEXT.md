@@ -20,14 +20,15 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Sprint-18 learning project: Not created; no active project
 - Sprint-19: PASS WITH NOTES / CLOSED
 - Sprint-19 learning project: `rust_smart_pointer_lab`; created; no active execution
+- Sprint-20: PASS WITH NOTES / CLOSED
+- Sprint-20 learning project: `rust_engineering_contract_lab`; created; no active execution
 - Teacher execution window: Closed / no active window
-- Sprint-20: Planning direction only
 
 ## Current Authorization Boundary
 
-Sprint-19 is closed. No active learning sprint or Teacher execution window exists. Sprint-20 remains a planning direction only.
+Sprint-20 is closed as PASS WITH NOTES / CLOSED. No active learning sprint or Teacher execution window exists.
 
-The Sprint-19 closure does not authorize Sprint-20, complete Stage 2.5, or authorize Stage 3 transition.
+Sprint-20 closure counts as completed Stage 2.5 learning progress within its validated Engineering Contract Consolidation scope. It does not complete Stage 2.5 or authorize Stage 3 transition. A separate Stage 2.5 exit review is required.
 
 ## Current Governance Focus
 
@@ -46,19 +47,20 @@ The Sprint-19 closure does not authorize Sprint-20, complete Stage 2.5, or autho
 - Program stages and exit criteria: `roadmaps/master-roadmap.md`
 - Sprint-18 accepted execution contract: `roadmaps/sprint-18.md`
 - Sprint-19 accepted execution contract: `roadmaps/sprint-19.md`
+- Sprint-20 accepted execution contract: `roadmaps/sprint-20.md`
 - Sprint lifecycle and roadmap ownership: `docs/policies/sprint-governance-policy.md`
 - Teacher execution behavior: `docs/policies/teacher-execution-policy.md`
 - Current Rust-core coverage ledger: `reviews/rust-core-coverage-matrix.md`
-- Latest completed sprint evidence: `reviews/sprint-19-closure.md`
+- Latest completed sprint evidence: `reviews/sprint-20-closure.md`
 
 ## Current Coverage State
 
 - Sprint-17 sufficiently covered closures and iterators, systematic pattern matching, and collection ownership for the current curriculum point.
 - Sprint-18 sufficiently covered deeper ownership and borrowing mental models and explicit lifetime reasoning for the current curriculum point.
 - Sprint-19 sufficiently covered smart pointers, shared and weak ownership, deeper `RefCell<T>`, and ownership-topology tradeoffs for the current curriculum point.
-- All identified P0 Rust-core topics are resolved sufficiently for the current curriculum point; this is not permanent mastery.
-- Remaining P1 work includes broader traits and generics, public error ergonomics, and Rust-specific common-concept reinforcement where durable evidence is implicit.
-- Stage 2.5 remains incomplete.
+- Sprint-20 sufficiently covered broader bounded trait/generic design, public API contracts, public error ergonomics, and explicit Rust common-concept reinforcement for the current curriculum point.
+- All identified P0 and P1 pre-Stage-3 Rust-core topics are covered sufficiently for the current curriculum point; this is not permanent mastery or stage-transition authorization.
+- Stage 2.5 remains incomplete pending a separate exit review.
 
 ## Learner Profile And Language Requirements
 
@@ -85,9 +87,9 @@ The Sprint-19 closure does not authorize Sprint-20, complete Stage 2.5, or autho
 
 ## Next Allowed Transition
 
-A future Architect or Teacher may review the remaining Stage 2.5 P1 coverage and decide whether to prepare a Sprint-20 Specification Review through the approved governance workflow.
+A separate Stage 2.5 exit review may be prepared or performed using the Rust Core Coverage Matrix and Sprint-17 through Sprint-20 closure evidence.
 
-Sprint-20 remains a planning direction only. It is not drafted, accepted, started, or authorized. Stage 2.5 remains incomplete, and Stage 3 transition remains unauthorized.
+Sprint-20 is closed. Stage 2.5 remains incomplete until the separate exit review makes an explicit governance decision. Stage 3 transition remains unauthorized.
 
 ## Conditional Historical Evidence
 

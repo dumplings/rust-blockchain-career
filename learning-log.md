@@ -1124,3 +1124,52 @@ Governance Notes:
 Next Status:
 
 No sprint is active. The next allowed action is a review of the remaining Stage 2.5 P1 coverage and a possible Sprint-20 Specification Review. No Sprint-20 roadmap or execution is authorized.
+
+### Sprint-20 Planning
+
+The Sprint-20 roadmap, `Engineering Contract Consolidation`, was drafted for learner review. It is not accepted or active, and execution is not authorized. No learning project was created; `rust_engineering_contract_lab` is the candidate project only. Sprint-20 may become the final teaching sprint before a separate Stage 2.5 exit review, but it does not itself complete Stage 2.5. Stage 3 transition remains unauthorized.
+
+### Sprint-20 Roadmap Acceptance
+
+The learner accepted the Sprint-20 roadmap, `Engineering Contract Consolidation`. Sprint-20 is accepted but not started, execution is not authorized, and no Teacher execution window is open. No learning project was created; `rust_engineering_contract_lab` remains the candidate project only. Sprint-20 may become the final teaching sprint before a separate Stage 2.5 exit review, but it does not itself complete Stage 2.5. Stage 3 transition remains unauthorized.
+
+### Sprint-20 Completion
+
+Outcome:
+
+PASS WITH NOTES / CLOSED
+
+Project:
+
+`rust_engineering_contract_lab`
+
+Validation:
+
+- Student Validation: PASS.
+- Codex Repository Validation: PASS WITH NOTES.
+- Teacher Learning Validation: PASS WITH NOTES.
+- `cargo fmt --check`: PASS.
+- isolated `cargo check`: PASS with no warnings.
+- isolated `cargo test`: PASS, 3 passed and 0 failed; 0 doc tests.
+
+Capability Growth:
+
+- Designed a concrete crate-root facade over private modules.
+- Used public types with private fields and reasoned about constructor and getter contracts.
+- Chose borrowed immutable input and owned normalized output.
+- Implemented and evaluated a bounded internal trait/generic boundary while recognizing over-abstraction risk.
+- Implemented a public error kind and error type with `Display` and `std::error::Error`.
+- Distinguished stable error classification from human-readable display text and explained when source chaining is appropriate.
+- Reinforced expression, mutability, type, control-flow, ownership, borrowing, modules, encapsulation, and testing discipline.
+
+Non-Blocking Notes:
+
+- Public `NormalizedRecord::new` permits callers to bypass normalization and remains an API-contract reinforcement point.
+- No dedicated whitespace-only test or external facade integration test exists.
+- Source chaining should be reinforced when a real lower-level wrapped error appears.
+- `.DS_Store`, `.idea/`, and all learning-project files were untracked during validation.
+- Teacher execution had minor test-specification and validation-state repetition issues that the learner surfaced and the Teacher corrected or acknowledged.
+
+Next Status:
+
+No sprint is active. Sprint-20 counts as completed Stage 2.5 learning progress within its validated scope. Stage 2.5 remains incomplete pending a separate exit review, and Stage 3 transition remains unauthorized.
