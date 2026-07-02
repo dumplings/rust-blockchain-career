@@ -2,7 +2,7 @@
 
 ## Next Governance / Planning Task
 
-Prepare a Stage 3 Blockchain Foundations Specification Review or roadmap-planning proposal.
+Onboard the next Architect with `reviews/architect-retirement-handover-2026-07-02-post-stage-2-5-exit.md`, then prepare a Stage 3 Blockchain Foundations Specification Review or roadmap-planning proposal.
 
 Current boundary:
 

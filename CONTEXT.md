@@ -39,7 +39,8 @@ Stage 3 specification review or roadmap planning may be prepared. Stage 3 learni
 - Codex is the repository evidence bridge for browser-based roles.
 - Decision record: `reviews/governance-simplification-decision-2026-06-30.md`
 - Latest governance review: `reviews/stage-2-5-exit-review.md`
-- Latest Architect handover: `reviews/architect-retirement-handover-2026-06-30-post-governance-simplification.md`
+- Latest Architect handover: `reviews/architect-retirement-handover-2026-07-02-post-stage-2-5-exit.md`
+- Architect transition: Outgoing Architect retired after Stage 2.5 exit; next Architect owns Stage 3 opening governance and planning review
 
 ## Authoritative Active Files
 
