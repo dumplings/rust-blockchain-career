@@ -1173,3 +1173,13 @@ Non-Blocking Notes:
 Next Status:
 
 No sprint is active. Sprint-20 counts as completed Stage 2.5 learning progress within its validated scope. Stage 2.5 remains incomplete pending a separate exit review, and Stage 3 transition remains unauthorized.
+
+### Stage 2.5 Exit Review
+
+Outcome:
+
+PASS WITH NOTES / STAGE 2.5 COMPLETE
+
+Sprint-17 through Sprint-20 provide sufficient current-point evidence for the Rust Core Philosophy Bridge. All identified P0 and P1 pre-Stage-3 Rust-core topics are covered sufficiently for the current curriculum point, without implying permanent mastery.
+
+Deferred P2/P3 and contextual Rust topics remain carry-forward dependencies for later blockchain, Solana, RPC, backend, or portfolio work. Stage 3 Blockchain Foundations planning may be prepared next, but no Stage 3 roadmap or learning execution was started or authorized by this review.

@@ -4,12 +4,13 @@
 
 Build practical capability for long-term Rust + Blockchain employability and continued professional growth.
 
-## Current Stage And Bridge Phase
+## Current Stage And Transition
 
-- Program stage: Stage 2 — Rust Engineering
-- Required bridge: Stage 2.5 — Rust Core Philosophy Bridge
-- Stage 2.5 status: Incomplete
-- Stage 3 transition: Unauthorized
+- Completed bridge: Stage 2.5 — Rust Core Philosophy Bridge
+- Stage 2.5 status: PASS WITH NOTES / COMPLETE
+- Next curriculum stage: Stage 3 — Blockchain Foundations
+- Stage 3 planning: May be prepared
+- Stage 3 learning execution: Not authorized; no active sprint
 
 ## Current Sprint State
 
@@ -26,9 +27,9 @@ Build practical capability for long-term Rust + Blockchain employability and con
 
 ## Current Authorization Boundary
 
-Sprint-20 is closed as PASS WITH NOTES / CLOSED. No active learning sprint or Teacher execution window exists.
+The formal Stage 2.5 exit review passed with notes. No active learning sprint, accepted Stage 3 roadmap, or Teacher execution window exists.
 
-Sprint-20 closure counts as completed Stage 2.5 learning progress within its validated Engineering Contract Consolidation scope. It does not complete Stage 2.5 or authorize Stage 3 transition. A separate Stage 2.5 exit review is required.
+Stage 3 specification review or roadmap planning may be prepared. Stage 3 learning execution requires separate roadmap drafting, learner acceptance, and an explicit learner execution-start command.
 
 ## Current Governance Focus
 
@@ -37,6 +38,7 @@ Sprint-20 closure counts as completed Stage 2.5 learning progress within its val
 - Canonical browser launch prompts are available for Architect and Teacher windows.
 - Codex is the repository evidence bridge for browser-based roles.
 - Decision record: `reviews/governance-simplification-decision-2026-06-30.md`
+- Latest governance review: `reviews/stage-2-5-exit-review.md`
 - Latest Architect handover: `reviews/architect-retirement-handover-2026-06-30-post-governance-simplification.md`
 
 ## Authoritative Active Files
@@ -52,6 +54,7 @@ Sprint-20 closure counts as completed Stage 2.5 learning progress within its val
 - Teacher execution behavior: `docs/policies/teacher-execution-policy.md`
 - Current Rust-core coverage ledger: `reviews/rust-core-coverage-matrix.md`
 - Latest completed sprint evidence: `reviews/sprint-20-closure.md`
+- Stage 2.5 exit decision: `reviews/stage-2-5-exit-review.md`
 
 ## Current Coverage State
 
@@ -60,7 +63,8 @@ Sprint-20 closure counts as completed Stage 2.5 learning progress within its val
 - Sprint-19 sufficiently covered smart pointers, shared and weak ownership, deeper `RefCell<T>`, and ownership-topology tradeoffs for the current curriculum point.
 - Sprint-20 sufficiently covered broader bounded trait/generic design, public API contracts, public error ergonomics, and explicit Rust common-concept reinforcement for the current curriculum point.
 - All identified P0 and P1 pre-Stage-3 Rust-core topics are covered sufficiently for the current curriculum point; this is not permanent mastery or stage-transition authorization.
-- Stage 2.5 remains incomplete pending a separate exit review.
+- Stage 2.5 is complete with notes after the formal exit review.
+- Deferred P2/P3 and contextual Rust topics remain dependency-driven carry-forward work for Stage 3/4 and portfolio preparation.
 
 ## Learner Profile And Language Requirements
 
@@ -87,9 +91,7 @@ Sprint-20 closure counts as completed Stage 2.5 learning progress within its val
 
 ## Next Allowed Transition
 
-A separate Stage 2.5 exit review may be prepared or performed using the Rust Core Coverage Matrix and Sprint-17 through Sprint-20 closure evidence.
-
-Sprint-20 is closed. Stage 2.5 remains incomplete until the separate exit review makes an explicit governance decision. Stage 3 transition remains unauthorized.
+Prepare a Stage 3 Blockchain Foundations Specification Review or roadmap-planning proposal. No Stage 3 roadmap or learning execution is authorized by the Stage 2.5 exit review.
 
 ## Conditional Historical Evidence
 
