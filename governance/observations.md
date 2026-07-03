@@ -16,5 +16,6 @@ Use `docs/policies/governance-lifecycle-policy.md` for the observation lifecycle
 | GOV-005 — Teaching Mode Balance | Accepted | Sprint-03 and Sprint-07 Attempt-1 | Reframed as structured instruction, checkpoint teaching, and pause-and-review; no fixed mode ratio retained. |
 | GOV-006 — Workflow Context Verification | Accepted | Sprint-03 and Sprint-07 Attempt-1 | Integrated into workflow separation and Teacher startup verification. |
 | GOV-007 — Prompt Responsibility | Accepted | Sprint-13 through pre-Sprint-15 handoffs | Integrated into the governance lifecycle cross-agent handoff rule. |
+| GOV-008 — Teacher Terminology And Validation Evidence | Accepted | Sprint-20 closure and Sprint-21 Checkpoint 1 governance review | Terminology rules were confirmed sufficient; concise Student Validation reporting was clarified in the Teacher execution policy. |
 
 Reopen an issue only when it recurs under the current canonical rules. Record detailed incident evidence in the relevant failure review, closure, or governance review rather than expanding this queue.

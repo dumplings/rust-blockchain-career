@@ -1,16 +1,18 @@
 # Current Tasks
 
-## Next Governance / Planning Task
+## Active Learning Task
 
-Onboard the next Architect with `reviews/architect-retirement-handover-2026-07-02-post-stage-2-5-exit.md`, then prepare a Stage 3 Blockchain Foundations Specification Review or roadmap-planning proposal.
+Continue Sprint-21 Checkpoint 1 under the accepted roadmap `roadmaps/sprint-21.md`.
 
 Current boundary:
 
-- no active learning sprint;
+- active learning sprint: Sprint-21;
 - Stage 2.5 is PASS WITH NOTES / COMPLETE;
-- the Teacher execution window is closed / not active;
-- no Stage 3 roadmap is created, accepted, or active;
-- Stage 3 learning execution is not authorized;
+- Sprint-21 is active / in progress / not closed;
+- Checkpoint 1 has started;
+- the Teacher execution window is active for Sprint-21 checkpoint work;
+- Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope;
+- all Sprint-21 non-goals remain outside the execution authorization;
 - deferred and carry-forward Rust reinforcement from `reviews/stage-2-5-exit-review.md` must remain visible in later planning.
 
-Specification review and roadmap planning do not start Stage 3 teaching. Execution still requires learner acceptance and an explicit execution-start command.
+Sprint-21 must continue under its accepted roadmap. Do not treat the sprint as complete before Student Validation, Codex Repository Validation, Teacher Learning Validation, and formal closure requirements are satisfied.

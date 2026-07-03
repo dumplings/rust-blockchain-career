@@ -1183,3 +1183,13 @@ PASS WITH NOTES / STAGE 2.5 COMPLETE
 Sprint-17 through Sprint-20 provide sufficient current-point evidence for the Rust Core Philosophy Bridge. All identified P0 and P1 pre-Stage-3 Rust-core topics are covered sufficiently for the current curriculum point, without implying permanent mastery.
 
 Deferred P2/P3 and contextual Rust topics remain carry-forward dependencies for later blockchain, Solana, RPC, backend, or portfolio work. Stage 3 Blockchain Foundations planning may be prepared next, but no Stage 3 roadmap or learning execution was started or authorized by this review.
+
+## 2026-07-03
+
+### Sprint-21 Roadmap Acceptance
+
+The learner accepted the Sprint-21 roadmap, `Mini Blockchain Data Model And Validation`. Sprint-21 is accepted but not started or active, Stage 3 learning execution is not authorized, and no Teacher execution window is open. No learning project was created; `mini_blockchain` remains the candidate project only.
+
+### Sprint-21 Execution Start
+
+The learner gave an explicit execution-start command in the Teacher window. Sprint-21 is active and in progress under `roadmaps/sprint-21.md`, Checkpoint 1 has started, and the `mini_blockchain` learning project has been created. Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope. Sprint-21 is not complete or closed, and its non-goals remain outside the execution authorization.

@@ -9,12 +9,12 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Completed bridge: Stage 2.5 — Rust Core Philosophy Bridge
 - Stage 2.5 status: PASS WITH NOTES / COMPLETE
 - Next curriculum stage: Stage 3 — Blockchain Foundations
-- Stage 3 planning: May be prepared
-- Stage 3 learning execution: Not authorized; no active sprint
+- Stage 3 roadmap: Sprint-21 accepted / active / in progress
+- Stage 3 learning execution: Authorized only within the accepted Sprint-21 roadmap scope
 
 ## Current Sprint State
 
-- Active learning sprint: None
+- Active learning sprint: Sprint-21
 - Sprint-16: Stopped before completion; incomplete; unclosed; no completion credit
 - Sprint-17: PASS WITH NOTES / CLOSED
 - Sprint-18: PASS WITH NOTES / CLOSED
@@ -23,13 +23,16 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Sprint-19 learning project: `rust_smart_pointer_lab`; created; no active execution
 - Sprint-20: PASS WITH NOTES / CLOSED
 - Sprint-20 learning project: `rust_engineering_contract_lab`; created; no active execution
-- Teacher execution window: Closed / no active window
+- Sprint-21: ACTIVE / IN PROGRESS / NOT CLOSED
+- Sprint-21 current checkpoint: Checkpoint 1 started
+- Sprint-21 learning project: `mini_blockchain`; created; active execution
+- Teacher execution window: Active for Sprint-21 checkpoint work
 
 ## Current Authorization Boundary
 
-The formal Stage 2.5 exit review passed with notes. No active learning sprint, accepted Stage 3 roadmap, or Teacher execution window exists.
+The formal Stage 2.5 exit review passed with notes. The learner gave an explicit Sprint-21 execution-start command, satisfying the execution-start gate. Sprint-21 is active under `roadmaps/sprint-21.md`, and Checkpoint 1 has begun.
 
-Stage 3 specification review or roadmap planning may be prepared. Stage 3 learning execution requires separate roadmap drafting, learner acceptance, and an explicit learner execution-start command.
+Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope and active Teacher execution window. This does not authorize broader Stage 3 work or any Sprint-21 non-goal.
 
 ## Current Governance Focus
 
@@ -51,6 +54,7 @@ Stage 3 specification review or roadmap planning may be prepared. Stage 3 learni
 - Sprint-18 accepted execution contract: `roadmaps/sprint-18.md`
 - Sprint-19 accepted execution contract: `roadmaps/sprint-19.md`
 - Sprint-20 accepted execution contract: `roadmaps/sprint-20.md`
+- Sprint-21 accepted roadmap: `roadmaps/sprint-21.md`
 - Sprint lifecycle and roadmap ownership: `docs/policies/sprint-governance-policy.md`
 - Teacher execution behavior: `docs/policies/teacher-execution-policy.md`
 - Current Rust-core coverage ledger: `reviews/rust-core-coverage-matrix.md`
@@ -92,7 +96,7 @@ Stage 3 specification review or roadmap planning may be prepared. Stage 3 learni
 
 ## Next Allowed Transition
 
-Prepare a Stage 3 Blockchain Foundations Specification Review or roadmap-planning proposal. No Stage 3 roadmap or learning execution is authorized by the Stage 2.5 exit review.
+Continue Sprint-21 Checkpoint 1 under `roadmaps/sprint-21.md`. Sprint-21 remains in progress until all required validation and closure criteria are satisfied.
 
 ## Conditional Historical Evidence
 

@@ -203,6 +203,8 @@ For implementation checkpoints, the Teacher should track:
 - the latest successful Student Validation;
 - whether code changed after that validation.
 
+When the learner reports that required local commands passed, a concise pass/fail confirmation is sufficient unless an error, ambiguity, stale or contradictory evidence, or a new validation boundary requires detailed output. Do not request full raw command output by default.
+
 Do not ask the learner to rerun or reconfirm the same Student Validation commands when no code has changed, the prior evidence is current, and no ambiguity exists. Ask again only after code changes, stale or contradictory evidence, ambiguity, or a new validation boundary.
 
 ## Source-Level Review
