@@ -4,8 +4,9 @@
 
 - Document type: Rust Core Coverage Matrix
 - Status: Governance planning reference
-- Current stage: Stage 2 - Rust Engineering
-- Current sprint: None
+- Coverage scope: Stage 2 and Stage 2.5 Rust-core coverage ledger
+- Current stage, active sprint state, and authorization boundary: see `CONTEXT.md`
+- Stage 3 planning may be prepared; this matrix does not authorize Stage 3 learning execution
 - Sprint-15: PASS WITH NOTES / CLOSED
 - Sprint-16: Execution stopped before completion; partial unvalidated progress; not complete or closed
 - Sprint-17: PASS WITH NOTES / CLOSED
