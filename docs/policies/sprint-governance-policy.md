@@ -120,6 +120,7 @@ It should contain only the detail needed to execute and validate that sprint:
 - required scope and explicit non-goals;
 - learner decisions and checkpoint sequence;
 - project or exercise boundary;
+- external baseline and job-transfer target when the sprint depends on domain or industry alignment, especially in Stage 3 and Stage 4;
 - sprint-specific testing and validation requirements;
 - sprint-specific completion criteria;
 - risks or density adjustments unique to the sprint.
@@ -133,6 +134,20 @@ The roadmap should reference, rather than restate, global rules for:
 - Governance Workflow and Learning Workflow separation;
 - generic runtime-density handling;
 - repository update and handoff requirements.
+
+#### External Baseline And Job-Transfer Target
+
+Future Stage 3 and Stage 4 roadmaps must include one compact field named `External baseline and job-transfer target`. Other roadmaps should include it when external domain alignment or real-world transfer is material. The field should briefly state:
+
+1. the authoritative source or recognized benchmark;
+2. the real-world concept or workflow represented;
+3. the toy or simplification boundary;
+4. the transferable engineering capability;
+5. the interview or industry relevance;
+6. the path toward a more realistic artifact or workflow;
+7. any applicable real-world setup or prerequisite preparation, such as account registration, API tokens, devnet or testnet access, RPC endpoints, CLI or SDK installation, wallet setup, faucet or test tokens, a local validator, a test environment, or platform-specific permissions.
+
+Roadmaps must keep secret handling explicit and safe. Learners must never paste private keys, seed phrases, real-funds credentials, API secrets, or sensitive tokens into Teacher, Architect, or Codex chat. Sensitive values must not be committed. When credentials or tokens are required, use safe local environment-variable or ignored local-config guidance and keep values out of repository artifacts.
 
 A brief status sentence or a sprint-specific constraint may repeat a global rule when needed for safe execution. Long generic policy sections, repeated non-authorization lists, and historical-state synchronization do not belong in every roadmap.
 
@@ -198,6 +213,7 @@ Required work:
 - confirm Student Validation;
 - confirm Codex Repository Validation;
 - complete Teacher Learning Validation;
+- confirm the sprint-specific interview-prep pack exists, or record that the learner explicitly waived it, and reference the asset path rather than embedding the pack in the closure;
 - record completed work, capability growth, remaining gaps, scope compliance, and governance lessons;
 - identify recommended next actions without authorizing the next sprint by implication.
 

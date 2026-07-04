@@ -43,6 +43,13 @@ List completed implementation, review, documentation, or governance work.
 - Status:
 - Evidence:
 
+## Interview-Prep Pack
+
+- Asset path:
+- Status: Provided / Learner-waived
+
+Reference the pack path. Do not embed the full question pack in the closure.
+
 ## Capabilities Reinforced
 
 List the Rust, blockchain, engineering, testing, or workflow capabilities reinforced.

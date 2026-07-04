@@ -1193,3 +1193,72 @@ The learner accepted the Sprint-21 roadmap, `Mini Blockchain Data Model And Vali
 ### Sprint-21 Execution Start
 
 The learner gave an explicit execution-start command in the Teacher window. Sprint-21 is active and in progress under `roadmaps/sprint-21.md`, Checkpoint 1 has started, and the `mini_blockchain` learning project has been created. Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope. Sprint-21 is not complete or closed, and its non-goals remain outside the execution authorization.
+
+## 2026-07-04
+
+### Sprint-21 Completion
+
+Sprint:
+
+`Mini Blockchain Data Model And Validation`
+
+Outcome:
+
+PASS WITH NOTES / CLOSED
+
+Project:
+
+`mini_blockchain`
+
+Validation:
+
+- Student Validation: PASS.
+- Codex Repository Validation: PASS.
+- Teacher Learning Validation: PASS WITH NOTES.
+- `cargo fmt --check`: PASS.
+- isolated `cargo check`: PASS with no warnings.
+- isolated `cargo test`: PASS, 15 passed and 0 failed; 0 doc tests.
+
+Capability Growth:
+
+- Modeled transactions with constructor validation and borrowed accessors.
+- Modeled blocks with transactions, height, previous hash, current hash, and deterministic toy hashing.
+- Created a genesis block and append workflow.
+- Implemented local chain validation for height continuity, previous-hash linkage, and recomputed hashes.
+- Added focused success, failure, multi-block, and tamper-detection tests.
+- Documented project purpose, non-goals, toy-hash limitations, and local validation versus consensus in the README.
+
+Carry-Forward Notes:
+
+- Blockchain foundations require deeper conceptual teaching beyond implementation mechanics.
+- The learner asked whether cryptography will be taught; future planning should answer and place that topic explicitly.
+- Future Teachers should apply professional source-review and conceptual-review standards.
+- Terminology and test-assignment clarity issues should remain visible in the next Teacher launch package.
+- Hash guarantees, security boundaries, consensus motivation, and trust assumptions require continued Stage 3 reinforcement.
+
+Next Status:
+
+No sprint is active. Stage 3 Blockchain Foundations has started, Sprint-21 is closed, and no Sprint-22 roadmap or execution is authorized. The next allowed action is a Sprint-22 Specification Review or a Stage 3 conceptual foundation planning proposal.
+
+### Stage 3 / Stage 4 External Alignment Audit
+
+A web-verified curriculum alignment audit and a separate Stage 3 blockchain coverage ledger were created:
+
+- `reviews/stage-3-4-external-alignment-audit.md`;
+- `reviews/stage-3-blockchain-coverage-ledger.md`.
+
+The audit confirmed that the Master Roadmap has the correct high-level order but lacks a sufficiently explicit external baseline, concept dependency sequence, toy-to-real progression, and positive job-transfer target for Stage 3 and Stage 4 planning.
+
+Sprint-21 remains PASS WITH NOTES / CLOSED. Its durable Stage 3 evidence is bounded to Rust mini-blockchain data modeling, deterministic toy-hash linkage, local validation, and basic tamper detection. It does not establish full coverage of cryptographic hashes, keys, signatures, wallets/accounts, consensus, networking, smart contracts, security, or Solana readiness.
+
+Sprint-22 planning is paused pending learner or Architect review of the audit and ledger and a decision on the Stage 3 repair direction. No learning execution, Teacher window, Stage 4 work, or Solana execution is authorized.
+
+### External Alignment Baseline Acceptance
+
+The learner and Architect accepted `reviews/stage-3-4-external-alignment-audit.md` as the Stage 3 / Stage 4 external-alignment planning baseline and `reviews/stage-3-blockchain-coverage-ledger.md` as the initial Stage 3 blockchain coverage ledger.
+
+The ledger remains Stage 3-specific and separate from `reviews/rust-core-coverage-matrix.md`. Sprint-22 planning remains paused until the Stage 3 repair direction and first unresolved capability boundary are selected. No learning execution, Teacher window, Stage 4 work, or Solana execution is authorized.
+
+The sprint roadmap content standard and Specification Review template now require a compact `External baseline and job-transfer target` field for future Stage 3 and Stage 4 planning, including safe setup or prerequisite guidance and explicit secret-handling boundaries.
+
+The Teacher execution policy now requires a sprint-specific Chinese interview-prep pack before normal sprint closure unless the learner explicitly waives it. Closure artifacts reference the pack path rather than embedding it. The preferred `interview-prep/sprints/` location will be created with the first future pack; no Sprint-21 backfill was created.

@@ -207,6 +207,26 @@ When the learner reports that required local commands passed, a concise pass/fai
 
 Do not ask the learner to rerun or reconfirm the same Student Validation commands when no code has changed, the prior evidence is current, and no ambiguity exists. Ask again only after code changes, stale or contradictory evidence, ambiguity, or a new validation boundary.
 
+## Sprint Interview-Prep Pack
+
+Before normal sprint closure, the Teacher must produce a sprint-specific interview-prep question pack unless the learner explicitly waives it. The preferred path is:
+
+`interview-prep/sprints/sprint-XX-<kebab-case-sprint-title>.md`
+
+The pack must:
+
+- be written entirely in Chinese for learner self-study and interview preparation;
+- contain questions grounded in knowledge taught during the sprint, without targeting exact learning-project implementation details or exact test code;
+- use realistic Rust, blockchain, Solana, or related engineering questions that could plausibly appear in hiring conversations;
+- target junior to mid-level expectations and label each question `初级`, `初中级`, or `中级`;
+- include an answer for every question, with each answer beginning with `考点：...` before the interview-ready explanation;
+- mix concept explanation, design tradeoff, engineering practice, common misconception, and interview-style project explanation questions;
+- include at least two questions about common misconceptions or important boundary distinctions from the sprint;
+- stay within the current stage and sprint scope and avoid unauthorized future topics;
+- use 8–12 questions by default, 6–8 for a smaller sprint, and no more than 15 for an unusually dense sprint.
+
+Answers should be concise enough for interview preparation but complete enough to explain the reasoning, boundary, or tradeoff. The closure should reference the pack path instead of embedding the full pack. If the learner waives the pack, record the waiver in the closure.
+
 ## Source-Level Review
 
 Source-level review should examine correctness, implementation boundaries, and code quality.

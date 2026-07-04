@@ -8,13 +8,13 @@ Build practical capability for long-term Rust + Blockchain employability and con
 
 - Completed bridge: Stage 2.5 — Rust Core Philosophy Bridge
 - Stage 2.5 status: PASS WITH NOTES / COMPLETE
-- Next curriculum stage: Stage 3 — Blockchain Foundations
-- Stage 3 roadmap: Sprint-21 accepted / active / in progress
-- Stage 3 learning execution: Authorized only within the accepted Sprint-21 roadmap scope
+- Current curriculum stage: Stage 3 — Blockchain Foundations
+- Stage 3 status: Started; Sprint-21 closed; no active learning execution
+- Stage 4 / Solana execution: Unauthorized
 
 ## Current Sprint State
 
-- Active learning sprint: Sprint-21
+- Active learning sprint: None
 - Sprint-16: Stopped before completion; incomplete; unclosed; no completion credit
 - Sprint-17: PASS WITH NOTES / CLOSED
 - Sprint-18: PASS WITH NOTES / CLOSED
@@ -23,25 +23,27 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Sprint-19 learning project: `rust_smart_pointer_lab`; created; no active execution
 - Sprint-20: PASS WITH NOTES / CLOSED
 - Sprint-20 learning project: `rust_engineering_contract_lab`; created; no active execution
-- Sprint-21: ACTIVE / IN PROGRESS / NOT CLOSED
-- Sprint-21 current checkpoint: Checkpoint 1 started
-- Sprint-21 learning project: `mini_blockchain`; created; active execution
-- Teacher execution window: Active for Sprint-21 checkpoint work
+- Sprint-21: PASS WITH NOTES / CLOSED
+- Sprint-21 learning project: `mini_blockchain`; created; no active execution
+- Teacher execution window: Closed / inactive
 
 ## Current Authorization Boundary
 
-The formal Stage 2.5 exit review passed with notes. The learner gave an explicit Sprint-21 execution-start command, satisfying the execution-start gate. Sprint-21 is active under `roadmaps/sprint-21.md`, and Checkpoint 1 has begun.
+The formal Stage 2.5 exit review passed with notes, Stage 3 Blockchain Foundations started, and Sprint-21 is now closed as PASS WITH NOTES / CLOSED.
 
-Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope and active Teacher execution window. This does not authorize broader Stage 3 work or any Sprint-21 non-goal.
+No active learning sprint or Teacher execution window exists. Sprint-21 closure does not create, accept, start, or authorize Sprint-22, and it does not authorize Stage 4 or Solana execution.
 
 ## Current Governance Focus
 
 - Governance simplification: Accepted and complete
-- Active governance update: None
+- Accepted governance baseline: Stage 3 / Stage 4 external alignment audit and initial Stage 3 blockchain coverage ledger
+- Active governance decision: Select the Stage 3 repair direction and first unresolved capability boundary
 - Canonical browser launch prompts are available for Architect and Teacher windows.
 - Codex is the repository evidence bridge for browser-based roles.
 - Decision record: `reviews/governance-simplification-decision-2026-06-30.md`
-- Latest governance review: `reviews/stage-2-5-exit-review.md`
+- Latest governance review: `reviews/stage-3-4-external-alignment-audit.md`
+- Current Stage 3 coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
+- Latest sprint closure: `reviews/sprint-21-closure.md`
 - Latest Architect handover: `reviews/architect-retirement-handover-2026-07-02-post-stage-2-5-exit.md`
 - Architect transition: Outgoing Architect retired after Stage 2.5 exit; next Architect owns Stage 3 opening governance and planning review
 
@@ -58,7 +60,9 @@ Stage 3 learning execution is authorized only within the accepted Sprint-21 road
 - Sprint lifecycle and roadmap ownership: `docs/policies/sprint-governance-policy.md`
 - Teacher execution behavior: `docs/policies/teacher-execution-policy.md`
 - Current Rust-core coverage ledger: `reviews/rust-core-coverage-matrix.md`
-- Latest completed sprint evidence: `reviews/sprint-20-closure.md`
+- Accepted Stage 3 / Stage 4 external-alignment baseline: `reviews/stage-3-4-external-alignment-audit.md`
+- Accepted initial Stage 3 blockchain coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
+- Latest completed sprint evidence: `reviews/sprint-21-closure.md`
 - Stage 2.5 exit decision: `reviews/stage-2-5-exit-review.md`
 
 ## Current Coverage State
@@ -70,6 +74,10 @@ Stage 3 learning execution is authorized only within the accepted Sprint-21 road
 - All identified P0 and P1 pre-Stage-3 Rust-core topics are covered sufficiently for the current curriculum point; this is not permanent mastery or stage-transition authorization.
 - Stage 2.5 is complete with notes after the formal exit review.
 - Deferred P2/P3 and contextual Rust topics remain dependency-driven carry-forward work for Stage 3/4 and portfolio preparation.
+- Sprint-21 validated transaction, block, genesis, append, toy-hash linkage, local chain validation, and tamper-detection modeling in Stage 3.
+- Stage 3 carry-forward requires deeper conceptual reinforcement around cryptographic hashing, security guarantees, consensus, and trust assumptions.
+- The Stage 3 coverage ledger records only blockchain data modeling as covered sufficiently for its current narrow boundary; multiple concept, security, real-system, and Solana-readiness areas remain partial or missing.
+- The external-alignment audit recommends a concept-first, source-backed Stage 3 repair decision before Sprint-22 planning.
 
 ## Learner Profile And Language Requirements
 
@@ -93,10 +101,15 @@ Stage 3 learning execution is authorized only within the accepted Sprint-21 road
 - Current-state synchronization drift
 - Reintroduction of duplicated rules through prompts, templates, runbooks, or roadmaps
 - Treating a stage-specific coverage artifact as a universal mastery ledger
+- Allowing blockchain implementation mechanics to outpace conceptual understanding of hashes, security, consensus, and trust assumptions
+- Inconsistent terminology, test-assignment clarity, or professional source-review standards during Stage 3 teaching
+- Allowing non-goals and toy boundaries to replace explicit external baselines, job-transfer targets, or a path toward realistic engineering work
 
 ## Next Allowed Transition
 
-Continue Sprint-21 Checkpoint 1 under `roadmaps/sprint-21.md`. Sprint-21 remains in progress until all required validation and closure criteria are satisfied.
+Using the accepted `reviews/stage-3-4-external-alignment-audit.md` and `reviews/stage-3-blockchain-coverage-ledger.md`, select the Stage 3 repair direction and first unresolved capability boundary.
+
+Sprint-22 planning is paused until that decision. Sprint-22 has no roadmap and is not accepted, active, or authorized. Any future execution requires a separately accepted roadmap and an explicit learner start command in a Teacher execution window. Stage 4 and Solana execution remain unauthorized.
 
 ## Conditional Historical Evidence
 

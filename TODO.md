@@ -1,18 +1,36 @@
 # Current Tasks
 
-## Active Learning Task
+## Next Governance / Planning Task
 
-Continue Sprint-21 Checkpoint 1 under the accepted roadmap `roadmaps/sprint-21.md`.
+Sprint-21 closure repository synchronization is complete.
+
+The following planning baselines are accepted:
+
+- `reviews/stage-3-4-external-alignment-audit.md`;
+- `reviews/stage-3-blockchain-coverage-ledger.md`.
+
+Select the Stage 3 repair direction and first unresolved capability boundary before any Sprint-22 Specification Review or roadmap drafting.
 
 Current boundary:
 
-- active learning sprint: Sprint-21;
+- no active learning sprint;
 - Stage 2.5 is PASS WITH NOTES / COMPLETE;
-- Sprint-21 is active / in progress / not closed;
-- Checkpoint 1 has started;
-- the Teacher execution window is active for Sprint-21 checkpoint work;
-- Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope;
-- all Sprint-21 non-goals remain outside the execution authorization;
-- deferred and carry-forward Rust reinforcement from `reviews/stage-2-5-exit-review.md` must remain visible in later planning.
+- Stage 3 Blockchain Foundations has started;
+- Sprint-21 is PASS WITH NOTES / CLOSED;
+- the Teacher execution window is closed / inactive;
+- no Sprint-22 roadmap exists;
+- Sprint-22 planning is paused pending the Stage 3 repair-direction and first-capability-boundary decision;
+- Sprint-22 is not accepted, active, or authorized;
+- Stage 4 and Solana execution remain unauthorized.
 
-Sprint-21 must continue under its accepted roadmap. Do not treat the sprint as complete before Student Validation, Codex Repository Validation, Teacher Learning Validation, and formal closure requirements are satisfied.
+Carry-forward for the next Architect or Teacher:
+
+- deepen blockchain foundations beyond implementation mechanics;
+- answer and place the learner's question about future cryptography teaching;
+- preserve professional source-review and conceptual-review standards;
+- introduce terminology precisely with Chinese-first explanation;
+- make test behavior, acceptance boundaries, naming, and placement expectations explicit;
+- reinforce hash/security/consensus/trust assumptions before security-sensitive or Solana-specific work;
+- require an external baseline, explicit toy-versus-real boundary, and positive job-transfer target in future Stage 3/4 roadmap design;
+- keep the Stage 3 blockchain coverage ledger separate from the Rust Core Coverage Matrix;
+- do not compress all missing blockchain topics into one sprint.

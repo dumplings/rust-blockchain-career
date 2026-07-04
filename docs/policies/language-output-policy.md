@@ -21,6 +21,7 @@ An output's structure does not determine its language. A structured takeover ver
 | Learner-facing Codex explanation | Chinese | No |
 | Technical teaching and technical assessment | Chinese | Usually no |
 | Learning notes | Chinese, English, or mixed | Optional |
+| Sprint interview-prep pack | Chinese | Yes |
 | Repository-ready governance document | English | Yes |
 | Sprint roadmap, closure, failure review, or handover | English | Yes |
 | Repository-ready takeover assessment | English | Recommended |
@@ -88,6 +89,8 @@ This includes:
 - formal takeover assessment documents intended for repository storage.
 
 A browser takeover response is not automatically a repository-ready takeover assessment. If the learner later asks to persist it, produce the repository asset in English while continuing the surrounding conversation in Chinese.
+
+The sprint interview-prep pack required by the Teacher execution policy is a learner self-study asset and an intentional Chinese-language exception to the default language for persistent repository assets.
 
 ## Cross-Agent Prompts
 

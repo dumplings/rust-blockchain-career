@@ -67,6 +67,18 @@ Explain why the proposed direction fits the current stage and long-term roadmap.
 
 Explicitly state which stage the sprint should not advance into.
 
+## External Baseline And Job-Transfer Target
+
+- Authoritative source or recognized benchmark:
+- Real-world concept or workflow:
+- Toy or simplification boundary:
+- Transferable engineering capability:
+- Interview or industry relevance:
+- Path toward a more realistic artifact or workflow:
+- Real-world setup or prerequisites, if applicable:
+
+Do not include secrets in the review. Keep private keys, seed phrases, real-funds credentials, API secrets, and sensitive tokens out of chat and repository artifacts; refer only to safe local environment-variable or ignored local-config setup.
+
 ## Proposed Scope
 
 In scope:
