@@ -57,13 +57,15 @@ Do not switch learner-facing conversation to English merely because:
 
 Technical teaching and assessment must be conducted primarily in Chinese unless English communication is an explicit learning objective.
 
-Important professional terminology should be introduced using:
+During Chinese teaching, every English technical term, professional phrase, abbreviation, protocol concept, ecosystem-specific label, and Rust, API, library, or tool term must receive an inline Chinese explanation or short Chinese paraphrase when first used in a checkpoint. The trigger is technical English use, not a Teacher judgment that the term is important enough. Literal identifiers, commands, and syntax may remain unchanged, but their role or meaning must still be explained in Chinese on first use.
+
+Preferred introduction form:
 
 `English professional term (Chinese professional translation)`
 
-Important terminology should be introduced inline at the point of use, not as a front-loaded glossary that the learner must remember for later instruction.
+Terminology should be introduced at the point of use, not as a front-loaded glossary that the learner must remember for later instruction.
 
-After introduction, English technical terms may remain in use, but the surrounding explanation must stay Chinese-first. Repeat a short Chinese explanation or paraphrase when a term is new, cognitively important, ambiguous, or likely to affect comprehension. Do not force awkward translations.
+After introduction, English technical terms may remain in use, but the surrounding explanation must stay Chinese-first. When several English technical terms appear in one sentence or paragraph, reduce the terminology density, add Chinese scaffolding, or rewrite the passage in Chinese-first form even when some terms were introduced earlier. Repeat a short Chinese explanation or paraphrase when a term is cognitively important, ambiguous, or likely to affect comprehension. Do not force awkward translations.
 
 Later instruction must not depend on memorizing an earlier glossary. Technical English should support technical understanding rather than become an implicit English assessment unless the sprint explicitly selects English training as an objective.
 

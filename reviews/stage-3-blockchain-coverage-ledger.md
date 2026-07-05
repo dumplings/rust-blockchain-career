@@ -9,6 +9,8 @@
 - Source audit: `reviews/stage-3-4-external-alignment-audit.md`
 - Current validated Stage 3 sprint evidence: `reviews/sprint-21-closure.md`
 - Status: ACCEPTED INITIAL STAGE 3 COVERAGE LEDGER
+- Selected repair direction: Cryptographic hash literacy, tamper evidence, and security boundary reasoning
+- Current Specification Review: `reviews/sprint-22-specification-review.md`
 - Sprint-22: Paused; no roadmap, acceptance, or execution authorization
 - Stage 4 / Solana execution: Unauthorized
 
@@ -114,10 +116,10 @@ Stage 3 is started but not complete. The current evidence does not authorize Sta
 
 ## 7. Next Governance Decision
 
-The learner or Architect should:
+The Architect selected cryptographic hash literacy, tamper evidence, and security boundary reasoning as the first repair boundary. The next governance decision should:
 
-1. select the Stage 3 repair direction and first capability boundary from the accepted audit and ledger;
-2. preserve or update classifications only when new validated evidence or an explicit governance decision supports the change;
-3. only then consider a Sprint-22 Specification Review.
+1. review `reviews/sprint-22-specification-review.md`;
+2. decide whether Sprint-22 roadmap drafting is authorized and which durable artifact boundary should be used;
+3. preserve current classifications until new validated evidence or an explicit governance decision supports a change.
 
-Sprint-22 remains paused. This ledger does not create a roadmap, authorize execution, start a Teacher window, modify a learning project, or authorize Stage 4 / Solana work.
+Sprint-22 has no roadmap and remains unauthorized. This ledger does not create a roadmap, authorize execution, start a Teacher window, modify a learning project, or authorize Stage 4 / Solana work.

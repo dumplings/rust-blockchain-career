@@ -77,6 +77,8 @@ Explicitly state which stage the sprint should not advance into.
 - Path toward a more realistic artifact or workflow:
 - Real-world setup or prerequisites, if applicable:
 
+Quality gate: state the concrete real-world work, interview capability, or professional engineering capability gained; if it is unclear or unsupported by the external baseline or stage coverage gap, recommend revision before roadmap acceptance.
+
 Do not include secrets in the review. Keep private keys, seed phrases, real-funds credentials, API secrets, and sensitive tokens out of chat and repository artifacts; refer only to safe local environment-variable or ignored local-config setup.
 
 ## Proposed Scope
@@ -92,6 +94,8 @@ Out of scope:
 ## Expected Learner Work
 
 List the implementation, explanation, debugging, testing, or design work expected from the learner.
+
+List any new crate, tool, API pattern, protocol concept, Rust syntax surface, or support concept that must be confirmed or taught before use; keep the prerequisite inventory compact.
 
 ## Expected Tests And Validation
 

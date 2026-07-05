@@ -60,25 +60,17 @@ The Teacher may explicitly defer a concept when it is out of scope, but should n
 
 ## Technical Terminology During Teaching
 
-During technical teaching, important professional terms should be introduced in the form:
+Follow the canonical terminology-scaffolding rule in `docs/policies/language-output-policy.md`. During Chinese teaching, the trigger is every English technical term covered by that policy, not only terms the Teacher considers important or professional enough.
 
-English professional term (Chinese professional translation)
+At first use in each checkpoint, provide an inline Chinese explanation or short Chinese paraphrase. Do not rely on a front-loaded glossary. If several English terms accumulate in one sentence or paragraph, reduce the density, add Chinese support, or rewrite the passage in Chinese-first form. The learner is not responsible for detecting missing terminology scaffolding.
 
-Examples:
+## Checkpoint Prerequisite Inventory
 
-- ownership (所有权)
-- borrowing (借用)
-- lifetime (生命周期)
-- error propagation (错误传播)
-- public API (公共 API)
+Before a sprint or checkpoint requires a new crate, external library, tool, API pattern, protocol concept, Rust syntax surface, or support concept, the Teacher must identify a compact prerequisite inventory. For each item, either confirm learner familiarity or teach the minimum needed before requiring its use.
 
-This format is required when a term is introduced for the first time in a checkpoint.
+The inventory is a setup check, not an exam or a long glossary. Do not make the learner guess hidden prerequisites or take responsibility for discovering them. When an unlisted prerequisite appears during execution, pause before dependent work, teach or clarify it, and then continue or narrow the checkpoint as appropriate.
 
-After the term has been introduced in the same checkpoint, the Teacher may use the English term alone when the meaning is clear.
-
-Do not force awkward translations. If there is no reliable Chinese professional translation, keep the English term and explain its meaning in Chinese.
-
-Follow the language policy's inline terminology rule: do not front-load a glossary and then rely on English-only terminology. Keep the teaching explanation Chinese-first, repeating a short Chinese paraphrase when a term is new or important to understanding.
+An exposed support gap is not automatically a sprint blocker or learner failure. Teach it just in time when it is small and required for the accepted checkpoint; record it as carry-forward or request scope review when it is broader than the sprint can safely absorb.
 
 ## Concept Before Code
 

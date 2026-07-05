@@ -1262,3 +1262,43 @@ The ledger remains Stage 3-specific and separate from `reviews/rust-core-coverag
 The sprint roadmap content standard and Specification Review template now require a compact `External baseline and job-transfer target` field for future Stage 3 and Stage 4 planning, including safe setup or prerequisite guidance and explicit secret-handling boundaries.
 
 The Teacher execution policy now requires a sprint-specific Chinese interview-prep pack before normal sprint closure unless the learner explicitly waives it. Closure artifacts reference the pack path rather than embedding it. The preferred `interview-prep/sprints/` location will be created with the first future pack; no Sprint-21 backfill was created.
+
+### Stage 3 Repair Direction And Sprint-22 Specification Review
+
+Under learner-delegated direction authority, the Architect selected the first unresolved Stage 3 repair boundary:
+
+`Cryptographic hash literacy, tamper evidence, and security boundary reasoning`
+
+The decision is recorded in `reviews/stage-3-repair-direction-decision.md`. The candidate direction is `Sprint-22 — Cryptographic Hash Literacy And Tamper Evidence`.
+
+`reviews/sprint-22-specification-review.md` was created. It recommends concept-first teaching followed by a small bounded Rust lab only when the lab improves transfer; an equivalent applied written artifact remains an acceptable fallback. Implementation-heavy work is not recommended.
+
+No Sprint-22 roadmap was created or authorized. Sprint-22 is not accepted, active, or authorized; no Teacher window or learning project exists. Stage 4 and Solana execution remain unauthorized.
+
+### Sprint-22 Roadmap Draft
+
+The learner and Architect accepted the Stage 3 repair direction and Sprint-22 Specification Review as drafting input, then authorized an exceptional Architect-led roadmap drafting step. This bounded intervention addresses Stage 3 repair, external alignment, toy-project realism, and job-transfer calibration after Sprint-21; it does not change Teacher ownership of normal sprint roadmap design.
+
+`roadmaps/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`, was created as DRAFT / NOT ACCEPTED / NOT ACTIVE. It uses concept-first ordering and requires a small bounded future Rust lab, `crypto_hash_literacy_lab`, as subordinate applied evidence. A pure written replacement would require an Architect-approved roadmap revision before execution.
+
+Sprint-22 execution remains unauthorized, the Teacher window remains closed / inactive, and no learning project was created or modified. The Stage 3 coverage ledger was not changed. Stage 4 and Solana execution remain unauthorized.
+
+### Sprint-22 Roadmap Acceptance
+
+The learner and Architect accepted `roadmaps/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`.
+
+Sprint-22 is ACCEPTED / NOT STARTED / NOT ACTIVE. Execution remains unauthorized, the Teacher window remains closed / inactive, and `crypto_hash_literacy_lab` has not been created. No learning-project source was modified, and the Stage 3 coverage ledger was not updated as though Sprint-22 learning had occurred.
+
+Roadmap acceptance and execution start remain separate decisions. Sprint-22 may begin only after a separate explicit learner start command in an authorized Teacher window. Stage 4 and Solana execution remain unauthorized.
+
+## 2026-07-05
+
+### Sprint-22 Pre-Restart Governance Repair
+
+The first Sprint-22 Teacher window was abandoned before meaningful official progress. The attempt receives no completed learning credit and is recorded as governance, sequencing, terminology-scaffolding, and hidden-prerequisite evidence rather than learner failure.
+
+The language policy now requires Chinese scaffolding for every English technical term on first checkpoint use and requires lower terminology density or additional Chinese support when English terms cluster. The Teacher execution policy now requires a compact prerequisite inventory before a checkpoint depends on a new crate, tool, API pattern, protocol concept, Rust syntax surface, or support concept.
+
+Sprint-22 was lightly amended to surface the bounded `sha2`, `Sha256`, `Digest`, trait-method-resolution, byte-input, and hexadecimal-formatting support concepts before lab implementation. `reviews/rust-core-coverage-matrix.md` records Rust trait method resolution and trait-in-scope requirements as a P2 carry-forward reinforcement topic, not an independent Sprint-22 blocker unless the accepted lab cannot proceed without it.
+
+Sprint-22 remains ACCEPTED / NOT STARTED / NOT ACTIVE. Execution remains unauthorized, the Teacher window remains closed / inactive, `crypto_hash_literacy_lab` has not been created, and no learning-project source has been modified. Stage 4 and Solana execution remain unauthorized.

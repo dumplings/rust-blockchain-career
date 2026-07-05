@@ -120,6 +120,7 @@ It should contain only the detail needed to execute and validate that sprint:
 - required scope and explicit non-goals;
 - learner decisions and checkpoint sequence;
 - project or exercise boundary;
+- checkpoint-specific prerequisite or support-concept inventory when new crates, tools, API patterns, protocol concepts, or Rust syntax surfaces are required;
 - external baseline and job-transfer target when the sprint depends on domain or industry alignment, especially in Stage 3 and Stage 4;
 - sprint-specific testing and validation requirements;
 - sprint-specific completion criteria;
@@ -148,6 +149,10 @@ Future Stage 3 and Stage 4 roadmaps must include one compact field named `Extern
 7. any applicable real-world setup or prerequisite preparation, such as account registration, API tokens, devnet or testnet access, RPC endpoints, CLI or SDK installation, wallet setup, faucet or test tokens, a local validator, a test environment, or platform-specific permissions.
 
 Roadmaps must keep secret handling explicit and safe. Learners must never paste private keys, seed phrases, real-funds credentials, API secrets, or sensitive tokens into Teacher, Architect, or Codex chat. Sensitive values must not be committed. When credentials or tokens are required, use safe local environment-variable or ignored local-config guidance and keep values out of repository artifacts.
+
+For Stage 3, Stage 4, and other job-oriented sprints, this field is a roadmap quality gate rather than a descriptive checkbox. The roadmap or Specification Review must state the concrete real-world work, interview capability, or professional engineering capability the learner should gain and connect it to an external baseline or stage coverage gap. A toy or simplified exercise is acceptable when it explicitly maps to a real-world concept, states its toy boundary, and identifies the next step toward a more realistic artifact or workflow.
+
+If the job-transfer target is vague, generic, unverifiable, or cannot be tied to an external baseline or stage coverage gap, the sprint should not proceed to roadmap acceptance. Revise the Specification Review, adjust the scope, perform an external-alignment review, or select a better capability boundary. This gate does not require production-scale work; it requires honest transfer mapping and concrete professional relevance.
 
 A brief status sentence or a sprint-specific constraint may repeat a global rule when needed for safe execution. Long generic policy sections, repeated non-authorization lists, and historical-state synchronization do not belong in every roadmap.
 
