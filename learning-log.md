@@ -1373,3 +1373,9 @@ The learner accepted `reviews/post-sprint-22-stage-3-planning-review.md` as the 
 The current Architect completed a controlled retirement handover at `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`. The next allowed transition is next Architect onboarding and review of the accepted recommendation. A Sprint-23 Specification Review may be created only after explicit learner authorization.
 
 This acceptance does not create or accept Sprint-23, create a Sprint-23 Specification Review or roadmap, authorize learning execution, open a Teacher window, complete Stage 3, or authorize Stage 4 / Solana execution. No learning-project source was modified.
+
+### Sprint-23 Roadmap Draft
+
+After the Sprint-23 Specification Review passed with notes and the temporary dependency probe passed, the learner explicitly authorized roadmap drafting. `roadmaps/sprint-23.md`, `Public-Key Roles, Digital Signatures, And Verification Boundaries`, was created as DRAFT / NOT ACCEPTED / NOT ACTIVE. The probe verified `ed25519-dalek = "=2.2.0"`, the bounded verification API, default feature behavior, Rust 1.95.0 compatibility, and four passing tests.
+
+Sprint-23 learning execution remains unauthorized, the Teacher window remains closed / inactive, and `signature_verification_lab` was not created. The next possible learner decision is roadmap acceptance; even after acceptance, execution requires a separate explicit learner start command. Stage 4 and Solana execution remain unauthorized.

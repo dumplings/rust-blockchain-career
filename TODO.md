@@ -1,6 +1,6 @@
 # Current Tasks
 
-## Sprint-23 Specification Review / Optional Roadmap Drafting
+## Sprint-23 Roadmap Review / Possible Acceptance
 
 Sprint-22, `Cryptographic Hash Literacy And Tamper Evidence`, is PASS WITH NOTES /
 CLOSED. Its closure is recorded in `reviews/sprint-22-closure.md`.
@@ -16,12 +16,15 @@ Current boundary:
 - the Teacher execution window is closed / inactive;
 - the Sprint-23 Specification Review is PASS WITH NOTES / READY FOR ROADMAP
   DRAFTING AFTER SEPARATE LEARNER AUTHORIZATION;
-- no Sprint-23 roadmap, roadmap acceptance, learning execution, or Teacher-window
-  authorization exists;
+- `roadmaps/sprint-23.md` exists as DRAFT / NOT ACCEPTED / NOT ACTIVE;
+- the dependency probe is PASS for `ed25519-dalek = "=2.2.0"`;
+- `signature_verification_lab` is a candidate only and has not been created;
+- no Sprint-23 roadmap acceptance, learning execution, checkpoint work, or
+  Teacher-window authorization exists;
 - Stage 4 and Solana execution remain unauthorized.
 
-The learner authorized creation of `reviews/sprint-23-specification-review.md`
-for the accepted next-direction planning recommendation:
+The learner authorized creation of the Sprint-23 roadmap draft after the
+Specification Review passed with notes:
 
 - `reviews/post-sprint-22-stage-3-planning-review.md` recommends
   `Public-Key Roles, Digital Signatures, And Verification Boundaries` as the
@@ -32,19 +35,19 @@ for the accepted next-direction planning recommendation:
   job-transfer quality gate;
 - the bounded Rust dependency-readiness result is `READY WITH JUST-IN-TIME
   SUPPORT`, with no Rust restart or independent Rust blocker;
-- the preferred dependency candidate is pinned as
-  `ed25519-dalek = "=2.2.0"`, with local build/test verification required during
-  roadmap drafting or before execution.
+- the pinned dependency `ed25519-dalek = "=2.2.0"` passed local format, compile,
+  test, API-surface, feature, and toolchain verification;
+- the roadmap preserves a five-checkpoint concept-first sequence, an offline
+  public-fixture lab boundary, and all three validation layers.
 
 The latest Architect retirement handover is
 `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`.
 
-The next allowed action is learner review of
-`reviews/sprint-23-specification-review.md`. If the learner accepts the review,
-the learner may separately and explicitly authorize Sprint-23 roadmap drafting.
-Do not create the roadmap automatically. Do not accept or start Sprint-23, open a
-Teacher window, begin checkpoint work, or authorize Stage 4 / Solana execution by
-implication.
+The next allowed action is learner review of `roadmaps/sprint-23.md` and possible
+explicit roadmap acceptance. Do not start Sprint-23, create
+`signature_verification_lab`, open a Teacher window, begin checkpoint work, or
+authorize Stage 4 / Solana execution by implication. Even after roadmap
+acceptance, Teacher execution requires a separate explicit learner start command.
 
 Carry-forward for the next Architect or Teacher:
 
@@ -64,5 +67,4 @@ Carry-forward for the next Architect or Teacher:
   as learner-authored evidence;
 - keep the Stage 3 blockchain coverage ledger separate from the Rust Core Coverage
   Matrix;
-- do not create a Sprint-23 roadmap or accept, start, or authorize Sprint-23
-  execution by implication.
+- do not accept, start, or authorize Sprint-23 execution by implication.

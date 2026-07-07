@@ -9,7 +9,7 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Completed bridge: Stage 2.5 — Rust Core Philosophy Bridge
 - Stage 2.5 status: PASS WITH NOTES / COMPLETE
 - Current curriculum stage: Stage 3 — Blockchain Foundations
-- Stage 3 status: Started; Sprint-23 Specification Review complete; no active learning execution
+- Stage 3 status: Started; Sprint-23 roadmap drafted; no active learning execution
 - Stage 4 / Solana execution: Unauthorized
 
 ## Current Sprint State
@@ -28,14 +28,17 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Sprint-22: PASS WITH NOTES / CLOSED
 - Sprint-22 learning project: `crypto_hash_literacy_lab`; created; no active execution
 - Sprint-23 Specification Review: PASS WITH NOTES / READY FOR ROADMAP DRAFTING AFTER SEPARATE LEARNER AUTHORIZATION
-- Sprint-23 roadmap, acceptance, and execution: Not created or authorized
+- Sprint-23 roadmap: `roadmaps/sprint-23.md`; DRAFT / NOT ACCEPTED / NOT ACTIVE
+- Sprint-23 dependency probe: PASS; `ed25519-dalek = "=2.2.0"` locally verified
+- Sprint-23 learning project: Candidate `signature_verification_lab`; not created
+- Sprint-23 acceptance and execution: Not authorized
 - Teacher execution window: Closed / inactive
 
 ## Current Authorization Boundary
 
-The formal Stage 2.5 exit review passed with notes, Stage 3 Blockchain Foundations started, Sprint-22 is PASS WITH NOTES / CLOSED, and `reviews/sprint-23-specification-review.md` is PASS WITH NOTES.
+The formal Stage 2.5 exit review passed with notes, Stage 3 Blockchain Foundations started, Sprint-22 is PASS WITH NOTES / CLOSED, and the Sprint-23 Specification Review passed with notes. `roadmaps/sprint-23.md` now exists as DRAFT / NOT ACCEPTED / NOT ACTIVE after a PASS dependency probe.
 
-No active learning sprint or Teacher execution window exists. The Sprint-23 Specification Review permits roadmap drafting only after separate explicit learner authorization; it does not create or accept a roadmap, authorize execution, or authorize Stage 4 or Solana execution.
+No active learning sprint or Teacher execution window exists. Creating the Sprint-23 roadmap draft does not accept or start Sprint-23, create its candidate learning project, authorize checkpoint work, or authorize Stage 4 or Solana execution.
 
 ## Current Governance Focus
 
@@ -45,7 +48,9 @@ No active learning sprint or Teacher execution window exists. The Sprint-23 Spec
 - Completed planning review: `reviews/post-sprint-22-stage-3-planning-review.md`
 - Accepted next-direction planning recommendation: Public-key roles, digital signatures, and verification boundaries
 - Completed Sprint-23 Specification Review: `reviews/sprint-23-specification-review.md`; PASS WITH NOTES / READY FOR ROADMAP DRAFTING AFTER SEPARATE LEARNER AUTHORIZATION
-- Active governance transition: Learner review of the Sprint-23 Specification Review; roadmap drafting requires separate explicit learner authorization
+- Sprint-23 roadmap draft: `roadmaps/sprint-23.md`; DRAFT / NOT ACCEPTED / NOT ACTIVE
+- Sprint-23 dependency probe: PASS for `ed25519-dalek = "=2.2.0"`
+- Active governance transition: Learner review and possible explicit acceptance of the Sprint-23 roadmap draft
 - Canonical browser launch prompts are available for Architect and Teacher windows.
 - Codex is the repository evidence bridge for browser-based roles.
 - Decision record: `reviews/governance-simplification-decision-2026-06-30.md`
@@ -54,7 +59,7 @@ No active learning sprint or Teacher execution window exists. The Sprint-23 Spec
 - Current Stage 3 coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
 - Latest sprint closure: `reviews/sprint-22-closure.md`
 - Latest Architect handover: `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`
-- Architect planning responsibility: Wait for explicit learner authorization before drafting or requesting a Sprint-23 roadmap
+- Architect planning responsibility: Preserve the draft boundary and wait for explicit learner roadmap acceptance; do not start execution by implication
 
 ## Authoritative Active Files
 
@@ -78,6 +83,7 @@ No active learning sprint or Teacher execution window exists. The Sprint-23 Spec
 - Latest completed sprint evidence: `reviews/sprint-22-closure.md`
 - Latest Stage 3 planning review: `reviews/post-sprint-22-stage-3-planning-review.md`
 - Sprint-23 Specification Review: `reviews/sprint-23-specification-review.md`
+- Sprint-23 roadmap draft: `roadmaps/sprint-23.md`; DRAFT / NOT ACCEPTED / NOT ACTIVE
 - Latest Architect retirement handover: `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`
 - Stage 2.5 exit decision: `reviews/stage-2-5-exit-review.md`
 
@@ -125,9 +131,9 @@ No active learning sprint or Teacher execution window exists. The Sprint-23 Spec
 
 ## Next Allowed Transition
 
-The learner authorized creation of `reviews/sprint-23-specification-review.md` for the accepted boundary `Public-Key Roles, Digital Signatures, And Verification Boundaries`. The review is PASS WITH NOTES / READY FOR ROADMAP DRAFTING AFTER SEPARATE LEARNER AUTHORIZATION. The next allowed transition is learner review of the Specification Review and, if accepted, a separate explicit decision on Sprint-23 roadmap drafting.
+The learner authorized creation of `roadmaps/sprint-23.md` after the Specification Review passed with notes and the dependency probe passed. The roadmap now exists as DRAFT / NOT ACCEPTED / NOT ACTIVE. The next allowed transition is learner review and possible explicit acceptance of the Sprint-23 roadmap.
 
-The Specification Review does not create or accept a Sprint-23 roadmap and does not authorize learning execution. No Sprint-23 roadmap, roadmap acceptance, sprint execution, checkpoint work, or Teacher window exists or is authorized. Stage 3 remains incomplete. Stage 4 and Solana execution remain unauthorized.
+The roadmap draft does not accept or start Sprint-23. No roadmap acceptance, sprint execution, checkpoint work, learning-project creation, or Teacher window exists or is authorized. Even after roadmap acceptance, Teacher execution would require a separate explicit learner start command. Stage 3 remains incomplete. Stage 4 and Solana execution remain unauthorized.
 
 ## Conditional Historical Evidence
 
