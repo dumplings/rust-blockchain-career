@@ -5,7 +5,7 @@
 - Sprint: Sprint-23
 - Title: Public-Key Roles, Digital Signatures, And Verification Boundaries
 - Stage: Stage 3 — Blockchain Foundations
-- Status: DRAFT / NOT ACCEPTED / NOT ACTIVE
+- Status: ACCEPTED / NOT STARTED / NOT ACTIVE
 - Specification Review: `reviews/sprint-23-specification-review.md`
 - Dependency probe: PASS — `ed25519-dalek = "=2.2.0"` locally verified for the roadmap's bounded verification surface
 - Roadmap owner: Architect draft after explicit learner authorization
@@ -13,14 +13,14 @@
 - Learning project: `signature_verification_lab`; candidate only; not created
 - Stage 4 / Solana execution: Unauthorized
 
-This roadmap is a draft execution contract for learner review. It does not
-accept or start Sprint-23 and does not create execution authority.
+This accepted roadmap records the Sprint-23 execution contract. Acceptance does
+not start Sprint-23, open a Teacher execution window, create the candidate
+project, authorize checkpoint work, or create execution authority.
 
 ## 2. Authorization Boundary
 
-This roadmap draft does not:
+The roadmap has been accepted. Roadmap acceptance does not:
 
-- accept Sprint-23;
 - activate or start Sprint-23;
 - open a Teacher execution window;
 - create or modify a learning project;
@@ -29,10 +29,9 @@ This roadmap draft does not:
 - complete Stage 3;
 - authorize Stage 4 or Solana execution.
 
-The learner must separately accept this roadmap. Even after acceptance,
-Sprint-23 remains not started until the learner gives a separate explicit
-Teacher-window or sprint-execution start command under the Sprint Execution
-Start Gate.
+The learner has accepted this roadmap. Sprint-23 remains not started until the
+learner gives a separate explicit Teacher-window or sprint-execution start
+command under the Sprint Execution Start Gate.
 
 ## 3. Sprint Purpose And Stage Alignment
 
@@ -442,7 +441,7 @@ The learner should accept this roadmap only after confirming that:
 
 ### Sprint Completion Criteria
 
-If later accepted and explicitly started, Sprint-23 may close only when:
+If later explicitly started, Sprint-23 may close only when:
 
 1. all five checkpoints are completed;
 2. the learner remains the primary implementer;
@@ -480,13 +479,12 @@ If later accepted and explicitly started, Sprint-23 may close only when:
 
 ## 17. Final Roadmap Boundary
 
-Roadmap status: DRAFT / NOT ACCEPTED / NOT ACTIVE.
+Roadmap status: ACCEPTED / NOT STARTED / NOT ACTIVE.
 
 This roadmap does not start learning execution, create the candidate project,
 open a Teacher execution window, issue checkpoint work, complete Stage 3, or
 authorize Stage 4 / Solana execution.
 
-The next possible learner decision is explicit roadmap acceptance. Roadmap
-acceptance would create an accepted-but-not-started state only. Even after
-acceptance, Teacher execution requires a separate explicit learner start
-command.
+The next possible learner decision is an explicit Teacher-window or
+sprint-execution start command. Execution still requires the Sprint Execution
+Start Gate; roadmap acceptance alone does not start Sprint-23.

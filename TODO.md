@@ -1,6 +1,6 @@
 # Current Tasks
 
-## Sprint-23 Roadmap Review / Possible Acceptance
+## Sprint-23 Accepted / Optional Teacher Execution Start
 
 Sprint-22, `Cryptographic Hash Literacy And Tamper Evidence`, is PASS WITH NOTES /
 CLOSED. Its closure is recorded in `reviews/sprint-22-closure.md`.
@@ -16,15 +16,15 @@ Current boundary:
 - the Teacher execution window is closed / inactive;
 - the Sprint-23 Specification Review is PASS WITH NOTES / READY FOR ROADMAP
   DRAFTING AFTER SEPARATE LEARNER AUTHORIZATION;
-- `roadmaps/sprint-23.md` exists as DRAFT / NOT ACCEPTED / NOT ACTIVE;
+- `roadmaps/sprint-23.md` is ACCEPTED / NOT STARTED / NOT ACTIVE;
 - the dependency probe is PASS for `ed25519-dalek = "=2.2.0"`;
 - `signature_verification_lab` is a candidate only and has not been created;
-- no Sprint-23 roadmap acceptance, learning execution, checkpoint work, or
-  Teacher-window authorization exists;
+- no Sprint-23 learning execution, checkpoint work, learning-project creation,
+  or Teacher-window authorization exists;
 - Stage 4 and Solana execution remain unauthorized.
 
-The learner authorized creation of the Sprint-23 roadmap draft after the
-Specification Review passed with notes:
+The learner accepted the Sprint-23 roadmap after the Specification Review passed
+with notes and the dependency probe passed:
 
 - `reviews/post-sprint-22-stage-3-planning-review.md` recommends
   `Public-Key Roles, Digital Signatures, And Verification Boundaries` as the
@@ -43,11 +43,10 @@ Specification Review passed with notes:
 The latest Architect retirement handover is
 `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`.
 
-The next allowed action is learner review of `roadmaps/sprint-23.md` and possible
-explicit roadmap acceptance. Do not start Sprint-23, create
+The next allowed action is an optional explicit learner command to start
+Sprint-23 in an authorized Teacher window. Do not start Sprint-23, create
 `signature_verification_lab`, open a Teacher window, begin checkpoint work, or
-authorize Stage 4 / Solana execution by implication. Even after roadmap
-acceptance, Teacher execution requires a separate explicit learner start command.
+authorize Stage 4 / Solana execution by implication from roadmap acceptance.
 
 Carry-forward for the next Architect or Teacher:
 
@@ -58,6 +57,9 @@ Carry-forward for the next Architect or Teacher:
   surfaces, and support concepts before requiring their use;
 - reinforce Rust trait method resolution and trait-in-scope requirements when later
   external APIs depend on them;
+- keep the learner as the primary implementer and preserve Student Validation,
+  Codex Repository Validation, and Teacher Learning Validation;
+- prevent wallet, account, transaction, signing, network, and Solana scope drift;
 - keep broad serialization and protocol-data work separate from Sprint-22's bounded
   canonical-input evidence;
 - keep security-oriented thinking, consensus, trust assumptions, transaction
@@ -67,4 +69,4 @@ Carry-forward for the next Architect or Teacher:
   as learner-authored evidence;
 - keep the Stage 3 blockchain coverage ledger separate from the Rust Core Coverage
   Matrix;
-- do not accept, start, or authorize Sprint-23 execution by implication.
+- do not start or authorize Sprint-23 execution by implication.

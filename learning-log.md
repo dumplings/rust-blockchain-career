@@ -1379,3 +1379,9 @@ This acceptance does not create or accept Sprint-23, create a Sprint-23 Specific
 After the Sprint-23 Specification Review passed with notes and the temporary dependency probe passed, the learner explicitly authorized roadmap drafting. `roadmaps/sprint-23.md`, `Public-Key Roles, Digital Signatures, And Verification Boundaries`, was created as DRAFT / NOT ACCEPTED / NOT ACTIVE. The probe verified `ed25519-dalek = "=2.2.0"`, the bounded verification API, default feature behavior, Rust 1.95.0 compatibility, and four passing tests.
 
 Sprint-23 learning execution remains unauthorized, the Teacher window remains closed / inactive, and `signature_verification_lab` was not created. The next possible learner decision is roadmap acceptance; even after acceptance, execution requires a separate explicit learner start command. Stage 4 and Solana execution remain unauthorized.
+
+### Sprint-23 Roadmap Acceptance
+
+The learner accepted `roadmaps/sprint-23.md`, `Public-Key Roles, Digital Signatures, And Verification Boundaries`. Sprint-23 is ACCEPTED / NOT STARTED / NOT ACTIVE, and the `ed25519-dalek = "=2.2.0"` dependency probe remains PASS.
+
+Learning execution remains unauthorized, the Teacher window remains closed / inactive, and `signature_verification_lab` was not created. The next possible action is a separate explicit learner Teacher-window or sprint-start command under the Sprint Execution Start Gate. Stage 4 and Solana execution remain unauthorized.
