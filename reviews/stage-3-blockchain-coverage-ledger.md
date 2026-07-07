@@ -10,11 +10,15 @@
 - Current validated Stage 3 sprint evidence: `reviews/sprint-21-closure.md` and `reviews/sprint-22-closure.md`
 - Status: UPDATED STAGE 3 COVERAGE LEDGER
 - Selected repair direction: Cryptographic hash literacy, tamper evidence, and security boundary reasoning
-- Current Specification Review: `reviews/sprint-22-specification-review.md`
+- Latest completed Specification Review: `reviews/sprint-22-specification-review.md`
+- Completed post-Sprint-22 planning review: `reviews/post-sprint-22-stage-3-planning-review.md`
+- Accepted next-direction planning recommendation: Public-Key Roles, Digital Signatures, And Verification Boundaries
 - Sprint-22: PASS WITH NOTES / CLOSED
 - Stage 4 / Solana execution: Unauthorized
 
 This ledger is separate from `reviews/rust-core-coverage-matrix.md`. It records blockchain-foundation coverage only and must not be used as a Sprint roadmap, execution plan, permanent mastery claim, or Stage 4 authorization.
+
+The learner's acceptance of the post-Sprint-22 recommended next-direction boundary does not change any coverage classification by itself. `CONTEXT.md` remains authoritative for the current transition and authorization state.
 
 ## 2. Classification Legend
 
@@ -141,11 +145,10 @@ Stage 3 is started but not complete. The current evidence does not authorize Sta
 
 ## 8. Next Governance Decision
 
-Sprint-22 is PASS WITH NOTES / CLOSED. The next governance decision should:
+Sprint-22 is PASS WITH NOTES / CLOSED. The accepted next-direction planning recommendation is:
 
-1. review the remaining Stage 3 gaps after Sprint-22;
-2. select one cohesive dependency-ordered capability boundary for the next Specification Review;
-3. apply the external-baseline and job-transfer quality gate;
-4. preserve current classifications until new validated evidence or an explicit governance decision supports another change.
+`Public-Key Roles, Digital Signatures, And Verification Boundaries`
 
-This ledger does not create Sprint-23, accept a roadmap, authorize execution, start a Teacher window, modify a learning project, complete Stage 3, or authorize Stage 4 / Solana work.
+The next possible artifact is a Sprint-23 Specification Review for that boundary, but only after explicit learner authorization. Any future Specification Review must apply the external-baseline and job-transfer quality gate and preserve current classifications until new validated evidence or an explicit governance decision supports a change.
+
+This ledger does not create a Sprint-23 Specification Review or roadmap, accept Sprint-23, authorize learning execution, start a Teacher window, modify a learning project, complete Stage 3, or authorize Stage 4 / Solana work. Current transition and authorization remain governed by `CONTEXT.md`.
