@@ -1302,3 +1302,50 @@ The language policy now requires Chinese scaffolding for every English technical
 Sprint-22 was lightly amended to surface the bounded `sha2`, `Sha256`, `Digest`, trait-method-resolution, byte-input, and hexadecimal-formatting support concepts before lab implementation. `reviews/rust-core-coverage-matrix.md` records Rust trait method resolution and trait-in-scope requirements as a P2 carry-forward reinforcement topic, not an independent Sprint-22 blocker unless the accepted lab cannot proceed without it.
 
 Sprint-22 remains ACCEPTED / NOT STARTED / NOT ACTIVE. Execution remains unauthorized, the Teacher window remains closed / inactive, `crypto_hash_literacy_lab` has not been created, and no learning-project source has been modified. Stage 4 and Solana execution remain unauthorized.
+
+## 2026-07-07
+
+### Sprint-22 Completion
+
+Sprint:
+
+`Cryptographic Hash Literacy And Tamper Evidence`
+
+Outcome:
+
+PASS WITH NOTES / CLOSED
+
+Project:
+
+`crypto_hash_literacy_lab`
+
+Validation:
+
+- Student Validation: PASS.
+- Codex Repository Validation: PASS WITH NOTES; no blocking findings.
+- Teacher Learning Validation: PASS WITH NOTES.
+- `cargo fmt --check`: PASS.
+- isolated `cargo check`: PASS with no warnings.
+- isolated `cargo test`: PASS, 6 passed and 0 failed; 0 doc tests.
+- interview-prep pack: PASS after revision.
+
+Capability Growth:
+
+- Distinguished deterministic toy hashing from cryptographic hashing.
+- Classified attacker goals for preimage, second-preimage, and collision resistance.
+- Explained digest equality and inequality boundaries without claiming mathematical input identity or universal collision absence.
+- Distinguished tamper evidence from tamper prevention and integrity from authentication, authorization, and consensus.
+- Diagnosed ambiguous concatenation and applied one bounded length-prefixed representation.
+- Used the RustCrypto `sha2` crate without implementing a cryptographic primitive.
+- Reinforced bytes, byte strings, byte slices, UTF-8 boundaries, `Digest`, trait-method resolution, `std::fmt::Write`, UFCS, and hexadecimal formatting.
+
+Closure Notes:
+
+- The learner waived the learner-authored README exercise. The present README is Teacher reference material and is not counted as learner-authored evidence.
+- The lab has no commit, its files are untracked, `.idea/` is not ignored, and `length_prefixed_pair` panics on non-UTF-8 input; these are non-blocking within the controlled lab boundary.
+- The revised interview-prep pack uses concise `考点` tags and separate `回答示例` wording, with necessary English technical terms explained inline in Chinese.
+- The Stage 3 coverage ledger now records hash/tamper detection and cryptographic hash literacy as covered sufficiently for their current narrow boundaries; canonical representation is partial and security-oriented thinking remains partial.
+
+Next Status:
+
+No sprint is active. Stage 3 remains started and incomplete. The next allowed action is a post-Sprint-22 Stage 3 planning review; no Sprint-23 or Stage 4 / Solana execution is authorized by implication.

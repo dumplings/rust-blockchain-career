@@ -9,7 +9,7 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Completed bridge: Stage 2.5 — Rust Core Philosophy Bridge
 - Stage 2.5 status: PASS WITH NOTES / COMPLETE
 - Current curriculum stage: Stage 3 — Blockchain Foundations
-- Stage 3 status: Started; Sprint-21 closed; no active learning execution
+- Stage 3 status: Started; Sprint-22 closed; no active learning execution
 - Stage 4 / Solana execution: Unauthorized
 
 ## Current Sprint State
@@ -25,33 +25,31 @@ Build practical capability for long-term Rust + Blockchain employability and con
 - Sprint-20 learning project: `rust_engineering_contract_lab`; created; no active execution
 - Sprint-21: PASS WITH NOTES / CLOSED
 - Sprint-21 learning project: `mini_blockchain`; created; no active execution
-- Sprint-22: ACCEPTED / NOT STARTED / NOT ACTIVE; execution unauthorized
-- Sprint-22 candidate project: `crypto_hash_literacy_lab`; not created
+- Sprint-22: PASS WITH NOTES / CLOSED
+- Sprint-22 learning project: `crypto_hash_literacy_lab`; created; no active execution
 - Teacher execution window: Closed / inactive
 
 ## Current Authorization Boundary
 
-The formal Stage 2.5 exit review passed with notes, Stage 3 Blockchain Foundations started, Sprint-21 is closed as PASS WITH NOTES / CLOSED, and the learner and Architect accepted the Sprint-22 roadmap.
+The formal Stage 2.5 exit review passed with notes, Stage 3 Blockchain Foundations started, and Sprint-22 is PASS WITH NOTES / CLOSED.
 
-Sprint-22 is accepted but not started or active. Roadmap acceptance does not authorize execution, create `crypto_hash_literacy_lab`, or open a Teacher window. No active learning sprint or Teacher execution window exists, and Stage 4 or Solana execution remains unauthorized.
-
-The first Sprint-22 Teacher window was abandoned before meaningful official progress. Its execution issues are governance, sequencing, and dependency-surfacing evidence rather than learner failure or completed Sprint-22 learning. Any later execution must restart cleanly in a fresh Teacher window from the accepted roadmap.
+No active learning sprint or Teacher execution window exists. Sprint-22 closure does not create, accept, start, or authorize a later sprint, and it does not authorize Stage 4 or Solana execution.
 
 ## Current Governance Focus
 
 - Governance simplification: Accepted and complete
-- Accepted governance baseline: Stage 3 / Stage 4 external alignment audit and initial Stage 3 blockchain coverage ledger
+- Accepted governance baseline: Stage 3 / Stage 4 external alignment audit and updated Stage 3 blockchain coverage ledger
 - Selected Stage 3 repair direction: Cryptographic hash literacy, tamper evidence, and security boundary reasoning
-- Active governance decision: None; Sprint-22 roadmap acceptance is recorded and execution remains a separate learner decision
+- Active governance decision: Post-Sprint-22 Stage 3 planning review; no next sprint exists or is authorized by implication
 - Canonical browser launch prompts are available for Architect and Teacher windows.
 - Codex is the repository evidence bridge for browser-based roles.
 - Decision record: `reviews/governance-simplification-decision-2026-06-30.md`
 - Stage 3 repair-direction decision: `reviews/stage-3-repair-direction-decision.md`
 - Latest governance review: `reviews/sprint-22-specification-review.md`
 - Current Stage 3 coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
-- Latest sprint closure: `reviews/sprint-21-closure.md`
+- Latest sprint closure: `reviews/sprint-22-closure.md`
 - Latest Architect handover: `reviews/architect-retirement-handover-2026-07-02-post-stage-2-5-exit.md`
-- Architect transition: Outgoing Architect retired after Stage 2.5 exit; next Architect owns Stage 3 opening governance and planning review
+- Architect planning responsibility: Post-Sprint-22 Stage 3 planning review
 
 ## Authoritative Active Files
 
@@ -67,11 +65,12 @@ The first Sprint-22 Teacher window was abandoned before meaningful official prog
 - Teacher execution behavior: `docs/policies/teacher-execution-policy.md`
 - Current Rust-core coverage ledger: `reviews/rust-core-coverage-matrix.md`
 - Accepted Stage 3 / Stage 4 external-alignment baseline: `reviews/stage-3-4-external-alignment-audit.md`
-- Accepted initial Stage 3 blockchain coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
+- Updated Stage 3 blockchain coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
 - Stage 3 repair-direction decision: `reviews/stage-3-repair-direction-decision.md`
 - Sprint-22 Specification Review: `reviews/sprint-22-specification-review.md`
 - Sprint-22 accepted roadmap: `roadmaps/sprint-22.md`
-- Latest completed sprint evidence: `reviews/sprint-21-closure.md`
+- Sprint-22 interview-prep pack: `interview-prep/sprints/sprint-22-cryptographic-hash-literacy-and-tamper-evidence.md`
+- Latest completed sprint evidence: `reviews/sprint-22-closure.md`
 - Stage 2.5 exit decision: `reviews/stage-2-5-exit-review.md`
 
 ## Current Coverage State
@@ -83,14 +82,11 @@ The first Sprint-22 Teacher window was abandoned before meaningful official prog
 - All identified P0 and P1 pre-Stage-3 Rust-core topics are covered sufficiently for the current curriculum point; this is not permanent mastery or stage-transition authorization.
 - Stage 2.5 is complete with notes after the formal exit review.
 - Deferred P2/P3 and contextual Rust topics remain dependency-driven carry-forward work for Stage 3/4 and portfolio preparation.
-- Rust trait method resolution and trait-in-scope requirements are a P2 carry-forward reinforcement topic exposed by Sprint-22 preparation; they are not an independent blocker unless required library use cannot proceed.
+- Sprint-22 reinforced Rust trait method resolution and trait-in-scope requirements in the bounded `sha2` lab; broader external-API fluency remains a carry-forward topic rather than an independent blocker.
 - Sprint-21 validated transaction, block, genesis, append, toy-hash linkage, local chain validation, and tamper-detection modeling in Stage 3.
-- Stage 3 carry-forward requires deeper conceptual reinforcement around cryptographic hashing, security guarantees, consensus, and trust assumptions.
-- The Stage 3 coverage ledger records only blockchain data modeling as covered sufficiently for its current narrow boundary; multiple concept, security, real-system, and Solana-readiness areas remain partial or missing.
-- The external-alignment audit recommends a concept-first, source-backed Stage 3 repair decision before Sprint-22 planning.
-- The Architect selected cryptographic hash literacy, tamper evidence, and security boundary reasoning as the first Stage 3 repair boundary.
-- The accepted Sprint-22 roadmap uses concept-first teaching plus a required small bounded Rust lab.
-- Roadmap acceptance does not establish learning coverage, and no ledger classification changes have been made.
+- Sprint-22 validated cryptographic hash literacy, tamper-evidence reasoning, digest-claim boundaries, safe `sha2` use, ambiguous-input diagnosis, and one bounded length-prefixed representation.
+- The Stage 3 coverage ledger now records blockchain data modeling, hash and tamper detection, and cryptographic hash literacy as covered sufficiently for their current narrow boundaries.
+- Canonical representation and protocol-data coverage is partial; security-oriented thinking, consensus, trust assumptions, transactions, real state models, smart contracts, and Solana-readiness prerequisites remain incomplete.
 
 ## Learner Profile And Language Requirements
 
@@ -121,9 +117,9 @@ The first Sprint-22 Teacher window was abandoned before meaningful official prog
 
 ## Next Allowed Transition
 
-The next allowed learning transition is a separate explicit learner command to restart Sprint-22 execution cleanly in a fresh authorized Teacher window under `roadmaps/sprint-22.md`.
+The next allowed transition is a post-Sprint-22 Stage 3 planning review using `reviews/sprint-22-closure.md`, the updated Stage 3 coverage ledger, and the accepted external-alignment baseline.
 
-Sprint-22 is ACCEPTED / NOT STARTED / NOT ACTIVE, execution is unauthorized, and the Teacher window is closed / inactive. `crypto_hash_literacy_lab` has not been created, and no learning-project source has been modified by this state update. Roadmap acceptance alone must not be treated as an execution-start command. Stage 4 and Solana execution remain unauthorized.
+No Sprint-23 direction, Specification Review, roadmap, acceptance, execution, or Teacher window is authorized by this closure. Stage 3 remains incomplete. Stage 4 and Solana execution remain unauthorized.
 
 ## Conditional Historical Evidence
 

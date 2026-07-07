@@ -1,48 +1,54 @@
 # Current Tasks
 
-## Next Learning Transition
+## Next Governance / Planning Task
 
-Sprint-21 closure repository synchronization is complete.
-
-The following planning baselines are accepted:
-
-- `reviews/stage-3-4-external-alignment-audit.md`;
-- `reviews/stage-3-blockchain-coverage-ledger.md`.
-
-The Architect selected:
-
-`Cryptographic hash literacy, tamper evidence, and security boundary reasoning`
-
-The learner and Architect accepted `reviews/sprint-22-specification-review.md` as roadmap-drafting input and authorized an exceptional Architect-led roadmap drafting step. This bounded exception responds to Stage 3 repair and alignment risk; it does not change Teacher ownership of normal sprint roadmaps.
-
-The learner and Architect accepted `roadmaps/sprint-22.md`. Sprint-22 is accepted but not started or active. Execution requires a separate explicit learner start command in an authorized Teacher window.
-
-The first Sprint-22 Teacher window is abandoned without official learning-progress credit. Any later execution should restart cleanly in a fresh Teacher window from the accepted roadmap.
+Sprint-22, `Cryptographic Hash Literacy And Tamper Evidence`, is PASS WITH NOTES /
+CLOSED. Its closure is recorded in `reviews/sprint-22-closure.md`.
 
 Current boundary:
 
 - no active learning sprint;
 - Stage 2.5 is PASS WITH NOTES / COMPLETE;
-- Stage 3 Blockchain Foundations has started;
+- Stage 3 Blockchain Foundations is started but incomplete;
 - Sprint-21 is PASS WITH NOTES / CLOSED;
+- Sprint-22 is PASS WITH NOTES / CLOSED;
+- `crypto_hash_literacy_lab` exists with no active execution;
 - the Teacher execution window is closed / inactive;
-- the Sprint-22 roadmap is ACCEPTED / NOT STARTED / NOT ACTIVE;
-- the Sprint-22 Specification Review exists;
-- Sprint-22 execution is unauthorized;
-- no `crypto_hash_literacy_lab` or other learning project has been created;
-- no learning-project source has been modified by roadmap acceptance;
+- no Sprint-23 direction, Specification Review, roadmap, acceptance, or execution
+  authorization exists;
 - Stage 4 and Solana execution remain unauthorized.
+
+The next allowed action is a post-Sprint-22 Stage 3 planning review. Use:
+
+- `reviews/sprint-22-closure.md`;
+- `reviews/stage-3-blockchain-coverage-ledger.md`;
+- `reviews/stage-3-4-external-alignment-audit.md`;
+- `roadmaps/master-roadmap.md` when stage alignment requires it.
+
+The review should select one cohesive dependency-ordered Stage 3 capability boundary
+without compressing all remaining gaps into one sprint. Apply the external-baseline
+and job-transfer quality gate before any roadmap acceptance.
 
 Carry-forward for the next Architect or Teacher:
 
-- deepen blockchain foundations beyond implementation mechanics;
-- answer and place the learner's question about future cryptography teaching;
 - preserve professional source-review and conceptual-review standards;
-- scaffold every English technical term on first checkpoint use and reduce dense English terminology clusters;
-- inventory new crates, tools, API patterns, protocol concepts, Rust syntax surfaces, and support concepts before requiring their use;
-- teach Rust trait method resolution and trait-in-scope requirements just in time before the Sprint-22 `sha2` lab, without turning the topic into a separate blocker by default;
-- make test behavior, acceptance boundaries, naming, and placement expectations explicit;
-- reinforce hash/security/consensus/trust assumptions before security-sensitive or Solana-specific work;
-- require an external baseline, explicit toy-versus-real boundary, and positive job-transfer target in future Stage 3/4 roadmap design;
-- keep the Stage 3 blockchain coverage ledger separate from the Rust Core Coverage Matrix;
-- do not compress all missing blockchain topics into one sprint.
+- scaffold English technical terms with inline Chinese explanations and avoid dense
+  English terminology clusters during Chinese teaching;
+- inventory new crates, tools, API patterns, protocol concepts, Rust syntax
+  surfaces, and support concepts before requiring their use;
+- reinforce Rust trait method resolution and trait-in-scope requirements when later
+  external APIs depend on them;
+- keep broad serialization and protocol-data work separate from Sprint-22's bounded
+  canonical-input evidence;
+- keep security-oriented thinking, consensus, trust assumptions, transaction
+  lifecycle, state-model comparison, smart contracts, and Solana prerequisites
+  visible as incomplete Stage 3 work;
+- preserve the learner's README waiver and do not count Teacher reference material
+  as learner-authored evidence;
+- clarify future interview-prep guidance so `考点` contains concise lookup tags and
+  `回答示例` contains interview-ready wording;
+- interpret Chinese-first interview preparation as allowing necessary English
+  technical terms when they include inline Chinese explanations;
+- keep the Stage 3 blockchain coverage ledger separate from the Rust Core Coverage
+  Matrix;
+- do not create or authorize Sprint-23 by implication.
