@@ -43,8 +43,7 @@ Governance repository:
 - `docs/policies/learning-execution-policy.md`
 - `docs/policies/lifecycle-policy.md`
 - `docs/policies/learning-execution-policy.md`
-- `roadmaps/archive/stage-1-exit-assessment.md`
-- `roadmaps/archive/sprint-11.md`
+- original Stage 1 assessment and Sprint-11 roadmap contracts, now recoverable from Git history
 - `reviews/sprint-11-closure.md`
 - `learning-log.md`
 

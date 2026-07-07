@@ -5,7 +5,7 @@
 - Sprint number: Sprint-19
 - Sprint title: `Smart Pointers And Interior Mutability`
 - Stage relationship: Stage 2.5 — Rust Core Philosophy Bridge
-- Governance roadmap: `roadmaps/archive/sprint-19.md`
+- Original roadmap: removed in Governance Simplification v2 Phase 2C; recoverable from Git history
 - Learning project: `rust_smart_pointer_lab`
 - Learning-project path: `/Users/dumplings/workspace/rust_smart_pointer_lab`
 - Closure date: 2026-07-02
@@ -35,7 +35,7 @@ The closure decision is based on:
 - the learner-reported Student Validation result;
 - formal Codex Repository Validation of `/Users/dumplings/workspace/rust_smart_pointer_lab`;
 - completed Teacher Learning Validation covering all five checkpoints;
-- the Sprint-19 execution contract in `roadmaps/archive/sprint-19.md`;
+- the accepted Sprint-19 execution contract, now recoverable from Git history;
 - the closure and validation requirements in the Teacher, sprint-governance, and Codex-collaboration policies.
 
 Learning-project validation and this governance-repository update remain separate. This closure records the supplied validation evidence; it does not re-run or modify the learning project.

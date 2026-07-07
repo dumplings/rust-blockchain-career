@@ -184,7 +184,6 @@ Sprint-07 produced governance improvements rather than completed learning outcom
 Relevant governance outputs:
 
 - `AGENTS.md` structural rewrite;
-- `roadmaps/archive/sprint-07.md` abnormal sprint record;
 - `reviews/sprint-07-attempt-1-failure-review.md`.
 
 Repository / Project Status:
@@ -443,9 +442,7 @@ Stage:
 
 Stage 1 - Rust Foundations
 
-Repository Asset:
-
-- `roadmaps/archive/sprint-10.md`
+The original Sprint-10 roadmap was later removed in Governance Simplification v2 Phase 2C and remains recoverable from Git history.
 
 Planning Summary:
 
@@ -465,7 +462,7 @@ Governance Notes:
 Next Focus:
 
 - Review and commit Sprint-10 roadmap and current-state governance updates.
-- Decide whether to explicitly authorize Sprint-10 execution from `roadmaps/archive/sprint-10.md`.
+- Decide whether to explicitly authorize Sprint-10 execution from its accepted roadmap.
 
 ### Sprint-10 Completion
 
@@ -599,9 +596,7 @@ Specification accepted.
 
 This planning entry was later superseded by the completed Stage 1 Exit Assessment record below.
 
-Repository Asset:
-
-- `roadmaps/archive/stage-1-exit-assessment.md`
+The original Stage 1 exit-assessment specification was later removed in Governance Simplification v2 Phase 2C and remains recoverable from Git history.
 
 Governance Assets Updated:
 
@@ -635,9 +630,8 @@ Outcome:
 
 PASS / CLOSED - Advance To Stage 2
 
-Repository Assets:
+Repository Asset:
 
-- `roadmaps/archive/stage-1-exit-assessment.md`
 - `reviews/stage-1-exit-assessment.md`
 
 Assessment Project:
@@ -838,9 +832,7 @@ Roadmap created. Execution not authorized.
 
 This planning status was later superseded by the completed Sprint-15 record below.
 
-Repository Asset:
-
-- `roadmaps/archive/sprint-15.md`
+The original Sprint-15 roadmap was later removed in Governance Simplification v2 Phase 2C and remains recoverable from Git history.
 
 Planning Summary:
 
@@ -1193,7 +1185,7 @@ The learner accepted the Sprint-21 roadmap, `Mini Blockchain Data Model And Vali
 
 ### Sprint-21 Execution Start
 
-The learner gave an explicit execution-start command in the Teacher window. Sprint-21 is active and in progress under `roadmaps/archive/sprint-21.md`, Checkpoint 1 has started, and the `mini_blockchain` learning project has been created. Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope. Sprint-21 is not complete or closed, and its non-goals remain outside the execution authorization.
+The learner gave an explicit execution-start command in the Teacher window. Sprint-21 became active under its accepted roadmap, Checkpoint 1 started, and the `mini_blockchain` learning project was created. Stage 3 learning execution was authorized only within that scope. The original contract was later removed in Phase 2C and remains recoverable from Git history.
 
 ## 2026-07-04
 
@@ -1280,13 +1272,13 @@ No Sprint-22 roadmap was created or authorized. Sprint-22 is not accepted, activ
 
 The learner and Architect accepted the Stage 3 repair direction and Sprint-22 Specification Review as drafting input, then authorized an exceptional Architect-led roadmap drafting step. This bounded intervention addresses Stage 3 repair, external alignment, toy-project realism, and job-transfer calibration after Sprint-21; it does not change Teacher ownership of normal sprint roadmap design.
 
-`roadmaps/archive/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`, was created as DRAFT / NOT ACCEPTED / NOT ACTIVE. It uses concept-first ordering and requires a small bounded future Rust lab, `crypto_hash_literacy_lab`, as subordinate applied evidence. A pure written replacement would require an Architect-approved roadmap revision before execution.
+The Sprint-22 roadmap, `Cryptographic Hash Literacy And Tamper Evidence`, was created as DRAFT / NOT ACCEPTED / NOT ACTIVE. It used concept-first ordering and required a small bounded future Rust lab, `crypto_hash_literacy_lab`, as subordinate applied evidence. The original contract was later removed in Phase 2C and remains recoverable from Git history.
 
 Sprint-22 execution remains unauthorized, the Teacher window remains closed / inactive, and no learning project was created or modified. The Stage 3 coverage ledger was not changed. Stage 4 and Solana execution remain unauthorized.
 
 ### Sprint-22 Roadmap Acceptance
 
-The learner and Architect accepted `roadmaps/archive/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`.
+The learner and Architect accepted the Sprint-22 roadmap, `Cryptographic Hash Literacy And Tamper Evidence`.
 
 Sprint-22 is ACCEPTED / NOT STARTED / NOT ACTIVE. Execution remains unauthorized, the Teacher window remains closed / inactive, and `crypto_hash_literacy_lab` has not been created. No learning-project source was modified, and the Stage 3 coverage ledger was not updated as though Sprint-22 learning had occurred.
 

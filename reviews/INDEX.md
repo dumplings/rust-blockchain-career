@@ -40,15 +40,17 @@ Failure evidence is stored in `reviews/*failure-review.md`.
 Closures and failure reviews are durable learning evidence and remain in the
 active evidence directory.
 
-## Archived Historical Evidence
+## Historical Evidence
 
 - Superseded planning, specification, baseline, and curriculum-audit records:
   `reviews/archive/planning/`
-- Completed, failed, stopped, and superseded sprint execution contracts:
-  `roadmaps/archive/`
 
-Archived files are conditional evidence. They are not default startup inputs,
-live state, rules, or execution authority.
+Most completed, failed, stopped, and superseded historical roadmap contracts
+were deleted in Governance Simplification v2 Phase 2C after closure, failure,
+exit, coverage, and learning-log evidence was audited. No archived roadmap
+exceptions were retained. Detailed deleted contracts are recoverable from Git
+history. Remaining archived review files are conditional evidence, not default
+startup inputs, live state, rules, or execution authority.
 
 ## Deleted Process History
 

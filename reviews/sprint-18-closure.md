@@ -5,7 +5,7 @@
 - Sprint number: Sprint-18
 - Sprint title: `Lifetimes And Borrowing Topology`
 - Stage relationship: Stage 2.5 — Rust Core Philosophy Bridge
-- Governance roadmap: `roadmaps/archive/sprint-18.md`
+- Original roadmap: removed in Governance Simplification v2 Phase 2C; recoverable from Git history
 - Governance repository: `/Users/dumplings/workspace/rust-blockchain-career`
 - Candidate learning project: `rust_lifetime_topology_lab`
 - Candidate project path: `/Users/dumplings/workspace/rust_lifetime_topology_lab`
@@ -33,7 +33,7 @@ No blocking Sprint-18 learning issue remains within the accepted scope.
 The closure decision is based on:
 
 - the authoritative browser-based Teacher execution result supplied by the learner for this governance update;
-- the accepted execution contract in `roadmaps/archive/sprint-18.md`;
+- the accepted Sprint-18 execution contract, now recoverable from Git history;
 - completed Teacher Learning Validation covering all four checkpoints;
 - the conditional validation requirements in the roadmap and sprint governance policy.
 

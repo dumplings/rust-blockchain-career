@@ -5,7 +5,7 @@
 - Sprint number: Sprint-21
 - Sprint title: `Mini Blockchain Data Model And Validation`
 - Stage relationship: Stage 3 — Blockchain Foundations
-- Governance roadmap: `roadmaps/archive/sprint-21.md`
+- Original roadmap: removed in Governance Simplification v2 Phase 2C; recoverable from Git history
 - Learning project: `mini_blockchain`
 - Learning-project path: `/Users/dumplings/workspace/mini_blockchain`
 - Closure date: 2026-07-04
@@ -31,7 +31,7 @@ This closure is based on:
 - learner-confirmed Student Validation;
 - formal Codex Repository Validation of `/Users/dumplings/workspace/mini_blockchain`;
 - Teacher Learning Validation recorded as PASS WITH NOTES;
-- the accepted Sprint-21 roadmap in `roadmaps/archive/sprint-21.md`;
+- the accepted Sprint-21 execution contract, now recoverable from Git history;
 - the sprint-governance, Teacher-execution, and language policies.
 
 The governance update records supplied evidence. It does not modify or revalidate the learning project and does not reconstruct checkpoint-specific Teacher scores that were not included in the supplied closure summary.

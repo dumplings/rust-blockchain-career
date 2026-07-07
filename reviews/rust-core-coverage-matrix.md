@@ -14,13 +14,13 @@
 - Sprint-19: PASS WITH NOTES / CLOSED
 - Sprint-20: PASS WITH NOTES / CLOSED
 - Stage 2.5: PASS WITH NOTES / COMPLETE after formal exit review
-- Unit 1 proposal: `roadmaps/archive/stage-2-5-unit-1-rust-core-fluency.md`; approved as drafting basis
-- Unit 1 formal roadmap: `roadmaps/archive/sprint-16.md`; partial unvalidated execution evidence; no topic completed under the Sprint-16 boundary
+- Original Unit 1 proposal: removed in Governance Simplification v2 Phase 2C; its intent is preserved by this matrix and the Stage 2.5 exit review
+- Original Sprint-16 contract: removed in Phase 2C; partial unvalidated execution evidence remains incomplete and unclosed, and the contract is recoverable from Git history
 - Remaining-coverage review: `reviews/archive/planning/stage-2-5-remaining-coverage-review.md`; planning artifact; no classification change
-- Sprint-17 roadmap and closure: `roadmaps/archive/sprint-17.md` and `reviews/sprint-17-closure.md`; validated durable evidence for Rust Core Fluency topics
-- Sprint-18 roadmap and closure: `roadmaps/archive/sprint-18.md` and `reviews/sprint-18-closure.md`; validated durable evidence for ownership, borrowing, and lifetime reasoning
-- Sprint-19 roadmap and closure: `roadmaps/archive/sprint-19.md` and `reviews/sprint-19-closure.md`; validated durable evidence for smart pointers, interior mutability, and ownership-topology tradeoffs
-- Sprint-20 roadmap and closure: `roadmaps/archive/sprint-20.md` and `reviews/sprint-20-closure.md`; validated durable evidence for engineering-contract reasoning, bounded traits/generics, public APIs, public error ergonomics, and Rust common-concept reinforcement
+- Sprint-17 closure: `reviews/sprint-17-closure.md`; validated durable evidence for Rust Core Fluency topics
+- Sprint-18 closure: `reviews/sprint-18-closure.md`; validated durable evidence for ownership, borrowing, and lifetime reasoning
+- Sprint-19 closure: `reviews/sprint-19-closure.md`; validated durable evidence for smart pointers, interior mutability, and ownership-topology tradeoffs
+- Sprint-20 closure: `reviews/sprint-20-closure.md`; validated durable evidence for engineering-contract reasoning, bounded traits/generics, public APIs, public error ergonomics, and Rust common-concept reinforcement
 - Stage 2.5 exit review: `reviews/stage-2-5-exit-review.md`; formal completion decision and deferred/carry-forward placement
 - Source audit: `reviews/archive/planning/rust-curriculum-coverage-audit.md`
 - Post-midpoint decision: `reviews/archive/planning/stage-2-post-midpoint-review.md`
@@ -144,7 +144,7 @@ Stage 2.5 does not replace the wider coverage matrix. Sprint-17 supplies validat
 
 Stage 2.5 is now represented in `roadmaps/master-roadmap.md` as the required high-level bridge before Stage 3. That representation did not itself authorize implementation, Sprint-16, or Stage 3 transition.
 
-`roadmaps/archive/sprint-16.md` formalized the original Unit 1 coverage and validation shape. Sprint-16 produced partial, unvalidated execution evidence before being stopped prior to completion and remains incomplete and unclosed.
+The original Sprint-16 contract formalized the Unit 1 coverage and validation shape. It was removed in Phase 2C and remains recoverable from Git history. Sprint-16 produced partial, unvalidated execution evidence before being stopped prior to completion and remains incomplete and unclosed.
 
 Sprint-17 established a separate completion boundary and produced validated evidence for closures and iterators, systematic pattern matching, and collection ownership behavior. It did not complete Sprint-16 or Stage 2.5.
 

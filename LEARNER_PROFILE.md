@@ -130,6 +130,7 @@ Use `CONTEXT.md`, the accepted sprint roadmap, `roadmaps/master-roadmap.md`, and
 - Rust readiness for that boundary is sufficient with just-in-time support rather than a foundations restart.
 - Inventory new crates, APIs, Rust syntax surfaces, protocol concepts, byte strings, `Digest`-like trait methods, and dependency versions before instruction.
 - Require explicit valid-signature, wrong-key, modified-message, malformed-input, and representation scenarios where applicable.
+- For a narrow signature-verification sprint, use public verification fixtures only; do not introduce key generation, private keys, or signing workflows even in tests unless a later roadmap explicitly authorizes them.
 - Keep consensus, networking, wallet architecture, transaction systems, and Solana implementation outside a narrow signature sprint unless separately authorized.
 - Continue updating Stage 3 coverage conservatively; a single successful exercise is not permanent mastery.
 - Prefer one clear current path over parallel optional tracks that increase startup burden.

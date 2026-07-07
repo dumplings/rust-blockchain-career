@@ -7,7 +7,7 @@
 - Stage: Stage 2 - Rust Engineering
 - Primary project: `devlog_cli`
 - Learning project path: `/Users/dumplings/workspace/devlog_cli`
-- Governance roadmap: `roadmaps/archive/sprint-13.md`
+- Original roadmap: removed in Governance Simplification v2 Phase 2C; recoverable from Git history
 - Closure date: 2026-06-25
 - Final status: PASS / CLOSED
 
@@ -253,7 +253,7 @@ The following non-blocking notes remain:
 7. `RefCell` / interior mutability appears only in test fake storage and was only lightly introduced.
 8. The final test count is 13 rather than the preferred 5 to 8, but the tests remain focused.
 9. `Cargo.toml` still reports version `0.1.0` despite the Sprint theme naming v0.2; no explicit validation requirement mandated a version bump.
-10. `roadmaps/archive/sprint-13.md` still describes Sprint-13 as draft/not authorized because it records the roadmap's creation-time authorization boundary. This does not invalidate the learner's later explicit execution authorization in chat.
+10. The original Sprint-13 roadmap recorded its creation-time draft/not-authorized boundary. Its Phase 2C deletion does not invalidate the learner's later explicit execution authorization or the closure evidence; the contract remains recoverable from Git history.
 
 These issues do not block Sprint-13 closure.
 

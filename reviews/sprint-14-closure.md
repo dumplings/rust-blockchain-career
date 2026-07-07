@@ -7,7 +7,7 @@
 - Stage: Stage 2 - Rust Engineering
 - Primary project: `rust_mechanics_lab`
 - Learning project path: `/Users/dumplings/workspace/rust_mechanics_lab`
-- Governance roadmap: `roadmaps/archive/sprint-14.md`
+- Original roadmap: removed in Governance Simplification v2 Phase 2C; recoverable from Git history
 - Governance repository: `/Users/dumplings/workspace/rust-blockchain-career`
 - Closure date: 2026-06-26
 - Final status: PASS / CLOSED
