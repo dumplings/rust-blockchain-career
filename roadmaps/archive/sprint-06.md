@@ -303,4 +303,3 @@ Possible future topics:
 * transition from Rust Foundations to Rust Engineering when Stage 1 exit criteria are met.
 
 These topics require separate Specification Review before implementation.
-

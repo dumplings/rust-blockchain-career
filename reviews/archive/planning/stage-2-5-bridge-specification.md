@@ -10,9 +10,9 @@
 - Sprint-15: PASS WITH NOTES / CLOSED
 - Sprint-16: Execution stopped before completion; partial unvalidated progress; not complete or closed
 - Stage 3 transition: Not authorized
-- Source review: `reviews/stage-2-post-midpoint-review.md`
+- Source review: `reviews/archive/planning/stage-2-post-midpoint-review.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
-- Source audit: `reviews/rust-curriculum-coverage-audit.md`
+- Source audit: `reviews/archive/planning/rust-curriculum-coverage-audit.md`
 - Master Roadmap representation: Recorded through a subsequent approved governance update; not execution authorization
 
 This specification defines the governance boundary and recommended structure of the approved Stage 2.5 bridge direction. It is not a sprint roadmap or implementation authorization.
@@ -51,7 +51,7 @@ Authorization boundary:
 - This specification itself does not modify `roadmaps/master-roadmap.md`; a subsequent approved governance update now represents Stage 2.5 as the required high-level bridge before Stage 3.
 - Master Roadmap representation does not authorize implementation, bridge execution, or sprint planning.
 - Any bridge-unit roadmap, sprint roadmap, learning project, or execution requires a separate approved workflow and explicit learner approval.
-- A subsequent learner-approved governance update created `roadmaps/sprint-16.md` from Unit 1. Execution later began and was stopped before completion; no Unit 1 completion is recorded.
+- A subsequent learner-approved governance update created `roadmaps/archive/sprint-16.md` from Unit 1. Execution later began and was stopped before completion; no Unit 1 completion is recorded.
 - Stage 3 transition remains unauthorized.
 
 ## 4. Why Stage 2.5 Is Needed
@@ -247,11 +247,11 @@ P2 placement is a curriculum dependency rule. It does not authorize teaching or 
 
 ## 9. Relationship To Sprint-16
 
-Sprint-16 has a learner-accepted formal roadmap at `roadmaps/sprint-16.md`. Execution stopped before completion, and the sprint is not complete or closed.
+Sprint-16 has a learner-accepted formal roadmap at `roadmaps/archive/sprint-16.md`. Execution stopped before completion, and the sprint is not complete or closed.
 
 This specification did not itself decide sprint numbering. A subsequent learner decision selected Unit 1 as Sprint-16 and selected the future `rust_core_fluency_lab` project shape.
 
-The learner accepted the expanded distribution in `reviews/stage-2-5-remaining-coverage-review.md` and later accepted `roadmaps/sprint-17.md`. Sprint-17 is ready for Teacher execution, but execution has not started.
+The learner accepted the expanded distribution in `reviews/archive/planning/stage-2-5-remaining-coverage-review.md` and later accepted `roadmaps/archive/sprint-17.md`. Sprint-17 is ready for Teacher execution, but execution has not started.
 
 The selected project was created during authorized Sprint-16 execution. This governance update does not inspect, validate, or modify it.
 
@@ -283,7 +283,7 @@ No Stage 3 transition may occur solely because one bridge unit, assessment, or s
 
 ## 12. Recommended Next Governance Actions
 
-1. Open a Sprint-17 Teacher execution window under `roadmaps/sprint-17.md`.
+1. Open a Sprint-17 Teacher execution window under `roadmaps/archive/sprint-17.md`.
 2. Begin with the Sprint-16 partial-progress revalidation gate.
 3. Preserve Sprint-16 progress as partial and unvalidated until later validation supports completion credit.
 4. Keep Sprint-18, Sprint-19, and Sprint-20 as planning recommendations only.

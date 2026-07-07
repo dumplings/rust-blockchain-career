@@ -43,8 +43,8 @@ Governance repository:
 - `docs/policies/learning-execution-policy.md`
 - `docs/policies/lifecycle-policy.md`
 - `docs/policies/learning-execution-policy.md`
-- `roadmaps/stage-1-exit-assessment.md`
-- `roadmaps/sprint-11.md`
+- `roadmaps/archive/stage-1-exit-assessment.md`
+- `roadmaps/archive/sprint-11.md`
 - `reviews/sprint-11-closure.md`
 - `learning-log.md`
 

@@ -33,10 +33,10 @@ The decision used:
 - `CONTEXT.md`;
 - `TODO.md`;
 - `roadmaps/master-roadmap.md`;
-- `reviews/stage-3-4-external-alignment-audit.md`;
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md`;
 - `reviews/stage-3-blockchain-coverage-ledger.md`;
 - `reviews/sprint-21-closure.md`;
-- `roadmaps/sprint-21.md`;
+- `roadmaps/archive/sprint-21.md`;
 - `docs/policies/lifecycle-policy.md`;
 - `docs/policies/learning-execution-policy.md`;
 - `templates/specification-review-template.md`;
@@ -46,7 +46,7 @@ The decision used:
 
 The following remain accepted and authoritative for Stage 3 repair planning:
 
-- `reviews/stage-3-4-external-alignment-audit.md` — accepted Stage 3 / Stage 4 external-alignment planning baseline;
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md` — accepted Stage 3 / Stage 4 external-alignment planning baseline;
 - `reviews/stage-3-blockchain-coverage-ledger.md` — accepted initial Stage 3 blockchain coverage ledger.
 
 The Stage 3 ledger remains stage-specific and separate from `reviews/rust-core-coverage-matrix.md`.
@@ -127,7 +127,7 @@ These non-goals bound the candidate direction. A later Specification Review must
 
 ## 9. Expected Next Process
 
-1. Create and review `reviews/sprint-22-specification-review.md`.
+1. Create and review `reviews/archive/planning/sprint-22-specification-review.md`.
 2. Decide whether the concept-first unit should remain artifact-based or include a small bounded Rust lab using an established library or official test vectors.
 3. Decide the minimum durable Student, Codex, and Teacher validation evidence.
 4. If the Specification Review is accepted, request separate authorization before drafting a Sprint-22 roadmap.

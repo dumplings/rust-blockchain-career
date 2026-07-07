@@ -8,7 +8,7 @@
 * Primary project: `devlog_cli`
 * Learning-project root: `/Users/dumplings/workspace/devlog_cli`
 * Governance repository root: `/Users/dumplings/workspace/rust-blockchain-career`
-* Roadmap target file: `roadmaps/sprint-13.md`
+* Roadmap target file: `roadmaps/archive/sprint-13.md`
 * Sprint status: Draft only
 * Execution status: Not started
 * Authorization status: Not authorized for execution
@@ -631,7 +631,7 @@ Codex should verify:
 * `wallet_cli` was not continued by default;
 * `task_tracker` was not turned into the next teaching project.
 
-If the governance repository is later updated with `roadmaps/sprint-13.md`, validate separately:
+If the governance repository is later updated with `roadmaps/archive/sprint-13.md`, validate separately:
 
 `/Users/dumplings/workspace/rust-blockchain-career`
 
@@ -757,7 +757,7 @@ Learning-project repository:
 
 These repositories must be validated separately.
 
-If `roadmaps/sprint-13.md` is later added to the governance repository, that is a governance repository update and should be validated against the governance repository root.
+If `roadmaps/archive/sprint-13.md` is later added to the governance repository, that is a governance repository update and should be validated against the governance repository root.
 
 If `devlog_cli` is modified during Sprint-13 execution, that is a learning-project update and should be validated against the learning-project root.
 

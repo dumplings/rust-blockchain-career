@@ -28,8 +28,8 @@ Repository evidence:
 - `reviews/sprint-22-closure.md`;
 - `reviews/stage-3-blockchain-coverage-ledger.md`;
 - `reviews/rust-core-coverage-matrix.md`;
-- `reviews/stage-3-4-external-alignment-audit.md`;
-- `reviews/stage-3-repair-direction-decision.md`;
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md`;
+- `reviews/archive/planning/stage-3-repair-direction-decision.md`;
 - `docs/policies/lifecycle-policy.md`;
 - `docs/policies/learning-execution-policy.md`;
 - `docs/policies/lifecycle-policy.md`;

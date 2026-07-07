@@ -5,7 +5,7 @@
 - Sprint number: Sprint-20
 - Sprint title: `Engineering Contract Consolidation`
 - Stage relationship: Stage 2.5 — Rust Core Philosophy Bridge
-- Governance roadmap: `roadmaps/sprint-20.md`
+- Governance roadmap: `roadmaps/archive/sprint-20.md`
 - Learning project: `rust_engineering_contract_lab`
 - Learning-project path: `/Users/dumplings/workspace/rust_engineering_contract_lab`
 - Closure date: 2026-07-02
@@ -34,7 +34,7 @@ The closure decision is based on:
 - learner-confirmed Student Validation;
 - formal Codex Repository Validation of `/Users/dumplings/workspace/rust_engineering_contract_lab`;
 - completed Teacher Learning Validation covering all four checkpoints;
-- the Sprint-20 execution contract in `roadmaps/sprint-20.md`;
+- the Sprint-20 execution contract in `roadmaps/archive/sprint-20.md`;
 - the closure and validation requirements in the Teacher, sprint-governance, and Codex-collaboration policies.
 
 Learning-project validation and this governance-repository update remain separate. This closure records supplied validation evidence and does not re-run or modify the learning project.

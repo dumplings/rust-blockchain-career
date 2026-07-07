@@ -7,7 +7,7 @@
 - Stage: Stage 2 - Rust Engineering
 - Primary project: `devlog_cli`
 - Learning project path: `/Users/dumplings/workspace/devlog_cli`
-- Governance roadmap: `roadmaps/sprint-12.md`
+- Governance roadmap: `roadmaps/archive/sprint-12.md`
 - Closure date: 2026-06-23
 - Final status: PASS / CLOSED
 

@@ -13,7 +13,7 @@
 - Sprint-16 closure: None
 - Preferred learning project: `/Users/dumplings/workspace/rust_core_fluency_lab`
 - Project status for Sprint-17: Existing partial, unvalidated material; not inspected or modified during roadmap drafting
-- Source planning review: `reviews/stage-2-5-remaining-coverage-review.md`
+- Source planning review: `reviews/archive/planning/stage-2-5-remaining-coverage-review.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 - Stage 3 transition: Not authorized
 

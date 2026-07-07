@@ -50,9 +50,9 @@ execution scope.
 
 The roadmap is based on:
 
-* `reviews/stage-3-repair-direction-decision.md`;
-* `reviews/sprint-22-specification-review.md`;
-* `reviews/stage-3-4-external-alignment-audit.md`;
+* `reviews/archive/planning/stage-3-repair-direction-decision.md`;
+* `reviews/archive/planning/sprint-22-specification-review.md`;
+* `reviews/archive/planning/stage-3-4-external-alignment-audit.md`;
 * `reviews/stage-3-blockchain-coverage-ledger.md`;
 * `reviews/sprint-21-closure.md`.
 
@@ -122,7 +122,7 @@ Sprint-22 must not include:
 ## 7. External baseline and job-transfer target
 
 1. **Authoritative source or recognized benchmark:** the accepted
-   `reviews/stage-3-4-external-alignment-audit.md`, the
+   `reviews/archive/planning/stage-3-4-external-alignment-audit.md`, the
    [Bitcoin Block Chain Guide](https://developer.bitcoin.org/devguide/block_chain.html),
    [Ethereum Blocks](https://ethereum.org/developers/docs/blocks/), and current
    official documentation for the selected Rust hash library. Solana Core Concepts

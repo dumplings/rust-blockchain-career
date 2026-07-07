@@ -27,12 +27,12 @@ The exit decision used:
 - `reviews/sprint-18-closure.md`;
 - `reviews/sprint-19-closure.md`;
 - `reviews/sprint-20-closure.md`;
-- `reviews/stage-2-5-bridge-specification.md`;
-- `reviews/stage-2-5-remaining-coverage-review.md`;
-- `reviews/stage-2-post-midpoint-review.md`;
-- `reviews/rust-curriculum-coverage-audit.md`;
-- `reviews/architect-takeover-assessment-2026-06-30-post-sprint-17.md`;
-- `reviews/governance-simplification-decision-2026-06-30.md`;
+- `reviews/archive/planning/stage-2-5-bridge-specification.md`;
+- `reviews/archive/planning/stage-2-5-remaining-coverage-review.md`;
+- `reviews/archive/planning/stage-2-post-midpoint-review.md`;
+- `reviews/archive/planning/rust-curriculum-coverage-audit.md`;
+- historical takeover and governance-simplification records, now available only
+  through Git history;
 - the governance-lifecycle, sprint-governance, language-output, and Teacher-execution policies.
 
 No learning-project source inspection or compiler/test execution was required. The completed sprint closures remain the authoritative validation evidence.

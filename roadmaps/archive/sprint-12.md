@@ -8,7 +8,7 @@
 - Primary project: `devlog_cli`
 - Proposed learning-project root: `/Users/dumplings/workspace/devlog_cli`
 - Governance repository root: `/Users/dumplings/workspace/rust-blockchain-career`
-- Roadmap target file: `roadmaps/sprint-12.md`
+- Roadmap target file: `roadmaps/archive/sprint-12.md`
 - Sprint status: Draft only
 - Execution status: Not started
 - Authorization status: Not authorized for execution
@@ -560,7 +560,7 @@ Codex should verify:
 - `wallet_cli` was not continued by default;
 - `task_tracker` was not turned into the next teaching project by default.
 
-If the governance repository is updated later with `roadmaps/sprint-12.md`, validate separately:
+If the governance repository is updated later with `roadmaps/archive/sprint-12.md`, validate separately:
 
 ```text
 /Users/dumplings/workspace/rust-blockchain-career
@@ -666,7 +666,7 @@ Learning-project repository:
 
 Codex should validate one repository or project root at a time.
 
-If `roadmaps/sprint-12.md` is later added to the governance repository, that is a governance repository update and should be validated against the governance repository root.
+If `roadmaps/archive/sprint-12.md` is later added to the governance repository, that is a governance repository update and should be validated against the governance repository root.
 
 If `devlog_cli` is later created and implemented, that is a learning-project update and should be validated against the learning-project root.
 

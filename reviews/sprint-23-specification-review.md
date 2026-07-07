@@ -27,13 +27,12 @@ Local repository evidence:
 - `docs/policies/repository-validation-policy.md`;
 - `templates/specification-review-template.md`;
 - `roadmaps/master-roadmap.md`;
-- `reviews/post-sprint-22-stage-3-planning-review.md`;
+- `reviews/archive/planning/post-sprint-22-stage-3-planning-review.md`;
 - `reviews/sprint-22-closure.md`;
 - `reviews/stage-3-blockchain-coverage-ledger.md`;
 - `reviews/rust-core-coverage-matrix.md`;
-- `reviews/stage-3-4-external-alignment-audit.md`;
-- `reviews/stage-3-repair-direction-decision.md`;
-- `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`.
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md`;
+- `reviews/archive/planning/stage-3-repair-direction-decision.md`.
 
 Authoritative external baselines:
 

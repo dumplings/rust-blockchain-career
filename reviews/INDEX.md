@@ -25,7 +25,7 @@ These files support the current state but do not create execution authority.
 - `reviews/stage-2-5-exit-review.md`
 - `reviews/rust-core-coverage-matrix.md`
 - `reviews/stage-3-blockchain-coverage-ledger.md`
-- `reviews/stage-3-4-external-alignment-audit.md`
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md`
 
 Coverage is stage-specific and represents validated current-boundary evidence,
 not permanent mastery.
@@ -36,35 +36,28 @@ Sprint completion evidence is stored in `reviews/sprint-*-closure.md` and the
 early `reviews/sprint-01-review.md` / `reviews/sprint-02-review.md` records.
 Failure evidence is stored in `reviews/*failure-review.md`.
 
-Closures and failure reviews are durable learning evidence and are not Phase 1A
-deletion candidates.
+Closures and failure reviews are durable learning evidence and remain in the
+active evidence directory.
 
-## Historical Handovers
+## Archived Historical Evidence
 
-Files matching `reviews/architect-retirement-handover-*.md` and Architect takeover
-assessments are historical evidence only. They are not startup authority and
-must not override `CONTEXT.md` or the startup cards in `AGENTS.md`.
+- Superseded planning, specification, baseline, and curriculum-audit records:
+  `reviews/archive/planning/`
+- Completed, failed, stopped, and superseded sprint execution contracts:
+  `roadmaps/archive/`
 
-## Historical Planning And Governance Evidence
+Archived files are conditional evidence. They are not default startup inputs,
+live state, rules, or execution authority.
 
-Superseded Specification Reviews, planning reviews, audits, decisions, cleanup
-plans, and old stage-planning documents record why earlier choices were made.
-Unless listed under Current Evidence, they are conditional historical evidence,
-not default startup inputs or live rules.
+## Deleted Process History
 
-`TODO.md` was retired in Governance Simplification v2 Phase 1A. Mentions of it in
-historical reviews and handovers are preserved as as-of evidence, not current
-file references or startup requirements.
+Phase 2A deleted historical Architect handovers and takeover assessments,
+completed governance simplification audits and cleanup plans, duplicate docs and
+runbooks, the closed observation ledger, and the handover template. Their useful
+rules or current preferences were already absorbed by `AGENTS.md`, `CONTEXT.md`,
+the current policies, closures, or coverage ledgers. Detailed deleted process
+history remains available through Git history.
 
-## Phase 2 Archive Candidates
-
-After a unique-information audit, Phase 2 may archive or delete:
-
-- historical Architect handovers and takeover assessments;
-- completed governance audits and cleanup plans;
-- superseded planning reviews and specifications;
-- completed or failed sprint roadmaps already supported by durable outcome
-  evidence.
-
-Phase 2 must preserve closures, failure reviews, stage exit reviews, coverage
-ledgers, interview-prep packs, and `learning-log.md` unless separately authorized.
+`TODO.md` was retired in Phase 1A. Mentions of it inside archived or durable
+historical evidence are as-of text, not current file references or startup
+requirements.

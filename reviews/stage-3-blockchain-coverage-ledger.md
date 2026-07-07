@@ -6,12 +6,12 @@
 - Coverage scope: Stage 3 — Blockchain Foundations
 - Review date: 2026-07-07
 - Current stage: Stage 3 started; Sprint-22 closed; no active learning execution
-- Source audit: `reviews/stage-3-4-external-alignment-audit.md`
+- Source audit: `reviews/archive/planning/stage-3-4-external-alignment-audit.md`
 - Current validated Stage 3 sprint evidence: `reviews/sprint-21-closure.md` and `reviews/sprint-22-closure.md`
 - Status: UPDATED STAGE 3 COVERAGE LEDGER
 - Selected repair direction: Cryptographic hash literacy, tamper evidence, and security boundary reasoning
-- Latest completed Specification Review: `reviews/sprint-22-specification-review.md`
-- Completed post-Sprint-22 planning review: `reviews/post-sprint-22-stage-3-planning-review.md`
+- Latest completed Specification Review: `reviews/archive/planning/sprint-22-specification-review.md`
+- Completed post-Sprint-22 planning review: `reviews/archive/planning/post-sprint-22-stage-3-planning-review.md`
 - Accepted next-direction planning recommendation: Public-Key Roles, Digital Signatures, And Verification Boundaries
 - Sprint-22: PASS WITH NOTES / CLOSED
 - Stage 4 / Solana execution: Unauthorized

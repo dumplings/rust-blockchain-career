@@ -7,7 +7,7 @@
 - Stage: Stage 2 - Rust Engineering / Stage 2.5 bridge work
 - Learning project: `rust_core_fluency_lab`
 - Learning project path: `/Users/dumplings/workspace/rust_core_fluency_lab`
-- Governance roadmap: `roadmaps/sprint-17.md`
+- Governance roadmap: `roadmaps/archive/sprint-17.md`
 - Governance repository: `/Users/dumplings/workspace/rust-blockchain-career`
 - Closure date: 2026-06-30
 - Final status: PASS WITH NOTES / CLOSED

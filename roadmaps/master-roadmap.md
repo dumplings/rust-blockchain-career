@@ -262,7 +262,7 @@ Stage 2.5 may contain one or more separately approved bridge units, sprints, or 
 Topic-level coverage and recommended bridge structure remain in:
 
 - `reviews/rust-core-coverage-matrix.md`;
-- `reviews/stage-2-5-bridge-specification.md`.
+- `reviews/archive/planning/stage-2-5-bridge-specification.md`.
 
 Any bridge-unit or sprint roadmap requires a separate approved workflow.
 

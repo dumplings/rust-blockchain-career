@@ -20,7 +20,7 @@ This Specification Review evaluates the Architect-selected first Stage 3 repair 
 - Sprint-21 — Mini Blockchain Data Model And Validation: PASS WITH NOTES / CLOSED
 - Active learning sprint: None
 - Teacher execution window: Closed / inactive
-- Accepted external-alignment baseline: `reviews/stage-3-4-external-alignment-audit.md`
+- Accepted external-alignment baseline: `reviews/archive/planning/stage-3-4-external-alignment-audit.md`
 - Accepted initial Stage 3 coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
 - Selected Stage 3 repair boundary: Cryptographic hash literacy, tamper evidence, and security boundary reasoning
 - Sprint-22 roadmap: Does not exist
@@ -34,11 +34,11 @@ Sprint-16 remains stopped before completion, incomplete, unclosed, and without c
 - `CONTEXT.md`
 - `TODO.md`
 - `roadmaps/master-roadmap.md`
-- `reviews/stage-3-repair-direction-decision.md`
-- `reviews/stage-3-4-external-alignment-audit.md`
+- `reviews/archive/planning/stage-3-repair-direction-decision.md`
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md`
 - `reviews/stage-3-blockchain-coverage-ledger.md`
 - `reviews/sprint-21-closure.md`
-- `roadmaps/sprint-21.md`
+- `roadmaps/archive/sprint-21.md`
 - `docs/policies/lifecycle-policy.md`
 - `docs/policies/learning-execution-policy.md`
 - `templates/specification-review-template.md`
@@ -93,7 +93,7 @@ The sprint also must not absorb later Stage 3 units on keys and signatures, tran
 
 ## External Baseline And Job-Transfer Target
 
-- Authoritative source or recognized benchmark: `reviews/stage-3-4-external-alignment-audit.md`; [Bitcoin Block Chain Guide](https://developer.bitcoin.org/devguide/block_chain.html); [Ethereum Blocks](https://ethereum.org/developers/docs/blocks/); [Solana Core Concepts](https://solana.com/docs/core) for later dependency context only; current official documentation for any library or published test vector selected by a future roadmap.
+- Authoritative source or recognized benchmark: `reviews/archive/planning/stage-3-4-external-alignment-audit.md`; [Bitcoin Block Chain Guide](https://developer.bitcoin.org/devguide/block_chain.html); [Ethereum Blocks](https://ethereum.org/developers/docs/blocks/); [Solana Core Concepts](https://solana.com/docs/core) for later dependency context only; current official documentation for any library or published test vector selected by a future roadmap.
 - Real-world concept or workflow: cryptographic hash linkage, tamper-evidence verification, content-derived identifiers or commitment-style reasoning, canonical inputs, and the security boundary around blockchain data integrity.
 - Toy or simplification boundary: no primitive implementation, production security claim, wallet or signature implementation, network, consensus, production blockchain, or Solana execution.
 - Transferable engineering capability: explain hash security properties precisely, reject false security claims, use source-backed terminology, reason about canonical inputs, select reviewed dependencies, and identify what digest verification does and does not prove.

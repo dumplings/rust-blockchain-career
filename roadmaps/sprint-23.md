@@ -64,11 +64,11 @@ later topics are dependency context, not Sprint-23 execution scope.
 This roadmap is based on:
 
 - `reviews/sprint-23-specification-review.md`;
-- `reviews/post-sprint-22-stage-3-planning-review.md`;
+- `reviews/archive/planning/post-sprint-22-stage-3-planning-review.md`;
 - `reviews/sprint-22-closure.md`;
 - `reviews/stage-3-blockchain-coverage-ledger.md`;
 - `reviews/rust-core-coverage-matrix.md`;
-- `reviews/stage-3-4-external-alignment-audit.md`;
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md`;
 - `roadmaps/master-roadmap.md`.
 
 Sprint-22 provides durable exact-byte, canonical-input, hash-boundary, and

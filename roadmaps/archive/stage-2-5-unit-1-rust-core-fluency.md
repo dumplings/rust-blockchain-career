@@ -3,7 +3,7 @@
 ## 1. Proposal Identity
 
 - Document type: Bridge-unit roadmap proposal
-- Status: Approved as the drafting basis for `roadmaps/sprint-16.md`; superseded as the active roadmap
+- Status: Approved as the drafting basis for `roadmaps/archive/sprint-16.md`; superseded as the active roadmap
 - Current stage: Stage 2.5 — Rust Core Philosophy Bridge (proposal placement only)
 - Durable active repository stage at drafting: Stage 2 — Rust Engineering
 - Current sprint: None active
@@ -12,10 +12,10 @@
 - Sprint-17: PASS WITH NOTES / CLOSED under a separate completion boundary
 - Execution status: No current execution
 - Stage 3 transition: Not authorized
-- Source specification: `reviews/stage-2-5-bridge-specification.md`
+- Source specification: `reviews/archive/planning/stage-2-5-bridge-specification.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 
-This document records the source proposal that the learner approved as the basis for `roadmaps/sprint-16.md`. Sprint-16 execution later began and was stopped before completion. The formal roadmap remains the authoritative Sprint-16 scope record. Sprint-17 later established a separate completion boundary and independently validated the Rust Core Fluency topic group. This supports topic-level coverage for closures and iterators, systematic pattern matching, and collection ownership behavior, but it does not complete Sprint-16, the original Unit 1 execution boundary, or Stage 2.5.
+This document records the source proposal that the learner approved as the basis for `roadmaps/archive/sprint-16.md`. Sprint-16 execution later began and was stopped before completion. The formal roadmap remains the authoritative Sprint-16 scope record. Sprint-17 later established a separate completion boundary and independently validated the Rust Core Fluency topic group. This supports topic-level coverage for closures and iterators, systematic pattern matching, and collection ownership behavior, but it does not complete Sprint-16, the original Unit 1 execution boundary, or Stage 2.5.
 
 ## 2. Purpose
 
@@ -379,11 +379,11 @@ Unit 2 remains only a recommended bridge direction in the source specification. 
 
 This proposal file is not the formal Sprint-16 roadmap.
 
-The learner subsequently approved Unit 1 as Sprint-16 and authorized creation of the formal roadmap at `roadmaps/sprint-16.md`.
+The learner subsequently approved Unit 1 as Sprint-16 and authorized creation of the formal roadmap at `roadmaps/archive/sprint-16.md`.
 
 Sprint-16 execution stopped before completion. Sprint-16 is not complete or closed, and its progress remains partial and unvalidated.
 
-The learner accepted the expanded distribution in `reviews/stage-2-5-remaining-coverage-review.md` and later completed Sprint-17 with PASS WITH NOTES. Sprint-17 evidence belongs to its separate completion boundary and does not change Sprint-16 completion state or retroactively complete the original Unit 1 execution boundary.
+The learner accepted the expanded distribution in `reviews/archive/planning/stage-2-5-remaining-coverage-review.md` and later completed Sprint-17 with PASS WITH NOTES. Sprint-17 evidence belongs to its separate completion boundary and does not change Sprint-16 completion state or retroactively complete the original Unit 1 execution boundary.
 
 The existing `/Users/dumplings/workspace/rust_core_fluency_lab` project is not inspected, validated, or modified by this governance update.
 
@@ -400,4 +400,4 @@ This proposal synchronization does not:
 - authorize Stage 3 transition;
 - modify any learning-project repository.
 
-Final proposal status: Approved as the drafting basis and superseded by `roadmaps/sprint-16.md`. Sprint-16 stopped before completion with partial unvalidated progress. Sprint-17 later validated the Rust Core Fluency topic group separately; Stage 2.5 remains incomplete.
+Final proposal status: Approved as the drafting basis and superseded by `roadmaps/archive/sprint-16.md`. Sprint-16 stopped before completion with partial unvalidated progress. Sprint-17 later validated the Rust Core Fluency topic group separately; Stage 2.5 remains incomplete.

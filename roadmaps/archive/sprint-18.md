@@ -6,7 +6,7 @@
 - Sprint title: `Lifetimes And Borrowing Topology`
 - Lifecycle status: Accepted / not started
 - Stage relationship: Stage 2.5 — Rust Core Philosophy Bridge
-- Source Specification Review: `reviews/sprint-18-specification-review.md`
+- Source Specification Review: `reviews/archive/planning/sprint-18-specification-review.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 - Candidate learning project: `rust_lifetime_topology_lab`
 - Candidate project path: `/Users/dumplings/workspace/rust_lifetime_topology_lab`

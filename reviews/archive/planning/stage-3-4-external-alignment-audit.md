@@ -38,12 +38,12 @@ The audit inspected:
 - `CONTEXT.md`;
 - `TODO.md`;
 - `roadmaps/master-roadmap.md`;
-- `roadmaps/sprint-21.md`;
+- `roadmaps/archive/sprint-21.md`;
 - `reviews/sprint-21-closure.md`;
 - `reviews/stage-2-5-exit-review.md`;
 - `reviews/rust-core-coverage-matrix.md`;
-- `reviews/rust-curriculum-coverage-audit.md`;
-- `reviews/stage-2-5-bridge-specification.md`;
+- `reviews/archive/planning/rust-curriculum-coverage-audit.md`;
+- `reviews/archive/planning/stage-2-5-bridge-specification.md`;
 - `docs/policies/lifecycle-policy.md`;
 - `docs/policies/learning-execution-policy.md`;
 - `docs/policies/lifecycle-policy.md`;

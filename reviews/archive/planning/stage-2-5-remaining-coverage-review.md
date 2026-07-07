@@ -12,8 +12,8 @@
 - Stage 3 transition: Not authorized
 - Sprint-17: PASS WITH NOTES / CLOSED under a separate completion boundary
 - Sprint-18: Directional only; not drafted, not scoped, and not authorized
-- Source roadmap: `roadmaps/sprint-16.md`
-- Source bridge specification: `reviews/stage-2-5-bridge-specification.md`
+- Source roadmap: `roadmaps/archive/sprint-16.md`
+- Source bridge specification: `reviews/archive/planning/stage-2-5-bridge-specification.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 
 This review determined how remaining Stage 2.5 coverage should be distributed before Sprint-17 roadmap drafting. The learner accepted its expanded distribution as the drafting direction. It remains a planning review, not a sprint roadmap, execution authorization, validation report, or closure.
@@ -220,7 +220,7 @@ This recommendation changes the planning distribution, not the Stage 2.5 capabil
 
 ## 8. Sprint-17 Planning Guidance
 
-This section supplied planning guidance for `roadmaps/sprint-17.md`. The learner later accepted that roadmap for future Teacher execution; execution has not started.
+This section supplied planning guidance for `roadmaps/archive/sprint-17.md`. The learner later accepted that roadmap for future Teacher execution; execution has not started.
 
 A future Sprint-17 should:
 
@@ -269,7 +269,7 @@ Passing compiler or test commands alone must not substitute for the required lea
 
 The learner accepted the expanded Stage 2.5 distribution as the direction for drafting Sprint-17.
 
-`roadmaps/sprint-17.md` now records the proposed scope, checkpoints, preferred project boundary, tests, and validation requirements.
+`roadmaps/archive/sprint-17.md` now records the proposed scope, checkpoints, preferred project boundary, tests, and validation requirements.
 
 The learner accepted the Sprint-17 roadmap after this review. Sprint-17 later completed and closed with PASS WITH NOTES; `reviews/sprint-17-closure.md` is the authoritative completion record.
 

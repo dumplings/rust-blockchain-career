@@ -8,7 +8,7 @@
 * Primary project: `rust_mechanics_lab`
 * Learning-project root: `/Users/dumplings/workspace/rust_mechanics_lab`
 * Governance repository root: `/Users/dumplings/workspace/rust-blockchain-career`
-* Roadmap target file: `roadmaps/sprint-14.md`
+* Roadmap target file: `roadmaps/archive/sprint-14.md`
 * Sprint status: Draft only
 * Execution status: Not started
 * Authorization status: Not authorized for execution
@@ -564,7 +564,7 @@ Codex should verify:
 * `task_tracker` was not converted into a teaching project;
 * no Sprint-07 Attempt-1 work was reused or credited.
 
-If the governance repository is later updated with `roadmaps/sprint-14.md`, validate separately:
+If the governance repository is later updated with `roadmaps/archive/sprint-14.md`, validate separately:
 
 `/Users/dumplings/workspace/rust-blockchain-career`
 
@@ -713,7 +713,7 @@ Learning-project repository:
 
 These repositories must be validated separately.
 
-If `roadmaps/sprint-14.md` is later added to the governance repository, that is a governance repository update and should be validated against the governance repository root.
+If `roadmaps/archive/sprint-14.md` is later added to the governance repository, that is a governance repository update and should be validated against the governance repository root.
 
 If `rust_mechanics_lab` is created or modified during Sprint-14 execution, that is a learning-project update and should be validated against the learning-project root.
 

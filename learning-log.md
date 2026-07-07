@@ -184,7 +184,7 @@ Sprint-07 produced governance improvements rather than completed learning outcom
 Relevant governance outputs:
 
 - `AGENTS.md` structural rewrite;
-- `roadmaps/sprint-07.md` abnormal sprint record;
+- `roadmaps/archive/sprint-07.md` abnormal sprint record;
 - `reviews/sprint-07-attempt-1-failure-review.md`.
 
 Repository / Project Status:
@@ -230,7 +230,8 @@ Repository Structure:
 - `docs/policies/` for role-specific and workflow-specific governance policies;
 - `docs/agents/` for agent startup, takeover, and bootstrap documents;
 - `docs/runbooks/` for human-facing operating manuals;
-- `docs/README.md` for the documentation directory map.
+- a documentation directory map later removed during Governance Simplification
+  v2 Phase 2A; detailed history remains available through Git.
 
 Purpose:
 
@@ -444,7 +445,7 @@ Stage 1 - Rust Foundations
 
 Repository Asset:
 
-- `roadmaps/sprint-10.md`
+- `roadmaps/archive/sprint-10.md`
 
 Planning Summary:
 
@@ -464,7 +465,7 @@ Governance Notes:
 Next Focus:
 
 - Review and commit Sprint-10 roadmap and current-state governance updates.
-- Decide whether to explicitly authorize Sprint-10 execution from `roadmaps/sprint-10.md`.
+- Decide whether to explicitly authorize Sprint-10 execution from `roadmaps/archive/sprint-10.md`.
 
 ### Sprint-10 Completion
 
@@ -600,7 +601,7 @@ This planning entry was later superseded by the completed Stage 1 Exit Assessmen
 
 Repository Asset:
 
-- `roadmaps/stage-1-exit-assessment.md`
+- `roadmaps/archive/stage-1-exit-assessment.md`
 
 Governance Assets Updated:
 
@@ -636,7 +637,7 @@ PASS / CLOSED - Advance To Stage 2
 
 Repository Assets:
 
-- `roadmaps/stage-1-exit-assessment.md`
+- `roadmaps/archive/stage-1-exit-assessment.md`
 - `reviews/stage-1-exit-assessment.md`
 
 Assessment Project:
@@ -839,7 +840,7 @@ This planning status was later superseded by the completed Sprint-15 record belo
 
 Repository Asset:
 
-- `roadmaps/sprint-15.md`
+- `roadmaps/archive/sprint-15.md`
 
 Planning Summary:
 
@@ -1192,7 +1193,7 @@ The learner accepted the Sprint-21 roadmap, `Mini Blockchain Data Model And Vali
 
 ### Sprint-21 Execution Start
 
-The learner gave an explicit execution-start command in the Teacher window. Sprint-21 is active and in progress under `roadmaps/sprint-21.md`, Checkpoint 1 has started, and the `mini_blockchain` learning project has been created. Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope. Sprint-21 is not complete or closed, and its non-goals remain outside the execution authorization.
+The learner gave an explicit execution-start command in the Teacher window. Sprint-21 is active and in progress under `roadmaps/archive/sprint-21.md`, Checkpoint 1 has started, and the `mini_blockchain` learning project has been created. Stage 3 learning execution is authorized only within the accepted Sprint-21 roadmap scope. Sprint-21 is not complete or closed, and its non-goals remain outside the execution authorization.
 
 ## 2026-07-04
 
@@ -1244,7 +1245,7 @@ No sprint is active. Stage 3 Blockchain Foundations has started, Sprint-21 is cl
 
 A web-verified curriculum alignment audit and a separate Stage 3 blockchain coverage ledger were created:
 
-- `reviews/stage-3-4-external-alignment-audit.md`;
+- `reviews/archive/planning/stage-3-4-external-alignment-audit.md`;
 - `reviews/stage-3-blockchain-coverage-ledger.md`.
 
 The audit confirmed that the Master Roadmap has the correct high-level order but lacks a sufficiently explicit external baseline, concept dependency sequence, toy-to-real progression, and positive job-transfer target for Stage 3 and Stage 4 planning.
@@ -1255,7 +1256,7 @@ Sprint-22 planning is paused pending learner or Architect review of the audit an
 
 ### External Alignment Baseline Acceptance
 
-The learner and Architect accepted `reviews/stage-3-4-external-alignment-audit.md` as the Stage 3 / Stage 4 external-alignment planning baseline and `reviews/stage-3-blockchain-coverage-ledger.md` as the initial Stage 3 blockchain coverage ledger.
+The learner and Architect accepted `reviews/archive/planning/stage-3-4-external-alignment-audit.md` as the Stage 3 / Stage 4 external-alignment planning baseline and `reviews/stage-3-blockchain-coverage-ledger.md` as the initial Stage 3 blockchain coverage ledger.
 
 The ledger remains Stage 3-specific and separate from `reviews/rust-core-coverage-matrix.md`. Sprint-22 planning remains paused until the Stage 3 repair direction and first unresolved capability boundary are selected. No learning execution, Teacher window, Stage 4 work, or Solana execution is authorized.
 
@@ -1269,9 +1270,9 @@ Under learner-delegated direction authority, the Architect selected the first un
 
 `Cryptographic hash literacy, tamper evidence, and security boundary reasoning`
 
-The decision is recorded in `reviews/stage-3-repair-direction-decision.md`. The candidate direction is `Sprint-22 — Cryptographic Hash Literacy And Tamper Evidence`.
+The decision is recorded in `reviews/archive/planning/stage-3-repair-direction-decision.md`. The candidate direction is `Sprint-22 — Cryptographic Hash Literacy And Tamper Evidence`.
 
-`reviews/sprint-22-specification-review.md` was created. It recommends concept-first teaching followed by a small bounded Rust lab only when the lab improves transfer; an equivalent applied written artifact remains an acceptable fallback. Implementation-heavy work is not recommended.
+`reviews/archive/planning/sprint-22-specification-review.md` was created. It recommends concept-first teaching followed by a small bounded Rust lab only when the lab improves transfer; an equivalent applied written artifact remains an acceptable fallback. Implementation-heavy work is not recommended.
 
 No Sprint-22 roadmap was created or authorized. Sprint-22 is not accepted, active, or authorized; no Teacher window or learning project exists. Stage 4 and Solana execution remain unauthorized.
 
@@ -1279,13 +1280,13 @@ No Sprint-22 roadmap was created or authorized. Sprint-22 is not accepted, activ
 
 The learner and Architect accepted the Stage 3 repair direction and Sprint-22 Specification Review as drafting input, then authorized an exceptional Architect-led roadmap drafting step. This bounded intervention addresses Stage 3 repair, external alignment, toy-project realism, and job-transfer calibration after Sprint-21; it does not change Teacher ownership of normal sprint roadmap design.
 
-`roadmaps/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`, was created as DRAFT / NOT ACCEPTED / NOT ACTIVE. It uses concept-first ordering and requires a small bounded future Rust lab, `crypto_hash_literacy_lab`, as subordinate applied evidence. A pure written replacement would require an Architect-approved roadmap revision before execution.
+`roadmaps/archive/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`, was created as DRAFT / NOT ACCEPTED / NOT ACTIVE. It uses concept-first ordering and requires a small bounded future Rust lab, `crypto_hash_literacy_lab`, as subordinate applied evidence. A pure written replacement would require an Architect-approved roadmap revision before execution.
 
 Sprint-22 execution remains unauthorized, the Teacher window remains closed / inactive, and no learning project was created or modified. The Stage 3 coverage ledger was not changed. Stage 4 and Solana execution remain unauthorized.
 
 ### Sprint-22 Roadmap Acceptance
 
-The learner and Architect accepted `roadmaps/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`.
+The learner and Architect accepted `roadmaps/archive/sprint-22.md`, `Cryptographic Hash Literacy And Tamper Evidence`.
 
 Sprint-22 is ACCEPTED / NOT STARTED / NOT ACTIVE. Execution remains unauthorized, the Teacher window remains closed / inactive, and `crypto_hash_literacy_lab` has not been created. No learning-project source was modified, and the Stage 3 coverage ledger was not updated as though Sprint-22 learning had occurred.
 
@@ -1360,7 +1361,7 @@ The next Stage 3 / Stage 4 planning review should also perform a bounded Rust de
 
 ### Post-Sprint-22 Stage 3 Planning Review
 
-`reviews/post-sprint-22-stage-3-planning-review.md` records the completed dependency-order, external-alignment, job-transfer, and bounded Rust readiness review. It recommends `Public-Key Roles, Digital Signatures, And Verification Boundaries` as the next cohesive Stage 3 capability boundary for learner or Architect review.
+`reviews/archive/planning/post-sprint-22-stage-3-planning-review.md` records the completed dependency-order, external-alignment, job-transfer, and bounded Rust readiness review. It recommends `Public-Key Roles, Digital Signatures, And Verification Boundaries` as the next cohesive Stage 3 capability boundary for learner or Architect review.
 
 The broader hypothesis `keys / addresses / wallets / accounts / signatures` was judged directionally correct but too broad for one sprint. Addresses, wallets, custody, and accounts remain later or comparison-only concerns until the key-role and signature-verification foundation is stable. The external-baseline and job-transfer quality assessment passed for further Specification Review, and the Rust audit concluded `READY WITH JUST-IN-TIME SUPPORT`; no Rust restart or independent Rust blocker is recommended.
 
@@ -1368,9 +1369,13 @@ This review does not accept a Sprint-23 direction, create a Sprint-23 Specificat
 
 ### Post-Sprint-22 Planning Recommendation Acceptance And Architect Handover
 
-The learner accepted `reviews/post-sprint-22-stage-3-planning-review.md` as the next-direction planning recommendation. The accepted recommended Stage 3 capability boundary is `Public-Key Roles, Digital Signatures, And Verification Boundaries`.
+The learner accepted `reviews/archive/planning/post-sprint-22-stage-3-planning-review.md` as the next-direction planning recommendation. The accepted recommended Stage 3 capability boundary is `Public-Key Roles, Digital Signatures, And Verification Boundaries`.
 
-The current Architect completed a controlled retirement handover at `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`. The next allowed transition is next Architect onboarding and review of the accepted recommendation. A Sprint-23 Specification Review may be created only after explicit learner authorization.
+The current Architect completed a controlled retirement handover. The detailed
+handover was removed during Governance Simplification v2 Phase 2A and remains
+available through Git history. The next allowed transition was next Architect
+onboarding and review of the accepted recommendation. A Sprint-23 Specification
+Review could be created only after explicit learner authorization.
 
 This acceptance does not create or accept Sprint-23, create a Sprint-23 Specification Review or roadmap, authorize learning execution, open a Teacher window, complete Stage 3, or authorize Stage 4 / Solana execution. No learning-project source was modified.
 

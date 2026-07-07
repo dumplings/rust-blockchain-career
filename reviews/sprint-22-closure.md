@@ -5,7 +5,7 @@
 - Sprint: Sprint-22
 - Title: Cryptographic Hash Literacy And Tamper Evidence
 - Stage: Stage 3 — Blockchain Foundations
-- Accepted roadmap: `roadmaps/sprint-22.md`
+- Accepted roadmap: `roadmaps/archive/sprint-22.md`
 - Learning lab: `crypto_hash_literacy_lab`
 - Lab path: `/Users/dumplings/workspace/crypto_hash_literacy_lab`
 - Closure date: 2026-07-07

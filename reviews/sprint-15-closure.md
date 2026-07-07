@@ -7,7 +7,7 @@
 - Stage: Stage 2 - Rust Engineering
 - Learning project: `rust_engineering_assessment`
 - Learning project path: `/Users/dumplings/workspace/rust_engineering_assessment`
-- Governance roadmap: `roadmaps/sprint-15.md`
+- Governance roadmap: `roadmaps/archive/sprint-15.md`
 - Governance repository: `/Users/dumplings/workspace/rust-blockchain-career`
 - Closure date: 2026-06-27
 - Final status: PASS WITH NOTES / CLOSED
@@ -66,7 +66,7 @@ Codex inspected:
 - `src/storage.rs`
 - all tests embedded in `src/record.rs` and `src/store.rs`
 
-Codex also used `roadmaps/sprint-15.md` as the read-only Sprint-15 reference.
+Codex also used `roadmaps/archive/sprint-15.md` as the read-only Sprint-15 reference.
 
 ## 6. Implementation Summary
 

@@ -8,7 +8,7 @@
 - Current stage: Stage 2 - Rust Engineering
 - Current active sprint: None
 - Midpoint evidence: Sprint-15
-- Source audit: `reviews/rust-curriculum-coverage-audit.md`
+- Source audit: `reviews/archive/planning/rust-curriculum-coverage-audit.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 - Decision status: APPROVED WITH GOVERNANCE BOUNDARIES
 
@@ -35,9 +35,9 @@ Sprint-15 is midpoint evidence. It is not Stage 2 exit evidence and does not est
 The review used:
 
 - `roadmaps/master-roadmap.md`;
-- `roadmaps/sprint-15.md`;
+- `roadmaps/archive/sprint-15.md`;
 - `reviews/sprint-15-closure.md`;
-- `reviews/rust-curriculum-coverage-audit.md`;
+- `reviews/archive/planning/rust-curriculum-coverage-audit.md`;
 - `reviews/rust-core-coverage-matrix.md`;
 - `CONTEXT.md`;
 - `TODO.md`;

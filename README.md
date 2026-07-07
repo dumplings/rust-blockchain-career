@@ -26,11 +26,11 @@ This repository is persistent.
 ## Structure
 
 ```text
-docs/        Durable policies and human runbooks
+docs/        Durable lifecycle, learning-execution, and repository-validation policies
 notes/        Study notes and topic summaries
 roadmaps/     Learning roadmaps and sprint plans
 reviews/      Sprint reviews and progress evaluations
-templates/    Reusable templates for logs, notes, specification reviews, sprint reviews, and handovers
+templates/    Reusable templates for logs, notes, specification reviews, and sprint reviews
 assets/       Images, diagrams, screenshots, and exported materials
 ```
 

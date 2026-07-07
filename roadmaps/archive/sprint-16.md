@@ -13,8 +13,8 @@
 - Selected future learning project: `rust_core_fluency_lab`
 - Selected future project path: `/Users/dumplings/workspace/rust_core_fluency_lab`
 - Project status: Created during authorized Sprint-16 execution; not inspected or modified by this governance update
-- Source proposal: `roadmaps/stage-2-5-unit-1-rust-core-fluency.md`
-- Source specification: `reviews/stage-2-5-bridge-specification.md`
+- Source proposal: `roadmaps/archive/stage-2-5-unit-1-rust-core-fluency.md`
+- Source specification: `reviews/archive/planning/stage-2-5-bridge-specification.md`
 - Coverage reference: `reviews/rust-core-coverage-matrix.md`
 - Later topic-evidence boundary: Sprint-17 PASS WITH NOTES / CLOSED; no Sprint-16 completion effect
 - Stage 3 transition: Not authorized
@@ -500,7 +500,7 @@ At roadmap acceptance time, the learner agreed to this provisional directional s
 
 Recording this sequence does not create, draft, scope, or authorize Sprint-17 or Sprint-18. Each later sprint requires its own approved roadmap workflow.
 
-This provisional sequence was superseded by `reviews/stage-2-5-remaining-coverage-review.md`. Under the later distribution, Sprint-17 became the separate Rust Core Fluency consolidation sprint and is now PASS WITH NOTES / CLOSED. Sprint-18 Lifetimes And Borrowing Topology, Sprint-19 Smart Pointers And Interior Mutability, and Sprint-20 Engineering Contract Consolidation remain planning recommendations only; they are not drafted, scoped, accepted, or authorized.
+This provisional sequence was superseded by `reviews/archive/planning/stage-2-5-remaining-coverage-review.md`. Under the later distribution, Sprint-17 became the separate Rust Core Fluency consolidation sprint and is now PASS WITH NOTES / CLOSED. Sprint-18 Lifetimes And Borrowing Topology, Sprint-19 Smart Pointers And Interior Mutability, and Sprint-20 Engineering Contract Consolidation remain planning recommendations only; they are not drafted, scoped, accepted, or authorized.
 
 Sprint-16 should prepare the learner for Unit 2. Sprint-16 does not authorize Unit 2 and does not authorize Stage 3 transition.
 
@@ -524,7 +524,7 @@ Current state:
 
 The remaining Rust Core Fluency topic group was redistributed through the accepted Stage 2.5 remaining-coverage process. It was not treated as an automatic Sprint-16 continuation.
 
-The learner accepted the expanded distribution in `reviews/stage-2-5-remaining-coverage-review.md` and later completed Sprint-17 with PASS WITH NOTES. Sprint-17 established a separate completion boundary and independently validated closures and iterators, systematic pattern matching, and collection ownership behavior. This topic-level evidence does not continue, complete, or close Sprint-16 and does not complete the original Unit 1 execution boundary.
+The learner accepted the expanded distribution in `reviews/archive/planning/stage-2-5-remaining-coverage-review.md` and later completed Sprint-17 with PASS WITH NOTES. Sprint-17 established a separate completion boundary and independently validated closures and iterators, systematic pattern matching, and collection ownership behavior. This topic-level evidence does not continue, complete, or close Sprint-16 and does not complete the original Unit 1 execution boundary.
 
 Sprint-18, Sprint-19, and Sprint-20 remain planning recommendations only; they are not drafted, scoped, accepted, or authorized. Stage 2.5 remains incomplete, and Stage 3 transition remains unauthorized.
 

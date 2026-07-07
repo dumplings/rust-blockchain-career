@@ -206,7 +206,7 @@ This Specification Review does not authorize Sprint-18 execution.
 
 This review does not:
 
-- create `roadmaps/sprint-18.md`;
+- create `roadmaps/archive/sprint-18.md`;
 - authorize Sprint-18 execution;
 - authorize learning-project creation or modification;
 - authorize Stage 3 transition;

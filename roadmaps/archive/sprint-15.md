@@ -9,7 +9,7 @@
 * Recommended internal theme: `record_store`
 * Recommended learning-project root: `/Users/dumplings/workspace/rust_engineering_assessment`
 * Governance repository root: `/Users/dumplings/workspace/rust-blockchain-career`
-* Roadmap target file: `roadmaps/sprint-15.md`
+* Roadmap target file: `roadmaps/archive/sprint-15.md`
 * Sprint status: Draft only
 * Execution status: Not started
 * Authorization status: Not authorized for execution
@@ -753,7 +753,7 @@ Codex should verify:
 * `task_tracker` was not converted into a teaching project;
 * no Sprint-07 Attempt-1 work was reused or credited.
 
-If the governance repository is updated with `roadmaps/sprint-15.md`, validate separately:
+If the governance repository is updated with `roadmaps/archive/sprint-15.md`, validate separately:
 
 `/Users/dumplings/workspace/rust-blockchain-career`
 
@@ -947,7 +947,7 @@ Saving this roadmap is a governance repository update.
 
 Creating or modifying the learning project is not authorized by saving this roadmap.
 
-If `roadmaps/sprint-15.md` is updated in the governance repository, validation should target:
+If `roadmaps/archive/sprint-15.md` is updated in the governance repository, validation should target:
 
 `/Users/dumplings/workspace/rust-blockchain-career`
 
