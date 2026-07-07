@@ -1,6 +1,6 @@
 # Current Tasks
 
-## Next Architect Onboarding / Optional Specification Review
+## Sprint-23 Specification Review / Optional Roadmap Drafting
 
 Sprint-22, `Cryptographic Hash Literacy And Tamper Evidence`, is PASS WITH NOTES /
 CLOSED. Its closure is recorded in `reviews/sprint-22-closure.md`.
@@ -14,33 +14,37 @@ Current boundary:
 - Sprint-22 is PASS WITH NOTES / CLOSED;
 - `crypto_hash_literacy_lab` exists with no active execution;
 - the Teacher execution window is closed / inactive;
-- the next-direction planning recommendation is accepted, but Sprint-23 has not
-  been created or accepted and no Specification Review, roadmap, or execution
+- the Sprint-23 Specification Review is PASS WITH NOTES / READY FOR ROADMAP
+  DRAFTING AFTER SEPARATE LEARNER AUTHORIZATION;
+- no Sprint-23 roadmap, roadmap acceptance, learning execution, or Teacher-window
   authorization exists;
 - Stage 4 and Solana execution remain unauthorized.
 
-The learner accepted `reviews/post-sprint-22-stage-3-planning-review.md` as the
-next-direction planning recommendation:
+The learner authorized creation of `reviews/sprint-23-specification-review.md`
+for the accepted next-direction planning recommendation:
 
 - `reviews/post-sprint-22-stage-3-planning-review.md` recommends
   `Public-Key Roles, Digital Signatures, And Verification Boundaries` as the
   next cohesive capability boundary;
 - the Architect hypothesis `keys / addresses / wallets / accounts / signatures`
   was judged directionally correct but too broad for one sprint;
-- the external-baseline and job-transfer quality assessment passed for further
-  Specification Review, without authorizing that review;
+- the Sprint-23 Specification Review passed the external-baseline and
+  job-transfer quality gate;
 - the bounded Rust dependency-readiness result is `READY WITH JUST-IN-TIME
-  SUPPORT`, with no Rust restart or independent Rust blocker.
+  SUPPORT`, with no Rust restart or independent Rust blocker;
+- the preferred dependency candidate is pinned as
+  `ed25519-dalek = "=2.2.0"`, with local build/test verification required during
+  roadmap drafting or before execution.
 
 The latest Architect retirement handover is
 `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`.
 
-The next allowed action is next Architect onboarding and review of the accepted
-recommendation. If the learner later gives explicit authorization, the next
-Architect may create or request a Sprint-23 Specification Review for the accepted
-recommended boundary only. Do not create that Specification Review automatically.
-Do not create a Sprint-23 roadmap, accept or start a sprint, open a Teacher window,
-or authorize Stage 4 / Solana execution by implication.
+The next allowed action is learner review of
+`reviews/sprint-23-specification-review.md`. If the learner accepts the review,
+the learner may separately and explicitly authorize Sprint-23 roadmap drafting.
+Do not create the roadmap automatically. Do not accept or start Sprint-23, open a
+Teacher window, begin checkpoint work, or authorize Stage 4 / Solana execution by
+implication.
 
 Carry-forward for the next Architect or Teacher:
 
@@ -60,4 +64,5 @@ Carry-forward for the next Architect or Teacher:
   as learner-authored evidence;
 - keep the Stage 3 blockchain coverage ledger separate from the Rust Core Coverage
   Matrix;
-- do not create or authorize Sprint-23 by implication.
+- do not create a Sprint-23 roadmap or accept, start, or authorize Sprint-23
+  execution by implication.
