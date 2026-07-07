@@ -39,17 +39,19 @@ No active learning sprint or Teacher execution window exists. Sprint-22 closure 
 
 - Governance simplification: Accepted and complete
 - Accepted governance baseline: Stage 3 / Stage 4 external alignment audit and updated Stage 3 blockchain coverage ledger
-- Selected Stage 3 repair direction: Cryptographic hash literacy, tamper evidence, and security boundary reasoning
-- Active governance decision: Post-Sprint-22 Stage 3 planning review; no next sprint exists or is authorized by implication
+- Completed Stage 3 repair direction: Cryptographic hash literacy, tamper evidence, and security boundary reasoning
+- Completed planning review: `reviews/post-sprint-22-stage-3-planning-review.md`
+- Accepted next-direction planning recommendation: Public-key roles, digital signatures, and verification boundaries
+- Active governance transition: Next Architect onboarding; an optional Sprint-23 Specification Review requires explicit learner authorization
 - Canonical browser launch prompts are available for Architect and Teacher windows.
 - Codex is the repository evidence bridge for browser-based roles.
 - Decision record: `reviews/governance-simplification-decision-2026-06-30.md`
 - Stage 3 repair-direction decision: `reviews/stage-3-repair-direction-decision.md`
-- Latest governance review: `reviews/sprint-22-specification-review.md`
+- Latest governance review: `reviews/post-sprint-22-stage-3-planning-review.md`
 - Current Stage 3 coverage ledger: `reviews/stage-3-blockchain-coverage-ledger.md`
 - Latest sprint closure: `reviews/sprint-22-closure.md`
-- Latest Architect handover: `reviews/architect-retirement-handover-2026-07-02-post-stage-2-5-exit.md`
-- Architect planning responsibility: Post-Sprint-22 Stage 3 planning review
+- Latest Architect handover: `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`
+- Architect planning responsibility: Inherit the accepted recommendation and wait for explicit learner authorization before creating or requesting a Sprint-23 Specification Review
 
 ## Authoritative Active Files
 
@@ -71,6 +73,8 @@ No active learning sprint or Teacher execution window exists. Sprint-22 closure 
 - Sprint-22 accepted roadmap: `roadmaps/sprint-22.md`
 - Sprint-22 interview-prep pack: `interview-prep/sprints/sprint-22-cryptographic-hash-literacy-and-tamper-evidence.md`
 - Latest completed sprint evidence: `reviews/sprint-22-closure.md`
+- Latest Stage 3 planning review: `reviews/post-sprint-22-stage-3-planning-review.md`
+- Latest Architect retirement handover: `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`
 - Stage 2.5 exit decision: `reviews/stage-2-5-exit-review.md`
 
 ## Current Coverage State
@@ -117,9 +121,9 @@ No active learning sprint or Teacher execution window exists. Sprint-22 closure 
 
 ## Next Allowed Transition
 
-The next allowed transition is a post-Sprint-22 Stage 3 planning review using `reviews/sprint-22-closure.md`, the updated Stage 3 coverage ledger, and the accepted external-alignment baseline.
+The learner accepted `reviews/post-sprint-22-stage-3-planning-review.md` as the next-direction planning recommendation. The accepted recommended boundary is `Public-Key Roles, Digital Signatures, And Verification Boundaries`. The next allowed transition is next Architect onboarding and review of the accepted recommendation. A Sprint-23 Specification Review may be created only after explicit learner authorization.
 
-No Sprint-23 direction, Specification Review, roadmap, acceptance, execution, or Teacher window is authorized by this closure. Stage 3 remains incomplete. Stage 4 and Solana execution remain unauthorized.
+The recommendation acceptance does not create or accept Sprint-23. No Sprint-23 Specification Review, roadmap, acceptance, execution, or Teacher window exists or is authorized. Stage 3 remains incomplete. Stage 4 and Solana execution remain unauthorized.
 
 ## Conditional Historical Evidence
 

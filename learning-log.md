@@ -1349,3 +1349,27 @@ Closure Notes:
 Next Status:
 
 No sprint is active. Stage 3 remains started and incomplete. The next allowed action is a post-Sprint-22 Stage 3 planning review; no Sprint-23 or Stage 4 / Solana execution is authorized by implication.
+
+### Sprint-22 Positive Teaching Pattern
+
+The learner reported that the final Sprint-22 teaching style, knowledge density, and pacing were highly satisfactory. Future Teachers should reuse this pattern when it fits the accepted sprint: begin with a compact prerequisite inventory, explain concepts Chinese-first with English technical terminology scaffolded inline, stabilize concepts before bounded implementation, use source-backed and locally verified dependency examples, reinforce Rust just in time, validate through scenarios, and keep job-transfer and interview relevance explicit.
+
+This is positive teaching-pattern evidence, not a failure note or a requirement to reproduce Sprint-22 mechanically. Future Teachers should preserve the principles while adapting checkpoint size and implementation depth to the accepted scope and learner feedback.
+
+The next Stage 3 / Stage 4 planning review should also perform a bounded Rust dependency-readiness audit against authoritative Rust sources. The audit should classify hidden support concepts as must-teach-before-sprint, just-in-time checkpoint support, carry-forward reinforcement, or future-only without reopening all Rust learning or forcing a full Rust restart.
+
+### Post-Sprint-22 Stage 3 Planning Review
+
+`reviews/post-sprint-22-stage-3-planning-review.md` records the completed dependency-order, external-alignment, job-transfer, and bounded Rust readiness review. It recommends `Public-Key Roles, Digital Signatures, And Verification Boundaries` as the next cohesive Stage 3 capability boundary for learner or Architect review.
+
+The broader hypothesis `keys / addresses / wallets / accounts / signatures` was judged directionally correct but too broad for one sprint. Addresses, wallets, custody, and accounts remain later or comparison-only concerns until the key-role and signature-verification foundation is stable. The external-baseline and job-transfer quality assessment passed for further Specification Review, and the Rust audit concluded `READY WITH JUST-IN-TIME SUPPORT`; no Rust restart or independent Rust blocker is recommended.
+
+This review does not accept a Sprint-23 direction, create a Sprint-23 Specification Review or roadmap, authorize learning execution, open a Teacher window, modify a learning project, complete Stage 3, or authorize Stage 4 / Solana execution. The next allowed action is learner or Architect review of the recommendation and a separate decision on whether to authorize a Specification Review.
+
+### Post-Sprint-22 Planning Recommendation Acceptance And Architect Handover
+
+The learner accepted `reviews/post-sprint-22-stage-3-planning-review.md` as the next-direction planning recommendation. The accepted recommended Stage 3 capability boundary is `Public-Key Roles, Digital Signatures, And Verification Boundaries`.
+
+The current Architect completed a controlled retirement handover at `reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`. The next allowed transition is next Architect onboarding and review of the accepted recommendation. A Sprint-23 Specification Review may be created only after explicit learner authorization.
+
+This acceptance does not create or accept Sprint-23, create a Sprint-23 Specification Review or roadmap, authorize learning execution, open a Teacher window, complete Stage 3, or authorize Stage 4 / Solana execution. No learning-project source was modified.

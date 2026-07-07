@@ -1,6 +1,6 @@
 # Current Tasks
 
-## Next Governance / Planning Task
+## Next Architect Onboarding / Optional Specification Review
 
 Sprint-22, `Cryptographic Hash Literacy And Tamper Evidence`, is PASS WITH NOTES /
 CLOSED. Its closure is recorded in `reviews/sprint-22-closure.md`.
@@ -14,20 +14,33 @@ Current boundary:
 - Sprint-22 is PASS WITH NOTES / CLOSED;
 - `crypto_hash_literacy_lab` exists with no active execution;
 - the Teacher execution window is closed / inactive;
-- no Sprint-23 direction, Specification Review, roadmap, acceptance, or execution
+- the next-direction planning recommendation is accepted, but Sprint-23 has not
+  been created or accepted and no Specification Review, roadmap, or execution
   authorization exists;
 - Stage 4 and Solana execution remain unauthorized.
 
-The next allowed action is a post-Sprint-22 Stage 3 planning review. Use:
+The learner accepted `reviews/post-sprint-22-stage-3-planning-review.md` as the
+next-direction planning recommendation:
 
-- `reviews/sprint-22-closure.md`;
-- `reviews/stage-3-blockchain-coverage-ledger.md`;
-- `reviews/stage-3-4-external-alignment-audit.md`;
-- `roadmaps/master-roadmap.md` when stage alignment requires it.
+- `reviews/post-sprint-22-stage-3-planning-review.md` recommends
+  `Public-Key Roles, Digital Signatures, And Verification Boundaries` as the
+  next cohesive capability boundary;
+- the Architect hypothesis `keys / addresses / wallets / accounts / signatures`
+  was judged directionally correct but too broad for one sprint;
+- the external-baseline and job-transfer quality assessment passed for further
+  Specification Review, without authorizing that review;
+- the bounded Rust dependency-readiness result is `READY WITH JUST-IN-TIME
+  SUPPORT`, with no Rust restart or independent Rust blocker.
 
-The review should select one cohesive dependency-ordered Stage 3 capability boundary
-without compressing all remaining gaps into one sprint. Apply the external-baseline
-and job-transfer quality gate before any roadmap acceptance.
+The latest Architect retirement handover is
+`reviews/architect-retirement-handover-2026-07-07-post-sprint-22.md`.
+
+The next allowed action is next Architect onboarding and review of the accepted
+recommendation. If the learner later gives explicit authorization, the next
+Architect may create or request a Sprint-23 Specification Review for the accepted
+recommended boundary only. Do not create that Specification Review automatically.
+Do not create a Sprint-23 roadmap, accept or start a sprint, open a Teacher window,
+or authorize Stage 4 / Solana execution by implication.
 
 Carry-forward for the next Architect or Teacher:
 
@@ -45,10 +58,6 @@ Carry-forward for the next Architect or Teacher:
   visible as incomplete Stage 3 work;
 - preserve the learner's README waiver and do not count Teacher reference material
   as learner-authored evidence;
-- clarify future interview-prep guidance so `考点` contains concise lookup tags and
-  `回答示例` contains interview-ready wording;
-- interpret Chinese-first interview preparation as allowing necessary English
-  technical terms when they include inline Chinese explanations;
 - keep the Stage 3 blockchain coverage ledger separate from the Rust Core Coverage
   Matrix;
 - do not create or authorize Sprint-23 by implication.

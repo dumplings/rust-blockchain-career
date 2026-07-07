@@ -72,6 +72,12 @@ The inventory is a setup check, not an exam or a long glossary. Do not make the 
 
 An exposed support gap is not automatically a sprint blocker or learner failure. Teach it just in time when it is small and required for the accepted checkpoint; record it as carry-forward or request scope review when it is broader than the sprint can safely absorb.
 
+## External Dependency Evidence And Verification
+
+When teaching with external crates, libraries, SDKs, CLI tools, or official APIs, distinguish official examples or documented API usage, locally inferred usage, locally build- or test-verified usage, and version-sensitive behavior. Do not present inferred or unverified usage as confirmed official behavior.
+
+Before assigning dependent work, surface required trait imports, formatting traits, feature flags, crate or tool versions, and runtime setup. Verify version-sensitive examples against official documentation and local build or test evidence when practical; otherwise label the remaining uncertainty explicitly.
+
 ## Concept Before Code
 
 For teaching content, Teachers should explain the concept, motivation, mental model, and intended workflow before showing code.
@@ -211,13 +217,14 @@ The pack must:
 - contain questions grounded in knowledge taught during the sprint, without targeting exact learning-project implementation details or exact test code;
 - use realistic Rust, blockchain, Solana, or related engineering questions that could plausibly appear in hiring conversations;
 - target junior to mid-level expectations and label each question `初级`, `初中级`, or `中级`;
-- include an answer for every question, with each answer beginning with `考点：...` before the interview-ready explanation;
+- use `考点：...` for concise lookup tags or compact concept labels, not the full answer body;
+- place interview-ready wording in a separate `回答示例` or equivalent answer section for every question;
 - mix concept explanation, design tradeoff, engineering practice, common misconception, and interview-style project explanation questions;
 - include at least two questions about common misconceptions or important boundary distinctions from the sprint;
 - stay within the current stage and sprint scope and avoid unauthorized future topics;
 - use 8–12 questions by default, 6–8 for a smaller sprint, and no more than 15 for an unusually dense sprint.
 
-Answers should be concise enough for interview preparation but complete enough to explain the reasoning, boundary, or tradeoff. The closure should reference the pack path instead of embedding the full pack. If the learner waives the pack, record the waiver in the closure.
+Answer sections should be concise enough for interview preparation but complete enough to explain the reasoning, boundary, or tradeoff. The closure should reference the pack path instead of embedding the full pack. If the learner waives the pack, record the waiver in the closure.
 
 ## Source-Level Review
 
