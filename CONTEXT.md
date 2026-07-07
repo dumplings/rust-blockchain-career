@@ -69,6 +69,7 @@ Startup Checklist must pass before instruction.
 
 ## Essential Evidence
 
+- Learner working profile: `LEARNER_PROFILE.md`
 - Accepted current roadmap: `roadmaps/sprint-23.md`
 - Current Specification Review: `reviews/sprint-23-specification-review.md`
 - Latest completed sprint evidence: `reviews/sprint-22-closure.md`
@@ -79,14 +80,3 @@ Startup Checklist must pass before instruction.
 
 Historical roadmaps, reviews, handovers, and `learning-log.md` are conditional
 evidence. They are not live-state authorities or default startup inputs.
-
-## Learner Preferences
-
-- Background: Experienced software developer
-- Rust level: Approximately B+
-- Blockchain level: Beginner
-- Learner-facing language: Chinese
-- Technical terminology: English is allowed with inline Chinese explanation
-- Repository-ready governance language: English
-- English training: Secondary unless explicitly selected as a sprint objective
-- Implementation boundary: Learner remains the primary learning-project developer

@@ -10,6 +10,7 @@ three policy files for rules.
 
 ## Current Evidence
 
+- Learner working profile: `LEARNER_PROFILE.md`
 - Sprint-23 accepted execution contract: `roadmaps/sprint-23.md`
 - Sprint-23 Specification Review: `reviews/sprint-23-specification-review.md`
 - Latest completed sprint: `reviews/sprint-22-closure.md`

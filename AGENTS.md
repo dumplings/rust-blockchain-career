@@ -41,7 +41,8 @@ Each durable question has one canonical owner.
 | Question | Canonical owner |
 | --- | --- |
 | Mission, source priority, role boundaries, workflow separation, validation model, startup cards | `AGENTS.md` |
-| Current stage, sprint state, authorization, next action, active risks, learner preferences | `CONTEXT.md` |
+| Current stage, sprint state, authorization, next action, and active risks | `CONTEXT.md` |
+| Stable learner working profile, teaching preferences, capability snapshot, and carry-forward learning risks | `LEARNER_PROFILE.md` |
 | Curriculum stages, ordering, and exit criteria | `roadmaps/master-roadmap.md` |
 | Sprint and governance lifecycle, transitions, reviews, closure, failure, handover, observations | `docs/policies/lifecycle-policy.md` |
 | Teacher execution, language scaffolding, checkpoints, teaching, and learning validation | `docs/policies/learning-execution-policy.md` |
@@ -150,7 +151,7 @@ that governance window into a Teacher window. Full lifecycle rules live in
 - Repository-ready governance assets, roadmaps, reviews, closures, and
   cross-agent prompts are English by default.
 - Interview-prep packs are Chinese by default.
-- Learner-specific overrides live in `CONTEXT.md`.
+- Stable learner preferences live in `LEARNER_PROFILE.md`; current session-specific overrides live in `CONTEXT.md`.
 
 ## 10. Startup Cards
 
@@ -161,12 +162,15 @@ and `learning-log.md` are conditional evidence, never default startup material.
 
 1. Load `AGENTS.md`.
 2. Load `CONTEXT.md`.
-3. Load the learner request and exact target files.
-4. Load `docs/policies/lifecycle-policy.md` only when the task depends on
+3. Load `LEARNER_PROFILE.md` for roadmap, specification, curriculum-planning,
+   or teaching-system design; omit it for narrow repository validation when
+   learner adaptation is irrelevant.
+4. Load the learner request and exact target files.
+5. Load `docs/policies/lifecycle-policy.md` only when the task depends on
    lifecycle or governance procedure.
-5. Use Codex for local repository and Git evidence when needed.
-6. Do not load historical reviews, handovers, or the learning log by default.
-7. Do not become Teacher or begin instruction by implication.
+6. Use Codex for local repository and Git evidence when needed.
+7. Do not load historical reviews, handovers, or the learning log by default.
+8. Do not become Teacher or begin instruction by implication.
 
 For a browser launch, instruct the Architect to conduct learner-facing
 conversation in Chinese, treat supplied repository files as the only local
@@ -177,11 +181,12 @@ updates are needed.
 
 1. Load `AGENTS.md`.
 2. Load `CONTEXT.md`.
-3. Load the accepted current sprint roadmap.
-4. Load `docs/policies/learning-execution-policy.md`.
-5. Confirm an explicit learner start command and that the current window is
+3. Load `LEARNER_PROFILE.md` for capability, teaching, density, and validation adaptation.
+4. Load the accepted current sprint roadmap.
+5. Load `docs/policies/learning-execution-policy.md`.
+6. Confirm an explicit learner start command and that the current window is
    authorized as Teacher.
-6. Do not start when the roadmap is unaccepted, the start command is missing, or
+7. Do not start when the roadmap is unaccepted, the start command is missing, or
    Teacher authorization is absent.
 
 When preparing a separate Teacher launch, the learner may use an explicit
