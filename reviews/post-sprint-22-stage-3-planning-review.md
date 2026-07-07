@@ -30,11 +30,10 @@ Repository evidence:
 - `reviews/rust-core-coverage-matrix.md`;
 - `reviews/stage-3-4-external-alignment-audit.md`;
 - `reviews/stage-3-repair-direction-decision.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/teacher-execution-policy.md`;
-- `docs/policies/language-output-policy.md`;
-- `docs/policies/governance-lifecycle-policy.md`;
-- `docs/policies/codex-collaboration-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
+- `docs/policies/learning-execution-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
+- `docs/policies/repository-validation-policy.md`;
 - `templates/specification-review-template.md`.
 
 Authoritative or recognized external baselines:

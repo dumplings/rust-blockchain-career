@@ -40,9 +40,9 @@ Governance repository:
 - `CONTEXT.md`
 - `TODO.md`
 - `roadmaps/master-roadmap.md`
-- `docs/policies/teacher-execution-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/language-output-policy.md`
+- `docs/policies/learning-execution-policy.md`
+- `docs/policies/lifecycle-policy.md`
+- `docs/policies/learning-execution-policy.md`
 - `roadmaps/stage-1-exit-assessment.md`
 - `roadmaps/sprint-11.md`
 - `reviews/sprint-11-closure.md`

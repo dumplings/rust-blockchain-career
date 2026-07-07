@@ -376,7 +376,7 @@ Before normal closure, the Teacher must provide:
 
 unless the learner explicitly waives it.
 
-The pack must follow `docs/policies/teacher-execution-policy.md`: it must be entirely
+The pack must follow `docs/policies/learning-execution-policy.md`: it must be entirely
 in Chinese, use realistic junior-to-mid questions, label each question `初级`,
 `初中级`, or `中级`, and begin every answer with `考点：...`. It should use 8–12
 questions by default, mix concept, tradeoff, engineering-practice, misconception,
@@ -427,7 +427,7 @@ Sprint-22 execution in an authorized Teacher window.
 
 Sprint-22 remains accepted-but-not-started until the learner gives an explicit
 execution-start command in an authorized Teacher window under
-`docs/policies/sprint-governance-policy.md`. Until that start command and Teacher
+`docs/policies/lifecycle-policy.md`. Until that start command and Teacher
 authorization exist:
 
 * do not create `crypto_hash_literacy_lab`;

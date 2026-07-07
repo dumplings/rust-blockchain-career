@@ -37,9 +37,8 @@ The decision used:
 - `reviews/stage-3-blockchain-coverage-ledger.md`;
 - `reviews/sprint-21-closure.md`;
 - `roadmaps/sprint-21.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/teacher-execution-policy.md`;
-- `docs/policies/language-output-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
+- `docs/policies/learning-execution-policy.md`;
 - `templates/specification-review-template.md`;
 - `learning-log.md`.
 

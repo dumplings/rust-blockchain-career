@@ -32,7 +32,9 @@ This matrix records topic-level governance state after the formal Stage 2.5 exit
 
 This file maps Rust core topic coverage to durable repository evidence, audit classification, priority, recommended handling, validation method, and Stage 3 entry impact.
 
-Future Architects and Teachers should use this matrix with the source audit, current `CONTEXT.md`, and `TODO.md` instead of reconstructing curriculum coverage from chat history.
+Future Architects and Teachers should use this matrix with the source audit and
+current `CONTEXT.md` instead of reconstructing curriculum coverage from chat
+history.
 
 Recommended handling describes the governance treatment that a future approved review should consider. It does not authorize a sprint, implementation task, learning project, or stage transition.
 

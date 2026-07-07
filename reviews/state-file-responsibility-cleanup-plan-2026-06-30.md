@@ -110,7 +110,7 @@ The line references below describe the file at Phase 2A planning time.
 | `Goal` (lines 3-5) | Keep in compact `CONTEXT.md` | Keep as one sentence | Also preserved in `README.md` and `roadmaps/master-roadmap.md` |
 | `Current Stage` (lines 7-9) | Shorten and keep | Rename to `Current Stage And Bridge Phase`; state Stage 2 as the program stage and Stage 2.5 as the incomplete required bridge | `roadmaps/master-roadmap.md`; `reviews/stage-2-5-bridge-specification.md` |
 | `Current Sprint` (lines 11-19) | Keep in compact `CONTEXT.md` | Preserve one compact lifecycle list for Sprint-16, Sprint-17, and Sprint-18 | `roadmaps/sprint-16.md`; `reviews/sprint-17-closure.md`; `roadmaps/sprint-18.md` |
-| `Current Milestone` authorization gate (lines 21-25) | Keep in compact `CONTEXT.md` | Keep the accepted-but-not-started state, no open Teacher window, and explicit learner start requirement | Sprint Execution Start Gate in `docs/policies/sprint-governance-policy.md`; `roadmaps/sprint-18.md` |
+| `Current Milestone` authorization gate (lines 21-25) | Keep in compact `CONTEXT.md` | Keep the accepted-but-not-started state, no open Teacher window, and explicit learner start requirement | Sprint Execution Start Gate in `docs/policies/lifecycle-policy.md`; `roadmaps/sprint-18.md` |
 | `Current Milestone` history and project detail (lines 27-55) | Move to pointer only | Replace with links to latest closure, takeover, specification review, and accepted roadmap | `reviews/sprint-17-closure.md`; latest handover and takeover reports; `reviews/sprint-18-specification-review.md`; `roadmaps/sprint-18.md`; `reviews/sprint-15-closure.md` |
 | Curriculum source list (lines 57-77) | Move to pointer only | Retain only active pointers: master roadmap, coverage matrix, Stage 2.5 specification, Sprint-17 closure, Sprint-18 specification review, and Sprint-18 roadmap | The listed source files themselves preserve the chain; older proposal and roadmap links may move to `Historical References` |
 | Curriculum audit and Stage 2.5 decision summary (lines 79-85) | Shorten and keep | Preserve the significant-gap decision, incomplete bridge, and Stage 3 block in two or three lines | `reviews/rust-curriculum-coverage-audit.md`; `reviews/stage-2-post-midpoint-review.md`; `roadmaps/master-roadmap.md` |
@@ -121,8 +121,8 @@ The line references below describe the file at Phase 2A planning time.
 | Sprint-07 and completed-sprint history (lines 127-165) | Remove because durable source already exists | Keep only a historical-reference pointer for abnormal Sprint-07 and stopped Sprint-16 | `roadmaps/sprint-07.md`; `reviews/sprint-07-attempt-1-failure-review.md`; numbered sprint closures; `learning-log.md` |
 | 33-file Teacher startup list (lines 167-205) | Remove because durable source already exists | Remove the cumulative list. Use the role-specific minimum in `AGENTS.md`; Phase 3 may later canonicalize all startup lists | `AGENTS.md` section 10; source audit section 11; this plan section 8 |
 | `Current Learning Profile` (lines 207-213) | Shorten and keep | Retain programming background, current Rust/blockchain level, preferred direction, and English constraint in compact bullets | This block contains current learner-specific information and requires caution; `README.md` preserves only the mission, not the full profile |
-| Learner approval and runtime density feedback (lines 215-223) | Keep in compact `CONTEXT.md` | Preserve a concise statement that approval is lightweight direction authorization and runtime density feedback is normal | `docs/policies/sprint-governance-policy.md`; `docs/policies/teacher-execution-policy.md`; `reviews/sprint-18-specification-review.md` |
-| `Current Language Requirements` (lines 225-231) | Keep in compact `CONTEXT.md` | Retain concise technical-teaching and governance-output language rules | `docs/policies/language-output-policy.md`; current selection remains state-specific |
+| Learner approval and runtime density feedback (lines 215-223) | Keep in compact `CONTEXT.md` | Preserve a concise statement that approval is lightweight direction authorization and runtime density feedback is normal | `docs/policies/lifecycle-policy.md`; `docs/policies/learning-execution-policy.md`; `reviews/sprint-18-specification-review.md` |
+| `Current Language Requirements` (lines 225-231) | Keep in compact `CONTEXT.md` | Retain concise technical-teaching and governance-output language rules | `docs/policies/learning-execution-policy.md`; current selection remains state-specific |
 | `Completed` history (lines 233-268) | Remove because durable source already exists | Remove the chronological checklist | `learning-log.md`; numbered roadmaps and reviews; Stage 1 assessment report |
 | `Current Repository Structure` (lines 270-294) | Remove because durable source already exists | Remove | `README.md`; `docs/README.md` |
 | `In Progress` status and current focus (lines 296-316) | Shorten and keep; actionable part moves to `TODO.md` | Replace with the current governance-optimization focus, Sprint-18 hold, and one coverage pointer | Current audit; this cleanup plan; `TODO.md`; coverage matrix; policies and closures cited by each historical note |
@@ -186,7 +186,7 @@ The table covers every current item in order.
 | 28 | Revisit `Display` and `std::error::Error` | Coverage/backlog item to preserve through coverage matrix | Remove until selected by approved learning scope | Sprint-15 closure section 13; coverage matrix error-handling row |
 | 29 | Revisit overflow-safe id generation | Coverage/backlog item already durably recorded | Remove until selected by approved learning scope | Sprint-15 closure sections 10 and 13 |
 | 30 | Preserve Sprint-07 as failed/abnormal and uncredited | Historical protection to preserve by pointer rather than task | Remove as task; retain historical reference only | `roadmaps/sprint-07.md`; Sprint-07 Attempt-1 failure review |
-| 31 | Keep governance and learning-project validation separate | Standing policy constraint | Remove as task; apply when a validation task exists | `docs/policies/codex-collaboration-policy.md` section `One Repository Per Validation Prompt`; `AGENTS.md` workflow separation |
+| 31 | Keep governance and learning-project validation separate | Standing policy constraint | Remove as task; apply when a validation task exists | `docs/policies/repository-validation-policy.md` section `One Repository Per Validation Prompt`; `AGENTS.md` workflow separation |
 | 32 | Ask a future Architect for governance complexity review | Completed task to remove | Remove; this audit and plan fulfill it | Governance optimization audit; this cleanup plan |
 
 ### TODO Safety Conclusions
@@ -245,8 +245,8 @@ The current governance-optimization work does not constitute a Sprint-18 start c
 - Program stages: `roadmaps/master-roadmap.md`
 - Current Sprint-18 contract: `roadmaps/sprint-18.md`
 - Sprint-18 scope basis: `reviews/sprint-18-specification-review.md`
-- Execution start gate: `docs/policies/sprint-governance-policy.md`
-- Teacher readiness and authority: `docs/policies/teacher-execution-policy.md`
+- Execution start gate: `docs/policies/lifecycle-policy.md`
+- Teacher readiness and authority: `docs/policies/learning-execution-policy.md`
 - Topic coverage ledger: `reviews/rust-core-coverage-matrix.md`
 - Latest closure: `reviews/sprint-17-closure.md`
 - Governance optimization audit: `reviews/governance-system-optimization-audit-2026-06-30.md`
@@ -341,7 +341,7 @@ Always load:
 - `AGENTS.md`;
 - compact `CONTEXT.md`;
 - task-only `TODO.md`;
-- `docs/policies/governance-lifecycle-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
 - the audit, plan, or governance decision that defines the current task;
 - files explicitly authorized for inspection or modification.
 
@@ -368,9 +368,9 @@ Always load:
 - `AGENTS.md`;
 - compact `CONTEXT.md`;
 - accepted current sprint roadmap;
-- `docs/policies/teacher-execution-policy.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/language-output-policy.md`;
+- `docs/policies/learning-execution-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
+- `docs/policies/learning-execution-policy.md`;
 - the learner message that explicitly starts execution.
 
 Conditionally load:
@@ -422,7 +422,7 @@ Always load:
 
 - the explicit validation prompt;
 - `AGENTS.md`;
-- `docs/policies/codex-collaboration-policy.md`;
+- `docs/policies/repository-validation-policy.md`;
 - the target repository or authorized files;
 - relevant roadmap, specification, or acceptance criteria.
 

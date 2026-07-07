@@ -39,9 +39,8 @@ Sprint-16 remains stopped before completion, incomplete, unclosed, and without c
 - `reviews/stage-3-blockchain-coverage-ledger.md`
 - `reviews/sprint-21-closure.md`
 - `roadmaps/sprint-21.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/teacher-execution-policy.md`
-- `docs/policies/language-output-policy.md`
+- `docs/policies/lifecycle-policy.md`
+- `docs/policies/learning-execution-policy.md`
 - `templates/specification-review-template.md`
 - `learning-log.md`
 
@@ -244,7 +243,7 @@ Before normal Sprint-22 closure, the Teacher must create or coordinate creation 
 
 unless the learner explicitly waives it.
 
-The pack should follow `docs/policies/teacher-execution-policy.md`, remain entirely in Chinese, use the required difficulty labels and `考点：...` answer prefix, and cover realistic hash-property, tamper-evidence, canonical-input, custom-crypto, and security-boundary questions. At least two questions should target misconceptions such as collision resistance versus preimage resistance or tamper evidence versus prevention.
+The pack should follow `docs/policies/learning-execution-policy.md`, remain entirely in Chinese, use the required difficulty labels and `考点：...` answer prefix, and cover realistic hash-property, tamper-evidence, canonical-input, custom-crypto, and security-boundary questions. At least two questions should target misconceptions such as collision resistance versus preimage resistance or tamper evidence versus prevention.
 
 The closure should reference the pack path rather than embed the pack.
 

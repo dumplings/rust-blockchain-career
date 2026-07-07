@@ -22,12 +22,9 @@ Local repository evidence:
 
 - `AGENTS.md`;
 - `CONTEXT.md`;
-- `TODO.md`;
-- `docs/policies/governance-lifecycle-policy.md`;
-- `docs/policies/language-output-policy.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/teacher-execution-policy.md`;
-- `docs/policies/codex-collaboration-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
+- `docs/policies/learning-execution-policy.md`;
+- `docs/policies/repository-validation-policy.md`;
 - `templates/specification-review-template.md`;
 - `roadmaps/master-roadmap.md`;
 - `reviews/post-sprint-22-stage-3-planning-review.md`;

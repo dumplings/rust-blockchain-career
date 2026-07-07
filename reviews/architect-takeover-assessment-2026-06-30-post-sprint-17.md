@@ -32,12 +32,11 @@ The takeover assessment inspected:
 - `CONTEXT.md`;
 - `TODO.md`;
 - `roadmaps/master-roadmap.md`;
-- `docs/agents/architect-bootstrap-guide.md`;
+- `AGENTS.md`;
 - `governance/observations.md`;
-- `docs/policies/governance-lifecycle-policy.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/codex-collaboration-policy.md`;
-- `docs/policies/language-output-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
+- `docs/policies/repository-validation-policy.md`;
+- `docs/policies/learning-execution-policy.md`;
 - `reviews/architect-retirement-handover-2026-06-30-post-sprint-17.md`;
 - `reviews/sprint-17-closure.md`;
 - `reviews/rust-core-coverage-matrix.md`;

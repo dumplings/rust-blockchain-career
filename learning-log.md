@@ -206,11 +206,11 @@ AGENTS.md split into a core governance entry point plus role-specific policy doc
 Repository Assets Updated:
 
 - `AGENTS.md`
-- `docs/policies/teacher-execution-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/language-output-policy.md`
-- `docs/policies/governance-lifecycle-policy.md`
+- `docs/policies/learning-execution-policy.md`
+- `docs/policies/lifecycle-policy.md`
+- `docs/policies/repository-validation-policy.md`
+- `docs/policies/learning-execution-policy.md`
+- `docs/policies/lifecycle-policy.md`
 
 Purpose:
 
@@ -604,7 +604,7 @@ Repository Asset:
 
 Governance Assets Updated:
 
-- `docs/policies/sprint-governance-policy.md`
+- `docs/policies/lifecycle-policy.md`
 - `templates/specification-review-template.md`
 
 Purpose:

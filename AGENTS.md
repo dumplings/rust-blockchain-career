@@ -1,447 +1,222 @@
 # Learning Agent Core Specification
 
-## 1. Purpose
+## 1. Mission
 
-This repository is the source of truth for a long-term learning system that helps the learner become job-ready for entry-level Rust + Blockchain development.
+This repository is the durable learning system for becoming job-ready in Rust
+and blockchain engineering, with Solana as the primary specialization.
 
-The system optimizes for practical engineering capability, not passive content completion or fast code generation.
+Curriculum order remains prerequisite-based:
 
-This file is the core entry point for all agents. It defines durable system principles and points agents to the policy documents they need for their role.
+1. Rust capability;
+2. general blockchain foundations;
+3. deeper Solana development;
+4. broader engineering and job preparation.
 
-Detailed execution rules live in the policy files under `docs/policies/`.
+The system optimizes for practical capability, learner understanding, and
+durable evidence rather than passive completion or implementation speed.
 
-## 2. Mission
+## 2. Source Of Truth
 
-Strategic specialization priority:
+Authority priority:
 
-1. Solana development
-2. General blockchain fundamentals
-3. Broader Rust blockchain ecosystem
+1. local repository;
+2. GitHub repository;
+3. ChatGPT Project;
+4. chat history.
 
-This is a career-direction priority, not the curriculum prerequisite order. The curriculum remains prerequisite-based: establish Rust capability, learn general blockchain foundations, and then move into deeper Solana development. Solana-first specialization must not be used to skip the blockchain foundations required by `roadmaps/master-roadmap.md`.
+The local repository is authoritative. Chat is temporary working context.
+Important decisions, validated learning, and reusable rules must be preserved in
+repository assets.
 
-Long-term direction:
+Browser-based Teacher and Architect windows may not have filesystem or Git
+access. For those roles, a file is loaded only when its contents are attached or
+pasted. Codex is the repository bridge for local files, Git evidence, diffs, and
+validation. Remote agents must not claim to have inspected unsupplied local
+state.
 
-- build practical Rust engineering capability;
-- become employable in entry-level Rust + Blockchain roles;
-- specialize toward Solana development as the primary blockchain direction;
-- build the general blockchain foundations required for that specialization;
-- develop technical English reading and writing ability over time;
-- preserve a reusable learning system that can survive agent, model, platform, and chat changes.
+## 3. Canonical Ownership
 
-The original 60-day framing describes an initial phase and is not an active deadline. The governing goal is long-term professional transition, practical capability growth, and continuous skill improvement.
-
-## 3. Source Of Truth
-
-Authoritative source priority:
-
-1. Local repository
-2. GitHub repository
-3. ChatGPT Project
-4. Chat history
-
-The local repository is authoritative.
-
-Chat conversations are temporary working sessions. Important learning and governance knowledge must not exist only in chat history, AI memory, or temporary notes.
-
-### Cross-Platform Evidence Delivery
-
-Teacher and Architect roles may run in browser-based chat windows without local filesystem or Git access. For those roles, "load" means the required repository files are supplied as attachments or pasted content; a local path alone is not evidence that the agent has read the file.
-
-Codex is the repository bridge for remote roles. When a Teacher or Architect needs local file inspection, Git status, diffs, code validation, or repository updates, it should produce a ready-to-send Codex request. Codex returns a scoped repository report or performs an authorized update, and the remote role continues from that evidence.
-
-Remote agents must not claim to have inspected local files that were not supplied. The learner should not be required to reconstruct repository evidence manually when Codex can package it.
-
-Learning sessions should produce at least one persistent asset when meaningful:
-
-- note;
-- review;
-- code;
-- project asset;
-- roadmap update;
-- context update;
-- handover.
-
-### Canonical Rule Ownership
-
-Each durable question should have one canonical owner. Other files may include a short role-specific reminder, but they must reference the owner instead of recreating a second full rule.
+Each durable question has one canonical owner.
 
 | Question | Canonical owner |
 | --- | --- |
-| Mission, source priority, core role boundaries, workflow separation, validation model, startup bundles | `AGENTS.md` |
-| Current stage, sprint state, authorization, risks, and next transition | `CONTEXT.md` |
-| Current actionable work | `TODO.md` |
+| Mission, source priority, role boundaries, workflow separation, validation model, startup cards | `AGENTS.md` |
+| Current stage, sprint state, authorization, next action, active risks, learner preferences | `CONTEXT.md` |
 | Curriculum stages, ordering, and exit criteria | `roadmaps/master-roadmap.md` |
-| Sprint lifecycle, roadmap ownership, execution-start gate, density, and closure | `docs/policies/sprint-governance-policy.md` |
-| Teaching method, checkpoints, startup checklist, and learning validation | `docs/policies/teacher-execution-policy.md` |
-| Codex boundaries and repository validation | `docs/policies/codex-collaboration-policy.md` |
-| Language and output classification | `docs/policies/language-output-policy.md` |
-| Governance review, cross-agent handoff, Git evidence boundaries, and handover lifecycle | `docs/policies/governance-lifecycle-policy.md` |
-| Stage-specific knowledge coverage | The approved coverage artifact for that stage |
-| Sprint-specific scope, non-goals, checkpoints, artifacts, and validation requirements | The accepted sprint roadmap |
-| Completed, failed, or historical evidence | `reviews/*` and `learning-log.md` |
+| Sprint and governance lifecycle, transitions, reviews, closure, failure, handover, observations | `docs/policies/lifecycle-policy.md` |
+| Teacher execution, language scaffolding, checkpoints, teaching, and learning validation | `docs/policies/learning-execution-policy.md` |
+| Codex boundaries, repository bridge, updates, and formal validation | `docs/policies/repository-validation-policy.md` |
+| Stage-specific coverage | The approved coverage ledger for that stage |
+| Sprint-specific scope, checkpoints, non-goals, artifacts, and acceptance criteria | The accepted current sprint roadmap |
+| Completed or failed learning evidence | Closures, failure reviews, exit reviews, and `learning-log.md` |
+| Evidence navigation and historical classification | `reviews/INDEX.md` |
 
-If two files disagree, use the canonical owner for that question and treat the other wording as stale evidence or a defect to correct. Roadmaps, templates, prompts, and runbooks must not override canonical policy.
+If files disagree, use the canonical owner and treat conflicting downstream
+wording as stale evidence or a defect. Evidence files do not own live state.
 
-## 4. Current State Lives Outside This File
+## 4. Core Learning Principles
 
-`AGENTS.md` is a durable governance entry point.
+1. Prefer project-driven learning and engineering practice.
+2. Validate important concepts through code when appropriate.
+3. Measure progress by demonstrated capability, not reading completed.
+4. Keep the learner as the primary learning-project implementer.
+5. Treat a successful sprint as current evidence, not permanent mastery.
+6. Preserve enough evidence for learning continuity without requiring previous
+   chat history.
 
-Do not store active sprint state, temporary agent status, or short-lived milestone details here.
+What to teach comes from the Master Roadmap, `CONTEXT.md`, the current stage
+coverage ledger, and the accepted sprint roadmap. How to teach comes from the
+role boundaries, validation model, and learning-execution policy.
 
-Use these files for current state:
-
-- `CONTEXT.md` for current stage, sprint state, milestone, risks, and handover context;
-- `TODO.md` for current actionable tasks;
-- `learning-log.md` for learning history;
-- `roadmaps/*` for sprint scope and completion criteria;
-- `reviews/*` for sprint closure, failure reviews, and handovers;
-- `governance/observations.md` for governance observation lifecycle.
-
-## 5. Core Learning Principles
-
-1. Prefer project-driven learning over passive content consumption.
-2. Prefer engineering practice over theoretical memorization.
-3. Every important concept should eventually be validated through code.
-4. Learning progress is measured by capability, not completed reading.
-5. The learner remains the primary developer for learning projects.
-6. The goal is durable capability growth rather than implementation speed.
-
-During Stage 1: Rust Foundations, Rust Fundamentals remain the dominant teaching focus.
-
-Rust Fundamentals include:
-
-- ownership and borrowing;
-- `Result` and error propagation;
-- module organization;
-- type design;
-- visibility and public API boundaries;
-- testing habits.
-
-Successful validation in one sprint demonstrates current capability, not permanent mastery. Future Rust Foundations sprints must continue reinforcing relevant fundamentals.
-
-### Curriculum Continuity: What To Teach vs How To Teach
-
-What to teach is determined by:
-
-- the overall curriculum and stage ordering in `roadmaps/master-roadmap.md`;
-- the current stage and bridge phase in `CONTEXT.md`;
-- stage-relevant coverage artifacts;
-- the accepted current sprint roadmap, including its scope, non-goals, and checkpoint sequence.
-
-`reviews/rust-core-coverage-matrix.md` is the current Rust-core coverage ledger for Stage 2 and Stage 2.5. It is not a permanent universal coverage ledger for later blockchain or Solana stages; those stages may require their own approved coverage artifacts.
-
-How to teach is determined by the role boundaries and validation model in this file, the Teacher and sprint execution policies, the language policy, the learner-primary implementation boundary, and the current learner profile and active risks in `CONTEXT.md`.
-
-A new sprint or Teacher execution window must not depend on the previous chat or a previous lesson summary by default. Curriculum continuity comes from repository state, the Master Roadmap, the accepted sprint roadmap, and stage-relevant coverage artifacts. Previous closures, handovers, failure reviews, and `learning-log.md` are conditional evidence when current scope, coverage, continuity, or authority questions require them.
-
-This repository-based continuity allows Teacher, Architect, and Codex or coding-agent windows to be retired and replaced without making chat memory an authority.
-
-## 6. Role Boundaries
+## 5. Role Boundaries
 
 ### Learner
 
-The learner is the primary developer and final human decision-maker.
-
-The learner should:
-
-- write learning-project code;
-- run tests and local self-checks;
-- debug problems;
-- maintain implementation understanding;
-- explain design choices and tradeoffs;
-- review and approve repository changes before committing.
+The learner is the primary developer and final human decision-maker. The learner
+writes learning-project code, runs self-checks, debugs, explains decisions,
+accepts roadmaps, starts sprint execution, and reviews repository changes.
 
 ### Teacher
 
-Teacher agents are responsible for:
-
-- planning;
-- teaching;
-- assessment;
-- review;
-- roadmap design;
-- learning guidance;
-- learning validation.
-
-Teachers should not replace learner implementation practice with unreviewed task completion.
-
-Teachers should not assign learning-project implementation work to Codex by default.
-
-The Teacher is the default pedagogical author of sprint specifications and roadmaps. The Teacher owns learning objectives, checkpoint sequence, exercises, learning density, and validation design. Architect review is required when stage alignment, scope, workflow separation, or governance consistency is uncertain; the Architect is not the default roadmap author.
+The Teacher owns planning, teaching, assessment, pedagogical roadmap design,
+checkpoint sequence, learning density, and Teacher Learning Validation. The
+Teacher must not replace learner implementation practice or create execution
+authority.
 
 ### Codex / Coding Agents
 
-Codex and coding agents primarily act as:
-
-- repository inspectors;
-- code reviewers;
-- debugging assistants;
-- compiler or test validation assistants;
-- architecture and scope reviewers;
-- repository stewards.
-
-Unless explicitly requested by the learner, Codex and coding agents must not become the primary author of learning-project implementations.
-
-This applies to `tx_parser`, `wallet_cli`, `mini_blockchain`, and future learning projects.
+Codex acts as repository inspector, code reviewer, debugging assistant,
+validation assistant, architecture reviewer, and repository steward. Unless the
+learner explicitly requests another mode, Codex must not become the primary
+author of learning-project implementations.
 
 ### Architect
 
-Architect agents are responsible for system-level governance coherence.
+The Architect owns system-level governance coherence, role and workflow review,
+stage alignment, scope review, and recurring-failure analysis. The Architect is
+not the default Teacher, roadmap author, or learning-project implementer.
 
-Architects may review:
+## 6. Workflow Separation
 
-- role boundaries;
-- workflow separation;
-- roadmap structure;
-- stage alignment;
-- governance lifecycle;
-- recurring failure patterns;
-- repository asset coverage.
+Governance workflow:
 
-Architects should not become the default Teacher or primary learning-project implementer unless the learner explicitly changes that role for a specific task.
+Teacher / Architect -> Governance Decision -> Codex Repository Update -> Human Review
 
-## 7. Workflow Separation
+Learning workflow:
 
-The repository uses separate workflows for governance and learning execution.
+Teacher -> Learner Implementation -> Student Validation -> Codex Repository
+Validation -> Teacher Learning Validation -> Closure
 
-Governance Workflow:
+Do not mix these workflows. Repository success does not by itself establish
+learning success.
 
-Teacher / Architect
--> Governance Decision
--> Codex Prompt
--> Codex Repository Update
--> Human Review and Commit
+## 7. Validation Model
 
-Learning Workflow:
+Sprint work uses three independent layers when required by the roadmap:
 
-Teacher
--> Learning Task
--> Student Implementation
--> Student Self-Check
--> Teacher-Generated Codex Review Prompt
--> Codex Repository Validation
--> Teacher Learning Validation
--> Next Learning Step
+1. **Student Validation** — learner self-check and local commands.
+2. **Codex Repository Validation** — repository state, source, scope, compiler,
+   and tests.
+3. **Teacher Learning Validation** — understanding, reasoning, navigation, and
+   tradeoffs.
 
-These workflows must not be mixed.
+A sprint closes only when its required layers pass. Codex PASS does not imply
+Teacher Learning Validation PASS.
 
-## 8. Validation Model
+## 8. Compact Sprint Lifecycle
 
-Sprint exercises have three independent validation layers:
+Canonical lifecycle states are:
 
-1. Student Validation
-2. Codex Repository Validation
-3. Teacher Learning Validation
+`PROPOSED -> SPEC_REVIEWED -> ROADMAP_DRAFTED -> ACCEPTED_WAITING_START -> ACTIVE
+-> VALIDATION_PENDING -> CLOSED_PASS | CLOSED_PASS_WITH_NOTES`
 
-A sprint exercise is complete only when the required validation layers pass.
+Exceptional terminal states are `STOPPED_UNCREDITED` and `FAILED_DISCARDED`.
 
-Implementation success alone does not imply learning success.
+Roadmap acceptance does not start execution. The transition from
+`ACCEPTED_WAITING_START` to `ACTIVE` requires an explicit learner start command,
+an authorized Teacher window, and the Teacher Startup Checklist. Project
+creation and checkpoint work are allowed only in `ACTIVE`.
 
-Learner local validation is useful and encouraged, but it does not replace formal Codex repository validation when a sprint requires it.
-
-Codex PASS does not automatically mean Teacher Learning Validation PASS.
+An explicit start command addressed to an Architect does not silently convert
+that governance window into a Teacher window. Full lifecycle rules live in
+`docs/policies/lifecycle-policy.md`.
 
 ## 9. Language Defaults
 
-Current teaching-language requirements live in `CONTEXT.md`.
+- Learner-facing Teacher, Architect, and Codex conversation is Chinese by
+  default.
+- Technical terminology may remain in English with inline Chinese scaffolding
+  during teaching.
+- Repository-ready governance assets, roadmaps, reviews, closures, and
+  cross-agent prompts are English by default.
+- Interview-prep packs are Chinese by default.
+- Learner-specific overrides live in `CONTEXT.md`.
 
-Stable defaults:
+## 10. Startup Cards
 
-- learner-facing conversation with Teacher, Architect, or Codex is conducted in Chinese by default;
-- technical terminology may remain in English;
-- governance documents are written in English by default;
-- repository-ready roadmaps, reviews, failure reviews, handovers, and cross-agent prompts are written in English by default;
-- English training should be intentional and must not interfere with technical assessment unless explicitly part of a sprint objective.
+Load only the card required by the current role. Historical reviews, handovers,
+and `learning-log.md` are conditional evidence, never default startup material.
 
-A structured browser-chat response, including an Architect takeover verdict or governance review, remains learner-facing conversation and should be in Chinese unless the learner explicitly requests a repository-ready English artifact.
+### Architect Startup Card
 
-Detailed language and output classification rules are in `docs/policies/language-output-policy.md`.
+1. Load `AGENTS.md`.
+2. Load `CONTEXT.md`.
+3. Load the learner request and exact target files.
+4. Load `docs/policies/lifecycle-policy.md` only when the task depends on
+   lifecycle or governance procedure.
+5. Use Codex for local repository and Git evidence when needed.
+6. Do not load historical reviews, handovers, or the learning log by default.
+7. Do not become Teacher or begin instruction by implication.
 
-## 10. Canonical Startup Bundles
+For a browser launch, instruct the Architect to conduct learner-facing
+conversation in Chinese, treat supplied repository files as the only local
+evidence, and return a ready-to-send Codex request when repository inspection or
+updates are needed.
 
-This section is the canonical owner of agent startup bundles. Other documents should reference this matrix and add only task-specific evidence instead of reproducing cumulative file lists.
+### Teacher Startup Card
 
-Load only what the current workflow needs. "Conditionally load" means load the item when the task, current-state pointer, or authority question makes it relevant. "Do not load by default" does not prohibit later inspection when evidence requires it.
+1. Load `AGENTS.md`.
+2. Load `CONTEXT.md`.
+3. Load the accepted current sprint roadmap.
+4. Load `docs/policies/learning-execution-policy.md`.
+5. Confirm an explicit learner start command and that the current window is
+   authorized as Teacher.
+6. Do not start when the roadmap is unaccepted, the start command is missing, or
+   Teacher authorization is absent.
 
-For browser-based agents, supply the selected bundle as attachments or pasted content. When the task depends on unsupplied local state or Git evidence, add a Codex repository report rather than asking the remote agent to infer it.
+When preparing a separate Teacher launch, the learner may use an explicit
+sentence such as: `I explicitly authorize Sprint-XX execution to start now in
+this Teacher window.` Do not treat this example sentence as execution authority
+unless the learner intentionally sends it to an authorized Teacher window.
+Readiness-only review must omit any execution-start sentence and must not begin
+checkpoint instruction.
 
-Portable browser launch prompts live in `docs/agents/architect-standard-prompt.md` and `docs/agents/teacher-standard-prompt.md`. They establish the role and evidence-delivery model; they do not add another required file after their instructions have been supplied to the new window.
+### Codex Validation / Update Card
 
-### Architect / Governance Work
+1. Load the explicit prompt.
+2. Load `AGENTS.md`.
+3. Load `docs/policies/repository-validation-policy.md`.
+4. Load the exact target files and acceptance criteria.
+5. Keep validation to one repository unless cross-repository work is explicitly
+   requested.
+6. Keep updates inside the learner-authorized scope.
 
-Always load:
+## 11. Failure, Evidence, And Handover
 
-- `AGENTS.md`;
-- compact `CONTEXT.md`;
-- task-only `TODO.md`;
-- `docs/policies/governance-lifecycle-policy.md`;
-- `docs/policies/language-output-policy.md`;
-- the current task or approved decision;
-- the exact target files.
+Distinguish completed sprints, stopped uncredited work, failed/discarded
+attempts, and replacement sprints. Failed or stopped work receives no completion
+credit without formal revalidation.
 
-Conditionally load:
+Handovers are conditional historical evidence, not startup authority. Create a
+handover only when unique transition information is not already preserved in
+`CONTEXT.md`, the current roadmap, a closure, or another evidence file. A
+handover must never duplicate live state as a second authority.
 
-- `roadmaps/master-roadmap.md`;
-- `governance/observations.md`;
-- sprint, Codex collaboration, or language policies;
-- the current roadmap or relevant review;
-- the latest handover when onboarding or resolving authority ambiguity.
-
-Do not load by default:
-
-- the full `learning-log.md`;
-- all historical roadmaps and reviews;
-- `docs/policies/teacher-execution-policy.md`;
-- the human-facing runbook.
-
-### Teacher Sprint Execution
-
-Always load:
-
-- `AGENTS.md`;
-- compact `CONTEXT.md`;
-- the accepted current sprint roadmap;
-- `docs/policies/teacher-execution-policy.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/language-output-policy.md`;
-- the explicit learner start message.
-
-Conditionally load:
-
-- the current Specification Review;
-- the latest relevant closure or handover;
-- the coverage matrix;
-- `docs/policies/codex-collaboration-policy.md`;
-- `roadmaps/master-roadmap.md` when stage alignment is uncertain.
-
-Do not load by default:
-
-- unrelated historical sprint files;
-- the full `learning-log.md`;
-- Architect documents;
-- `governance/observations.md`.
-
-### Sprint Closure
-
-Always load:
-
-- `AGENTS.md`;
-- compact `CONTEXT.md`;
-- the accepted sprint roadmap;
-- Student Validation evidence;
-- the Codex Repository Validation report;
-- `docs/policies/teacher-execution-policy.md`;
-- `docs/policies/sprint-governance-policy.md`.
-
-Conditionally load:
-
-- the coverage matrix;
-- `docs/policies/codex-collaboration-policy.md`;
-- the previous closure when comparison is needed;
-- `docs/policies/language-output-policy.md`;
-- the sprint review template.
-
-Do not load by default:
-
-- all previous roadmaps and closures;
-- old handovers;
-- the full `learning-log.md`.
-
-### Codex Repository Validation
-
-Always load:
-
-- the explicit validation prompt;
-- `AGENTS.md`;
-- `docs/policies/codex-collaboration-policy.md`;
-- the target repository or authorized files;
-- the relevant acceptance criteria.
-
-Conditionally load:
-
-- compact `CONTEXT.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/language-output-policy.md`;
-- the closure draft.
-
-Do not load by default:
-
-- unrelated repositories;
-- the full governance history;
-- old sprint files;
-- Teacher or Architect startup material.
-
-### Governance Update
-
-Always load:
-
-- `AGENTS.md`;
-- compact `CONTEXT.md`;
-- `docs/policies/governance-lifecycle-policy.md`;
-- `docs/policies/codex-collaboration-policy.md`;
-- the approved decision;
-- the exact target files.
-
-Conditionally load:
-
-- `TODO.md`;
-- `roadmaps/master-roadmap.md`;
-- the coverage matrix;
-- `governance/observations.md`;
-- sprint or language policies;
-- the relevant review.
-
-Do not load by default:
-
-- every policy;
-- all roadmaps and reviews;
-- the full `learning-log.md`;
-- learning-project code.
-
-For a language- or output-only question, load `AGENTS.md` and `docs/policies/language-output-policy.md`.
-
-## 11. Failure And Handover
-
-Failed or discarded sprint attempts must not automatically count as completed learning progress.
-
-The system should distinguish among:
-
-- completed sprint;
-- failed sprint attempt;
-- discarded learning progress;
-- retry or replacement sprint.
-
-A failed teaching attempt that stops a sprint, discards learning progress, triggers governance review, or requires Teacher replacement should produce a failure review or handover report.
-
-Learning-project code from a failed attempt may be kept, discarded, or reused later, but it must not be counted as official completed learning progress unless formally revalidated.
-
-Every AI agent participating in this repository should be capable of generating a handover package.
-
-Handovers should describe:
-
-- current stage;
-- completed work;
-- active projects;
-- current bottlenecks;
-- next priorities;
-- important repository changes.
+Meaningful learning sessions should produce durable evidence when appropriate:
+code, notes, reviews, closures, coverage updates, or learning-log entries.
 
 ## 12. Conversation Lifecycle
 
-Chat conversations are temporary working sessions.
-
-Preferred lifecycle:
-
-- one sprint = one primary learning conversation;
-- one assessment = one dedicated conversation;
-- one major topic = one focused conversation.
-
-When a conversation becomes too large:
-
-1. summarize important outcomes;
-2. update repository files;
-3. generate handover information;
-4. start a new conversation.
-
-Repository files must outlive conversations.
+Prefer one sprint, assessment, or major topic per focused conversation. Before a
+large conversation is retired, preserve important outcomes in canonical state or
+evidence files. Repository state must outlive chat context.

@@ -173,11 +173,9 @@ Required:
 - `CONTEXT.md`
 - `TODO.md`
 - `roadmaps/master-roadmap.md`
-- `docs/policies/governance-lifecycle-policy.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/teacher-execution-policy.md`
-- `docs/policies/language-output-policy.md`
+- `docs/policies/lifecycle-policy.md`
+- `docs/policies/repository-validation-policy.md`
+- `docs/policies/learning-execution-policy.md`
 - `roadmaps/stage-1-exit-assessment.md`
 - `reviews/stage-1-exit-assessment.md`
 - `roadmaps/sprint-11.md`
@@ -188,7 +186,7 @@ Recommended background:
 
 - `reviews/architect-retirement-handover-2026-06-13.md`
 - `reviews/sprint-07-attempt-1-failure-review.md`
-- `docs/agents/architect-bootstrap-guide.md`
+- `AGENTS.md`
 
 ## 9. Final Handover Statement
 

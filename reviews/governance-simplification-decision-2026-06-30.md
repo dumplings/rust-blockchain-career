@@ -34,7 +34,7 @@ The governance architecture was sound, but several active surfaces had begun to 
    - Historical roadmaps remain as-of artifacts and are not retroactively rewritten.
 
 6. Architect launch guidance has one portable source.
-   - `docs/agents/architect-standard-prompt.md` is the only canonical Architect launch prompt.
+   - `AGENTS.md` is the only canonical Architect launch prompt.
    - The human runbook references it instead of maintaining another version.
 
 7. The observation queue holds active observations plus a compact closed ledger.
@@ -46,8 +46,8 @@ The governance architecture was sound, but several active surfaces had begun to 
    - Remote roles must not claim direct local inspection or require the learner to reconstruct technical evidence manually.
 
 9. Recurring browser roles have canonical launch prompts.
-   - `docs/agents/architect-standard-prompt.md` launches Architect windows.
-   - `docs/agents/teacher-standard-prompt.md` launches accepted Sprint Teacher windows.
+   - `AGENTS.md` launches Architect windows.
+   - `AGENTS.md` launches accepted Sprint Teacher windows.
    - Architect prepares the task-specific attachments and addendum; Learner creates execution authority by deliberately sending the explicit start command.
 
 10. Learner-facing conversation and persistent artifact language are separate.
@@ -66,14 +66,10 @@ The governance architecture was sound, but several active surfaces had begun to 
 - `reviews/rust-core-coverage-matrix.md`
 - `reviews/architect-retirement-handover-2026-06-30-post-governance-simplification.md`
 - `docs/README.md`
-- `docs/agents/architect-standard-prompt.md`
-- `docs/agents/teacher-standard-prompt.md`
-- `docs/agents/architect-bootstrap-guide.md`
+- `AGENTS.md`
 - `docs/runbooks/system-operator-manual-zh.md`
-- `docs/policies/sprint-governance-policy.md`
-- `docs/policies/governance-lifecycle-policy.md`
-- `docs/policies/codex-collaboration-policy.md`
-- `docs/policies/language-output-policy.md`
+- `docs/policies/lifecycle-policy.md`
+- `docs/policies/repository-validation-policy.md`
 - `templates/specification-review-template.md`
 - `governance/observations.md`
 

@@ -12,7 +12,7 @@
 - Candidate project path: `/Users/dumplings/workspace/rust_lifetime_topology_lab`
 - Project status: Not created
 
-Execution authority is governed by the Sprint Execution Start Gate in `docs/policies/sprint-governance-policy.md`; current authorization state is owned by `CONTEXT.md`.
+Execution authority is governed by the Sprint Execution Start Gate in `docs/policies/lifecycle-policy.md`; current authorization state is owned by `CONTEXT.md`.
 
 ## 2. Sprint Purpose
 
@@ -336,7 +336,7 @@ Passing compiler checks or tests is not enough.
 
 ## 14. Completion Criteria
 
-Under the lifecycle and validation rules in `docs/policies/sprint-governance-policy.md`, Sprint-18 may be closed only when:
+Under the lifecycle and validation rules in `docs/policies/lifecycle-policy.md`, Sprint-18 may be closed only when:
 
 - Checkpoints 1 through 3 are completed;
 - Checkpoint 4 is completed or explicitly narrowed, deferred, or split through an approved density adjustment;
@@ -367,4 +367,4 @@ Sprint-18 does not complete Stage 2.5. A later governance review must evaluate r
 
 ## 17. Authorization Reference
 
-This roadmap is accepted but not started. Use `CONTEXT.md` for current authorization and `docs/policies/sprint-governance-policy.md` for the execution-start transition. No statement in this roadmap overrides those canonical sources.
+This roadmap is accepted but not started. Use `CONTEXT.md` for current authorization and `docs/policies/lifecycle-policy.md` for the execution-start transition. No statement in this roadmap overrides those canonical sources.

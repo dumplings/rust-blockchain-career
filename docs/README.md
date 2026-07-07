@@ -8,8 +8,7 @@ Use this file to decide which documents to load for a specific role or task.
 
 ```text
 docs/
-  policies/   Role-specific and workflow-specific governance policies
-  agents/     Agent startup, takeover, and bootstrap documents
+  policies/   Lifecycle, learning-execution, and repository-validation policies
   runbooks/   Human-facing operating manuals
 ```
 
@@ -19,19 +18,12 @@ docs/
 
 Read only the policy files relevant to the current task.
 
-- `teacher-execution-policy.md` — Teacher execution, checkpoint teaching, startup checklist, learning validation.
-- `sprint-governance-policy.md` — Sprint lifecycle, roadmap ownership, closure, failed sprint handling.
-- `codex-collaboration-policy.md` — Codex boundaries, repository validation, prompt safety.
-- `language-output-policy.md` — Language rules and output classification.
-- `governance-lifecycle-policy.md` — Governance review, observations, handovers, update discipline.
+- `lifecycle-policy.md` — Sprint and governance states, transitions, closure, failure, reviews, observations, and handovers.
+- `learning-execution-policy.md` — Teacher startup, Chinese-first teaching, checkpoints, prerequisites, and learning validation.
+- `repository-validation-policy.md` — Codex boundaries, repository bridge, formal validation, Git evidence, and prompt safety.
 
-## Agents
-
-`docs/agents/` contains documents for creating or bootstrapping specific agent roles.
-
-- `architect-bootstrap-guide.md` — Architect role, governance scope, common failure modes.
-- `architect-standard-prompt.md` — Canonical prompt for starting a new Architect Agent.
-- `teacher-standard-prompt.md` — Canonical prompt for starting an accepted sprint in a browser-based Teacher window.
+Architect, Teacher, and Codex startup cards live in `AGENTS.md`; checked-in
+role-prompt copies are intentionally not maintained.
 
 ## Runbooks
 
@@ -45,6 +37,6 @@ Read only the policy files relevant to the current task.
 
 `CONTEXT.md` remains the current-state source.
 
-The files under `docs/` provide role-specific operating detail and should not duplicate short-lived current sprint state.
+The files under `docs/` provide workflow detail and must not duplicate live sprint state.
 
 Canonical rule ownership is defined in `AGENTS.md`. Policies, prompts, templates, runbooks, and roadmaps should reference the canonical owner and add only role-specific or task-specific detail. A duplicated summary is informational and cannot override its canonical source.

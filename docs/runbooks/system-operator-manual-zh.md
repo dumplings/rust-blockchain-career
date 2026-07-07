@@ -37,9 +37,8 @@ Learner 拥有最终方向、roadmap 接受、Sprint 启动和仓库变更接受
 
 ## 3. 文件职责
 
-- `AGENTS.md`：系统原则、角色边界、canonical ownership、startup bundles。
-- `CONTEXT.md`：现在是什么状态、什么被阻塞、下一次允许的 transition。
-- `TODO.md`：当前可执行且有完成条件的任务。
+- `AGENTS.md`：系统原则、角色边界、canonical ownership、startup cards。
+- `CONTEXT.md`：唯一 live state、authorization、risk 和 next action owner。
 - `roadmaps/master-roadmap.md`：课程阶段、顺序和退出条件。
 - `roadmaps/sprint-XX.md`：当前 Sprint 特有执行合同。
 - `docs/policies/*`：对应角色或 workflow 的 reusable rules。
@@ -70,17 +69,15 @@ Roadmap 应保存目标、scope、non-goals、learner decisions、checkpoints、
 启动前必须同时具备：
 
 - 已接受的 current sprint roadmap；
-- `AGENTS.md` 中的 Teacher sprint execution bundle；
+- `AGENTS.md` 中的 Teacher startup card；
 - Learner 明确的 execution-start command；
 - Teacher startup checklist 通过。
 
-Roadmap 接受、文件更新、TODO 顺序和 startup checklist 本身都不会启动 Sprint。
+Roadmap 接受、文件更新、next-action wording 和 startup checklist 本身都不会启动 Sprint。
 
-使用唯一的 canonical Teacher launch artifact：
+使用 `AGENTS.md` 中唯一的 Teacher startup card。
 
-`docs/agents/teacher-standard-prompt.md`
-
-Architect 可以根据当前 Sprint 准备该 Prompt、附件清单和条件性证据，但不能代表 Learner 创建执行授权。Learner 有意发送其中的 explicit start sentence，才构成 execution-start command。
+Architect 可以根据当前 Sprint 准备附件和条件性证据，但不能代表 Learner 创建执行授权。Learner 必须明确授权 Teacher window；发给 Architect 的 start command 不会自动把该窗口转换为 Teacher。
 
 如果只想创建窗口但暂不启动，使用该文件中的 readiness-only 变体。Teacher 此时只能报告 readiness。
 
@@ -100,11 +97,9 @@ Closure 应记录实际完成内容、能力增长、未完成内容、遗留问
 
 ## 7. 创建或替换 Architect
 
-使用唯一的 canonical launch artifact：
+使用 `AGENTS.md` 中唯一的 Architect startup card。
 
-`docs/agents/architect-standard-prompt.md`
-
-把该文件中的 Prompt 复制到新窗口，并上传 `AGENTS.md` 定义的 Architect / governance bundle。不要从本手册复制另一个 Architect 规则版本。
+把 startup card 的指令用于新窗口，并上传 `AGENTS.md`、`CONTEXT.md` 和任务所需的 exact target files。不要从本手册维护另一个 Architect 规则版本。
 
 如果当前任务依赖未提交变更、Git diff 或本地仓库检查，先让 Codex 生成 evidence report，再把报告与必要的 canonical files 一起交给 Architect。handover、Master Roadmap、observations 和历史 review 仍然只按任务需要补充。
 
@@ -145,7 +140,7 @@ Agent 丢失或聊天窗口失效时：
 
 1. 读取 `AGENTS.md`、`CONTEXT.md` 和当前任务。
 2. 判断需要 Teacher、Architect 还是 Codex。
-3. 加载对应 canonical bundle。
+3. 加载对应 startup card。
 4. 只在 scope、coverage、failure 或 authority 问题需要时读取历史文件。
 5. 不自动重开 failed、stopped 或 closed Sprint。
 6. 不把旧聊天摘要当作 authority。

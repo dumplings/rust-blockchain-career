@@ -245,7 +245,7 @@ Complete this stage only when the learner can:
 
 ## Sprint Relationship
 
-Stages contain multiple sprints. Sprint design, review, and acceptance ownership follows `docs/policies/sprint-governance-policy.md`.
+Stages contain multiple sprints. Sprint design, review, and acceptance ownership follows `docs/policies/lifecycle-policy.md`.
 
 Teachers may not change stage ordering.
 

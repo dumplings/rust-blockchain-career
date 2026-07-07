@@ -41,11 +41,11 @@ Stage 2.5 learning gaps remain governed by the Rust-core coverage matrix and acc
 
 ## Next Priorities
 
-1. Create the browser-based Architect using `docs/agents/architect-standard-prompt.md`.
+1. Create the browser-based Architect using `AGENTS.md`.
 2. Supply the canonical Architect bundle plus this handover and the governance simplification decision.
 3. Have the new Architect verify the supplied current state and then wait for the learner's next governance request.
 4. Do not start Sprint-18 or act as Teacher without a separate explicit learner command and role transition.
-5. When the learner chooses to start Sprint-18, prepare the browser Teacher package from `docs/agents/teacher-standard-prompt.md` and the canonical Teacher bundle.
+5. When the learner chooses to start Sprint-18, prepare the browser Teacher package from `AGENTS.md` and the canonical Teacher bundle.
 
 ## Important Files
 
@@ -54,14 +54,14 @@ Canonical Architect bundle:
 - `AGENTS.md`
 - `CONTEXT.md`
 - `TODO.md`
-- `docs/policies/governance-lifecycle-policy.md`
-- `docs/policies/language-output-policy.md`
+- `docs/policies/lifecycle-policy.md`
+- `docs/policies/learning-execution-policy.md`
 - the learner's current task
 - exact task target files, when a task exists
 
 Additional takeover evidence:
 
-- `docs/agents/architect-bootstrap-guide.md`
+- `AGENTS.md`
 - `reviews/governance-simplification-decision-2026-06-30.md`
 - this handover
 

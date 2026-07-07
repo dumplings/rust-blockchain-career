@@ -1,10 +1,11 @@
-# Governance Observation Queue
+# Historical Governance Observation Ledger
 
-Last reviewed: 2026-07-05
+This file preserves closed observation evidence only. It does not own current
+observation status, live risks, rules, or required actions. Active risks or
+observations belong in `CONTEXT.md` until the lifecycle policy requires a
+governance review.
 
-Active observations: None.
-
-Use `docs/policies/governance-lifecycle-policy.md` for the observation lifecycle. This file tracks active observations and keeps only a compact ledger of closed items. Closed observations are historical evidence, not independent rules.
+Use `docs/policies/lifecycle-policy.md` for the observation lifecycle.
 
 ## Closed Observation Ledger
 
@@ -18,4 +19,5 @@ Use `docs/policies/governance-lifecycle-policy.md` for the observation lifecycle
 | GOV-007 — Prompt Responsibility | Accepted | Sprint-13 through pre-Sprint-15 handoffs | Integrated into the governance lifecycle cross-agent handoff rule. |
 | GOV-008 — Teacher Terminology And Validation Evidence | Accepted | Sprint-20 closure, Sprint-21 Checkpoint 1 governance review, and Sprint-22 pre-restart repair | Terminology triggering and density rules were strengthened in the language and Teacher execution policies; concise Student Validation reporting remains clarified in the Teacher execution policy. |
 
-Reopen an issue only when it recurs under the current canonical rules. Record detailed incident evidence in the relevant failure review, closure, or governance review rather than expanding this queue.
+If an issue recurs, record the current risk in `CONTEXT.md` and preserve detailed
+incident evidence in the relevant failure review, closure, or governance review.

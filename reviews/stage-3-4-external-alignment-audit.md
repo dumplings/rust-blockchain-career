@@ -44,9 +44,9 @@ The audit inspected:
 - `reviews/rust-core-coverage-matrix.md`;
 - `reviews/rust-curriculum-coverage-audit.md`;
 - `reviews/stage-2-5-bridge-specification.md`;
-- `docs/policies/sprint-governance-policy.md`;
-- `docs/policies/teacher-execution-policy.md`;
-- `docs/policies/governance-lifecycle-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
+- `docs/policies/learning-execution-policy.md`;
+- `docs/policies/lifecycle-policy.md`;
 - `learning-log.md`;
 - existing Stage 3, blockchain, Solana, and roadmap-template references in the repository.
 
